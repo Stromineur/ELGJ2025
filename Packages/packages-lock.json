@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "com.ltx.channeled-properties": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://helteix-verdaccio.euvtgm.easypanel.host"
+    },
+    "com.ltx.singletons": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://helteix-verdaccio.euvtgm.easypanel.host"
+    },
+    "com.ltx.tools": {
+      "version": "1.0.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://helteix-verdaccio.euvtgm.easypanel.host"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,
