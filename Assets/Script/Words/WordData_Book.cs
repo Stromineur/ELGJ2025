@@ -7,5 +7,7 @@ namespace Script.Words
         public GameObject wordPrefab;
         public string wordName;
         public string wordDescription;
+        
+        public float writingTime;
     }
 }
