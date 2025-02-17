@@ -1,4 +1,5 @@
 using System;
+using Script.Words;
 using UnityEngine;
 
 namespace Script.FightingPlan
@@ -8,11 +9,24 @@ namespace Script.FightingPlan
         [SerializeField] private LayerMask EnemyMask;
         
         [SerializeField] protected float Speed;
+        protected bool IsInitialized;
         protected bool ShouldMove;
         protected FightingWord LastEnemySeen;
 
+        public void Init(IFightingData fightingData)
+        {
+            Speed = fightingData.Speed;
+            
+            InternalInit(fightingData);
+        }
+        
+        protected abstract void InternalInit(IFightingData fightingData);
+
         private void Update()
         {
+            if(!IsInitialized)
+                return;
+            
             ShouldMove = !IsEnemyHere(out RaycastHit2D hit);
             if (!ShouldMove)
             {
@@ -42,5 +56,10 @@ namespace Script.FightingPlan
         }
 
         public abstract void Damage(float dmg = 0);
+
+        protected void Die()
+        {
+            Destroy(gameObject);
+        }
     }
 }
