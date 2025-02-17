@@ -68,7 +68,7 @@ public class WordManager : MonoBehaviour
     #region Word ordering
 
     [Button(ButtonSizes.Large)]
-    public void OrderWordsByDevelopped()
+    public void OrderWordsByWritten()
     {
         foreach (GameObject word in wordsGameObjects)
         {
@@ -84,7 +84,7 @@ public class WordManager : MonoBehaviour
     }
     
     [Button(ButtonSizes.Large)]
-    public void OrderWordsByUndevelopped()
+    public void OrderWordsByNonWritten()
     {
         foreach (GameObject word in wordsGameObjects)
         {
