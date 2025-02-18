@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DARONNE_Sprite_0: 7797754189869080696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

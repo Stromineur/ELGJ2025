@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WESH_Sprite_0: 1641157085914459124
+      WESH_Sprite_1: 1651521011236990647
+      WESH_Sprite_2: -2277999882123564047
+      WESH_Sprite_3: 6790580243836188601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

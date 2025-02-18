@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GOUMER_Sprite_0: -9113929209212425695
+      GOUMER_Sprite_1: 8721571572993752801
+      GOUMER_Sprite_2: 5845683737211110017
+      GOUMER_Sprite_3: -5164582219650405894
+      GOUMER_Sprite_4: 7939710165809736444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

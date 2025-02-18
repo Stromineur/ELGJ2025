@@ -65,6 +65,7 @@ public class WordManager : MonoBehaviour
     private void WritingFinished()
     {
         writingWord.GetComponent<WordTemplate>().isWritten = true;
+        writingWord.GetComponent<WordTemplate>().lockImage.SetActive(false);
     }
 
     #endregion

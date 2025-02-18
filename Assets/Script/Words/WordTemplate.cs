@@ -16,6 +16,7 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     private WordManager wordManager;
     [ReadOnly] public WordData wordData;
     
+    [ReadOnly] public GameObject lockImage;
     [ReadOnly] public bool isWritten;
     
     private bool isInScene;
@@ -29,6 +30,7 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         wordManager = GetComponentInParent<WordManager>();
         spawnPoint = wordManager.dragableSpawnPoint;
+        lockImage = transform.GetChild(1).gameObject;
     }
 
     private void Update()

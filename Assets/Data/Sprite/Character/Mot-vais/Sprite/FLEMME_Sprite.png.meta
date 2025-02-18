@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FLEMME_Sprite_0: -2671996200011231777
+      FLEMME_Sprite_1: 8373674103891635071
+      FLEMME_Sprite_2: 2471218974072821175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHELOU_Sprite_0: 1893446774184833594
+      CHELOU_Sprite_1: 7722602581463878603
+      CHELOU_Sprite_2: -4531498305053782690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

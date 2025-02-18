@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MOULA_Sprite_0: 8024636088108522052
+      MOULA_Sprite_1: -5883179625392825484
+      MOULA_Sprite_2: -3618884934723667879
+      MOULA_Sprite_3: -2025229254267186528
+      MOULA_Sprite_4: -3252773053756060315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

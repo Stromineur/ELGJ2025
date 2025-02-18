@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TEMA_Sprite_0: 1493384048182752803
+      TEMA_Sprite_1: 5015777330444075838
+      TEMA_Sprite_2: 6769280848007112184
+      TEMA_Sprite_3: -4448757719969564108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
