@@ -25,7 +25,7 @@ public class WordManager : MonoBehaviour
     [Header("Word writing")]
     [SerializeField, ReadOnly] private GameObject writingWord;
     [SerializeField] private Image featherBackground;
-    private bool canWrite;
+    private bool canWrite = true;
     
     [Header("Word description")]
     [SerializeField] private GameObject wordNamePanel;
@@ -76,11 +76,12 @@ public class WordManager : MonoBehaviour
             normalizedTime += Time.deltaTime / duration;
             yield return null;
         }
-
+        
         WritingFinished();
     }
     private void WritingFinished()
     {
+        featherBackground.fillAmount = 1f;
         writingWord.GetComponent<WordTemplate>().isWritten = true;
         writingWord.GetComponent<WordTemplate>().lockImage.SetActive(false);
         canWrite = true;
