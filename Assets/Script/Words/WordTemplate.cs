@@ -17,7 +17,6 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     [ReadOnly] public WordData wordData;
     
     [ReadOnly] public bool isWritten;
-    //[ReadOnly] public TextMeshProUGUI wordText;
     
     private bool isInScene;
     private bool isDragging;
@@ -31,13 +30,6 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         wordManager = GetComponentInParent<WordManager>();
         spawnPoint = wordManager.dragableSpawnPoint;
     }
-
-    /*
-    private void Start()
-    {
-        wordText.text = wordData.wordName;
-    }
-    */
 
     private void Update()
     {

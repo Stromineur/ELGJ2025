@@ -14,6 +14,6 @@ public class WordSetup : MonoBehaviour
     {
         wordData = GetComponent<WordTemplate>().wordData;
         wordSprite = wordData.wordSprite;
-        GetComponentInChildren<Image>().sprite = wordSprite;
+        transform.GetChild(0).GetComponentInChildren<Image>().sprite = wordSprite;
     }
 }
