@@ -8,22 +8,25 @@ namespace Script.FightingPlan
 {
     public class PreciousWord : FightingWord
     {
+        public WordData WordData => _wordData;
+
         [SerializeField] private float damage;
+        private WordData _wordData;
 
         protected override void InternalInit(IFightingData fightingData)
         {
-            WordData wordData = fightingData as WordData;
-            
-            if(wordData == null)
+            _wordData = fightingData as WordData;
+
+            if(_wordData == null)
                 return;
             
-            damage = wordData.BaseDamage;
+            damage = _wordData.BaseDamage;
             ShouldMove = false;
             IsInitialized = false;
             
-            Invoke(nameof(StartMoving), wordData.ExhumingTime);
+            Invoke(nameof(StartMoving), _wordData.ExhumingTime);
             transform.localScale = Vector3.zero;
-            transform.DOScale(Vector3.one, wordData.ExhumingTime);
+            transform.DOScale(Vector3.one, _wordData.ExhumingTime);
         }
 
         private void StartMoving()
@@ -40,7 +43,7 @@ namespace Script.FightingPlan
             Die(LastEnemySeen);
         }
 
-        public override void Damage(FightingWord initiator, float dmg)
+        protected override void InternalDamage(FightingWord initiator, float dmg)
         {
             Die(initiator);
         }

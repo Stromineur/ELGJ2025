@@ -5,23 +5,27 @@ namespace Script.FightingPlan
 {
     public class BadWord : FightingWord
     {
+        public BadWordData BadWordData => _badWordData;
+        public float Hp => hp;
+        
+        private BadWordData _badWordData;
         private float hp;
 
         protected override void InternalInit(IFightingData fightingData)
         {
-            BadWordData badWordData = fightingData as BadWordData;
+            _badWordData = fightingData as BadWordData;
             
-            if(!badWordData)
+            if(!_badWordData)
                 return;
             
-            hp = badWordData.Hp;
-            Speed = -fightingData.Speed;
+            hp = _badWordData.Hp;
+            _speed = -fightingData.Speed;
             
             IsInitialized = true;
             ShouldMove = true;
         }
 
-        public override void Damage(FightingWord initiator, float dmg)
+        protected override void InternalDamage(FightingWord initiator, float dmg)
         {
             hp -= dmg;
 
