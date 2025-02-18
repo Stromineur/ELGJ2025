@@ -40,9 +40,9 @@ namespace Script.FightingPlan.Wave
             _currentWave++;
         }
 
-        public void SpawnEnemy(BadWordData badWordData, Transform parent)
+        public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent)
         {
-            fightingLanes[Random.Range(0, 5)].Spawn(badWordData, parent);
+            return fightingLanes[Random.Range(0, 5)].Spawn(badWordData, parent);
         }
         
         public void EndWave()
