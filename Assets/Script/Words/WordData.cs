@@ -4,13 +4,22 @@ using UnityEngine;
 
 namespace Script.Words
 {
-    [CreateAssetMenu(fileName = "WordData", menuName = "Scriptable Objects/WordData")]
-    public partial class WordData : IFightingData
+    public class WordData : ScriptableObject, IFightingData
     {
+        public GameObject wordPrefab;
+        public Sprite wordSprite;
+        
+        public string wordName;
+        public string wordDescription;
+        public string wordEffect;
+        
+        public float writingTime;
+
+        #region Fighting
+
         public float ExhumingTime => exhumingTime;
         public float Speed => speed;
         public float BaseDamage => baseDamage;
-        public EffectType EffectType => effectType;
         public string[] StrongAgainst => strongAgainst;
         public float BoostedDamage => boostedDamage;
         public FightingWord Prefab => prefab;
@@ -18,14 +27,10 @@ namespace Script.Words
         [SerializeField, FoldoutGroup("InGame"), LabelText("Temps d'exhumation")] private float exhumingTime;
         [SerializeField, FoldoutGroup("InGame"), LabelText("Vitesse")] private float speed;
         [SerializeField, FoldoutGroup("InGame"), LabelText("Dégâts")] private float baseDamage;
-        [SerializeField, FoldoutGroup("InGame"), LabelText("Effet")] private EffectType effectType;
         [SerializeField, FoldoutGroup("InGame"), LabelText("Prévalence")] private string[] strongAgainst;
         [SerializeField, FoldoutGroup("InGame"), LabelText("Dégâts de prévalence")] private float boostedDamage;
         [SerializeField, FoldoutGroup("InGame"), LabelText("Prefab")] private FightingWord prefab;
-    }
 
-    public enum EffectType
-    {
-        
+        #endregion
     }
 }
