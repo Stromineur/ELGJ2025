@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Decors_ZoneJeux_WIP_0: 422182575711720852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
