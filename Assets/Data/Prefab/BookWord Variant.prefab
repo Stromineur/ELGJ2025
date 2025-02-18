@@ -98,7 +98,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1689881164928049055, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5670064572303345332, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_RaycastTarget
@@ -127,7 +127,8 @@ PrefabInstance:
     - {fileID: 4765453880530800771, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
     - {fileID: 5609784935940258215, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
     - {fileID: 3615648240563269372, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1689881164928049055, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}

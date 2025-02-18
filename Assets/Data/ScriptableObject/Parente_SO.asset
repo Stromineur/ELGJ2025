@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c09ce859b707348b4e166c6ee94cdf, type: 3}
   m_Name: Parente_SO
   m_EditorClassIdentifier: 
-  wordPrefab: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+  wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
   wordSprite: {fileID: 21300000, guid: b327983bec85c334489e9ddeaf1d6bfd, type: 3}
   wordName: Parente
   wordDescription: "Nom f\xE9minin. Toute personne \xE0 qui l\u2019on est li\xE9
