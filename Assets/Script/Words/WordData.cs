@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Script.Words
 {
+    [CreateAssetMenu(fileName = "WordData", menuName = "Scriptable Objects/WordData")]
     public class WordData : ScriptableObject, IFightingData
     {
         public GameObject wordPrefab;

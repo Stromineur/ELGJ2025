@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Data/ScriptableObject/WordData.asset.meta
-guid: 67129ebd44cb3204092e259895301d94
-========
-guid: d7651bc7b86854a4f91ffd3ec44adcca
->>>>>>>> 2378ab8f46400e78033395099bbc55c5d4badfd2:Assets/Data/ScriptableObject/Acquiescer_SO.asset.meta
+guid: 586784c61cb48bc4abbb0ad8fce496ae
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

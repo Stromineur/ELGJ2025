@@ -9,19 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Oisivete_SO
-  m_EditorClassIdentifier: Assembly-CSharp:Script.Words:WordData
-  wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
+  m_Script: {fileID: 11500000, guid: e6c09ce859b707348b4e166c6ee94cdf, type: 3}
+  m_Name: "Oisivet\xE9_SO"
+  m_EditorClassIdentifier: 
+  wordPrefab: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
   wordSprite: {fileID: 21300000, guid: f282ac450c957ae4d801da86a4ad1f6e, type: 3}
   wordName: "Oisivet\xE9"
-  wordDescription: 
-  wordEffect: 
+  wordDescription: "Nom f\xE9minin. Inaction plus ou moins habituelle ou durable."
+  wordEffect: "Ralentit un court instant le mot-vais usage touch\xE9."
   writingTime: 0
   exhumingTime: 0
   speed: 0
   baseDamage: 0
-  effectType: 0
   strongAgainst: []
   boostedDamage: 0
   prefab: {fileID: 0}
