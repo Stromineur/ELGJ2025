@@ -88,6 +88,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1278737190177065543, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278737190177065543, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_RaycastTargetCache
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670064572303345332, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670064572303345332, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_isPreferredWidthDirty
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670064572303345332, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_AutoSizeIterationCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670064572303345332, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_isPreferredHeightDirty
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord Variant

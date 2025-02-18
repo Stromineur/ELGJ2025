@@ -9,20 +9,30 @@ using UnityEngine.UI;
 public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     #region Variables
-
-    [SerializeField] private WordData wordData;
-    [SerializeField] private bool isDragable;
-    [SerializeField] private bool isDevelopped;
-    [SerializeField] private bool isInScene;
-    [SerializeField] private bool isDragging;
-
-    [SerializeField] private GameObject wordDraggableObject;
+    public event Action OnWordDrop;
     
+    private WordManager wordManager;
+    public WordData wordData;
+    
+    public bool isWritten;
+    public TextMeshProUGUI wordText;
+    
+    private bool isInScene;
+    private bool isDragging;
+    private GameObject wordDraggableObject;
+    private Transform spawnPoint;
+        
     #endregion
+
+    private void Awake()
+    {
+        wordManager = GetComponentInParent<WordManager>();
+        spawnPoint = wordManager.dragableSpawnPoint;
+    }
 
     private void Start()
     {
-        gameObject.GetComponent<TextMeshProUGUI>().text = wordData.wordName;
+        wordText.text = wordData.wordName;
     }
 
     private void Update()
@@ -35,38 +45,48 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log(wordData.wordName);
-        Debug.Log(wordData.wordDescription);
-        
-        if (isDragable && !isInScene)
+        if (isWritten && !isInScene)
         {
             InstanciateWord();
         }
 
-        if (isDragable && isInScene)
+        if (isWritten && isInScene)
         {
             StartDragAndDrop();
         }
+        
+        wordManager.ClickOnWord(gameObject);
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        isDragging = false;
-        wordDraggableObject.SetActive(false);
+        if (wordDraggableObject != null)
+        {
+            StopDragAndDrop();
+        }
     }
 
     private void StartDragAndDrop()
     {
-        wordDraggableObject.SetActive(true);
         isDragging = true;
+        wordDraggableObject.SetActive(true);
+        wordManager.draggedWord = gameObject;
+    }
+    
+    private void StopDragAndDrop()
+    {
+        isDragging = false;
+        wordDraggableObject.SetActive(false);
+        wordManager.draggedWord = null;
+        OnWordDrop?.Invoke();
     }
 
     private void InstanciateWord() // instancie le préfab variant (ne contenant pas ce script) à l'emplacement du mot
     {
-        wordDraggableObject = Instantiate(wordData.wordPrefab, Vector3.zero, Quaternion.identity, gameObject.transform);
+        wordDraggableObject = Instantiate(wordData.wordPrefab, Vector3.zero, Quaternion.identity, spawnPoint);
         wordDraggableObject.SetActive(false);
-        wordDraggableObject.GetComponent<RectTransform>().position = gameObject.GetComponent<RectTransform>().position;
-        wordDraggableObject.GetComponent<TextMeshProUGUI>().text = wordData.wordName;
+        wordDraggableObject.GetComponent<RectTransform>().position = GetComponent<RectTransform>().position;
+        wordDraggableObject.GetComponentInChildren<TextMeshProUGUI>().text = wordData.wordName;
         isInScene = true;
     }
 }
