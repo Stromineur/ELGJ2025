@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JAVOUE_Sprite_0: 4573551895385141559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

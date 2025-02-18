@@ -58,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -225,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "DIVULG\xC2CHER_Sprite_0": -5147081417138480830
+      "DIVULG\xC2CHER_Sprite_1": 4558288678371002096
+      "DIVULG\xC2CHER_Sprite_2": 3112306407377102037
+      "DIVULG\xC2CHER_Sprite_3": 6283281071135882909
+      "DIVULG\xC2CHER_Sprite_4": -1975299938496653258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

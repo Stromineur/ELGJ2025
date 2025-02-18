@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NecroAcademicien_Sprite_0: -5787353449438173021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
