@@ -1,6 +1,7 @@
 using System;
 using DG.Tweening;
 using LTX.ChanneledProperties;
+using Script.Core;
 using Script.Words;
 using UnityEngine;
 
@@ -12,6 +13,9 @@ namespace Script.FightingPlan
 
         [SerializeField] private float damage;
         private WordData _wordData;
+        public bool IsInitialized { get; private set; }
+
+        private float _remainingExhumingTime;
 
         protected override void InternalInit(IFightingData fightingData)
         {
@@ -24,9 +28,29 @@ namespace Script.FightingPlan
             ShouldMove = false;
             IsInitialized = false;
             
-            Invoke(nameof(StartMoving), _wordData.ExhumingTime);
+            _remainingExhumingTime = _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier;
             transform.localScale = Vector3.zero;
             transform.DOScale(Vector3.one, _wordData.ExhumingTime);
+        }
+
+        protected override void Update()
+        {
+            if (!IsInitialized)
+            {
+                _remainingExhumingTime -= Time.deltaTime;
+
+                if (_remainingExhumingTime <= 0)
+                {
+                    StartMoving();
+                }
+            }
+            else 
+                base.Update();
+        }
+
+        public void AddExhumingTime(float time)
+        {
+            _remainingExhumingTime += time;
         }
 
         private void StartMoving()

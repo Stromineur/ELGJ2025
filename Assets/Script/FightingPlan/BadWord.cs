@@ -21,7 +21,6 @@ namespace Script.FightingPlan
             hp = _badWordData.Hp;
             _speed = -fightingData.Speed;
             
-            IsInitialized = true;
             ShouldMove = true;
         }
 
