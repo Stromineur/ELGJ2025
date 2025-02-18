@@ -1,4 +1,5 @@
 using System;
+using Script.Core;
 using UnityEngine;
 
 namespace Script.FightingPlan.WordBehaviour
@@ -22,7 +23,7 @@ namespace Script.FightingPlan.WordBehaviour
             if (_changeLineRemaining <= 0)
                 return;
             
-            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), -1 + _badWord.Speed * Time.deltaTime * 10, _badWord.EnemyMask);
+            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), -1 + _badWord.Speed * GameController.GameMetrics.SpeedMultiplier * Time.deltaTime * 10, _badWord.EnemyMask);
 
             if (enemy)
             {

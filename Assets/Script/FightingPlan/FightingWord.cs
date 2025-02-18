@@ -1,5 +1,6 @@
 using System;
 using DG.Tweening;
+using Script.Core;
 using Script.Words;
 using UnityEngine;
 
@@ -15,7 +16,6 @@ namespace Script.FightingPlan
         [SerializeField] private LayerMask _enemyMask;
         
         [SerializeField] protected float _speed;
-        protected bool IsInitialized;
         protected bool ShouldMove;
         protected FightingWord LastEnemySeen;
         public FightingLane FightingLane { get; private set; }
@@ -41,11 +41,8 @@ namespace Script.FightingPlan
         
         protected abstract void InternalInit(IFightingData fightingData);
 
-        private void Update()
+        protected virtual void Update()
         {
-            if(!IsInitialized)
-                return;
-            
             ShouldMove = !IsEnemyHere(out RaycastHit2D hit);
             if (!ShouldMove)
             {
@@ -60,12 +57,12 @@ namespace Script.FightingPlan
 
         private void Move()
         {
-            transform.position = new Vector2(transform.position.x, transform.position.y + Speed * Time.deltaTime);
+            transform.position = new Vector2(transform.position.x, transform.position.y + Speed * Time.deltaTime * GameController.GameMetrics.SpeedMultiplier);
         }
 
         private bool IsEnemyHere(out RaycastHit2D enemy)
         {
-            enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), Mathf.Sign(Speed) + Speed * Time.deltaTime, EnemyMask);
+            enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), Mathf.Sign(Speed) + Speed * GameController.GameMetrics.SpeedMultiplier * Time.deltaTime, EnemyMask);
             return enemy;
         }
 
