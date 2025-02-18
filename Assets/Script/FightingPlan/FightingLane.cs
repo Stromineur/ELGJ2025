@@ -18,6 +18,7 @@ namespace Script.FightingPlan
         public List<BadWord> BadWords { get; private set; } = new();
         public List<PreciousWord> PreciousWords { get; private set; } = new();
 
+        ///fonction à appeler au moment du drag and drop (faire passer word data dans fightingData et null dans parent
         public FightingWord Spawn(IFightingData fightingData, Transform parent)
         {
             bool ally = fightingData is WordData;
