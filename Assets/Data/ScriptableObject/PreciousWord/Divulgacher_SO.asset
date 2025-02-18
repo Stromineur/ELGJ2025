@@ -18,10 +18,10 @@ MonoBehaviour:
   wordDescription: "Verbe transitif. R\xE9v\xE9ler pr\xE9matur\xE9ment un \xE9l\xE9ment
     cl\xE9 de l\u2019intrigue d\u2019une \u0153uvre de fiction."
   wordEffect: Aucun
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 100
+  exhumingTime: 100
+  speed: 100
+  baseDamage: 100
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: 0eb4deb2348cd2b4aa20a7d6f9b07b21, type: 3}

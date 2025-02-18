@@ -18,10 +18,10 @@ MonoBehaviour:
   wordDescription: "Verbe transitif. Frapper avec la soudainet\xE9 et la violence
     de la foudre."
   wordEffect: Foudroie toute sa colonne lorsqu'il rencontre un mot-vais usage.
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 300
+  exhumingTime: 250
+  speed: 100
+  baseDamage: 200
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: 6324a0ca2569e1f428c43eaa536e978b, type: 3}

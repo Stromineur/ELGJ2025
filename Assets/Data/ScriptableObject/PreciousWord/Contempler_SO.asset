@@ -18,10 +18,10 @@ MonoBehaviour:
   wordDescription: "Verbe transitif. Consid\xE9rer avec attention un \xEAtre ou une
     chose."
   wordEffect: "Emp\xEAche l'apparition de mot-vais usages sur sa colonne."
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 200
+  exhumingTime: 200
+  speed: 100
+  baseDamage: 50
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: b8b3397634a47f0408f4b276093a8c29, type: 3}

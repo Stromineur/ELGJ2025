@@ -18,10 +18,10 @@ MonoBehaviour:
   wordDescription: "Nom masculin. Petite somme d\u2019argent \xE9conomis\xE9e peu
     \xE0 peu."
   wordEffect: "\xC0 sa mort, acc\xE9l\xE8re le Temps d'exhumation des autres mots."
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 300
+  exhumingTime: 200
+  speed: 70
+  baseDamage: 75
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: 9e8ca1535c5cffe49880e889882176da, type: 3}

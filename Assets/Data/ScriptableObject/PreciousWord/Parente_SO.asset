@@ -18,10 +18,10 @@ MonoBehaviour:
   wordDescription: "Nom f\xE9minin. Toute personne \xE0 qui l\u2019on est li\xE9
     par le sang, par la naissance ; membre d\u2019une m\xEAme famille."
   wordEffect: Lorsqu'elle meurt, invoque un "Fichtre".
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 150
+  exhumingTime: 150
+  speed: 80
+  baseDamage: 100
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: 342a52f1a15a7e8439bcc35beed48a0a, type: 3}

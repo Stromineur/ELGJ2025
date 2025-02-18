@@ -17,10 +17,10 @@ MonoBehaviour:
   wordName: "Cons\xE9quemment"
   wordDescription: "Adverbe. Par une suite naturelle et logique ; en cons\xE9quence."
   wordEffect: "Lorsqu'il meurt face \xE0 un \"Du coup\", invoque un autre \"Cons\xE9quemment\"."
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 100
+  exhumingTime: 150
+  speed: 120
+  baseDamage: 100
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: 94290ac172b37aa4d822aa0c9940ca7b, type: 3}

@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 6531379478961514361}
   - component: {fileID: 3191068059383454461}
   - component: {fileID: 7806307283282382017}
+  - component: {fileID: 2355788730962445601}
   m_Layer: 0
   m_Name: Line
   m_TagString: Untagged
@@ -128,6 +129,21 @@ MonoBehaviour:
   enemyPosition: {fileID: 1028127320251986602}
   previousLane: {fileID: 0}
   nextLane: {fileID: 0}
+--- !u!114 &2355788730962445601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5705471245883487743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbf07b7811bf33468dceb3214cd6054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverElement: {fileID: 0}
+  droppedElement: {fileID: 0}
+  isOccupied: 0
 --- !u!1 &6120397087799331601
 GameObject:
   m_ObjectHideFlags: 0

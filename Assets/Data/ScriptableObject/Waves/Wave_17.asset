@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e6f340b50719a41861546c7efd6c50, type: 3}
+  m_Name: Wave_17
+  m_EditorClassIdentifier: 
+  wavePatterns:
+  - {fileID: 11400000, guid: 1414f7ae067e7a24e9014b9002a2ffc0, type: 2}
+  - {fileID: 11400000, guid: 1414f7ae067e7a24e9014b9002a2ffc0, type: 2}
+  - {fileID: 11400000, guid: 1414f7ae067e7a24e9014b9002a2ffc0, type: 2}
+  - {fileID: 11400000, guid: e465e55c1dd03274c914d0a1e02d379c, type: 2}
+  - {fileID: 11400000, guid: e465e55c1dd03274c914d0a1e02d379c, type: 2}
+  - {fileID: 11400000, guid: 080fd4c2bedb2c942af4c01a8f338dad, type: 2}
+  - {fileID: 11400000, guid: 344d256bf11a24f41a8473201400e691, type: 2}
+  nbPattern: 6
+  delayBetweenMultiplier: 1
+  delayAfterMultiplier: 1

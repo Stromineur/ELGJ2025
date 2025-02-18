@@ -20,10 +20,10 @@ MonoBehaviour:
     connect\xE9 \xE0 un r\xE9seau."
   wordEffect: "Lorsqu'il atteint le bout d'une colonne, le mot en cours d'\xE9criture
     est automatiquement appris."
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 100
+  exhumingTime: 120
+  speed: 200
+  baseDamage: 80
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: 8fd575af3463e7e4ab645f7c213e07ed, type: 3}

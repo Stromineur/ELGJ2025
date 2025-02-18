@@ -17,10 +17,10 @@ MonoBehaviour:
   wordName: "\xC9nigmatique"
   wordDescription: "Adjectif. Qui est difficile \xE0 comprendre, \xE0 interpr\xE9ter."
   wordEffect: Change de colonne pour attaquer les mot-vais usages adjacents.
-  writingTime: 10
-  exhumingTime: 0
-  speed: 0
-  baseDamage: 0
+  writingTime: 200
+  exhumingTime: 150
+  speed: 100
+  baseDamage: 100
   strongAgainst: []
   boostedDamage: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 3794827818333711615, guid: 4b96a2ad7168fed41aa1237179ff8bd8, type: 3}

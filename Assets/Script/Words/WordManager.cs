@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Script.Core;
 using Script.Words;
 using Sirenix.OdinInspector;
 using TMPro;
@@ -68,7 +69,7 @@ public class WordManager : MonoBehaviour
     
     private IEnumerator WritingCountdown()
     {
-        float duration = writingWord.GetComponent<WordTemplate>().wordData.writingTime;
+        float duration = writingWord.GetComponent<WordTemplate>().wordData.writingTime * GameController.GameMetrics.WritingMultiplier;
         float normalizedTime = 0;
         while(normalizedTime <= 1f)
         {
