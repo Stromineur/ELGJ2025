@@ -6,6 +6,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Image = UnityEngine.UI.Image;
 
 public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -16,7 +17,7 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     [ReadOnly] public WordData wordData;
     
     [ReadOnly] public bool isWritten;
-    [ReadOnly] public TextMeshProUGUI wordText;
+    //[ReadOnly] public TextMeshProUGUI wordText;
     
     private bool isInScene;
     private bool isDragging;
@@ -31,10 +32,12 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         spawnPoint = wordManager.dragableSpawnPoint;
     }
 
+    /*
     private void Start()
     {
         wordText.text = wordData.wordName;
     }
+    */
 
     private void Update()
     {
@@ -85,9 +88,9 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     private void InstanciateWord() // instancie le préfab variant (ne contenant pas ce script) à l'emplacement du mot
     {
         wordDraggableObject = Instantiate(wordData.wordPrefab, Vector3.zero, Quaternion.identity, spawnPoint);
-        wordDraggableObject.SetActive(false);
         wordDraggableObject.GetComponent<RectTransform>().position = GetComponent<RectTransform>().position;
-        wordDraggableObject.GetComponentInChildren<TextMeshProUGUI>().text = wordData.wordName;
+        wordDraggableObject.GetComponentInChildren<Image>().sprite = wordData.wordSprite;
+        wordDraggableObject.SetActive(false);
         isInScene = true;
     }
 }

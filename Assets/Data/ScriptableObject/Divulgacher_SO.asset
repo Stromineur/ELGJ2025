@@ -10,8 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: TestWord4
+  m_Name: Divulgacher_SO
   m_EditorClassIdentifier: Assembly-CSharp:Script.Words:WordData
   wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
-  wordName: TestWord4
-  wordDescription: Je suis le mot de test 4
+  wordSprite: {fileID: 21300000, guid: c5ab464ec99b6d0498a7a2d3b9356873, type: 3}
+  wordName: "Divulg\xE2cher"
+  wordDescription: 
+  wordEffect: 
+  writingTime: 0
+  exhumingTime: 0
+  speed: 0
+  baseDamage: 0
+  effectType: 0
+  strongAgainst: []
+  boostedDamage: 0
+  prefab: {fileID: 0}

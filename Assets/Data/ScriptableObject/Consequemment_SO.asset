@@ -10,8 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: TestWord3
+  m_Name: Consequemment_SO
   m_EditorClassIdentifier: Assembly-CSharp:Script.Words:WordData
   wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
-  wordName: TestWord3
-  wordDescription: Je suis le mot de test 3
+  wordSprite: {fileID: 21300000, guid: 2b8da158f19a4b446a414d0261c1e7b4, type: 3}
+  wordName: "Cons\xE9quemment"
+  wordDescription: 
+  wordEffect: 
+  writingTime: 0
+  exhumingTime: 0
+  speed: 0
+  baseDamage: 0
+  effectType: 0
+  strongAgainst: []
+  boostedDamage: 0
+  prefab: {fileID: 0}
