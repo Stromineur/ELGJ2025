@@ -8,7 +8,9 @@ namespace Script.FightingPlan.Wave
 {
     public class WaveController : MonoBehaviour
     {
+        public WaveData WaveData => _waveData;
         public WaveManager WaveManager => _waveManager;
+        public bool IsCurrentPatternLastPattern => _nbPattern == 0;
         
         private WaveManager _waveManager;
         private WaveData _waveData;
@@ -41,16 +43,29 @@ namespace Script.FightingPlan.Wave
             PatternData patternData = _patternDatas[Random.Range(0, _patternDatas.Count)];
             _patternDatas.Remove(patternData);
 
-            PatternController patternController = 
-                new GameObject($"PatternController{_waveData.NbPattern - _nbPattern}")
-                    .AddComponent<PatternController>();
+            PatternController patternController = SpawnPattern();
             patternController.transform.SetParent(transform);
             _patternControllers.Add(patternController);
 
+            _nbPattern--;
+
             patternController.Init(patternData, this);
             patternController.StartPattern();
+        }
 
-            _nbPattern--;
+        private PatternController SpawnPattern()
+        {
+            PatternController patternController;
+            GameObject patternObject = new($"PatternController{_waveData.NbPattern - _nbPattern}");
+            if (_nbPattern == 1)
+            {
+                patternObject.name = $"Final{patternObject.name}";
+                patternController = patternObject.AddComponent<FinalPatternController>();
+            }
+            else 
+                patternController = patternObject.AddComponent<PatternController>();
+
+            return patternController;
         }
 
         public void EndPattern()

@@ -4,12 +4,14 @@ namespace Script.FightingPlan.Wave
 {
     public class PatternController : MonoBehaviour
     {
-        private PatternData _patternData;
-        private WaveController _waveController;
+        public bool IsCurrentEnemyLast => _nbEnemies <= 0;
+        
+        protected PatternData _patternData;
+        protected WaveController _waveController;
 
-        private int _nbEnemies;
+        protected int _nbEnemies;
 
-        public void Init(PatternData patternData, WaveController waveController)
+        public virtual void Init(PatternData patternData, WaveController waveController)
         {
             _patternData = patternData;
             _waveController = waveController;
@@ -21,26 +23,34 @@ namespace Script.FightingPlan.Wave
             SpawnNextEnemy();
         }
 
-        private void HandleDelay()
+        protected virtual void HandleDelay()
         {
-            if (_nbEnemies <= 0)
+            if (IsCurrentEnemyLast)
             {
-                Invoke(nameof(EndPattern), _patternData.DelayAfter);
+                if(_waveController.IsCurrentPatternLastPattern)
+                    EndPattern();
+                else 
+                    Invoke(nameof(EndPattern), _patternData.DelayAfter * _waveController.WaveData.DelayAfterMultiplier);
                 return;
             }
             
-            Invoke(nameof(SpawnNextEnemy), _patternData.DelayBetween);
+            Invoke(nameof(SpawnNextEnemy), _patternData.DelayBetween * _waveController.WaveData.DelayBetweenMultiplier);
         }
 
-        private void SpawnNextEnemy()
+        protected virtual void SpawnNextEnemy()
         {
-            _waveController.WaveManager.SpawnEnemy(_patternData.BadWord, transform);
+            SpawnEnemy();
             _nbEnemies--;
             
             HandleDelay();
         }
 
-        private void EndPattern()
+        protected virtual FightingWord SpawnEnemy()
+        {
+            return _waveController.WaveManager.SpawnEnemy(_patternData.BadWord, transform);
+        }
+
+        protected void EndPattern()
         {
             _waveController.EndPattern();
         }

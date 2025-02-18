@@ -36,18 +36,18 @@ namespace Script.FightingPlan
         {
             base.Fight();
             
-            LastEnemySeen.Damage(damage);
-            Die();
+            LastEnemySeen.Damage(this, damage);
+            Die(LastEnemySeen);
         }
 
-        public override void Damage(float dmg = 0)
+        public override void Damage(FightingWord initiator, float dmg)
         {
-            Die();
+            Die(initiator);
         }
 
         private void OnBecameInvisible()
         {
-            Die();
+            Die(this);
         }
     }
 }

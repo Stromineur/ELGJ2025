@@ -10,8 +10,12 @@ namespace Script.FightingPlan.Wave
     {
         public PatternData[] WavePatterns => wavePatterns;
         public int NbPattern => nbPattern;
+        public float DelayBetweenMultiplier => delayBetweenMultiplier;
+        public float DelayAfterMultiplier => delayAfterMultiplier;
 
-        [SerializeField] private PatternData[] wavePatterns = { };
-        [SerializeField] private int nbPattern;
+        [SerializeField, LabelText("Pool de briques")] private PatternData[] wavePatterns = { };
+        [SerializeField, LabelText("Nombre de briques")] private int nbPattern;
+        [SerializeField, LabelText("Multiplicateur de délai")] private float delayBetweenMultiplier = 1;
+        [SerializeField, LabelText("Multiplicateur de répit")] private float delayAfterMultiplier = 1;
     }
 }

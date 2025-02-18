@@ -21,13 +21,13 @@ namespace Script.FightingPlan
             ShouldMove = true;
         }
 
-        public override void Damage(float dmg)
+        public override void Damage(FightingWord initiator, float dmg)
         {
             hp -= dmg;
 
             if (hp <= 0)
             {
-                Die();
+                Die(initiator);
             }
         }
     }

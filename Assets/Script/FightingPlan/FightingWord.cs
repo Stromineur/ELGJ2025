@@ -6,6 +6,9 @@ namespace Script.FightingPlan
 {
     public abstract class FightingWord : MonoBehaviour
     {
+        // 1er FightingWord est l'objet sur lequel est le script, le "tué", 2ème Fighting word est le tueur
+        public event Action<FightingWord, FightingWord> OnDeath;
+        
         [SerializeField] private LayerMask EnemyMask;
         
         [SerializeField] protected float Speed;
@@ -55,10 +58,11 @@ namespace Script.FightingPlan
             
         }
 
-        public abstract void Damage(float dmg = 0);
+        public abstract void Damage(FightingWord initiator, float dmg);
 
-        protected void Die()
+        protected void Die(FightingWord killer)
         {
+            OnDeath?.Invoke(this, killer ? killer : this);
             Destroy(gameObject);
         }
     }
