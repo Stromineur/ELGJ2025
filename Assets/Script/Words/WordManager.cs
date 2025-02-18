@@ -14,18 +14,19 @@ public class WordManager : MonoBehaviour
     [SerializeField] private GameObject wordsLocation;
     public Transform dragableSpawnPoint;
     [SerializeField] private List<WordData> wordsData;
-    [SerializeField] private List<GameObject> wordsGameObjects;
+    [SerializeField, ReadOnly] private List<GameObject> wordsGameObjects;
 
     [Header("Word dragging")]
     [SerializeField, ReadOnly] private GameObject selectedWord;
-    [HideInInspector] public GameObject draggedWord;
+    [ReadOnly] public GameObject draggedWord;
     
     [Header("Word writing")]
-    [SerializeField] private GameObject writingWord;
+    [SerializeField, ReadOnly] private GameObject writingWord;
     
     [Header("Word description")]
     [SerializeField] private GameObject wordNamePanel;
     [SerializeField] private GameObject wordDescriptionPanel;
+    [SerializeField] private GameObject wordEffectPanel;
     
     #endregion
     
@@ -47,14 +48,18 @@ public class WordManager : MonoBehaviour
         selectedWord = word;
         wordNamePanel.GetComponent<TextMeshProUGUI>().text = selectedWord.GetComponent<WordTemplate>().wordData.wordName;
         wordDescriptionPanel.GetComponent<TextMeshProUGUI>().text = selectedWord.GetComponent<WordTemplate>().wordData.wordDescription;
+        wordEffectPanel.GetComponent<TextMeshProUGUI>().text = selectedWord.GetComponent<WordTemplate>().wordData.wordEffect;
     }
 
     #region Word writing
 
     public void WriteWord()
     {
-        writingWord = selectedWord;
-        Invoke("WritingFinished", writingWord.GetComponent<WordTemplate>().wordData.writingTime);
+        if (!selectedWord.GetComponent<WordTemplate>().isWritten)
+        {
+            writingWord = selectedWord;
+            Invoke("WritingFinished", writingWord.GetComponent<WordTemplate>().wordData.writingTime);
+        }
     }
 
     private void WritingFinished()

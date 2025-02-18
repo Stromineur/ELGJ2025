@@ -1,5 +1,6 @@
 using System;
 using Script.Words;
+using Sirenix.OdinInspector;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
@@ -9,13 +10,13 @@ using UnityEngine.UI;
 public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     #region Variables
-    public event Action OnWordDrop;
+    [ReadOnly] public event Action OnWordDrop;
     
     private WordManager wordManager;
-    public WordData wordData;
+    [ReadOnly] public WordData wordData;
     
-    public bool isWritten;
-    public TextMeshProUGUI wordText;
+    [ReadOnly] public bool isWritten;
+    [ReadOnly] public TextMeshProUGUI wordText;
     
     private bool isInScene;
     private bool isDragging;
