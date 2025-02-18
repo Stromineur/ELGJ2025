@@ -17,7 +17,7 @@ MonoBehaviour:
   wordName: "D\xE9sopilant"
   wordDescription: "Adjectif. Qui provoque l\u2019hilarit\xE9."
   wordEffect: "Explose d\xE8s qu'il rencontre un mot-vais usage."
-  writingTime: 0
+  writingTime: 10
   exhumingTime: 0
   speed: 0
   baseDamage: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   wordName: Splendide
   wordDescription: "Adjectif. Somptueux, magnifique ; d\u2019une beaut\xE9 \xE9clatante."
   wordEffect: Aucun
-  writingTime: 0
+  writingTime: 10
   exhumingTime: 0
   speed: 0
   baseDamage: 0

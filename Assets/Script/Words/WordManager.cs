@@ -1,10 +1,12 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Script.Words;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WordManager : MonoBehaviour
 {
@@ -22,6 +24,8 @@ public class WordManager : MonoBehaviour
     
     [Header("Word writing")]
     [SerializeField, ReadOnly] private GameObject writingWord;
+    [SerializeField] private Image featherBackground;
+    private bool canWrite;
     
     [Header("Word description")]
     [SerializeField] private GameObject wordNamePanel;
@@ -52,20 +56,34 @@ public class WordManager : MonoBehaviour
     }
 
     #region Word writing
-
     public void WriteWord()
     {
-        if (!selectedWord.GetComponent<WordTemplate>().isWritten)
+        if (selectedWord != null && !selectedWord.GetComponent<WordTemplate>().isWritten && canWrite)
         {
+            canWrite = false;
             writingWord = selectedWord;
-            Invoke("WritingFinished", writingWord.GetComponent<WordTemplate>().wordData.writingTime);
+            StartCoroutine(WritingCountdown());
         }
     }
+    
+    private IEnumerator WritingCountdown()
+    {
+        float duration = writingWord.GetComponent<WordTemplate>().wordData.writingTime;
+        float normalizedTime = 0;
+        while(normalizedTime <= 1f)
+        {
+            featherBackground.fillAmount = normalizedTime;
+            normalizedTime += Time.deltaTime / duration;
+            yield return null;
+        }
 
+        WritingFinished();
+    }
     private void WritingFinished()
     {
         writingWord.GetComponent<WordTemplate>().isWritten = true;
         writingWord.GetComponent<WordTemplate>().lockImage.SetActive(false);
+        canWrite = true;
     }
 
     #endregion

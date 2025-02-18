@@ -20,7 +20,7 @@ MonoBehaviour:
     connect\xE9 \xE0 un r\xE9seau."
   wordEffect: "Lorsqu'il atteint le bout d'une colonne, le mot en cours d'\xE9criture
     est automatiquement appris."
-  writingTime: 0
+  writingTime: 10
   exhumingTime: 0
   speed: 0
   baseDamage: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   wordName: "Cons\xE9quemment"
   wordDescription: "Adverbe. Par une suite naturelle et logique ; en cons\xE9quence."
   wordEffect: "Lorsqu'il meurt face \xE0 un \"Du coup\", invoque un autre \"Cons\xE9quemment\"."
-  writingTime: 0
+  writingTime: 10
   exhumingTime: 0
   speed: 0
   baseDamage: 0
