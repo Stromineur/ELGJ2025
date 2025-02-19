@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 8029235272094096121}
   - component: {fileID: 3615648240563269372}
   - component: {fileID: 7526182822189917123}
+  - component: {fileID: 7455673370560626338}
   m_Layer: 0
   m_Name: BookWord
   m_TagString: Untagged
@@ -169,6 +170,21 @@ MonoBehaviour:
   wordText: {fileID: 0}
   lockImage: {fileID: 0}
   isWritten: 0
+--- !u!114 &7455673370560626338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901576576098136116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0938090874e2ea54388718c158947c68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSize: 1
+  scaledSize: 1.1
+  transitionSpeed: 0.5
 --- !u!1 &9176049516549070021
 GameObject:
   m_ObjectHideFlags: 0
