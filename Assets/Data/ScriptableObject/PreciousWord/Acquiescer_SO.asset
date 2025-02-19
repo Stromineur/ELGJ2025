@@ -16,11 +16,10 @@ MonoBehaviour:
   wordSprite: {fileID: 21300000, guid: 3dfa67f19f8ed4e4386b3882ad22c7f3, type: 3}
   wordName: Acquiescer
   wordDescription: Verbe intransitif. Consentir pleinement, donner son assentiment.
-  wordEffect: Aucun
+  wordEffect: Aucun effet
   writingTime: 150
   exhumingTime: 30
   speed: 200
   baseDamage: 60
   strongAgainst: []
-  boostedDamage: 0
   prefab: {fileID: 1292584020678159825, guid: cf64fc3385196a340be6e327acdd52ff, type: 3}

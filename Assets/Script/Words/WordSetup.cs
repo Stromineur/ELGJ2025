@@ -7,6 +7,7 @@ using Image = UnityEngine.UI.Image;
 
 public class WordSetup : MonoBehaviour
 {
+    /*
     private WordData wordData;
     private Sprite wordSprite;
     
@@ -16,4 +17,5 @@ public class WordSetup : MonoBehaviour
         wordSprite = wordData.wordSprite;
         transform.GetChild(0).GetComponentInChildren<Image>().sprite = wordSprite;
     }
+    */
 }
