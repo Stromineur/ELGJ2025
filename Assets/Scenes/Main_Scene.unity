@@ -242,6 +242,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord (3)
@@ -912,15 +916,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c65ac37d2f4dd624eaabeb071d52672b, type: 2}
+  m_sharedMaterial: {fileID: -3804955948047728644, guid: c65ac37d2f4dd624eaabeb071d52672b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0.047058824, b: 0.14509805, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -937,13 +941,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1204,15 +1208,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f87eee9436c3e064bb8cbab95a0b1bcc, type: 2}
+  m_sharedMaterial: {fileID: -410948643055483026, guid: f87eee9436c3e064bb8cbab95a0b1bcc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280617984
+  m_fontColor: {r: 0, g: 0.047058824, b: 0.14509805, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1235,7 +1239,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 3
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1499,6 +1503,10 @@ PrefabInstance:
     - target: {fileID: 2753467002376241448, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
@@ -2023,6 +2031,10 @@ PrefabInstance:
     - target: {fileID: 2753467002376241448, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
@@ -2647,6 +2659,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord (5)
@@ -2792,15 +2808,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c65ac37d2f4dd624eaabeb071d52672b, type: 2}
+  m_sharedMaterial: {fileID: -3804955948047728644, guid: c65ac37d2f4dd624eaabeb071d52672b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0.047058824, b: 0.14509805, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2817,13 +2833,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2885,8 +2901,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -40}
-  m_SizeDelta: {x: 0, y: 100}
+  m_AnchoredPosition: {x: 0, y: -29.999989}
+  m_SizeDelta: {x: 0, y: 110}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1241733492
 GameObject:
@@ -3703,6 +3719,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord (7)
@@ -3848,6 +3868,10 @@ PrefabInstance:
     - target: {fileID: 2753467002376241448, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
@@ -4123,11 +4147,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3189129200881967154, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4765453880530800771, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+    - {fileID: 3189129200881967154, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4540,6 +4578,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord (6)
@@ -4874,6 +4916,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord (11)
@@ -4983,6 +5029,10 @@ PrefabInstance:
     - target: {fileID: 2753467002376241448, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
@@ -5362,6 +5412,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name
       value: BookWord (8)
@@ -5442,15 +5496,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 100
+    m_Left: 145
     m_Right: 50
     m_Top: 50
     m_Bottom: 50
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 250, y: 82}
-  m_Spacing: {x: 150, y: 20}
+  m_CellSize: {x: 250, y: 80}
+  m_Spacing: {x: 60, y: 20}
   m_Constraint: 1
   m_ConstraintCount: 2
 --- !u!222 &1814397781
@@ -5552,6 +5606,10 @@ PrefabInstance:
     - target: {fileID: 2753467002376241448, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736147957787862802, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8901576576098136116, guid: b7d2821e97aadb54a9383c8fe5b090c7, type: 3}
       propertyPath: m_Name

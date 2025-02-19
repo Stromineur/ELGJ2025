@@ -16,7 +16,7 @@ MonoBehaviour:
   wordSprite: {fileID: 21300000, guid: 430b8864a9f288a408b769c02a515bf0, type: 3}
   wordName: Splendide
   wordDescription: "Adjectif. Somptueux, magnifique ; d\u2019une beaut\xE9 \xE9clatante."
-  wordEffect: Aucun
+  wordEffect: Aucun effet
   writingTime: 200
   exhumingTime: 200
   speed: 50
