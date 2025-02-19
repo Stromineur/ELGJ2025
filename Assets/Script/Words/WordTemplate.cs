@@ -1,21 +1,23 @@
 using System;
 using Script.Words;
+using Sirenix.OdinInspector;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Image = UnityEngine.UI.Image;
 
 public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     #region Variables
-    public event Action OnWordDrop;
+    [ReadOnly] public event Action OnWordDrop;
     
     private WordManager wordManager;
-    public WordData wordData;
+    [ReadOnly] public WordData wordData;
     
-    public bool isWritten;
-    public TextMeshProUGUI wordText;
+    [ReadOnly] public GameObject lockImage;
+    [ReadOnly] public bool isWritten;
     
     private bool isInScene;
     private bool isDragging;
@@ -28,11 +30,7 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         wordManager = GetComponentInParent<WordManager>();
         spawnPoint = wordManager.dragableSpawnPoint;
-    }
-
-    private void Start()
-    {
-        wordText.text = wordData.wordName;
+        lockImage = transform.GetChild(1).gameObject;
     }
 
     private void Update()
@@ -84,9 +82,9 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     private void InstanciateWord() // instancie le préfab variant (ne contenant pas ce script) à l'emplacement du mot
     {
         wordDraggableObject = Instantiate(wordData.wordPrefab, Vector3.zero, Quaternion.identity, spawnPoint);
-        wordDraggableObject.SetActive(false);
         wordDraggableObject.GetComponent<RectTransform>().position = GetComponent<RectTransform>().position;
-        wordDraggableObject.GetComponentInChildren<TextMeshProUGUI>().text = wordData.wordName;
+        wordDraggableObject.GetComponentInChildren<Image>().sprite = wordData.wordSprite;
+        wordDraggableObject.SetActive(false);
         isInScene = true;
     }
 }
