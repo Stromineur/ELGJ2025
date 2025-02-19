@@ -18,6 +18,9 @@ namespace Script.FightingPlan.WordBehaviour
 
         private void Update()
         {
+            if (!_preciousWord.IsInitialized)
+                return;
+            
             if (_timeBeforeNextChangeLine > 0)
             {
                 _timeBeforeNextChangeLine -= Time.deltaTime;
@@ -51,10 +54,10 @@ namespace Script.FightingPlan.WordBehaviour
                 {
                     if (badWord.transform.position.y > transform.position.y)
                     {
-                        float distance = Vector2.Distance(badWord.transform.position, transform.position);
+                        float distance = badWord.transform.position.y - transform.position.y;
                         if (distance < closestEnemy)
                         {
-                            moveToLane = previousLane;
+                            moveToLane = nextLane;
                             closestEnemy = distance;
                         }
                     }

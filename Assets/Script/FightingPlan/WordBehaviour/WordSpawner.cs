@@ -67,7 +67,7 @@ namespace Script.FightingPlan.WordBehaviour
             }
         }
 
-        private void OnDeath(FightingWord arg1, FightingWord arg2)
+        protected virtual void OnDeath(FightingWord killed, FightingWord killer)
         {
             if (spawnPosition == SpawnPosition.CurrentPos && _fightingWord != null)
                 spawnPos = _fightingWord.transform.position;
@@ -119,9 +119,9 @@ namespace Script.FightingPlan.WordBehaviour
             else if(_fightingWord is PreciousWord word)
             {
                 if (spawnPosition == SpawnPosition.Spawn)
-                    word.FightingLane.Spawn(preciousWordToSpawn, null);
+                    word.FightingLane.Spawn(preciousWordToSpawn, null, false);
                 else 
-                    word.FightingLane.Spawn(preciousWordToSpawn, null, spawnPos);
+                    word.FightingLane.Spawn(preciousWordToSpawn, null, spawnPos, false);
             }
             
             Destroy(gameObject);

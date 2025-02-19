@@ -19,7 +19,7 @@ namespace Script.FightingPlan
 
         private float _remainingExhumingTime;
 
-        protected override void InternalInit(IFightingData fightingData)
+        protected override void InternalInit(IFightingData fightingData, bool exhuming = true)
         {
             _wordData = fightingData as WordData;
 
@@ -27,13 +27,20 @@ namespace Script.FightingPlan
                 return;
             
             damage = _wordData.BaseDamage;
-            ShouldMove = false;
-            IsInitialized = false;
+            ShouldMove = !exhuming;
+            IsInitialized = !exhuming;
             
-            _remainingExhumingTime = _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier;
-            Vector3 currentScale = transform.localScale;
-            transform.localScale = Vector3.zero;
-            transform.DOScale(currentScale, _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier);
+            if(exhuming)
+            {
+                _remainingExhumingTime = _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier;
+                Vector3 currentScale = transform.localScale;
+                transform.localScale = Vector3.zero;
+                transform.DOScale(currentScale, _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier);
+            }
+            else
+            {
+                OnInitialized?.Invoke();
+            }
         }
 
         protected override void Update()

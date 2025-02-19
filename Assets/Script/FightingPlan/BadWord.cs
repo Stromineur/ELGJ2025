@@ -11,7 +11,7 @@ namespace Script.FightingPlan
         private BadWordData _badWordData;
         private float hp;
 
-        protected override void InternalInit(IFightingData fightingData)
+        protected override void InternalInit(IFightingData fightingData, bool exhuming)
         {
             _badWordData = fightingData as BadWordData;
             

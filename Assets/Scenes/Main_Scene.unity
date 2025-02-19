@@ -2062,8 +2062,9 @@ MonoBehaviour:
   - {fileID: 2126377398}
   - {fileID: 1310787493}
   waves:
-  - {fileID: 11400000, guid: 265f351c4a4529e4084138f8c0149939, type: 2}
+  - {fileID: 11400000, guid: 2164d55cd15f0b4459841f85a02e6778, type: 2}
   - {fileID: 11400000, guid: 507f171123d379d4096852f177cf429b, type: 2}
+  - {fileID: 11400000, guid: 265f351c4a4529e4084138f8c0149939, type: 2}
 --- !u!4 &665435369
 Transform:
   m_ObjectHideFlags: 0
@@ -6004,6 +6005,7 @@ GameObject:
   - component: {fileID: 1814397778}
   - component: {fileID: 1814397781}
   - component: {fileID: 1814397779}
+  - component: {fileID: 1814397782}
   m_Layer: 5
   m_Name: WordPanel
   m_TagString: Untagged
@@ -6074,6 +6076,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814397777}
   m_CullTransparentMesh: 1
+--- !u!114 &1814397782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814397777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71dd6a7f3baad2468e2e94a7566c692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1885444863
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -38,14 +38,14 @@ namespace Script.FightingPlan
         }
 
         ///fonction à appeler au moment du drag and drop (faire passer word data dans fightingData et null dans parent
-        public FightingWord Spawn(IFightingData fightingData, Transform parent)
+        public FightingWord Spawn(IFightingData fightingData, Transform parent, bool exhuming = true)
         {
             bool ally = fightingData is WordData;
             Transform position = ally ? allyPosition : enemyPosition;
-            return Spawn(fightingData, parent, position.position);
+            return Spawn(fightingData, parent, position.position, exhuming);
         }
 
-        public FightingWord Spawn(IFightingData fightingData, Transform parent, Vector2 position)
+        public FightingWord Spawn(IFightingData fightingData, Transform parent, Vector2 position, bool exhuming = true)
         {
             bool ally = fightingData is WordData;
             if (ally && !CanSpawnPrecious)
@@ -54,7 +54,6 @@ namespace Script.FightingPlan
                 return null;
             
             FightingWord word = Instantiate(fightingData.Prefab, position, Quaternion.identity, parent ? parent : transform);
-            word.Init(fightingData, this);
 
             if (word is BadWord badWord)
                 BadWords.Add(badWord);
@@ -64,8 +63,8 @@ namespace Script.FightingPlan
                 PreciousWords.Add(preciousWord);
                 OnCantSpawn?.Invoke();
                 preciousWord.OnInitialized += OnPreciousWordInitialized;
-                OnCantSpawn?.Invoke();
             }
+            word.Init(fightingData, this, exhuming);
             
             word.OnDeath += OnWordDeath;
             
@@ -122,6 +121,22 @@ namespace Script.FightingPlan
         public void ResetAbilityToSpawn()
         {
             _canSpawnPrecious = true;
+        }
+
+        public void AddWordToLane(FightingWord word)
+        {
+            if (word is BadWord badWord)
+                BadWords.Add(badWord);
+            else if(word is PreciousWord preciousWord)
+                PreciousWords.Add(preciousWord);
+        }
+
+        public void RemoveWordFromLane(FightingWord word)
+        {
+            if (word is BadWord badWord)
+                BadWords.Remove(badWord);
+            else if(word is PreciousWord preciousWord)
+                PreciousWords.Remove(preciousWord);
         }
     }
 }

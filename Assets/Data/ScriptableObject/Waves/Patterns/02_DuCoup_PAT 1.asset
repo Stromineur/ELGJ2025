@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b876a80a2aac94a9cf3a3290f7ea43, type: 3}
-  m_Name: 06_Chelou_PAT
+  m_Name: 02_DuCoup_PAT 1
   m_EditorClassIdentifier: 
-  badWord: {fileID: 11400000, guid: 0441dca58ec13b24fa78f39f33eb79c1, type: 2}
-  minNumber: 1
-  maxNumber: 2
-  delayBetween: 100
+  badWord: {fileID: 11400000, guid: 556c931b4fcec87499e32b83cd087927, type: 2}
+  minNumber: 10
+  maxNumber: 10
+  delayBetween: 300
   delayAfter: 200

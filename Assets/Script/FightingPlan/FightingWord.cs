@@ -27,22 +27,24 @@ namespace Script.FightingPlan
 
         private bool _isDead;
 
-        public void Init(IFightingData fightingData, FightingLane fightingLane)
+        public void Init(IFightingData fightingData, FightingLane fightingLane, bool exhuming = true)
         {
             _speed = fightingData.Speed;
             FightingLane = fightingLane;
             
-            InternalInit(fightingData);
+            InternalInit(fightingData, exhuming);
             OnSpawn?.Invoke();
         }
 
         public void MoveLane(FightingLane fightingLane)
         {
+            FightingLane.RemoveWordFromLane(this);
             transform.DOMoveX(fightingLane.transform.position.x, 0.5f);
             FightingLane = fightingLane;
+            fightingLane.AddWordToLane(this);
         }
         
-        protected abstract void InternalInit(IFightingData fightingData);
+        protected abstract void InternalInit(IFightingData fightingData, bool exhuming = true);
 
         protected virtual void Update()
         {

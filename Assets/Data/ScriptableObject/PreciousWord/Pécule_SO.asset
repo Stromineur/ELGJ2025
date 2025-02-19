@@ -22,6 +22,6 @@ MonoBehaviour:
   exhumingTime: 200
   speed: 70
   baseDamage: 75
-  strongAgainst: []
-  boostedDamage: 0
+  strongAgainst:
+  - {fileID: 11400000, guid: fc63ac4b997e8dc45906b280de864e93, type: 2}
   prefab: {fileID: 1292584020678159825, guid: 9e8ca1535c5cffe49880e889882176da, type: 3}
