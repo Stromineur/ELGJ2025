@@ -24,18 +24,25 @@ namespace Script.FightingPlan.Wave
             
             _badWords.Add(fightingWord);
             fightingWord.OnDeath += OnEnemyDeath;
+            fightingWord.OnReachedEndEvent += OnEnemyDeath;
             return fightingWord;
         }
 
-        private void OnEnemyDeath(FightingWord killed, FightingWord killer)
+        private void OnEnemyDeath(FightingWord killed)
         {
             killed.OnDeath -= OnEnemyDeath;
+            killed.OnReachedEndEvent -= OnEnemyDeath;
             _badWords.Remove(killed);
             
             if (_nbEnemies <= 0 && _badWords.Count <= 0)
             {
                 EndPattern();
             }
+        }
+
+        private void OnEnemyDeath(FightingWord killed, FightingWord killer)
+        {
+            OnEnemyDeath(killed);
         }
     }
 }

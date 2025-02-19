@@ -14,11 +14,13 @@ namespace Script.FightingPlan.Wave
         private int _currentWaveStep;
         private List<WaveController> _waveControllers = new();
 
+#if ENABLE_RUNTIME_GI
         [Button]
         public void StartGame()
         {
             StartNextWave();
         }
+#endif
         
         private void StartNextWave()
         {

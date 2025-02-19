@@ -10,6 +10,7 @@ namespace Script.FightingPlan
 {
     public class PreciousWord : FightingWord
     {
+        public event Action OnInitialized;
         public WordData WordData => _wordData;
 
         [SerializeField] private float damage;
@@ -59,6 +60,7 @@ namespace Script.FightingPlan
         {
             IsInitialized = true;
             ShouldMove = true;
+            OnInitialized?.Invoke();
         }
 
         protected override void Fight()

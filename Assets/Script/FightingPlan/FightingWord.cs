@@ -12,7 +12,7 @@ namespace Script.FightingPlan
         public event Action<FightingWord, FightingWord> OnDeath;
         public event Action OnSpawn;
         public event Action<float, FightingWord> OnHit;
-        public event Action OnReachedEndEvent;
+        public event Action<FightingWord> OnReachedEndEvent;
         
         [SerializeField] private LayerMask _enemyMask;
         
@@ -101,7 +101,7 @@ namespace Script.FightingPlan
 
         public void OnReachedEnd()
         {
-            OnReachedEndEvent?.Invoke();
+            OnReachedEndEvent?.Invoke(this);
             
             Destroy(gameObject);
         }

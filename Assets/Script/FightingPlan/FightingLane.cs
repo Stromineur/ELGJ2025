@@ -9,7 +9,12 @@ namespace Script.FightingPlan
 {
     public class FightingLane : MonoBehaviour
     {
-        public bool CanSpawn => (!lastPreciousWord || !lastPreciousWord.IsInitialized) && _canSpawn;
+        public event Action OnCanSpawn;
+        public event Action OnCantSpawn;
+        
+        public bool CanSpawnPrecious => _canSpawnPrecious &&
+                                        (!lastPreciousWord || lastPreciousWord && lastPreciousWord.IsInitialized);
+        public bool CanSpawnBad => _canSpawnBad;
         public FightingLane PreviousLane => previousLane;
         public FightingLane NextLane => nextLane;
         
@@ -22,19 +27,19 @@ namespace Script.FightingPlan
         public List<PreciousWord> PreciousWords { get; private set; } = new();
 
         private PreciousWord lastPreciousWord;
-        private bool _canSpawn;
+        private bool _canSpawnPrecious;
+        private bool _canSpawnBad;
 
         private void Awake()
         {
-            _canSpawn = true;
+            _canSpawnPrecious = true;
+            _canSpawnBad = true;
+            OnCanSpawn?.Invoke();
         }
 
         ///fonction à appeler au moment du drag and drop (faire passer word data dans fightingData et null dans parent
         public FightingWord Spawn(IFightingData fightingData, Transform parent)
         {
-            if (!CanSpawn)
-                return null;
-            
             bool ally = fightingData is WordData;
             Transform position = ally ? allyPosition : enemyPosition;
             return Spawn(fightingData, parent, position.position);
@@ -42,7 +47,10 @@ namespace Script.FightingPlan
 
         public FightingWord Spawn(IFightingData fightingData, Transform parent, Vector2 position)
         {
-            if (!CanSpawn)
+            bool ally = fightingData is WordData;
+            if (ally && !CanSpawnPrecious)
+                return null;
+            if (!ally && !CanSpawnBad)
                 return null;
             
             FightingWord word = Instantiate(fightingData.Prefab, position, Quaternion.identity, parent ? parent : transform);
@@ -54,11 +62,19 @@ namespace Script.FightingPlan
             {
                 lastPreciousWord = preciousWord;
                 PreciousWords.Add(preciousWord);
+                OnCantSpawn?.Invoke();
+                preciousWord.OnInitialized += OnPreciousWordInitialized;
+                OnCantSpawn?.Invoke();
             }
             
             word.OnDeath += OnWordDeath;
             
             return word;
+        }
+
+        private void OnPreciousWordInitialized()
+        {
+            OnCanSpawn?.Invoke();
         }
 
         private void OnWordDeath(FightingWord killed, FightingWord _)
@@ -100,12 +116,12 @@ namespace Script.FightingPlan
 
         public void RemoveAbilityToSpawn()
         {
-            _canSpawn = false;
+            _canSpawnPrecious = false;
         }
 
         public void ResetAbilityToSpawn()
         {
-            _canSpawn = true;
+            _canSpawnPrecious = true;
         }
     }
 }

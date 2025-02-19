@@ -22,7 +22,7 @@ namespace Script.FightingPlan.WordBehaviour
             _preciousWord.OnReachedEndEvent -= RemoveCurrentWritingTime;
         }
 
-        private void RemoveCurrentWritingTime()
+        private void RemoveCurrentWritingTime(FightingWord fightingWord)
         {
             ServiceLocator.Instance.WordManager.EndCurrentWriting();
         }

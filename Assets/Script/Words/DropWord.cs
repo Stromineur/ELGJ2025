@@ -44,7 +44,7 @@ public class DropWord : MonoBehaviour
 
     private void OnDrop()
     {
-        if (hoverElement != null && fightingLane.CanSpawn)
+        if (hoverElement != null && fightingLane.CanSpawnPrecious)
         {
             droppedElement = hoverElement;
             isOccupied = true;

@@ -1,5 +1,6 @@
 using LTX.Singletons;
 using Script.FightingPlan.Wave;
+using Script.Words;
 using UnityEngine;
 
 namespace Script.Core
@@ -25,8 +26,19 @@ namespace Script.Core
                 return _wordManager;
             }
         }
+        
+        public DragNDropEvents DragNDropEvents
+        {
+            get
+            {
+                if (!_dragNDropEvents)
+                    _dragNDropEvents = FindFirstObjectByType<DragNDropEvents>();
+                return _dragNDropEvents;
+            }
+        }
 
         private WaveManager _waveManager;
         private WordManager _wordManager;
+        private DragNDropEvents _dragNDropEvents;
     }
 }

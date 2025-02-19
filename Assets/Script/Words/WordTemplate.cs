@@ -11,6 +11,7 @@ using Image = UnityEngine.UI.Image;
 public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     #region Variables
+    [ReadOnly] public event Action OnWordDrag;
     [ReadOnly] public event Action OnWordDrop;
     
     private WordManager wordManager;
@@ -69,6 +70,7 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         isDragging = true;
         wordDraggableObject.SetActive(true);
         wordManager.draggedWord = gameObject;
+        OnWordDrag?.Invoke();
     }
     
     private void StopDragAndDrop()
