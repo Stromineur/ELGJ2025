@@ -22,5 +22,4 @@ MonoBehaviour:
   speed: 50
   baseDamage: 300
   strongAgainst: []
-  boostedDamage: 0
   prefab: {fileID: 1292584020678159825, guid: 460fa39e473af934a827c2ae2d52ee3e, type: 3}

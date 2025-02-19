@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using DG.Tweening;
 using LTX.ChanneledProperties;
 using Script.Core;
@@ -29,8 +30,9 @@ namespace Script.FightingPlan
             IsInitialized = false;
             
             _remainingExhumingTime = _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier;
+            Vector3 currentScale = transform.localScale;
             transform.localScale = Vector3.zero;
-            transform.DOScale(Vector3.one, _wordData.ExhumingTime);
+            transform.DOScale(currentScale, _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier);
         }
 
         protected override void Update()
@@ -62,8 +64,13 @@ namespace Script.FightingPlan
         protected override void Fight()
         {
             base.Fight();
+
+            float dmg = damage;
+
+            if (LastEnemySeen is BadWord badWord && _wordData.StrongAgainst.Contains(badWord.BadWordData))
+                dmg = 9999;
             
-            LastEnemySeen.Damage(this, damage);
+            LastEnemySeen.Damage(this, dmg);
             Die(LastEnemySeen);
         }
 
@@ -72,9 +79,14 @@ namespace Script.FightingPlan
             Die(initiator);
         }
 
+        public override void ResetSlow()
+        {
+            _speed = _wordData.Speed;
+        }
+
         private void OnBecameInvisible()
         {
-            Die(this);
+            OnReachedEnd();
         }
     }
 }

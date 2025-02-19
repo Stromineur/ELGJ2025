@@ -12,6 +12,7 @@ namespace Script.FightingPlan
         public event Action<FightingWord, FightingWord> OnDeath;
         public event Action OnSpawn;
         public event Action<float, FightingWord> OnHit;
+        public event Action OnReachedEndEvent;
         
         [SerializeField] private LayerMask _enemyMask;
         
@@ -23,6 +24,8 @@ namespace Script.FightingPlan
         public LayerMask EnemyMask => _enemyMask;
 
         public float Speed => _speed;
+
+        private bool _isDead;
 
         public void Init(IFightingData fightingData, FightingLane fightingLane)
         {
@@ -81,7 +84,25 @@ namespace Script.FightingPlan
 
         public void Die(FightingWord killer)
         {
+            if(_isDead)
+                return;
+
+            _isDead = true;
             OnDeath?.Invoke(this, killer ? killer : this);
+            Destroy(gameObject);
+        }
+
+        public void Slow(float multiplier)
+        {
+            _speed *= multiplier;
+        }
+
+        public abstract void ResetSlow();
+
+        public void OnReachedEnd()
+        {
+            OnReachedEndEvent?.Invoke();
+            
             Destroy(gameObject);
         }
     }

@@ -112,7 +112,7 @@ namespace Script.FightingPlan.WordBehaviour
             if (!preciousWord)
             {
                 if(spawnPosition == SpawnPosition.Spawn)
-                    ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null);
+                    ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, _fightingWord.FightingLane);
                 else 
                     ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, _fightingWord.FightingLane, spawnPos);
             }

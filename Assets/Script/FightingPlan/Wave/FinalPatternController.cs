@@ -18,6 +18,10 @@ namespace Script.FightingPlan.Wave
         protected override FightingWord SpawnEnemy()
         {
             FightingWord fightingWord = base.SpawnEnemy();
+
+            if (fightingWord == null)
+                return null;
+            
             _badWords.Add(fightingWord);
             fightingWord.OnDeath += OnEnemyDeath;
             return fightingWord;

@@ -1,12 +1,15 @@
+using System;
 using System.Collections.Generic;
 using Script.Words;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Script.FightingPlan
 {
     public class FightingLane : MonoBehaviour
     {
+        public bool CanSpawn => (!lastPreciousWord || !lastPreciousWord.IsInitialized) && _canSpawn;
         public FightingLane PreviousLane => previousLane;
         public FightingLane NextLane => nextLane;
         
@@ -14,13 +17,24 @@ namespace Script.FightingPlan
         [SerializeField] private Transform enemyPosition;
         [SerializeField] private FightingLane previousLane;
         [SerializeField] private FightingLane nextLane;
-
+        
         public List<BadWord> BadWords { get; private set; } = new();
         public List<PreciousWord> PreciousWords { get; private set; } = new();
+
+        private PreciousWord lastPreciousWord;
+        private bool _canSpawn;
+
+        private void Awake()
+        {
+            _canSpawn = true;
+        }
 
         ///fonction à appeler au moment du drag and drop (faire passer word data dans fightingData et null dans parent
         public FightingWord Spawn(IFightingData fightingData, Transform parent)
         {
+            if (!CanSpawn)
+                return null;
+            
             bool ally = fightingData is WordData;
             Transform position = ally ? allyPosition : enemyPosition;
             return Spawn(fightingData, parent, position.position);
@@ -28,13 +42,19 @@ namespace Script.FightingPlan
 
         public FightingWord Spawn(IFightingData fightingData, Transform parent, Vector2 position)
         {
+            if (!CanSpawn)
+                return null;
+            
             FightingWord word = Instantiate(fightingData.Prefab, position, Quaternion.identity, parent ? parent : transform);
             word.Init(fightingData, this);
 
             if (word is BadWord badWord)
                 BadWords.Add(badWord);
             else if(word is PreciousWord preciousWord)
+            {
+                lastPreciousWord = preciousWord;
                 PreciousWords.Add(preciousWord);
+            }
             
             word.OnDeath += OnWordDeath;
             
@@ -76,6 +96,16 @@ namespace Script.FightingPlan
             }
 
             return null;
+        }
+
+        public void RemoveAbilityToSpawn()
+        {
+            _canSpawn = false;
+        }
+
+        public void ResetAbilityToSpawn()
+        {
+            _canSpawn = true;
         }
     }
 }

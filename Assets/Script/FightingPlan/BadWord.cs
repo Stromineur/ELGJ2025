@@ -33,5 +33,10 @@ namespace Script.FightingPlan
                 Die(initiator);
             }
         }
+
+        public override void ResetSlow()
+        {
+            _speed = -_badWordData.Speed;
+        }
     }
 }

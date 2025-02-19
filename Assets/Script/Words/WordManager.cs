@@ -27,6 +27,7 @@ public class WordManager : MonoBehaviour
     [SerializeField, ReadOnly] private GameObject writingWord;
     [SerializeField] private Image featherBackground;
     private bool canWrite = true;
+    private float normalizedTime;
     
     [Header("Word description")]
     [SerializeField] private GameObject wordNamePanel;
@@ -70,7 +71,7 @@ public class WordManager : MonoBehaviour
     private IEnumerator WritingCountdown()
     {
         float duration = writingWord.GetComponent<WordTemplate>().wordData.writingTime * GameController.GameMetrics.WritingMultiplier;
-        float normalizedTime = 0;
+        normalizedTime = 0;
         while(normalizedTime <= 1f)
         {
             featherBackground.fillAmount = normalizedTime;
@@ -86,6 +87,11 @@ public class WordManager : MonoBehaviour
         writingWord.GetComponent<WordTemplate>().isWritten = true;
         writingWord.GetComponent<WordTemplate>().lockImage.SetActive(false);
         canWrite = true;
+    }
+
+    public void EndCurrentWriting()
+    {
+        normalizedTime = Mathf.Infinity;
     }
 
     #endregion

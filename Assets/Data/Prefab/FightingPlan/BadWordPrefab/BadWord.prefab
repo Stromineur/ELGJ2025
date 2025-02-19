@@ -149,5 +149,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   _speed: 0

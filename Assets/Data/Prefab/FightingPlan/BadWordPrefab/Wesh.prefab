@@ -28,11 +28,10 @@ Transform:
   m_GameObject: {fileID: 2838938122394730166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.72, y: 4.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 868170478682605571}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6578245868690512210
@@ -150,56 +149,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   _speed: 0
---- !u!1 &6620130551957016415
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 868170478682605571}
-  - component: {fileID: 8847625778616749557}
-  m_Layer: 7
-  m_Name: WordSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &868170478682605571
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6620130551957016415}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6542012902262310425}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8847625778616749557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6620130551957016415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef2e82790c24475469226a03b29ff46f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  preciousWord: 0
-  badWordToSpawn: {fileID: 11400000, guid: 44ee51b55f1e23e41b267cddf9895a2b, type: 2}
-  preciousWordToSpawn: {fileID: 0}
-  spawnRequirement: 1
-  spawnPosition: 2
-  odds: 100
-  delay: 1
