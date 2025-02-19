@@ -12,6 +12,8 @@ namespace Script.FightingPlan
         public event Action OnCanSpawn;
         public event Action OnCantSpawn;
         
+        public event Action OnSpawnPreciousWord;
+        
         public bool CanSpawnPrecious => _canSpawnPrecious &&
                                         (!lastPreciousWord || lastPreciousWord && lastPreciousWord.IsInitialized);
         public bool CanSpawnBad => _canSpawnBad;
@@ -59,6 +61,7 @@ namespace Script.FightingPlan
                 BadWords.Add(badWord);
             else if(word is PreciousWord preciousWord)
             {
+                OnSpawnPreciousWord?.Invoke();
                 lastPreciousWord = preciousWord;
                 PreciousWords.Add(preciousWord);
                 OnCantSpawn?.Invoke();

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6c09ce859b707348b4e166c6ee94cdf, type: 3}
-  m_Name: "P\xE9cule_SO"
+  m_Name: Pecule_SO
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
   wordSprite: {fileID: 21300000, guid: 2977cd83644b188488263dcb122137e2, type: 3}

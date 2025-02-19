@@ -13,6 +13,8 @@ namespace Script.FightingPlan
         public event Action OnSpawn;
         public event Action<float, FightingWord> OnHit;
         public event Action<FightingWord> OnReachedEndEvent;
+        public event Action OnAttack;
+        public event Action OnAttackEnd;
         
         [SerializeField] private LayerMask _enemyMask;
         
@@ -52,7 +54,8 @@ namespace Script.FightingPlan
             if (!ShouldMove)
             {
                 LastEnemySeen = hit.transform.GetComponent<FightingWord>();
-                Fight();
+                OnAttack?.Invoke();
+                Invoke("Fight", 0.3f);
             }
             else
             {
@@ -82,6 +85,11 @@ namespace Script.FightingPlan
             InternalDamage(initiator, dmg);
         }
 
+        public virtual void EndAttack()
+        {
+            OnAttackEnd?.Invoke();
+        }
+
         protected abstract void InternalDamage(FightingWord initiator, float dmg);
 
         public void Die(FightingWord killer)
@@ -91,7 +99,7 @@ namespace Script.FightingPlan
 
             _isDead = true;
             OnDeath?.Invoke(this, killer ? killer : this);
-            Destroy(gameObject);
+            transform.DOScale(0f, 0.2f).OnComplete(() => Destroy(gameObject));
         }
 
         public void Slow(float multiplier)

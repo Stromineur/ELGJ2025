@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PARENTE_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: e9f52f641231e564fa1f62b545a0e1bc, type: 2}
+  - {fileID: 11400000, guid: 8d34871de0af35847ba3c62abc382c04, type: 2}
   scale: 0.01
   skeletonJSON: {fileID: 4900000, guid: 394730cdf38430e40875484ea8768fce, type: 3}
   isUpgradingBlendModeMaterials: 0

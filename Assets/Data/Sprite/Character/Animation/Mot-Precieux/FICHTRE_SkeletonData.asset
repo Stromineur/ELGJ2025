@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FICHTRE_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 4170d75a9fb31124ea32ad10536159b2, type: 2}
+  - {fileID: 11400000, guid: 8d34871de0af35847ba3c62abc382c04, type: 2}
   scale: 0.01
   skeletonJSON: {fileID: 4900000, guid: 7b3da51c32cba5c4f8b2d58f89bf6860, type: 3}
   isUpgradingBlendModeMaterials: 0

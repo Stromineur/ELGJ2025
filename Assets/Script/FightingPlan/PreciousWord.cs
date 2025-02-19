@@ -80,12 +80,17 @@ namespace Script.FightingPlan
                 dmg = 9999;
             
             LastEnemySeen.Damage(this, dmg);
-            Die(LastEnemySeen);
         }
 
         protected override void InternalDamage(FightingWord initiator, float dmg)
         {
             Die(initiator);
+        }
+
+        public override void EndAttack()
+        {
+            base.EndAttack();
+            Die(LastEnemySeen);
         }
 
         public override void ResetSlow()

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENIGMATIQUE_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 85d38f2fdcd2bee49876f192b61e1dff, type: 2}
+  - {fileID: 11400000, guid: 8d34871de0af35847ba3c62abc382c04, type: 2}
   scale: 0.01
   skeletonJSON: {fileID: 4900000, guid: 02f2737ce85e99f48be5732c0deb793d, type: 3}
   isUpgradingBlendModeMaterials: 0

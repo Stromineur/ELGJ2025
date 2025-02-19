@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Script.FightingPlan.Wave
 {
@@ -13,6 +15,11 @@ namespace Script.FightingPlan.Wave
         private int _currentWave;
         private int _currentWaveStep;
         private List<WaveController> _waveControllers = new();
+
+        private void Start()
+        {
+            Invoke(nameof(StartGame), 5f);
+        }
 
 #if ENABLE_RUNTIME_GI
         [Button]

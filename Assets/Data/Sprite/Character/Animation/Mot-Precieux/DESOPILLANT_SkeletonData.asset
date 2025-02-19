@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DESOPILLANT_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 64ad1cf7245c8ee4c9de591c88aeab80, type: 2}
+  - {fileID: 11400000, guid: 8d34871de0af35847ba3c62abc382c04, type: 2}
   scale: 0.01
   skeletonJSON: {fileID: 4900000, guid: dc373439ed807ae43ac7423034a4e566, type: 3}
   isUpgradingBlendModeMaterials: 0

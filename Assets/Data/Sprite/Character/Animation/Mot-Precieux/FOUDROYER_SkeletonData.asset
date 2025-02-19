@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FOUDROYER_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 2f92045c281ff5946869462ce61b69a2, type: 2}
+  - {fileID: 11400000, guid: 8d34871de0af35847ba3c62abc382c04, type: 2}
   scale: 0.01
   skeletonJSON: {fileID: 4900000, guid: 098d622d2e25a65499a24e78a077b8c3, type: 3}
   isUpgradingBlendModeMaterials: 0

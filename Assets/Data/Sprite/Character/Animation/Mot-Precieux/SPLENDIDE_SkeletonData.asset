@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SPLENDIDE_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 7b84cd57ef3026447bcd18886e654c97, type: 2}
+  - {fileID: 11400000, guid: 8d34871de0af35847ba3c62abc382c04, type: 2}
   scale: 0.01
   skeletonJSON: {fileID: 4900000, guid: e1eaebe30d96faa4587b79c0d6611fb6, type: 3}
   isUpgradingBlendModeMaterials: 0
