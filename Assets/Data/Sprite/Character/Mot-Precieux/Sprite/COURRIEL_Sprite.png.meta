@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      COURRIEL_Sprite_0: -255919064338795417
+      COURRIEL_Sprite_1: 7357661360953751648
+      COURRIEL_Sprite_2: 403012077438409230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

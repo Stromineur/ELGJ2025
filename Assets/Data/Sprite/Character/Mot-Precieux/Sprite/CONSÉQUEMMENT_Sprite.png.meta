@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "CONS\xC9QUEMMENT_Sprite_0": 8862751986514217156
+      "CONS\xC9QUEMMENT_Sprite_1": 3429976590294967237
+      "CONS\xC9QUEMMENT_Sprite_2": 5145622187687979362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

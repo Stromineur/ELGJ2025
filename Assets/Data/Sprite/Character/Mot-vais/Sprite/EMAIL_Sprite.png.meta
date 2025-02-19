@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EMAIL_Sprite_0: -844399882001842024
+      EMAIL_Sprite_1: -5629205662391271653
+      EMAIL_Sprite_2: 2206980693556711255
+      EMAIL_Sprite_3: -751966408514648354
+      EMAIL_Sprite_4: 5951789351598232687
+      EMAIL_Sprite_5: 2344592029506265136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "OISIVET\xC9_Sprite_0": 5678637926221671556
+      "OISIVET\xC9_Sprite_1": 574723947828158125
+      "OISIVET\xC9_Sprite_2": 7565274551661594317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

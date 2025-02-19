@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FOUDROYER_Sprite_0: 48015905024665018
+      FOUDROYER_Sprite_1: 8979195016552837197
+      FOUDROYER_Sprite_2: 5038465571340698964
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

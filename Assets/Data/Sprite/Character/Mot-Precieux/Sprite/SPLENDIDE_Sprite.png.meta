@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPLENDIDE_Sprite_0: 6507707999205578202
+      SPLENDIDE_Sprite_1: 7603930608980662698
+      SPLENDIDE_Sprite_2: -4588978976009546136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\xC9NIGMATIQUE_Sprite_0": 811478925783314792
+      "\xC9NIGMATIQUE_Sprite_1": -4620437764756381949
+      "\xC9NIGMATIQUE_Sprite_2": 6247978287767662136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

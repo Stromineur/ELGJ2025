@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ACQUIESCER_Sprite_0: -5092391819119267995
+      ACQUIESCER_Sprite_1: 7441844483612762316
+      ACQUIESCER_Sprite_2: 6743296312576348798
+      ACQUIESCER_Sprite_3: -2359650253374620661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

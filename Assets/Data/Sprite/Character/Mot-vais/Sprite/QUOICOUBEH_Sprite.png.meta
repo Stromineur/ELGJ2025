@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      QUOICOUBEH_Sprite_0: -7747161642348909722
+      QUOICOUBEH_Sprite_1: 8903266652155243512
+      QUOICOUBEH_Sprite_2: 7427436274389962050
+      QUOICOUBEH_Sprite_3: 4385272619582682066
+      QUOICOUBEH_Sprite_4: -7676048708103028239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

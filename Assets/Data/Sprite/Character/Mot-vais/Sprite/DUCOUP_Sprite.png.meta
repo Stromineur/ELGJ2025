@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DUCOUP_Sprite_0: -5255564418474497009
+      DUCOUP_Sprite_1: 2806217417912376214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

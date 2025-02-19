@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: c244b6e29f36d8f4c9926f2bfb07fac4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5728803861079776963
+    second: NecroAcademicien_sprite_0
+  - first:
+      213: -1134508481111261751
+    second: NecroAcademicien_sprite_1
+  - first:
+      213: 8609476976898304238
+    second: NecroAcademicien_sprite_2
+  - first:
+      213: 5789320973128170804
+    second: NecroAcademicien_sprite_3
+  - first:
+      213: -8363762438439155798
+    second: NecroAcademicien_sprite_4
+  - first:
+      213: 5759914204196428922
+    second: NecroAcademicien_sprite_5
+  - first:
+      213: 6768615548123355658
+    second: NecroAcademicien_sprite_6
+  - first:
+      213: 4139893550802873313
+    second: NecroAcademicien_sprite_7
+  - first:
+      213: 3792455330666593709
+    second: NecroAcademicien_sprite_8
+  - first:
+      213: 8677090110067881271
+    second: NecroAcademicien_sprite_9
+  - first:
+      213: -1958215070489648256
+    second: NecroAcademicien_sprite_10
+  - first:
+      213: 7263746162886199193
+    second: NecroAcademicien_sprite_11
+  - first:
+      213: -1843777332639554431
+    second: NecroAcademicien_sprite_12
+  - first:
+      213: -7682859434142816288
+    second: NecroAcademicien_sprite_13
+  - first:
+      213: 5458065433273027626
+    second: NecroAcademicien_sprite_14
+  - first:
+      213: 8308451491242150928
+    second: NecroAcademicien_sprite_15
+  - first:
+      213: -6896423923698225535
+    second: NecroAcademicien_sprite_16
+  - first:
+      213: 8217607790706023215
+    second: NecroAcademicien_sprite_17
+  - first:
+      213: -2099333790076971236
+    second: NecroAcademicien_sprite_18
+  - first:
+      213: -1277214569946832754
+    second: NecroAcademicien_sprite_19
+  - first:
+      213: 5178645735614973122
+    second: NecroAcademicien_sprite_20
+  - first:
+      213: 2984255772648177173
+    second: NecroAcademicien_sprite_21
+  - first:
+      213: 4526582067313140267
+    second: NecroAcademicien_sprite_22
+  - first:
+      213: -7369190181497021195
+    second: NecroAcademicien_sprite_23
+  - first:
+      213: -6402000740741945006
+    second: NecroAcademicien_sprite_24
+  - first:
+      213: -6976473913798197647
+    second: NecroAcademicien_sprite_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1350
+        width: 346
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cedb8752ccc08f40800000000000000
+      internalID: 5728803861079776963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 983
+        width: 337
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdf1bc1c8a6140f0800000000000000
+      internalID: -1134508481111261751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 991
+        width: 415
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee86ded02b10b7770800000000000000
+      internalID: 8609476976898304238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 983
+        width: 340
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43df50e70ccc75050800000000000000
+      internalID: 5789320973128170804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1362
+        width: 186
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa744171062fdeb80800000000000000
+      internalID: -8363762438439155798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1362
+        width: 86
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cdadd83735fef40800000000000000
+      internalID: 5759914204196428922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1348
+        width: 90
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a1417baf3feed50800000000000000
+      internalID: 6768615548123355658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1211
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb2987104bd37930800000000000000
+      internalID: 4139893550802873313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 299
+        height: 1346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad3beaa70281a430800000000000000
+      internalID: 3792455330666593709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 976
+        width: 189
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735b6ae5b773b6870800000000000000
+      internalID: 8677090110067881271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1204
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083e5a9b4c503d4e0800000000000000
+      internalID: -1958215070489648256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1137
+        width: 93
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997407176a20ec460800000000000000
+      internalID: 7263746162886199193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1137
+        width: 201
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1842a13e8469966e0800000000000000
+      internalID: -1843777332639554431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 983
+        width: 10
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7a8a8dc00016590800000000000000
+      internalID: -7682859434142816288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1030
+        width: 81
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cc31fe791febb40800000000000000
+      internalID: 5458065433273027626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 938
+        width: 243
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c8d097c9c8d4370800000000000000
+      internalID: 8308451491242150928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 814
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e267feafafa40a0800000000000000
+      internalID: -6896423923698225535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 680
+        width: 357
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bd3843fbeca0270800000000000000
+      internalID: 8217607790706023215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 969
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17dc796a0badd2e0800000000000000
+      internalID: -2099333790076971236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 808
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80ad589d1c664ee0800000000000000
+      internalID: -1277214569946832754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 680
+        width: 201
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c40ce0ebde3ed740800000000000000
+      internalID: 5178645735614973122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 680
+        width: 263
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e7a9f50d43a6920800000000000000
+      internalID: 2984255772648177173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 405
+        width: 291
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b226ad84866a1de30800000000000000
+      internalID: 4526582067313140267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 2
+        width: 572
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcd295d2906bb990800000000000000
+      internalID: -7369190181497021195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 2
+        width: 271
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259e94cde368727a0800000000000000
+      internalID: -6402000740741945006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecroAcademicien_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 119
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e774730f59e2f90800000000000000
+      internalID: -6976473913798197647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NecroAcademicien_sprite_0: 5728803861079776963
+      NecroAcademicien_sprite_1: -1134508481111261751
+      NecroAcademicien_sprite_10: -1958215070489648256
+      NecroAcademicien_sprite_11: 7263746162886199193
+      NecroAcademicien_sprite_12: -1843777332639554431
+      NecroAcademicien_sprite_13: -7682859434142816288
+      NecroAcademicien_sprite_14: 5458065433273027626
+      NecroAcademicien_sprite_15: 8308451491242150928
+      NecroAcademicien_sprite_16: -6896423923698225535
+      NecroAcademicien_sprite_17: 8217607790706023215
+      NecroAcademicien_sprite_18: -2099333790076971236
+      NecroAcademicien_sprite_19: -1277214569946832754
+      NecroAcademicien_sprite_2: 8609476976898304238
+      NecroAcademicien_sprite_20: 5178645735614973122
+      NecroAcademicien_sprite_21: 2984255772648177173
+      NecroAcademicien_sprite_22: 4526582067313140267
+      NecroAcademicien_sprite_23: -7369190181497021195
+      NecroAcademicien_sprite_24: -6402000740741945006
+      NecroAcademicien_sprite_25: -6976473913798197647
+      NecroAcademicien_sprite_3: 5789320973128170804
+      NecroAcademicien_sprite_4: -8363762438439155798
+      NecroAcademicien_sprite_5: 5759914204196428922
+      NecroAcademicien_sprite_6: 6768615548123355658
+      NecroAcademicien_sprite_7: 4139893550802873313
+      NecroAcademicien_sprite_8: 3792455330666593709
+      NecroAcademicien_sprite_9: 8677090110067881271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
