@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: ACQUIESCER_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 4841397563b88a3478e10ff325cda0ac, type: 3}
+  materials:
+  - {fileID: 2100000, guid: f80f10150903bcc42bd6d7092723a30d, type: 2}
+  - {fileID: 2100000, guid: e03c216494014474788ceb69d02f7221, type: 2}
+  - {fileID: 2100000, guid: 948e3808639ea0e4bb726e96bda18c1c, type: 2}
+  - {fileID: 2100000, guid: 58fd6d13e63dcb0418f199084ca2c007, type: 2}

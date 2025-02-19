@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: COURRIEL_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: c5a56c0ac33074e4489b3d8a1b25cad5, type: 3}
+  materials:
+  - {fileID: 2100000, guid: db23a7ec4b461924582d01eb2722d7b3, type: 2}
+  - {fileID: 2100000, guid: a88dc579e7d473e47b057cfc72fc2464, type: 2}
+  - {fileID: 2100000, guid: 4a88fb8b2e18d4d4b82307f08938e391, type: 2}
+  - {fileID: 2100000, guid: 2f2d3e802824ef644bade4d9df6987eb, type: 2}

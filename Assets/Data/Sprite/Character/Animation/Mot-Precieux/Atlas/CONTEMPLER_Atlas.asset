@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: CONTEMPLER_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 2d85c3ea8f1ca3e4da733fa1f1e1d936, type: 3}
+  materials:
+  - {fileID: 2100000, guid: ecf80f8fbdd69a64883bdebf606dbf19, type: 2}
+  - {fileID: 2100000, guid: 15db4ed8dbc21bd4cb2023e9e88830bb, type: 2}
+  - {fileID: 2100000, guid: ad0a37536be486e408cc14480b36ac28, type: 2}
+  - {fileID: 2100000, guid: 809b27a144e4f24449d6fbd5078283a1, type: 2}
