@@ -1,10 +1,11 @@
 using System;
+using Script.FightingPlan;
 using Script.Words;
 using Unity.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DropWord : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class DropWord : MonoBehaviour
 {
     #region Variables
 
@@ -13,29 +14,29 @@ public class DropWord : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [ReadOnly] public bool isOccupied;
     
     private WordManager wordManager;
+    private FightingLane fightingLane;
     
     #endregion
     
     private void Awake()
     {
         wordManager = GameObject.Find("BookPanel").GetComponent<WordManager>();
+        fightingLane = GetComponent<FightingLane>();
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
+    public void OnMouseEnter()
     {
         if (wordManager.draggedWord != null)
         {
-            Debug.Log(wordManager.draggedWord.name);
             hoverElement = wordManager.draggedWord;
             hoverElement.GetComponent<WordTemplate>().OnWordDrop += OnDrop;
         }
     }
 
-    public void OnPointerExit(PointerEventData eventData)
+    public void OnMouseExit()
     {
         if (wordManager.draggedWord != null)
         {
-            Debug.Log(wordManager.draggedWord.name);
             hoverElement.GetComponent<WordTemplate>().OnWordDrop -= OnDrop;
             hoverElement = null;
         }
@@ -43,10 +44,11 @@ public class DropWord : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     private void OnDrop()
     {
-        if (hoverElement != null && !isOccupied)
+        if (hoverElement != null && fightingLane.CanSpawnPrecious)
         {
             droppedElement = hoverElement;
             isOccupied = true;
+            fightingLane.Spawn(droppedElement.GetComponent<WordTemplate>().wordData, null);
             hoverElement.GetComponent<WordTemplate>().OnWordDrop -= OnDrop;
             hoverElement = null;
         }

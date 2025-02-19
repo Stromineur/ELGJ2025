@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c09ce859b707348b4e166c6ee94cdf, type: 3}
+  m_Name: "Oisivet\xE9_SO"
+  m_EditorClassIdentifier: 
+  wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
+  wordSprite: {fileID: 21300000, guid: f282ac450c957ae4d801da86a4ad1f6e, type: 3}
+  wordName: "Oisivet\xE9"
+  wordDescription: "Nom f\xE9minin. Inaction plus ou moins habituelle ou durable."
+  wordEffect: "Ralentit un court instant le mot-vais usage touch\xE9."
+  writingTime: 150
+  exhumingTime: 150
+  speed: 80
+  baseDamage: 50
+  strongAgainst:
+  - {fileID: 11400000, guid: 40fc3d9051ff4644c952884ced6d00bc, type: 2}
+  prefab: {fileID: 1292584020678159825, guid: 5728b69fe2a05bd4c8947646e008f04d, type: 3}

@@ -11,10 +11,12 @@ using Image = UnityEngine.UI.Image;
 public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     #region Variables
+    [ReadOnly] public event Action OnWordDrag;
     [ReadOnly] public event Action OnWordDrop;
     
     private WordManager wordManager;
     [ReadOnly] public WordData wordData;
+    [ReadOnly] public TextMeshProUGUI wordText;
     
     [ReadOnly] public GameObject lockImage;
     [ReadOnly] public bool isWritten;
@@ -30,7 +32,13 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         wordManager = GetComponentInParent<WordManager>();
         spawnPoint = wordManager.dragableSpawnPoint;
-        lockImage = transform.GetChild(1).gameObject;
+        lockImage = transform.GetChild(0).gameObject;
+        wordText = GetComponentInChildren<TextMeshProUGUI>();
+    }
+
+    private void Start()
+    {
+        wordText.text = wordData.wordName;
     }
 
     private void Update()
@@ -69,6 +77,7 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         isDragging = true;
         wordDraggableObject.SetActive(true);
         wordManager.draggedWord = gameObject;
+        OnWordDrag?.Invoke();
     }
     
     private void StopDragAndDrop()
@@ -83,7 +92,8 @@ public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         wordDraggableObject = Instantiate(wordData.wordPrefab, Vector3.zero, Quaternion.identity, spawnPoint);
         wordDraggableObject.GetComponent<RectTransform>().position = GetComponent<RectTransform>().position;
-        wordDraggableObject.GetComponentInChildren<Image>().sprite = wordData.wordSprite;
+        //wordDraggableObject.GetComponentInChildren<Image>().sprite = wordData.wordSprite;
+        wordDraggableObject.GetComponentInChildren<TextMeshProUGUI>().text = wordData.wordName;
         wordDraggableObject.SetActive(false);
         isInScene = true;
     }

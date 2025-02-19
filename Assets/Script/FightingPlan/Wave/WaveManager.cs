@@ -6,17 +6,21 @@ namespace Script.FightingPlan.Wave
 {
     public class WaveManager : MonoBehaviour
     {
+        public WaveController CurrentWave => _waveControllers[^1];
+        
         [SerializeField] private FightingLane[] fightingLanes;
         [SerializeField] private WaveData[] waves;
         private int _currentWave;
         private int _currentWaveStep;
         private List<WaveController> _waveControllers = new();
 
+#if ENABLE_RUNTIME_GI
         [Button]
         public void StartGame()
         {
             StartNextWave();
         }
+#endif
         
         private void StartNextWave()
         {
@@ -43,6 +47,26 @@ namespace Script.FightingPlan.Wave
         public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent)
         {
             return fightingLanes[Random.Range(0, 5)].Spawn(badWordData, parent);
+        }
+
+        public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent, int fightingLane)
+        {
+            return SpawnEnemy(badWordData, parent, fightingLanes[fightingLane]);
+        }
+
+        public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent, int fightingLane, Vector2 position)
+        {
+            return SpawnEnemy(badWordData, parent, fightingLanes[fightingLane], position);
+        }
+
+        public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent, FightingLane fightingLane)
+        {
+            return fightingLane.Spawn(badWordData, parent);
+        }
+
+        public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent, FightingLane fightingLane, Vector2 position)
+        {
+            return fightingLane.Spawn(badWordData, parent, position);
         }
         
         public void EndWave()

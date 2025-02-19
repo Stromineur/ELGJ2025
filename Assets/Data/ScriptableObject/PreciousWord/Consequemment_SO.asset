@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c09ce859b707348b4e166c6ee94cdf, type: 3}
+  m_Name: Consequemment_SO
+  m_EditorClassIdentifier: 
+  wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
+  wordSprite: {fileID: 21300000, guid: 2b8da158f19a4b446a414d0261c1e7b4, type: 3}
+  wordName: "Cons\xE9quemment"
+  wordDescription: "Adverbe. Par une suite naturelle et logique ; en cons\xE9quence."
+  wordEffect: "Lorsqu'il meurt face \xE0 un \"Du coup\", invoque un autre \"Cons\xE9quemment\"."
+  writingTime: 100
+  exhumingTime: 150
+  speed: 120
+  baseDamage: 100
+  strongAgainst:
+  - {fileID: 11400000, guid: 556c931b4fcec87499e32b83cd087927, type: 2}
+  prefab: {fileID: 1292584020678159825, guid: 94290ac172b37aa4d822aa0c9940ca7b, type: 3}

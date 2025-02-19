@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
     
     public void StartGame()
     {
-        SceneManager.LoadScene("Scene_Quentin");
+        SceneManager.LoadScene("Main_Scene");
     }
 
     public void QuitGame()
