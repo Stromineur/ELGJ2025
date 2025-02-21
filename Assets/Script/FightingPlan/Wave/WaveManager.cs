@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using DG.Tweening;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -8,6 +9,8 @@ namespace Script.FightingPlan.Wave
 {
     public class WaveManager : MonoBehaviour
     {
+        public event Action<int> OnWaveStarts;
+        
         public WaveController CurrentWave => _waveControllers[^1];
         
         [SerializeField] private FightingLane[] fightingLanes;
@@ -16,9 +19,13 @@ namespace Script.FightingPlan.Wave
         private int _currentWaveStep;
         private List<WaveController> _waveControllers = new();
 
-        private void Start()
+        public float Timer { get; private set; } = 3f;
+
+        public void StartTimer()
         {
-            Invoke(nameof(StartGame), 5f);
+            DOTween.To(() => Timer, x => Timer = x, 0, Timer)
+                .SetEase(Ease.Linear)
+                .OnComplete(StartGame);
         }
 
 #if ENABLE_RUNTIME_GI
@@ -49,6 +56,8 @@ namespace Script.FightingPlan.Wave
             waveController.StartWave();
 
             _currentWave++;
+            
+            OnWaveStarts?.Invoke(_currentWave);
         }
 
         public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent)

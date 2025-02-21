@@ -29,6 +29,8 @@ namespace Script.FightingPlan
 
         private bool _isDead;
 
+        private float attackCd;
+
         public void Init(IFightingData fightingData, FightingLane fightingLane, bool exhuming = true)
         {
             _speed = fightingData.Speed;
@@ -50,9 +52,14 @@ namespace Script.FightingPlan
 
         protected virtual void Update()
         {
+            attackCd -= Time.deltaTime;
             ShouldMove = !IsEnemyHere(out RaycastHit2D hit);
             if (!ShouldMove)
             {
+                if(attackCd > 0)
+                    return;
+
+                attackCd = 1f;
                 LastEnemySeen = hit.transform.GetComponent<FightingWord>();
                 OnAttack?.Invoke();
                 Invoke("Fight", 0.3f);
