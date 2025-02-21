@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Script.Words;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 namespace Script.FightingPlan
@@ -24,6 +25,7 @@ namespace Script.FightingPlan
         [SerializeField] private Transform enemyPosition;
         [SerializeField] private FightingLane previousLane;
         [SerializeField] private FightingLane nextLane;
+        [SerializeField] private Image exhumingBar;
         
         public List<BadWord> BadWords { get; private set; } = new();
         public List<PreciousWord> PreciousWords { get; private set; } = new();
@@ -140,6 +142,11 @@ namespace Script.FightingPlan
                 BadWords.Remove(badWord);
             else if(word is PreciousWord preciousWord)
                 PreciousWords.Remove(preciousWord);
+        }
+
+        public void UpdateExhumingBar(float currentValue, float maxValue)
+        {
+            exhumingBar.fillAmount = currentValue / maxValue;
         }
     }
 }

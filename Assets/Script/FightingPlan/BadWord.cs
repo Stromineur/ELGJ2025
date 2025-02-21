@@ -1,3 +1,4 @@
+using DG.Tweening;
 using Script.Words;
 using UnityEngine;
 
@@ -10,6 +11,7 @@ namespace Script.FightingPlan
         
         private BadWordData _badWordData;
         private float hp;
+        Vector3 localScale;
 
         protected override void InternalInit(IFightingData fightingData, bool exhuming)
         {
@@ -22,6 +24,8 @@ namespace Script.FightingPlan
             _speed = -fightingData.Speed;
             
             ShouldMove = true;
+
+            localScale = transform.localScale;
         }
 
         protected override void InternalDamage(FightingWord initiator, float dmg)
@@ -31,6 +35,12 @@ namespace Script.FightingPlan
             if (hp <= 0)
             {
                 Die(initiator);
+            }
+            else
+            {
+                DOTween.Sequence()
+                    .Append(transform.DOScale(localScale * 0.6f, 0.15f))
+                    .Append(transform.DOScale(localScale, 0.15f));
             }
         }
 

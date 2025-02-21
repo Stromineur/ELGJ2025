@@ -10,6 +10,7 @@ namespace Script.FightingPlan.Wave
     public class WaveManager : MonoBehaviour
     {
         public event Action<int> OnWaveStarts;
+        public event Action OnWin;
         
         public WaveController CurrentWave => _waveControllers[^1];
         
@@ -92,7 +93,7 @@ namespace Script.FightingPlan.Wave
         
         public void EndGame()
         {
-            Debug.Log("Fin de partie");
+            OnWin?.Invoke();
         }
     }
 }

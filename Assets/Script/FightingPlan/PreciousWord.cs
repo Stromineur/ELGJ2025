@@ -17,6 +17,7 @@ namespace Script.FightingPlan
         private WordData _wordData;
         public bool IsInitialized { get; private set; }
 
+        private float _maxExhumingTime;
         private float _remainingExhumingTime;
 
         protected override void InternalInit(IFightingData fightingData, bool exhuming = true)
@@ -33,6 +34,7 @@ namespace Script.FightingPlan
             if(exhuming)
             {
                 _remainingExhumingTime = _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier;
+                _maxExhumingTime = _remainingExhumingTime;
                 Vector3 currentScale = transform.localScale;
                 transform.localScale = Vector3.zero;
                 transform.DOScale(currentScale, _wordData.ExhumingTime * GameController.GameMetrics.ExhumingMultiplier);
@@ -48,6 +50,7 @@ namespace Script.FightingPlan
             if (!IsInitialized)
             {
                 _remainingExhumingTime -= Time.deltaTime;
+                FightingLane.UpdateExhumingBar(_maxExhumingTime - _remainingExhumingTime, _maxExhumingTime);
 
                 if (_remainingExhumingTime <= 0)
                 {
