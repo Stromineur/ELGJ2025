@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace Script.FightingPlan.WordBehaviour
 {
     public class ConsequementSpawner : WordSpawner
@@ -9,7 +11,6 @@ namespace Script.FightingPlan.WordBehaviour
                 if(!badWord.BadWordData.name.Contains("Ducoup"))
                     return;
             }
-            
             base.OnDeath(killed, killer);
         }
     }

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4310813756904912365}
-  - component: {fileID: 1550883412265045259}
+  - component: {fileID: 2563539131648603485}
   m_Layer: 6
   m_Name: WordSPawner
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2004379358462477691}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1550883412265045259
+--- !u!114 &2563539131648603485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1380042136595786053}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef2e82790c24475469226a03b29ff46f, type: 3}
+  m_Script: {fileID: 11500000, guid: a0eb4a0377257c3488ae9e5be7b087c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   preciousWord: 1
@@ -65,6 +65,7 @@ GameObject:
   - component: {fileID: 2480060634884433965}
   - component: {fileID: -243819152125820279}
   - component: {fileID: 37387691360441909}
+  - component: {fileID: 9098550794145490770}
   m_Layer: 6
   m_Name: Consequemment
   m_TagString: Untagged
@@ -255,3 +256,11 @@ MonoBehaviour:
   currentAnimation: 
   Idle: {fileID: 11400000, guid: dcc9cc57c3516bb4d972bf2069f511a5, type: 2}
   Attack: {fileID: 11400000, guid: 1b1b4ba37753be94bb4363a33c33f5d3, type: 2}
+--- !u!33 &9098550794145490770
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3236851702871644012}
+  m_Mesh: {fileID: 0}
