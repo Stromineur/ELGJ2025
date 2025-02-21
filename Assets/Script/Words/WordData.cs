@@ -8,7 +8,6 @@ namespace Script.Words
     public class WordData : ScriptableObject, IFightingData
     {
         public GameObject wordPrefab;
-        public Sprite wordSprite;
         
         public string wordName;
         public string wordDescription;
