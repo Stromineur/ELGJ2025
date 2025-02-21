@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 7c4aae2e2bec41943a1f3f15ed0ee61c
+guid: 9f2fe3a64469bdd43be90d660f486ce6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 791556260891950957
-    second: Slide4_0
+      213: 6340168617686012274
+    second: UI_Bouton_0
+  - first:
+      213: -3700134528075808701
+    second: UI_Bouton_1
+  - first:
+      213: -2288327057918029989
+    second: UI_Bouton_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slide4_0
+      name: UI_Bouton_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 945
-        height: 532
+        x: 23
+        y: 1
+        width: 207
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6f7336b93c2cfa00800000000000000
-      internalID: 791556260891950957
+      spriteID: 271114124cdccf750800000000000000
+      internalID: 6340168617686012274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bouton_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 122
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34042e8304b76acc0800000000000000
+      internalID: -3700134528075808701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bouton_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 11
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f81e63aaa3e30e0800000000000000
+      internalID: -2288327057918029989
       vertices: []
       indices: 
       edges: []
@@ -134,8 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Slide4_0: 791556260891950957
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7c4aae2e2bec41943a1f3f15ed0ee61c
+guid: 30a1efb68cab00a49918e9f3375d9560
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 791556260891950957
-    second: Slide4_0
+      213: 3794963242456595219
+    second: UI_Bouton_Plume_WIP_0
+  - first:
+      213: 7421463198694512852
+    second: UI_Bouton_Plume_WIP_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slide4_0
+      name: UI_Bouton_Plume_WIP_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 945
-        height: 532
+        x: 7
+        y: 3
+        width: 273
+        height: 293
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6f7336b93c2cfa00800000000000000
-      internalID: 791556260891950957
+      spriteID: 31b3a4266fa6aa430800000000000000
+      internalID: 3794963242456595219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bouton_Plume_WIP_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 283
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d812d765755ef660800000000000000
+      internalID: 7421463198694512852
       vertices: []
       indices: 
       edges: []
@@ -134,8 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Slide4_0: 791556260891950957
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
