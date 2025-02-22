@@ -77,8 +77,13 @@ namespace Script.FightingPlan
 
         private bool IsEnemyHere(out RaycastHit2D enemy)
         {
-            enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), Mathf.Sign(Speed) + Speed * GameController.GameMetrics.SpeedMultiplier * Time.deltaTime, EnemyMask);
+            enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), GetRaycastDistance(), EnemyMask);
             return enemy;
+        }
+
+        protected virtual float GetRaycastDistance()
+        {
+            return Mathf.Sign(Speed) + Speed * GameController.GameMetrics.SpeedMultiplier * Time.deltaTime;
         }
 
         protected virtual void Fight()

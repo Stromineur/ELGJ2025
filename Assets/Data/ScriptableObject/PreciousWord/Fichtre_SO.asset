@@ -16,7 +16,7 @@ MonoBehaviour:
   wordName: Fichtre
   wordDescription: "Interjection. Exprime l\u2019\xE9tonnement ou la contrari\xE9t\xE9."
   wordEffect: Aucun effet
-  writingTime: 25
+  writingTime: 10
   exhumingTime: 100
   speed: 100
   baseDamage: 100

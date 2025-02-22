@@ -45,7 +45,10 @@ public class WordManager : MonoBehaviour
         
         for (int i = 0; i < wordsGameObjects.Count; i++)
         {
-            wordsGameObjects[i].GetComponent<WordTemplate>().wordData = wordsData[i%wordsData.Count];
+            WordData wordData = wordsData[i%wordsData.Count];
+            wordsGameObjects[i].GetComponent<WordTemplate>().wordData = wordData;
+            if(wordData.wordName.Contains("Fichtre"))
+                ClickOnWord(wordsGameObjects[i]);
         }
     }
 

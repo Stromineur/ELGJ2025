@@ -61,6 +61,11 @@ namespace Script.FightingPlan
                 base.Update();
         }
 
+        protected override float GetRaycastDistance()
+        {
+            return base.GetRaycastDistance() * 1.7f;
+        }
+
         public void AddExhumingTime(float time)
         {
             _remainingExhumingTime += time;
