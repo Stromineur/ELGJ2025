@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Moula_SO
   m_EditorClassIdentifier: 
   prefab: {fileID: 99244960053477300, guid: 936c95128ca86564382d883e9e229a38, type: 3}
-  speed: 80
+  speed: 70
   hp: 300
   damage: 100

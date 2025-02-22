@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31755a3f32be37f47a5f09a7b2e777e2, type: 3}
   m_Name: GameMetrics
   m_EditorClassIdentifier: 
-  exhumingMultiplier: 0.01
-  writingMultiplier: 0.01
-  speedMultiplier: 0.005
+  exhumingMultiplier: 0.03
+  writingMultiplier: 0.1
+  speedMultiplier: 0.002

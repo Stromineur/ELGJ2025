@@ -20,5 +20,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 791d442ac32a7664ea10bf757b612dd7, type: 2}
   - {fileID: 11400000, guid: 6825ccf0082b0b04fa24a1b73c4d5857, type: 2}
   nbPattern: 6
-  delayBetweenMultiplier: 0.01
-  delayAfterMultiplier: 0.01
+  delayBetweenMultiplier: 0.04
+  delayAfterMultiplier: 0.04

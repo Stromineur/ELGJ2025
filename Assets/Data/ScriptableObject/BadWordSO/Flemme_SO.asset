@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Flemme_SO
   m_EditorClassIdentifier: 
   prefab: {fileID: 99244960053477300, guid: 0d15ba4941418874b89acc0d8f5d3bc8, type: 3}
-  speed: 50
+  speed: 40
   hp: 500
   damage: 200

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Quoicoubeh_So
   m_EditorClassIdentifier: 
   prefab: {fileID: 99244960053477300, guid: b59f414f89002f049b68f844b4737e46, type: 3}
-  speed: 30
+  speed: 20
   hp: 2000
   damage: 500
