@@ -29,13 +29,11 @@ namespace Script.FightingPlan.Wave
                 .OnComplete(StartGame);
         }
 
-#if ENABLE_RUNTIME_GI
         [Button]
         public void StartGame()
         {
             StartNextWave();
         }
-#endif
         
         private void StartNextWave()
         {

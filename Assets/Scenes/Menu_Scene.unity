@@ -4107,7 +4107,6 @@ MonoBehaviour:
   mainMenuPanel: {fileID: 1760386579}
   tutorialPanel: {fileID: 1912372778}
   tutolides:
-  - {fileID: 502360916}
   - {fileID: 1440694754}
   - {fileID: 1678671832}
   - {fileID: 1159114609}
