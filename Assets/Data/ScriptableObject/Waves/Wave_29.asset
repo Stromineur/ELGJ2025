@@ -25,10 +25,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6825ccf0082b0b04fa24a1b73c4d5857, type: 2}
   - {fileID: 11400000, guid: 23315f59be6d58b4a9b5e5ec055fb10e, type: 2}
   - {fileID: 11400000, guid: 239a58def793bed40bb253070d98bf1b, type: 2}
-  - {fileID: 11400000, guid: 7dda7e96163c7bb4a95be48458a16f4b, type: 2}
   - {fileID: 11400000, guid: 0e0863f5367e14b46b3c70df9127583e, type: 2}
   - {fileID: 11400000, guid: 0e0863f5367e14b46b3c70df9127583e, type: 2}
   - {fileID: 11400000, guid: 0e0863f5367e14b46b3c70df9127583e, type: 2}
-  nbPattern: 10
+  nbPattern: 12
   delayBetweenMultiplier: 0.04
   delayAfterMultiplier: 0.04

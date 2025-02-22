@@ -13,12 +13,30 @@ MonoBehaviour:
   m_Name: Wave_24
   m_EditorClassIdentifier: 
   wavePatterns:
-  - {fileID: 11400000, guid: 7dda7e96163c7bb4a95be48458a16f4b, type: 2}
-  - {fileID: 11400000, guid: 7dda7e96163c7bb4a95be48458a16f4b, type: 2}
   - {fileID: 11400000, guid: 78fc3e7e5e738634b8a530cd1c326e47, type: 2}
   - {fileID: 11400000, guid: 78fc3e7e5e738634b8a530cd1c326e47, type: 2}
   - {fileID: 11400000, guid: d6b5913c5bc143543ae065ca2212df92, type: 2}
+  - {fileID: 11400000, guid: d6b5913c5bc143543ae065ca2212df92, type: 2}
+  - {fileID: 11400000, guid: d8a501ff40980e341b0197e732533af5, type: 2}
+  - {fileID: 11400000, guid: d8a501ff40980e341b0197e732533af5, type: 2}
+  - {fileID: 11400000, guid: 791d442ac32a7664ea10bf757b612dd7, type: 2}
+  - {fileID: 11400000, guid: 791d442ac32a7664ea10bf757b612dd7, type: 2}
+  - {fileID: 11400000, guid: 344d256bf11a24f41a8473201400e691, type: 2}
+  - {fileID: 11400000, guid: 344d256bf11a24f41a8473201400e691, type: 2}
   - {fileID: 11400000, guid: 01b76568fdad50142afb83652f6a68c3, type: 2}
-  nbPattern: 6
+  - {fileID: 11400000, guid: 01b76568fdad50142afb83652f6a68c3, type: 2}
+  - {fileID: 11400000, guid: 080fd4c2bedb2c942af4c01a8f338dad, type: 2}
+  - {fileID: 11400000, guid: 080fd4c2bedb2c942af4c01a8f338dad, type: 2}
+  - {fileID: 11400000, guid: 1414f7ae067e7a24e9014b9002a2ffc0, type: 2}
+  - {fileID: 11400000, guid: 1414f7ae067e7a24e9014b9002a2ffc0, type: 2}
+  - {fileID: 11400000, guid: e465e55c1dd03274c914d0a1e02d379c, type: 2}
+  - {fileID: 11400000, guid: e465e55c1dd03274c914d0a1e02d379c, type: 2}
+  - {fileID: 11400000, guid: 6825ccf0082b0b04fa24a1b73c4d5857, type: 2}
+  - {fileID: 11400000, guid: 6825ccf0082b0b04fa24a1b73c4d5857, type: 2}
+  - {fileID: 11400000, guid: 23315f59be6d58b4a9b5e5ec055fb10e, type: 2}
+  - {fileID: 11400000, guid: 23315f59be6d58b4a9b5e5ec055fb10e, type: 2}
+  - {fileID: 11400000, guid: 239a58def793bed40bb253070d98bf1b, type: 2}
+  - {fileID: 11400000, guid: 239a58def793bed40bb253070d98bf1b, type: 2}
+  nbPattern: 8
   delayBetweenMultiplier: 0.04
   delayAfterMultiplier: 0.04
