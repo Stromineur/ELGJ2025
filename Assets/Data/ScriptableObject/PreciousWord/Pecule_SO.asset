@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c09ce859b707348b4e166c6ee94cdf, type: 3}
   m_Name: Pecule_SO
   m_EditorClassIdentifier: 
-  wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
-  wordSprite: {fileID: 21300000, guid: 2977cd83644b188488263dcb122137e2, type: 3}
+  wordPrefab: {fileID: 8552970184542299233, guid: c7464b0bc99137b4398391f8ca2f418b, type: 3}
   wordName: "P\xE9cule"
   wordDescription: "Nom masculin. Petite somme d\u2019argent \xE9conomis\xE9e peu
     \xE0 peu."
@@ -21,6 +20,7 @@ MonoBehaviour:
   writingTime: 300
   exhumingTime: 200
   speed: 70
+  hp: 0
   baseDamage: 75
   strongAgainst:
   - {fileID: 11400000, guid: fc63ac4b997e8dc45906b280de864e93, type: 2}

@@ -6,12 +6,11 @@ namespace NecroMotMicon.Script.FightingPlan.UI
     public class PlayerHpDisplay : MonoBehaviour
     {
         private TMP_Text hpText;
-        private PlayerArea _playerArea;
+        public PlayerArea _playerArea;
 
         private void Awake()
         {
             hpText = GetComponent<TMP_Text>();
-            _playerArea = GetComponentInParent<PlayerArea>();
             
             UpdateHpDisplay(_playerArea.Hp);
         }

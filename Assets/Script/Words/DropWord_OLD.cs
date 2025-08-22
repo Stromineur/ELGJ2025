@@ -4,39 +4,39 @@ using UnityEngine;
 
 namespace NecroMotMicon.Script.Words
 {
-    public class DropWord : MonoBehaviour
+    public class DropWord_OLD : MonoBehaviour
     {
         #region Variables
 
         [SerializeField, ReadOnly] private GameObject hoverElement;
-        [SerializeField, ReadOnly] public GameObject droppedElement;
-        [SerializeField, ReadOnly] public bool isOccupied;
+        [ReadOnly] public GameObject droppedElement;
+        [ReadOnly] public bool isOccupied;
     
-        private WordManager _wordManager;
+        private WordManager_OLD _wordManagerOld;
         private FightingLane fightingLane;
     
         #endregion
-        
+    
         private void Awake()
         {
-            _wordManager = GameObject.Find("WordZone").GetComponent<WordManager>();
+            _wordManagerOld = GameObject.Find("BookPanel").GetComponent<WordManager_OLD>();
             fightingLane = GetComponent<FightingLane>();
         }
 
         public void OnMouseEnter()
         {
-            if (_wordManager.draggedWord != null)
+            if (_wordManagerOld.draggedWord != null)
             {
-                hoverElement = _wordManager.draggedWord;
-                hoverElement.GetComponent<DragWord>().OnWordDrop += OnDrop;
+                hoverElement = _wordManagerOld.draggedWord;
+                hoverElement.GetComponent<WordTemplate_OLD>().OnWordDrop += OnDrop;
             }
         }
 
         public void OnMouseExit()
         {
-            if (_wordManager.draggedWord != null)
+            if (_wordManagerOld.draggedWord != null)
             {
-                hoverElement.GetComponent<DragWord>().OnWordDrop -= OnDrop;
+                hoverElement.GetComponent<WordTemplate_OLD>().OnWordDrop -= OnDrop;
                 hoverElement = null;
             }
         }
@@ -47,8 +47,8 @@ namespace NecroMotMicon.Script.Words
             {
                 droppedElement = hoverElement;
                 isOccupied = true;
-                fightingLane.Spawn(droppedElement.GetComponent<DragWord>().wordData, null);
-                hoverElement.GetComponent<DragWord>().OnWordDrop -= OnDrop;
+                fightingLane.Spawn(droppedElement.GetComponent<WordTemplate_OLD>().wordData, null);
+                hoverElement.GetComponent<WordTemplate_OLD>().OnWordDrop -= OnDrop;
                 hoverElement = null;
             }
         }

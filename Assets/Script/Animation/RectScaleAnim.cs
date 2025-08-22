@@ -3,7 +3,7 @@ using System.ComponentModel;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
-public class ScaleAnim : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class RectScaleAnim : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private float defaultSize;
     [SerializeField] private float scaledSize;

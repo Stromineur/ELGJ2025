@@ -6,13 +6,13 @@ using UnityEngine.EventSystems;
 
 namespace NecroMotMicon.Script.Words
 {
-    public class WordTemplate : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+    public class WordTemplate_OLD : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         #region Variables
         [ReadOnly] public event Action OnWordDrag;
         [ReadOnly] public event Action OnWordDrop;
     
-        private WordManager wordManager;
+        private WordManager_OLD _wordManagerOld;
         [ReadOnly] public WordData wordData;
         [ReadOnly] public TextMeshProUGUI wordText;
     
@@ -28,8 +28,8 @@ namespace NecroMotMicon.Script.Words
 
         private void Awake()
         {
-            wordManager = GetComponentInParent<WordManager>();
-            spawnPoint = wordManager.dragableSpawnPoint;
+            _wordManagerOld = GetComponentInParent<WordManager_OLD>();
+            spawnPoint = _wordManagerOld.dragableSpawnPoint;
             lockImage = transform.GetChild(0).gameObject;
             wordText = GetComponentInChildren<TextMeshProUGUI>();
         }
@@ -59,7 +59,7 @@ namespace NecroMotMicon.Script.Words
                 StartDragAndDrop();
             }
         
-            wordManager.ClickOnWord(gameObject);
+            _wordManagerOld.ClickOnWord(gameObject);
         }
 
         public void OnPointerUp(PointerEventData eventData)
@@ -74,7 +74,7 @@ namespace NecroMotMicon.Script.Words
         {
             isDragging = true;
             wordDraggableObject.SetActive(true);
-            wordManager.draggedWord = gameObject;
+            _wordManagerOld.draggedWord = gameObject;
             OnWordDrag?.Invoke();
         }
     
@@ -82,7 +82,7 @@ namespace NecroMotMicon.Script.Words
         {
             isDragging = false;
             wordDraggableObject.SetActive(false);
-            wordManager.draggedWord = null;
+            _wordManagerOld.draggedWord = null;
             OnWordDrop?.Invoke();
         }
 

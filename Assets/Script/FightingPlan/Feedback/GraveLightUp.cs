@@ -9,28 +9,34 @@ namespace NecroMotMicon.Script.FightingPlan.Feedback
     {
         [SerializeField] private FightingLane _fightingLane;
         private Light2D _light2D;
-        private DragNDropEvents dragNDropEvents;
+        //private DragNDropEvents_OLD _dragNDropEventsOld;
+        private DragNDropEvents _dragNDropEvents;
 
         private void Awake()
         {
             _light2D = GetComponentInChildren<Light2D>();
             _light2D.gameObject.SetActive(true);
             _light2D.enabled = false;
-            dragNDropEvents = ServiceLocator.Instance.DragNDropEvents;
+            _dragNDropEvents = ServiceLocator.Instance.DragNDropEvents;
+            //_dragWord = ServiceLocator.Instance.DragNDropEventsOld;
         }
 
         private void OnEnable()
         {
-            dragNDropEvents.OnWordDrag += OnDragStart;
-            dragNDropEvents.OnWordDrop += OnDragStop;
+            //_dragNDropEventsOld.OnWordDrag += OnDragStart;
+            _dragNDropEvents.OnWordStartDrag += OnDragStart;
+            //_dragNDropEventsOld.OnWordDrop += OnDragStop;
+            _dragNDropEvents.OnWordDrop += OnDragStop;
             _fightingLane.OnCanSpawn += OnCanSpawn;
             _fightingLane.OnCantSpawn += OnCantSpawn;
         }
 
         private void OnDisable()
         {
-            dragNDropEvents.OnWordDrag -= OnDragStart;
-            dragNDropEvents.OnWordDrop -= OnDragStop;
+            //_dragNDropEventsOld.OnWordDrag -= OnDragStart;
+            _dragNDropEvents.OnWordStartDrag -= OnDragStart;
+            //_dragNDropEventsOld.OnWordDrop -= OnDragStop;
+            _dragNDropEvents.OnWordDrop -= OnDragStop;
             _fightingLane.OnCanSpawn -= OnCanSpawn;
             _fightingLane.OnCantSpawn -= OnCantSpawn;
         }

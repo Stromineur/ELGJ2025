@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6c09ce859b707348b4e166c6ee94cdf, type: 3}
-  m_Name: Oisivete_SO
+  m_Name: "Comp\xE8re_SO"
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 8552970184542299233, guid: c7464b0bc99137b4398391f8ca2f418b, type: 3}
-  wordName: "Oisivet\xE9"
-  wordDescription: "Nom f\xE9minin. Inaction plus ou moins habituelle ou durable."
-  wordEffect: "Ralentit un court instant le mot-vais usage touch\xE9."
+  wordName: "Comp\xE8re"
+  wordDescription: "Blabla je suis un comp\xE8re"
+  wordEffect: "Fait appara\xEEtre un fichtre sur chaque lignes adjacentes"
   writingTime: 10
-  exhumingTime: 10
-  speed: 200
-  hp: 1
-  baseDamage: 50
+  exhumingTime: 100
+  speed: 400
+  hp: 0
+  baseDamage: 1
   strongAgainst:
-  - {fileID: 11400000, guid: 40fc3d9051ff4644c952884ced6d00bc, type: 2}
-  prefab: {fileID: 1292584020678159825, guid: 5728b69fe2a05bd4c8947646e008f04d, type: 3}
+  - {fileID: 0}
+  prefab: {fileID: 1292584020678159825, guid: 23a9624e3720e9b4dacde35b11b8385a, type: 3}

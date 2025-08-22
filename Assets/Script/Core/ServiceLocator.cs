@@ -17,16 +17,26 @@ namespace Script.Core
             }
         }
         
-        public WordManager WordManager
+        public WordManager_OLD WordManagerOld
         {
             get
             {
-                if (!_wordManager)
-                    _wordManager = FindFirstObjectByType<WordManager>();
-                return _wordManager;
+                if (!_wordManagerOld)
+                    _wordManagerOld = FindFirstObjectByType<WordManager_OLD>();
+                return _wordManagerOld;
             }
         }
         
+        public DragNDropEvents_OLD DragNDropEventsOld
+        {
+            get
+            {
+                if (!_dragNDropEventsOld)
+                    _dragNDropEventsOld = FindFirstObjectByType<DragNDropEvents_OLD>();
+                return _dragNDropEventsOld;
+            }
+        }
+
         public DragNDropEvents DragNDropEvents
         {
             get
@@ -36,9 +46,10 @@ namespace Script.Core
                 return _dragNDropEvents;
             }
         }
-
+        
         private WaveManager _waveManager;
-        private WordManager _wordManager;
+        private WordManager_OLD _wordManagerOld;
+        private DragNDropEvents_OLD _dragNDropEventsOld;
         private DragNDropEvents _dragNDropEvents;
     }
 }
