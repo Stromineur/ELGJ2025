@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Script.Words;
+using NecroMotMicon.Script.Words;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-namespace Script.FightingPlan
+namespace NecroMotMicon.Script.FightingPlan
 {
     public class FightingLane : MonoBehaviour
     {
@@ -18,15 +18,16 @@ namespace Script.FightingPlan
         public bool CanSpawnPrecious => _canSpawnPrecious &&
                                         (!lastPreciousWord || lastPreciousWord && lastPreciousWord.IsInitialized);
         public bool CanSpawnBad => _canSpawnBad;
-        public FightingLane PreviousLane => previousLane;
-        public FightingLane NextLane => nextLane;
+        public FightingLane LeftLane => leftLane;
+        public FightingLane RightLane => rightLane;
         
         [SerializeField] private Transform allyPosition;
         [SerializeField] private Transform enemyPosition;
-        [SerializeField] private FightingLane previousLane;
-        [SerializeField] private FightingLane nextLane;
+        [SerializeField] private FightingLane leftLane;
+        [SerializeField] private FightingLane rightLane;
         [SerializeField] private Image exhumingBar;
         
+        public List<FightingWord> FightingWords { get; private set; } = new();
         public List<BadWord> BadWords { get; private set; } = new();
         public List<PreciousWord> PreciousWords { get; private set; } = new();
 
@@ -52,20 +53,27 @@ namespace Script.FightingPlan
         public FightingWord Spawn(IFightingData fightingData, Transform parent, Vector2 position, bool exhuming = true)
         {
             bool ally = fightingData is WordData;
-            if (ally && !CanSpawnPrecious)
-                return null;
-            if (!ally && !CanSpawnBad)
-                return null;
             
-            FightingWord word = Instantiate(fightingData.Prefab, position, Quaternion.identity, parent ? parent : transform);
+            if (exhuming)
+            {
+                if (ally && !CanSpawnPrecious)
+                    return null;
+                if (!ally && !CanSpawnBad)
+                    return null;
+            }
+
+            position = new Vector3(position.x, Mathf.Clamp(position.y, allyPosition.position.y, enemyPosition.position.y));
+            Vector3 spawnPosition = new Vector3(ally ? allyPosition.position.x : enemyPosition.position.x, position.y);
+            
+            FightingWord word = Instantiate(fightingData.Prefab, spawnPosition, Quaternion.identity, parent ? parent : transform);
 
             if (word is BadWord badWord)
-                BadWords.Add(badWord);
+                AddBadWordToList(badWord);
             else if(word is PreciousWord preciousWord)
             {
                 OnSpawnPreciousWord?.Invoke();
                 lastPreciousWord = preciousWord;
-                PreciousWords.Add(preciousWord);
+                AddPreciousWordToList(preciousWord);
                 OnCantSpawn?.Invoke();
                 preciousWord.OnInitialized += OnPreciousWordInitialized;
             }
@@ -85,9 +93,9 @@ namespace Script.FightingPlan
         {
             killed.OnDeath -= OnWordDeath;
             if (killed is BadWord badWord)
-                BadWords.Remove(badWord);
+                RemoveBadWordFromList(badWord);
             else if(killed is PreciousWord preciousWord)
-                PreciousWords.Remove(preciousWord);
+                RemovePreciousWordFromList(preciousWord);
         }
 
         [Button]
@@ -104,15 +112,15 @@ namespace Script.FightingPlan
 
         public FightingLane GetAdjacentLane()
         {
-            if (!previousLane && nextLane)
-                return nextLane;
-            if (!nextLane && previousLane)
-                return nextLane;
-            if (previousLane && nextLane)
+            if (!leftLane && rightLane)
+                return rightLane;
+            if (!rightLane && leftLane)
+                return rightLane;
+            if (leftLane && rightLane)
             {
                 int rnd = Random.Range(0, 2);
 
-                return rnd == 0 ? nextLane : previousLane;
+                return rnd == 0 ? rightLane : leftLane;
             }
 
             return null;
@@ -131,17 +139,41 @@ namespace Script.FightingPlan
         public void AddWordToLane(FightingWord word)
         {
             if (word is BadWord badWord)
-                BadWords.Add(badWord);
+                AddBadWordToList(badWord);
             else if(word is PreciousWord preciousWord)
-                PreciousWords.Add(preciousWord);
+                AddPreciousWordToList(preciousWord);
         }
 
         public void RemoveWordFromLane(FightingWord word)
         {
             if (word is BadWord badWord)
-                BadWords.Remove(badWord);
+                RemoveBadWordFromList(badWord);
             else if(word is PreciousWord preciousWord)
-                PreciousWords.Remove(preciousWord);
+                RemovePreciousWordFromList(preciousWord);
+        }
+
+        private void AddBadWordToList(BadWord badWord)
+        {
+            BadWords.Add(badWord);
+            FightingWords.Add(badWord);
+        }
+
+        private void AddPreciousWordToList(PreciousWord preciousWord)
+        {
+            PreciousWords.Add(preciousWord);
+            FightingWords.Add(preciousWord);
+        }
+
+        private void RemoveBadWordFromList(BadWord badWord)
+        {
+            BadWords.Add(badWord);
+            FightingWords.Add(badWord);
+        }
+
+        private void RemovePreciousWordFromList(PreciousWord preciousWord)
+        {
+            PreciousWords.Add(preciousWord);
+            FightingWords.Add(preciousWord);
         }
 
         public void UpdateExhumingBar(float currentValue, float maxValue)

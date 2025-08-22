@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using UnityEngine;
 
-namespace Script.FightingPlan.Wave
+namespace NecroMotMicon.Script.FightingPlan.Wave
 {
     public class FinalPatternController : PatternController
     {

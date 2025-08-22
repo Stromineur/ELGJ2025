@@ -18,7 +18,8 @@ MonoBehaviour:
   wordEffect: Aucun effet
   writingTime: 10
   exhumingTime: 100
-  speed: 100
-  baseDamage: 100
+  speed: 400
+  hp: 0
+  baseDamage: 1
   strongAgainst: []
-  prefab: {fileID: 1292584020678159825, guid: 23a9624e3720e9b4dacde35b11b8385a, type: 3}
+  prefab: {fileID: 8816600529873821224, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}

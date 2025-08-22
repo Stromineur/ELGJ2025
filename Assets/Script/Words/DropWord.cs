@@ -1,56 +1,56 @@
-using System;
-using Script.FightingPlan;
-using Script.Words;
+using NecroMotMicon.Script.FightingPlan;
 using Unity.Collections;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class DropWord : MonoBehaviour
+namespace NecroMotMicon.Script.Words
 {
-    #region Variables
-
-    [SerializeField, ReadOnly] private GameObject hoverElement;
-    [ReadOnly] public GameObject droppedElement;
-    [ReadOnly] public bool isOccupied;
-    
-    private WordManager wordManager;
-    private FightingLane fightingLane;
-    
-    #endregion
-    
-    private void Awake()
+    public class DropWord : MonoBehaviour
     {
-        wordManager = GameObject.Find("BookPanel").GetComponent<WordManager>();
-        fightingLane = GetComponent<FightingLane>();
-    }
+        #region Variables
 
-    public void OnMouseEnter()
-    {
-        if (wordManager.draggedWord != null)
+        [SerializeField, ReadOnly] private GameObject hoverElement;
+        [ReadOnly] public GameObject droppedElement;
+        [ReadOnly] public bool isOccupied;
+    
+        private WordManager wordManager;
+        private FightingLane fightingLane;
+    
+        #endregion
+    
+        private void Awake()
         {
-            hoverElement = wordManager.draggedWord;
-            hoverElement.GetComponent<WordTemplate>().OnWordDrop += OnDrop;
+            wordManager = GameObject.Find("BookPanel").GetComponent<WordManager>();
+            fightingLane = GetComponent<FightingLane>();
         }
-    }
 
-    public void OnMouseExit()
-    {
-        if (wordManager.draggedWord != null)
+        public void OnMouseEnter()
         {
-            hoverElement.GetComponent<WordTemplate>().OnWordDrop -= OnDrop;
-            hoverElement = null;
+            if (wordManager.draggedWord != null)
+            {
+                hoverElement = wordManager.draggedWord;
+                hoverElement.GetComponent<WordTemplate>().OnWordDrop += OnDrop;
+            }
         }
-    }
 
-    private void OnDrop()
-    {
-        if (hoverElement != null && fightingLane.CanSpawnPrecious)
+        public void OnMouseExit()
         {
-            droppedElement = hoverElement;
-            isOccupied = true;
-            fightingLane.Spawn(droppedElement.GetComponent<WordTemplate>().wordData, null);
-            hoverElement.GetComponent<WordTemplate>().OnWordDrop -= OnDrop;
-            hoverElement = null;
+            if (wordManager.draggedWord != null)
+            {
+                hoverElement.GetComponent<WordTemplate>().OnWordDrop -= OnDrop;
+                hoverElement = null;
+            }
+        }
+
+        private void OnDrop()
+        {
+            if (hoverElement != null && fightingLane.CanSpawnPrecious)
+            {
+                droppedElement = hoverElement;
+                isOccupied = true;
+                fightingLane.Spawn(droppedElement.GetComponent<WordTemplate>().wordData, null);
+                hoverElement.GetComponent<WordTemplate>().OnWordDrop -= OnDrop;
+                hoverElement = null;
+            }
         }
     }
 }

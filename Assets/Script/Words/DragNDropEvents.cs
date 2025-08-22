@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Script.Words
+namespace NecroMotMicon.Script.Words
 {
     public class DragNDropEvents : MonoBehaviour
     {

@@ -1,8 +1,8 @@
-using Script.FightingPlan.Wave;
+using NecroMotMicon.Script.FightingPlan.Wave;
 using TMPro;
 using UnityEngine;
 
-namespace Script.FightingPlan.UI
+namespace NecroMotMicon.Script.FightingPlan.UI
 {
     public class WaveDisplay : MonoBehaviour
     {

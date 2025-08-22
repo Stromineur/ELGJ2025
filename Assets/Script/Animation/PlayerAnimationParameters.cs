@@ -1,4 +1,5 @@
 using LTX.ChanneledProperties;
+using LTX.ChanneledProperties.Priorities;
 using Spine;
 using Spine.Unity;
 using UnityEngine;

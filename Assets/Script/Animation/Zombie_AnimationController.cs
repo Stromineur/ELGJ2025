@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 using LTX.ChanneledProperties;
-using Script.FightingPlan;
+using LTX.ChanneledProperties.Priorities;
+using NecroMotMicon.Script.FightingPlan;
 using Sirenix.OdinInspector;
 using Spine;
 using Spine.Unity;
@@ -13,7 +14,7 @@ namespace Legendhair.Player.Animation
     {
         private SkeletonAnimation _skeletonAnimation;
 
-        private PrioritisedProperty<ZombieAnimationParameters> currentAnimationState;
+        private Priority<ZombieAnimationParameters> currentAnimationState;
         [SerializeField, ReadOnly] private string currentAnimation; // juste pour les logs
         
         [SerializeField] private ZombieAnimationParameters Idle;
@@ -30,7 +31,7 @@ namespace Legendhair.Player.Animation
             if (!_skeletonAnimation) 
                 return;
             
-            currentAnimationState = new PrioritisedProperty<ZombieAnimationParameters>(Idle);
+            currentAnimationState = new Priority<ZombieAnimationParameters>(Idle);
             currentAnimationState.AddOnValueChangeCallback(OnCurrentAnimationChanged);
         }
 

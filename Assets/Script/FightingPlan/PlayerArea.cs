@@ -2,7 +2,7 @@ using System;
 using Legendhair.Utilities;
 using UnityEngine;
 
-namespace Script.FightingPlan
+namespace NecroMotMicon.Script.FightingPlan
 {
     public class PlayerArea : MonoBehaviour
     {

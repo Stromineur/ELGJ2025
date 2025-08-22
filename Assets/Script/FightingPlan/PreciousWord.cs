@@ -1,16 +1,14 @@
 using System;
 using System.Linq;
 using DG.Tweening;
-using LTX.ChanneledProperties;
+using NecroMotMicon.Script.Words;
 using Script.Core;
-using Script.Words;
 using UnityEngine;
 
-namespace Script.FightingPlan
+namespace NecroMotMicon.Script.FightingPlan
 {
     public class PreciousWord : FightingWord
     {
-        public event Action OnInitialized;
         public WordData WordData => _wordData;
 
         [SerializeField] private float damage;
@@ -19,6 +17,8 @@ namespace Script.FightingPlan
 
         private float _maxExhumingTime;
         private float _remainingExhumingTime;
+
+        public override event Action OnInitialized;
 
         protected override void InternalInit(IFightingData fightingData, bool exhuming = true)
         {
@@ -41,6 +41,11 @@ namespace Script.FightingPlan
             }
             else
             {
+                _remainingExhumingTime = 0.5f;
+                _maxExhumingTime = _remainingExhumingTime;
+                Vector3 currentScale = transform.localScale;
+                transform.localScale = Vector3.zero;
+                transform.DOScale(currentScale, _maxExhumingTime - 0.1f);
                 OnInitialized?.Invoke();
             }
         }
@@ -75,6 +80,7 @@ namespace Script.FightingPlan
         {
             IsInitialized = true;
             ShouldMove = true;
+            localScale = transform.localScale;
             OnInitialized?.Invoke();
         }
 
@@ -84,21 +90,21 @@ namespace Script.FightingPlan
 
             float dmg = damage;
 
-            if (LastEnemySeen is BadWord badWord && _wordData.StrongAgainst.Contains(badWord.BadWordData))
-                dmg = 9999;
-            
-            LastEnemySeen.Damage(this, dmg);
-        }
+            if (LastEnemySeen is BadWord badWord)
+            {
+                if(_wordData.StrongAgainst.Contains(badWord.BadWordData))
+                    dmg *= 2;
 
-        protected override void InternalDamage(FightingWord initiator, float dmg)
-        {
-            Die(initiator);
+                badWord.Damage(this, dmg);
+                Damage(LastEnemySeen, badWord.BadWordData.Damage);
+            }
+
         }
 
         public override void EndAttack()
         {
             base.EndAttack();
-            Die(LastEnemySeen);
+            //Die(LastEnemySeen);
         }
 
         public override void ResetSlow()

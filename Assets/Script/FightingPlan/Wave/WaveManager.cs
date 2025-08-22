@@ -5,7 +5,7 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Script.FightingPlan.Wave
+namespace NecroMotMicon.Script.FightingPlan.Wave
 {
     public class WaveManager : MonoBehaviour
     {

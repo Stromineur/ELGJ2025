@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 using LTX.ChanneledProperties;
-using Script.FightingPlan;
+using LTX.ChanneledProperties.Priorities;
+using NecroMotMicon.Script.FightingPlan;
 using Sirenix.OdinInspector;
 using Spine;
 using Spine.Unity;
@@ -14,7 +15,7 @@ namespace Legendhair.Player.Animation
         private SkeletonAnimation _skeletonAnimation;
         [SerializeField] private List<FightingLane> fightingLanes;
 
-        private PrioritisedProperty<PlayerAnimationParameters> currentAnimationState;
+        private Priority<PlayerAnimationParameters> currentAnimationState;
         [SerializeField, ReadOnly] private string currentAnimation; // juste pour les logs
         
         [SerializeField] private PlayerAnimationParameters Idle;
@@ -32,7 +33,7 @@ namespace Legendhair.Player.Animation
             Attack = Resources.Load<PlayerAnimationParameters>("AnimationsParameters/Necromocien/Attack");
             */
             
-            currentAnimationState = new PrioritisedProperty<PlayerAnimationParameters>(Idle);
+            currentAnimationState = new Priority<PlayerAnimationParameters>(Idle);
             currentAnimationState.AddOnValueChangeCallback(OnCurrentAnimationChanged, true);
         }
 

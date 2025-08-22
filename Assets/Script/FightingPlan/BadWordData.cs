@@ -1,8 +1,7 @@
-using Script.Words;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Script.FightingPlan
+namespace NecroMotMicon.Script.FightingPlan
 {
     [CreateAssetMenu(fileName = "BadWordData", menuName = "Scriptable Objects/BadWordData")]
     public class BadWordData : ScriptableObject, IFightingData

@@ -1,130 +1,85 @@
 using System;
+using NecroMotMicon.Script.Words;
 using Script.Core;
-using Script.Words;
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
-namespace Script.FightingPlan.WordBehaviour
+namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 {
-    public class WordSpawner : MonoBehaviour
+    public class WordSpawner : WordBehaviour
     {
         [SerializeField] private bool preciousWord;
         [SerializeField, HideIf(nameof(preciousWord))] private BadWordData badWordToSpawn;
         [SerializeField, ShowIf(nameof(preciousWord))] private WordData preciousWordToSpawn;
-        [SerializeField] private SpawnRequirement spawnRequirement;
         [SerializeField] private SpawnPosition spawnPosition;
+        [SerializeField] private float relativeX;
+        [SerializeField] private LanePosition lanePosition;
         [SerializeField] private float odds = 100;
         [SerializeField] private float delay;
+        [SerializeField] private bool shouldDestroy;
 
-        private FightingWord _fightingWord;
         private Vector2 spawnPos;
-
-        private void Awake()
+        
+        protected override void Awake()
         {
-            _fightingWord = GetComponentInParent<FightingWord>();
-            transform.SetParent(null);
-        }
-
-        private void OnEnable()
-        {
-            switch (spawnRequirement)
-            {
-                case SpawnRequirement.None:
-                    break;
-                case SpawnRequirement.OnDeath:
-                    _fightingWord.OnDeath += OnDeath;
-                    break;
-                case SpawnRequirement.OnSpawn:
-                    _fightingWord.OnSpawn += OnSpawn;
-                    break;
-                case SpawnRequirement.OnHit:
-                    _fightingWord.OnHit += OnHit;
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException();
-            }
-        }
-
-        private void OnDisable()
-        {
-            switch (spawnRequirement)
-            {
-                case SpawnRequirement.None:
-                    break;
-                case SpawnRequirement.OnDeath:
-                    _fightingWord.OnDeath -= OnDeath;
-                    break;
-                case SpawnRequirement.OnSpawn:
-                    _fightingWord.OnSpawn -= OnSpawn;
-                    break;
-                case SpawnRequirement.OnHit:
-                    _fightingWord.OnHit -= OnHit;
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException();
-            }
-        }
-
-        protected virtual void OnDeath(FightingWord killed, FightingWord killer)
-        {
-            if (spawnPosition == SpawnPosition.CurrentPos && _fightingWord != null)
-                spawnPos = _fightingWord.transform.position;
+            base.Awake();
             
-            HandleDelay();
-        }
-
-        private void OnSpawn()
-        {
-            HandleDelay();
-        }
-
-        private void OnHit(float f, FightingWord word)
-        {
-            if (_fightingWord is BadWord badWord)
-            {
-                if (badWord.Hp >= f)
-                {
-                    HandleDelay();
-                }
-            }
+            transform.SetParent(null);
         }
 
         private void HandleDelay()
         {
+            if (spawnPosition == SpawnPosition.CurrentPos && fightingWord != null)
+            {
+                spawnPos = fightingWord.transform.position - new Vector3(0, relativeX);
+            }
+            
             if (odds >= Random.Range(0, 100))
             {
                 Invoke(nameof(SpawnWord), delay);
                 return;
             }
             
-            Destroy(gameObject);
+            if(shouldDestroy)
+                Destroy(gameObject);
         }
 
         private void SpawnWord()
         {
-            if (spawnPosition == SpawnPosition.CurrentPos && _fightingWord != null)
+            FightingLane lane = lanePosition switch
             {
-                spawnPos = _fightingWord.transform.position;
+                LanePosition.Current => fightingWord.FightingLane,
+                LanePosition.Left => fightingWord.FightingLane.LeftLane,
+                LanePosition.Right => fightingWord.FightingLane.RightLane,
+                _ => fightingWord.FightingLane
+            };
+            
+            if(lane != null)
+            {
+                if (!preciousWord)
+                {
+                    if (spawnPosition == SpawnPosition.Spawn)
+                        ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, lane);
+                    else
+                        ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, lane, spawnPos);
+                }
+                else if (fightingWord is PreciousWord)
+                {
+                    if (spawnPosition == SpawnPosition.Spawn)
+                        lane.Spawn(preciousWordToSpawn, null, false);
+                    else
+                        lane.Spawn(preciousWordToSpawn, null, spawnPos, false);
+                }
             }
             
-            if (!preciousWord)
-            {
-                if(spawnPosition == SpawnPosition.Spawn)
-                    ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, _fightingWord.FightingLane);
-                else 
-                    ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, _fightingWord.FightingLane, spawnPos);
-            }
-            else if(_fightingWord is PreciousWord word)
-            {
-                if (spawnPosition == SpawnPosition.Spawn)
-                    word.FightingLane.Spawn(preciousWordToSpawn, null, false);
-                else 
-                    word.FightingLane.Spawn(preciousWordToSpawn, null, spawnPos, false);
-            }
-            
-            Destroy(gameObject);
+            if(shouldDestroy)
+                Destroy(gameObject);
+        }
+
+        public override void Trigger()
+        {
+            HandleDelay();
         }
     }
 
@@ -141,5 +96,13 @@ namespace Script.FightingPlan.WordBehaviour
         None,
         Spawn,
         CurrentPos
+    }
+
+    public enum LanePosition
+    {
+        Current,
+        Left,
+        Right,
+        All
     }
 }

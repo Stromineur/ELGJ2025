@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Enigmatique_SO
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 3741764292725985125, guid: 6e285c6443e7cbd458a76ecf17f42184, type: 3}
-  wordSprite: {fileID: 21300000, guid: 3cb39f038b3bb484c8d59f9129bac861, type: 3}
   wordName: "\xC9nigmatique"
   wordDescription: "Adjectif. Qui est difficile \xE0 comprendre, \xE0 interpr\xE9ter."
   wordEffect: Change de colonne pour attaquer les mot-vais usages adjacents.
   writingTime: 200
   exhumingTime: 150
   speed: 100
-  baseDamage: 100
+  hp: 1000
+  baseDamage: 500
   strongAgainst:
   - {fileID: 11400000, guid: 0441dca58ec13b24fa78f39f33eb79c1, type: 2}
-  prefab: {fileID: 3794827818333711615, guid: 4b96a2ad7168fed41aa1237179ff8bd8, type: 3}
+  prefab: {fileID: 5383132351494375681, guid: 2ee41cb31b056e0448e5a2272272bf92, type: 3}

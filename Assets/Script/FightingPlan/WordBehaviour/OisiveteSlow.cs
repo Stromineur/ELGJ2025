@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
-namespace Script.FightingPlan.WordBehaviour
+namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 {
-    public class OisiveteSlow : MonoBehaviour
+    public class OisiveteSlow : WordBehaviour
     {
         [SerializeField] private float slowMultiplier = 0.5f;
         [SerializeField] private float slowDuration = 5f;
@@ -16,6 +15,11 @@ namespace Script.FightingPlan.WordBehaviour
             _preciousWord = GetComponentInParent<PreciousWord>();
         }
 
+        public override void Trigger()
+        {
+            
+        }
+
         private void Start()
         {
             transform.SetParent(null);
@@ -23,15 +27,15 @@ namespace Script.FightingPlan.WordBehaviour
 
         private void OnEnable()
         {
-            _preciousWord.OnDeath += StartSlow;
+            _preciousWord.OnHit += StartSlow;
         }
 
         private void OnDisable()
         {
-            _preciousWord.OnDeath -= StartSlow;
+            _preciousWord.OnHit -= StartSlow;
         }
 
-        private void StartSlow(FightingWord killed, FightingWord badWord)
+        private void StartSlow(float f, FightingWord badWord)
         {
             _badWord = badWord as BadWord;
             badWord.Slow(slowMultiplier);

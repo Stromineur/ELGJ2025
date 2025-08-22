@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace Script.FightingPlan.WordBehaviour
+namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 {
     public class PeculeEffect : MonoBehaviour
     {

@@ -1,4 +1,4 @@
-using LTX.ChanneledProperties;
+using LTX.ChanneledProperties.Priorities;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "ScriptableObjects/ZombieAnimationParameters", fileName = nameof(ZombieAnimationParameters))]

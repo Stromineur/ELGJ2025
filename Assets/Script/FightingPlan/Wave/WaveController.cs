@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Script.FightingPlan.Wave
+namespace NecroMotMicon.Script.FightingPlan.Wave
 {
     public class WaveController : MonoBehaviour
     {
@@ -39,8 +39,13 @@ namespace Script.FightingPlan.Wave
                 EndWave();
                 return;
             }
-            
-            PatternData patternData = _patternDatas[Random.Range(0, _patternDatas.Count)];
+
+            PatternData patternData = _waveData.PatternOrder switch
+            {
+                PatternOrder.Random => _patternDatas[Random.Range(0, _patternDatas.Count)],
+                PatternOrder.Order => _patternDatas[0],
+                _ => _patternDatas[0]
+            };
             _patternDatas.Remove(patternData);
 
             PatternController patternController = SpawnPattern();

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8671819414502535129}
   - component: {fileID: -7588842586099064382}
   - component: {fileID: -4014094161789415282}
+  - component: {fileID: 6132267113923654235}
   m_Layer: 6
   m_Name: Acquiescer
   m_TagString: Untagged
@@ -33,7 +34,8 @@ Transform:
   m_LocalPosition: {x: 1.7, y: -2.32, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 5751462168618698645}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7129809594611244789
@@ -98,6 +100,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   _speed: 0
+  hp: 0
   damage: 5
 --- !u!23 &8671819414502535129
 MeshRenderer:
@@ -203,3 +206,71 @@ MonoBehaviour:
   currentAnimation: 
   Idle: {fileID: 11400000, guid: dcc9cc57c3516bb4d972bf2069f511a5, type: 2}
   Attack: {fileID: 11400000, guid: 1b1b4ba37753be94bb4363a33c33f5d3, type: 2}
+--- !u!33 &6132267113923654235
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3236851702871644012}
+  m_Mesh: {fileID: 0}
+--- !u!1 &5269248257192391916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5751462168618698645}
+  - component: {fileID: 2844685921316613718}
+  - component: {fileID: 3379111209967233508}
+  m_Layer: 6
+  m_Name: Fury
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5751462168618698645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269248257192391916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2004379358462477691}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2844685921316613718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269248257192391916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6050c37709dcc643917a1347fc1456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectTrigger: {fileID: 3379111209967233508}
+  newSpeed: 800
+--- !u!114 &3379111209967233508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269248257192391916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65014307b5afd44cb728e748b87a947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pourcentThreshold: 75

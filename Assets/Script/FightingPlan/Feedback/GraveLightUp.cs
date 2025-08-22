@@ -1,10 +1,9 @@
-using System;
+using NecroMotMicon.Script.Words;
 using Script.Core;
-using Script.Words;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-namespace Script.FightingPlan.Feedback
+namespace NecroMotMicon.Script.FightingPlan.Feedback
 {
     public class GraveLightUp : MonoBehaviour
     {

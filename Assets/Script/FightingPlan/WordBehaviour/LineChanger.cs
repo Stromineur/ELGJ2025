@@ -1,8 +1,6 @@
-using System;
-using DG.Tweening;
 using UnityEngine;
 
-namespace Script.FightingPlan.WordBehaviour
+namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 {
     public class LineChanger : MonoBehaviour
     {

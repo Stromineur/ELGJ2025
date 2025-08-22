@@ -3,7 +3,7 @@ using System.Linq;
 using LTX.Singletons;
 using UnityEngine;
 
-namespace Script.FightingPlan
+namespace NecroMotMicon.Script.FightingPlan
 {
     public class LaneManager : MonoSingleton<LaneManager>
     {

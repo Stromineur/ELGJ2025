@@ -1,7 +1,7 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Script.FightingPlan.Wave
+namespace NecroMotMicon.Script.FightingPlan.Wave
 {
     [CreateAssetMenu(fileName = "PatternData", menuName = "Scriptable Objects/PatternData")]
     public class PatternData : ScriptableObject

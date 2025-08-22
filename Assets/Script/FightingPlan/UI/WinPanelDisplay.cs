@@ -1,9 +1,8 @@
-using System;
-using Script.FightingPlan.Wave;
+using NecroMotMicon.Script.FightingPlan.Wave;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Script.FightingPlan.UI
+namespace NecroMotMicon.Script.FightingPlan.UI
 {
     public class WinPanelDisplay : MonoBehaviour
     {

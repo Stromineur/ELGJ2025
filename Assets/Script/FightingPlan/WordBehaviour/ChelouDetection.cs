@@ -1,8 +1,7 @@
-using System;
 using Script.Core;
 using UnityEngine;
 
-namespace Script.FightingPlan.WordBehaviour
+namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 {
     [RequireComponent(typeof(LineChanger))]
     public class ChelouDetection : MonoBehaviour

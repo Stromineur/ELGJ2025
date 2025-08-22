@@ -1,6 +1,6 @@
 using LTX.Singletons;
-using Script.FightingPlan.Wave;
-using Script.Words;
+using NecroMotMicon.Script.FightingPlan.Wave;
+using NecroMotMicon.Script.Words;
 using UnityEngine;
 
 namespace Script.Core
