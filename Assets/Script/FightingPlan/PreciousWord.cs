@@ -9,6 +9,8 @@ namespace NecroMotMicon.Script.FightingPlan
 {
     public class PreciousWord : FightingWord
     {
+        [SerializeField] private BoxCollider2D _boxCollider2D;
+        
         public WordData WordData => _wordData;
 
         [SerializeField] private float damage;
@@ -20,16 +22,24 @@ namespace NecroMotMicon.Script.FightingPlan
 
         public override event Action OnInitialized;
 
+        private void Awake()
+        {
+            _boxCollider2D = GetComponent<BoxCollider2D>();
+            _boxCollider2D.enabled = false;
+        }
+
         protected override void InternalInit(IFightingData fightingData, bool exhuming = true)
         {
             _wordData = fightingData as WordData;
 
             if(_wordData == null)
                 return;
-            
+
+            if (exhuming && LaneManager.Instance.TryUseFreeExhuming())
+                exhuming = false;
             damage = _wordData.BaseDamage;
-            ShouldMove = !exhuming;
-            IsInitialized = !exhuming;
+            ShouldMove = false;
+            IsInitialized = false;
             
             if(exhuming)
             {
@@ -81,6 +91,7 @@ namespace NecroMotMicon.Script.FightingPlan
             IsInitialized = true;
             ShouldMove = true;
             localScale = transform.localScale;
+            _boxCollider2D.enabled = true;
             OnInitialized?.Invoke();
         }
 
@@ -92,13 +103,15 @@ namespace NecroMotMicon.Script.FightingPlan
 
             if (LastEnemySeen is BadWord badWord)
             {
-                if(_wordData.StrongAgainst.Contains(badWord.BadWordData))
+                bool strongAgainstEnemy = _wordData.StrongAgainst.Contains(badWord.BadWordData);
+                if(strongAgainstEnemy)
                     dmg *= 2;
 
                 badWord.Damage(this, dmg);
+                if(strongAgainstEnemy && badWord.Hp <= 0)
+                    LaneManager.Instance.AddFreeExhuming();
                 Damage(LastEnemySeen, badWord.BadWordData.Damage);
             }
-
         }
 
         public override void EndAttack()

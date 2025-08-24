@@ -19,7 +19,7 @@ MonoBehaviour:
   writingTime: 10
   exhumingTime: 100
   speed: 400
-  hp: 0
-  baseDamage: 1
+  hp: 300
+  baseDamage: 50
   strongAgainst: []
   prefab: {fileID: 8816600529873821224, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}

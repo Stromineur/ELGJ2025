@@ -8,6 +8,7 @@ namespace NecroMotMicon.Script.FightingPlan
     public class LaneManager : MonoSingleton<LaneManager>
     {
         public List<FightingLane> FightingLanes { get; private set; } = new();
+        private bool freeExhuming;
     
         protected override void Awake()
         {
@@ -28,6 +29,22 @@ namespace NecroMotMicon.Script.FightingPlan
                     }
                 }
             }
+        }
+
+        public void AddFreeExhuming()
+        {
+            freeExhuming = true;
+        }
+
+        public bool TryUseFreeExhuming()
+        {
+            if (freeExhuming)
+            {
+                freeExhuming = false;
+                return true;
+            }
+
+            return false;
         }
     }
 }
