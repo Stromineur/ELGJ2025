@@ -17,6 +17,7 @@ MonoBehaviour:
   wordDescription: "Interjection. Exprime l\u2019\xE9tonnement ou la contrari\xE9t\xE9."
   wordEffect: Aucun effet
   writingTime: 10
+  writingCost: 100
   exhumingTime: 100
   speed: 400
   hp: 0

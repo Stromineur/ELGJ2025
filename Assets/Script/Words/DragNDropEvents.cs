@@ -10,16 +10,16 @@ namespace NecroMotMicon.Script.Words
         public event Action OnWordStartDrag;
         public event Action OnWordDrop;
         
-        private List<DragWord> _draggableWord = new();
+        private List<BookWord> _draggableWord = new();
 
         private void Awake()
         {
-            _draggableWord = GetComponentsInChildren<DragWord>().ToList();
+            _draggableWord = GetComponentsInChildren<BookWord>().ToList();
         }
 
         private void OnEnable()
         {
-            foreach (DragWord dragWord in _draggableWord)
+            foreach (BookWord dragWord in _draggableWord)
             {
                 dragWord.OnWordStartDrag += StartDrag;
                 dragWord.OnWordDrop += StopDrag;
@@ -28,7 +28,7 @@ namespace NecroMotMicon.Script.Words
 
         private void OnDisable()
         {
-            foreach (DragWord dragWord in _draggableWord)
+            foreach (BookWord dragWord in _draggableWord)
             {
                 dragWord.OnWordStartDrag -= StartDrag;
                 dragWord.OnWordDrop -= StopDrag;

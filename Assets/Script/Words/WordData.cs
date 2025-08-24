@@ -14,6 +14,8 @@ namespace NecroMotMicon.Script.Words
         public string wordEffect;
         
         public float writingTime;
+        public int writingCost;
+        public int exhumingCost;
 
         #region Fighting
 

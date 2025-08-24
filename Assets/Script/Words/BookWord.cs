@@ -5,48 +5,51 @@ using UnityEngine;
 
 namespace NecroMotMicon.Script.Words
 {
-    public class DragWord : MonoBehaviour
+    public class BookWord : MonoBehaviour
     {
         #region Variables
         
         [ReadOnly] public event Action OnWordStartDrag;
         [ReadOnly] public event Action OnWordDrop;
     
+        [Header("Object references")]
         private WordManager _wordManager;
         public WordData wordData;
-        [ReadOnly] public TextMeshPro wordText;
-    
-        [ReadOnly] public GameObject lockImage;
+        public TextMeshPro wordText;
+        public GameObject lockImage;
+        public TextMeshPro writingPriceText; 
+        public TextMeshPro exhumingPriceText; 
+        
         public bool isWritten;
+        public bool canDrag;
     
         private bool isInScene;
         private bool isDragging;
         private Vector3 mousePosition;
         private GameObject wordDraggableObject;
-        private Transform spawnPoint;
 
         #endregion
         
         private void Awake()
         {
             _wordManager = GetComponentInParent<WordManager>();
-            spawnPoint = _wordManager.draggableSpawnPoint;
-            lockImage = transform.GetChild(0).gameObject;
-            wordText = GetComponentInChildren<TextMeshPro>();
         }
         
         private void Start()
         {
             wordText.text = wordData.wordName;
+            writingPriceText.text = wordData.writingCost.ToString();
+            exhumingPriceText.text = wordData.exhumingCost.ToString();
+            
         }
         private void OnMouseDown()
         {
-            if (isWritten && !isInScene)
+            if (canDrag && isWritten && !isInScene)
             {
                 InstanciateWord();
             }
 
-            if (isWritten && isInScene)
+            if (canDrag && isWritten && isInScene)
             {
                 StartDragAndDrop();
             }
@@ -66,7 +69,7 @@ namespace NecroMotMicon.Script.Words
 
         private void OnMouseUp()
         {
-            if (wordDraggableObject != null)
+            if (canDrag && wordDraggableObject != null)
             {
                 StopDragAndDrop();
             }
@@ -90,7 +93,7 @@ namespace NecroMotMicon.Script.Words
         
         private void InstanciateWord() // instancie le préfab variant (ne contenant ni ce script ni collider, pour éviter les conflits de OnMouseDrop) à l'emplacement du mot
         {
-            wordDraggableObject = Instantiate(wordData.wordPrefab, Vector3.zero, Quaternion.identity, spawnPoint);
+            wordDraggableObject = Instantiate(wordData.wordPrefab, Vector3.zero, Quaternion.identity);
             wordDraggableObject.GetComponent<Transform>().position = GetComponent<Transform>().position;
             wordDraggableObject.GetComponentInChildren<TextMeshPro>().text = wordData.wordName;
             wordDraggableObject.SetActive(false);
