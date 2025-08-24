@@ -46,9 +46,9 @@ namespace NecroMotMicon.Script.Words
         [Button(ButtonSizes.Large)]
         public void InterphaseStarted()
         {
+            isInterphase = true;
             foreach (BookWord word in wordsList)
             {
-                isInterphase = true;
                 word.canDrag = false;
             }
             Debug.Log("InterphaseStarted");
@@ -57,29 +57,42 @@ namespace NecroMotMicon.Script.Words
         [Button(ButtonSizes.Large)]
         public void InterphaseEnded()
         {
-            foreach (BookWord word in wordsList)
-            {
-                isInterphase = false;
-                word.canDrag = true;
-            }
+            isInterphase = false;
             Debug.Log("InterphaseEnded");
         }
         
+        // Se déclenche au moment où l'on clique sur un mot, gères notament la possibilité d'effectuer un dragNdrop
         public void ClickOnWord(GameObject word)
         {
             selectedWord = word.GetComponent<BookWord>();
 
-            if (isInterphase && !selectedWord.isWritten)
+            if (isInterphase)
             {
-                TryToBuy();
+                if (!selectedWord.isWritten)
+                {
+                    TryToBuy();
+                }
+                else
+                {
+                    Debug.Log(selectedWord.wordData.wordName + " is already written !");
+                }
             }
-            else if (isInterphase && selectedWord.isWritten)
+
+            if (!isInterphase)
             {
-                Debug.Log(selectedWord.wordData.wordName + " is already written !");
-            }
-            else if (!isInterphase && !selectedWord.isWritten)
-            {
-                Debug.Log("You can't buy outside of the interphase");
+                if (!selectedWord.isWritten)
+                {
+                    Debug.Log("You can't buy outside of the interphase");
+                }
+                else if (selectedWord.isWritten && selectedWord.wordData.exhumingCost > totalInk)
+                {
+                    selectedWord.canDrag = false;
+                    Debug.Log("You don't have enough ink");
+                }
+                else if (selectedWord.isWritten && selectedWord.wordData.exhumingCost <= totalInk)
+                {
+                    selectedWord.canDrag = true;
+                }
             }
         }
 
@@ -101,13 +114,19 @@ namespace NecroMotMicon.Script.Words
         {
             if (selectedWord != null)
             {
-                totalInk -= selectedWord.wordData.writingCost;
+                UpdateTotalInk(selectedWord.wordData.writingCost);
                 selectedWord.isWritten = true;
                 selectedWord.writingPriceText.gameObject.SetActive(false);
                 selectedWord.lockImage.SetActive(false);
-                inkText.text = totalInk.ToString();
                 Debug.Log(selectedWord.wordData.wordName + " unlocked !");
             }
+        }
+
+        //Est trigger lors de l'achat ou du drop d'un mot
+        public void UpdateTotalInk(int inkLoss)
+        {
+            totalInk -= inkLoss;
+            inkText.text = totalInk.ToString();
         }
 
     }

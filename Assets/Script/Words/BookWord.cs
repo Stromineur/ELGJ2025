@@ -13,7 +13,7 @@ namespace NecroMotMicon.Script.Words
         [ReadOnly] public event Action OnWordDrop;
     
         [Header("Object references")]
-        private WordManager _wordManager;
+        [HideInInspector] public WordManager _wordManager;
         public WordData wordData;
         public TextMeshPro wordText;
         public GameObject lockImage;
@@ -44,6 +44,8 @@ namespace NecroMotMicon.Script.Words
         }
         private void OnMouseDown()
         {
+            _wordManager.ClickOnWord(gameObject);
+            
             if (canDrag && isWritten && !isInScene)
             {
                 InstanciateWord();
@@ -54,7 +56,6 @@ namespace NecroMotMicon.Script.Words
                 StartDragAndDrop();
             }
         
-            _wordManager.ClickOnWord(gameObject);
         }
 
         private void OnMouseDrag()

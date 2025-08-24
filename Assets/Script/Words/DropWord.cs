@@ -49,8 +49,14 @@ namespace NecroMotMicon.Script.Words
                 isOccupied = true;
                 fightingLane.Spawn(droppedElement.GetComponent<BookWord>().wordData, null);
                 hoverElement.GetComponent<BookWord>().OnWordDrop -= OnDrop;
+                InkLoss(hoverElement.GetComponent<BookWord>());
                 hoverElement = null;
             }
+        }
+
+        private void InkLoss(BookWord bookWord)
+        {
+            bookWord._wordManager.UpdateTotalInk(bookWord.wordData.exhumingCost);
         }
     }
 }
