@@ -18,7 +18,7 @@ MonoBehaviour:
   wordEffect: "Fait appara\xEEtre un fichtre sur chaque lignes adjacentes"
   writingTime: 10
   writingCost: 100
-  exhumingCost: 10
+  exhumingCost: 0
   exhumingTime: 100
   speed: 100
   hp: 100
