@@ -28,7 +28,7 @@ namespace NecroMotMicon.Script.Words
             if (_wordManager.draggedWord != null)
             {
                 hoverElement = _wordManager.draggedWord;
-                hoverElement.GetComponent<DragWord>().OnWordDrop += OnDrop;
+                hoverElement.GetComponent<BookWord>().OnWordDrop += OnDrop;
             }
         }
 
@@ -36,7 +36,7 @@ namespace NecroMotMicon.Script.Words
         {
             if (_wordManager.draggedWord != null)
             {
-                hoverElement.GetComponent<DragWord>().OnWordDrop -= OnDrop;
+                hoverElement.GetComponent<BookWord>().OnWordDrop -= OnDrop;
                 hoverElement = null;
             }
         }
@@ -47,10 +47,16 @@ namespace NecroMotMicon.Script.Words
             {
                 droppedElement = hoverElement;
                 isOccupied = true;
-                fightingLane.Spawn(droppedElement.GetComponent<DragWord>().wordData, null);
-                hoverElement.GetComponent<DragWord>().OnWordDrop -= OnDrop;
+                fightingLane.Spawn(droppedElement.GetComponent<BookWord>().wordData, null);
+                hoverElement.GetComponent<BookWord>().OnWordDrop -= OnDrop;
+                InkLoss(hoverElement.GetComponent<BookWord>());
                 hoverElement = null;
             }
+        }
+
+        private void InkLoss(BookWord bookWord)
+        {
+            bookWord._wordManager.UpdateTotalInk(bookWord.wordData.exhumingCost);
         }
     }
 }

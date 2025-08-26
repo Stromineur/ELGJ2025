@@ -17,6 +17,8 @@ MonoBehaviour:
   wordDescription: "Blabla je suis un comp\xE8re"
   wordEffect: "Fait appara\xEEtre un fichtre sur chaque lignes adjacentes"
   writingTime: 10
+  writingCost: 100
+  exhumingCost: 10
   exhumingTime: 100
   speed: 400
   hp: 0
