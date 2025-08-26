@@ -15,7 +15,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         
         public WaveController CurrentWave => _waveControllers[^1];
         
-        [SerializeField] private FightingLane[] fightingLanes;
+        [SerializeField] public FightingLane[] fightingLanes;
         [SerializeField] private WaveData[] waves;
         private int _currentWave;
         private int _currentWaveStep;

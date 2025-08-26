@@ -24,7 +24,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 
         private void RemoveCurrentWritingTime(FightingWord fightingWord)
         {
-            ServiceLocator.Instance.WordManagerOld.EndCurrentWriting();
+            //ServiceLocator.Instance.WordManagerOld.EndCurrentWriting();
         }
     }
 }

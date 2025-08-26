@@ -1,4 +1,5 @@
 using NecroMotMicon.Script.FightingPlan;
+using Script.Core;
 using Unity.Collections;
 using UnityEngine;
 
@@ -19,7 +20,7 @@ namespace NecroMotMicon.Script.Words
         
         private void Awake()
         {
-            _wordManager = GameObject.Find("WordZone").GetComponent<WordManager>();
+            _wordManager = ServiceLocator.Instance.WordManager;
             fightingLane = GetComponent<FightingLane>();
         }
 
