@@ -19,7 +19,7 @@ MonoBehaviour:
     (AoE ronde portant sur les deux lignes adjacentes)"
   writingTime: 10
   writingCost: 100
-  exhumingCost: 10
+  exhumingCost: 0
   exhumingTime: 100
   speed: 200
   hp: 100

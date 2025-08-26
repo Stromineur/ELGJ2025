@@ -570,6 +570,14 @@ PrefabInstance:
       propertyPath: isWritten
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7540856549184013414, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -578,9 +586,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8941275698963462300, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
@@ -1451,7 +1456,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &281452234
 PrefabInstance:
@@ -1513,6 +1518,14 @@ PrefabInstance:
       propertyPath: isWritten
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7540856549184013414, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1521,9 +1534,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8941275698963462300, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
@@ -1950,12 +1960,24 @@ PrefabInstance:
       value: Parente
       objectReference: {fileID: 0}
     - target: {fileID: 3719963009696459963, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: canDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719963009696459963, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       propertyPath: wordData
       value: 
       objectReference: {fileID: 11400000, guid: 736ceb561dc41b44eaacf6e79fe46ac8, type: 2}
     - target: {fileID: 3719963009696459963, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       propertyPath: isWritten
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540856549184013414, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1965,9 +1987,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8941275698963462300, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
@@ -2606,7 +2625,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &626048912
 GameObject:
@@ -2743,6 +2762,14 @@ PrefabInstance:
       propertyPath: isWritten
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7540856549184013414, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2751,9 +2778,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8941275698963462300, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
@@ -3908,9 +3932,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5e094f1d88a5e4a8d7dd11ce37a711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordsList: []
   draggedWord: {fileID: 0}
-  draggableSpawnPoint: {fileID: 20402200}
   selectedWord: {fileID: 0}
+  totalInk: 0
+  isInterphase: 0
+  inkText: {fileID: 0}
+  buyPanel: {fileID: 0}
+  buyText: {fileID: 0}
 --- !u!4 &911082226 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1799730583379578555, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
@@ -5448,7 +5477,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5176471, g: 0.5568628, b: 0.6784314, a: 1}
   m_FlipX: 0
@@ -5640,6 +5669,14 @@ PrefabInstance:
       propertyPath: isWritten
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7540856549184013414, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5648,9 +5685,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8941275698963462300, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
@@ -6792,7 +6826,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.53333336, g: 0.9921569, b: 0.6117647, a: 1}
   m_FlipX: 0
@@ -6857,12 +6891,24 @@ PrefabInstance:
       value: Fichtre
       objectReference: {fileID: 0}
     - target: {fileID: 3719963009696459963, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: canDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719963009696459963, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       propertyPath: wordData
       value: 
       objectReference: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
     - target: {fileID: 3719963009696459963, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       propertyPath: isWritten
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540856549184013414, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6872,9 +6918,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8941275698963462300, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
@@ -7485,6 +7528,14 @@ PrefabInstance:
       propertyPath: isWritten
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7540856549184013414, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7493,9 +7544,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8941275698963462300, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8819376648394416743, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4494e307557dbd942a79653b3675a91c, type: 3}
