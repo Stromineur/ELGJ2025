@@ -25,7 +25,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
                 if (word.GetType() == fightingWord.GetType()) 
                     continue;
 
-                if (!(Mathf.Abs(word.transform.position.y - transform.position.y) < _range)) 
+                if (!(Mathf.Abs(word.transform.position.x - transform.position.x) < _range)) 
                     continue;
                 
                 word.Damage(fightingWord, _damage);

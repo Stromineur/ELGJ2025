@@ -117,18 +117,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3906604515250302450, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
-      propertyPath: m_Size.y
-      value: 17.233957
-      objectReference: {fileID: 0}
-    - target: {fileID: 3906604515250302450, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
-      propertyPath: m_Offset.x
-      value: 3.2822075
-      objectReference: {fileID: 0}
-    - target: {fileID: 3906604515250302450, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
-      propertyPath: m_Offset.y
-      value: 8.473956
-      objectReference: {fileID: 0}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Materials.Array.size
       value: 2

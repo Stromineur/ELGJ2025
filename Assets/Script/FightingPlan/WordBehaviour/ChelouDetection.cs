@@ -1,3 +1,4 @@
+using System;
 using Script.Core;
 using UnityEngine;
 
@@ -21,8 +22,8 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
         {
             if (_changeLineRemaining <= 0)
                 return;
-            
-            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), -1 + _badWord.Speed * GameController.GameMetrics.SpeedMultiplier * Time.deltaTime * 10, _badWord.EnemyMask);
+
+            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(1, 0), _badWord.GetRaycastDistance() * 1.5f, _badWord.EnemyMask);
 
             if (enemy)
             {

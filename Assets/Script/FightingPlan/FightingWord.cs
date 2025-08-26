@@ -50,10 +50,12 @@ namespace NecroMotMicon.Script.FightingPlan
         public void MoveLane(FightingLane fightingLane)
         {
             FightingLane.RemoveWordFromLane(this);
-            transform.DOMoveX(fightingLane.transform.position.x, 0.5f);
             FightingLane = fightingLane;
-            fightingLane.AddWordToLane(this);
+            transform.DOMoveY(GetLanePosition(fightingLane), 0.5f)
+                .OnComplete(() => fightingLane.AddWordToLane(this));
         }
+        
+        protected abstract float GetLanePosition(FightingLane fightingLane);
         
         protected abstract void InternalInit(IFightingData fightingData, bool exhuming = true);
 
@@ -79,16 +81,16 @@ namespace NecroMotMicon.Script.FightingPlan
 
         private void Move()
         {
-            transform.position = new Vector2(transform.position.x, transform.position.y + Speed * Time.deltaTime * GameController.GameMetrics.SpeedMultiplier);
+            transform.position = new Vector2(transform.position.x + Speed * Time.deltaTime * GameController.GameMetrics.SpeedMultiplier, transform.position.y);
         }
 
         private bool IsEnemyHere(out RaycastHit2D enemy)
         {
-            enemy = Physics2D.Raycast(transform.position, new Vector2(0, 1), GetRaycastDistance(), EnemyMask);
+            enemy = Physics2D.Raycast(transform.position, new Vector2(1, 0), GetRaycastDistance(), EnemyMask);
             return enemy;
         }
 
-        protected virtual float GetRaycastDistance()
+        public virtual float GetRaycastDistance()
         {
             return Mathf.Sign(Speed) + Speed * GameController.GameMetrics.SpeedMultiplier * Time.deltaTime;
         }

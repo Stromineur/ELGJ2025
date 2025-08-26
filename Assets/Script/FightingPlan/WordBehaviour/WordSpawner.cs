@@ -32,7 +32,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
         {
             if (spawnPosition == SpawnPosition.CurrentPos && fightingWord != null)
             {
-                spawnPos = fightingWord.transform.position - new Vector3(0, relativeX);
+                spawnPos = fightingWord.transform.position - new Vector3(relativeX, 0);
             }
             
             if (odds >= Random.Range(0, 100))
@@ -50,8 +50,8 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
             FightingLane lane = lanePosition switch
             {
                 LanePosition.Current => fightingWord.FightingLane,
-                LanePosition.Left => fightingWord.FightingLane.LeftLane,
-                LanePosition.Right => fightingWord.FightingLane.RightLane,
+                LanePosition.Top => fightingWord.FightingLane.TopLane,
+                LanePosition.Bottom => fightingWord.FightingLane.BottomLane,
                 _ => fightingWord.FightingLane
             };
             
@@ -101,8 +101,8 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
     public enum LanePosition
     {
         Current,
-        Left,
-        Right,
+        Top,
+        Bottom,
         All
     }
 }

@@ -41,7 +41,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
                 _closestEnemy = _distance;
             }
 
-            FightingLane previousLane = _preciousWord.FightingLane.LeftLane;
+            FightingLane previousLane = _preciousWord.FightingLane.TopLane;
             if (previousLane)
             {
                 foreach (BadWord badWord in previousLane.BadWords)
@@ -54,7 +54,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
                 }
             }
 
-            FightingLane nextLane = _preciousWord.FightingLane.RightLane;
+            FightingLane nextLane = _preciousWord.FightingLane.BottomLane;
             if (nextLane)
             {
                 foreach (BadWord badWord in nextLane.BadWords)
@@ -76,9 +76,9 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 
         private bool IsEnemyCloser(BadWord badWord)
         {
-            if (badWord && badWord.transform.position.y > transform.position.y)
+            if (badWord && badWord.transform.position.x > transform.position.x)
             {
-                _distance = badWord.transform.position.y - transform.position.y;
+                _distance = badWord.transform.position.x - transform.position.x;
                 if (_distance < _closestEnemy)
                 {
                     return true;

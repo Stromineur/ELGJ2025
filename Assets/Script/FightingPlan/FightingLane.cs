@@ -18,13 +18,15 @@ namespace NecroMotMicon.Script.FightingPlan
         public bool CanSpawnPrecious => _canSpawnPrecious &&
                                         (!lastPreciousWord || lastPreciousWord && lastPreciousWord.IsInitialized);
         public bool CanSpawnBad => _canSpawnBad;
-        public FightingLane LeftLane => leftLane;
-        public FightingLane RightLane => rightLane;
+        public Transform AllyPosition => allyPosition;
+        public Transform EnemyPosition => enemyPosition;
+        public FightingLane TopLane => topLane;
+        public FightingLane BottomLane => bottomLane;
         
         [SerializeField] private Transform allyPosition;
         [SerializeField] private Transform enemyPosition;
-        [SerializeField] private FightingLane leftLane;
-        [SerializeField] private FightingLane rightLane;
+        [SerializeField] private FightingLane topLane;
+        [SerializeField] private FightingLane bottomLane;
         [SerializeField] private Image exhumingBar;
         
         public List<FightingWord> FightingWords { get; private set; } = new();
@@ -63,7 +65,7 @@ namespace NecroMotMicon.Script.FightingPlan
             }
 
             position = new Vector3(position.x, Mathf.Clamp(position.y, allyPosition.position.y, enemyPosition.position.y));
-            Vector3 spawnPosition = new Vector3(ally ? allyPosition.position.x : enemyPosition.position.x, position.y);
+            Vector3 spawnPosition = new Vector3(position.x, ally ? allyPosition.position.y : enemyPosition.position.y);
             
             FightingWord word = Instantiate(fightingData.Prefab, spawnPosition, Quaternion.identity, parent ? parent : transform);
 
@@ -112,15 +114,15 @@ namespace NecroMotMicon.Script.FightingPlan
 
         public FightingLane GetAdjacentLane()
         {
-            if (!leftLane && rightLane)
-                return rightLane;
-            if (!rightLane && leftLane)
-                return rightLane;
-            if (leftLane && rightLane)
+            if (!topLane && bottomLane)
+                return bottomLane;
+            if (!bottomLane && topLane)
+                return topLane;
+            if (topLane && bottomLane)
             {
                 int rnd = Random.Range(0, 2);
 
-                return rnd == 0 ? rightLane : leftLane;
+                return rnd == 0 ? bottomLane : topLane;
             }
 
             return null;
@@ -166,8 +168,8 @@ namespace NecroMotMicon.Script.FightingPlan
 
         private void RemoveBadWordFromList(BadWord badWord)
         {
-            BadWords.Add(badWord);
-            FightingWords.Add(badWord);
+            BadWords.Remove(badWord);
+            FightingWords.Remove(badWord);
         }
 
         private void RemovePreciousWordFromList(PreciousWord preciousWord)

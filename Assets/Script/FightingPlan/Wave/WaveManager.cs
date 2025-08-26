@@ -22,6 +22,11 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
 
         public float Timer { get; private set; } = 3f;
 
+        private void Awake()
+        {
+            StartTimer();
+        }
+
         public void StartTimer()
         {
             DOTween.To(() => Timer, x => Timer = x, 0, Timer)

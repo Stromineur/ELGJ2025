@@ -20,9 +20,9 @@ MonoBehaviour:
   writingCost: 100
   exhumingCost: 10
   exhumingTime: 100
-  speed: 400
-  hp: 0
-  baseDamage: 1
+  speed: 100
+  hp: 100
+  baseDamage: 75
   strongAgainst:
-  - {fileID: 0}
-  prefab: {fileID: 1292584020678159825, guid: 23a9624e3720e9b4dacde35b11b8385a, type: 3}
+  - {fileID: 11400000, guid: 542783ca92d59334e9d2a585502ddda0, type: 2}
+  prefab: {fileID: 2849432339340580257, guid: 88b7a6edd310a7e49bc22298210fb18f, type: 3}

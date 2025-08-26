@@ -39,7 +39,7 @@ namespace NecroMotMicon.Script.FightingPlan
                 exhuming = false;
             damage = _wordData.BaseDamage;
             ShouldMove = false;
-            IsInitialized = false;
+            IsInitialized = !exhuming;
             
             if(exhuming)
             {
@@ -51,12 +51,10 @@ namespace NecroMotMicon.Script.FightingPlan
             }
             else
             {
-                _remainingExhumingTime = 0.5f;
-                _maxExhumingTime = _remainingExhumingTime;
                 Vector3 currentScale = transform.localScale;
                 transform.localScale = Vector3.zero;
-                transform.DOScale(currentScale, _maxExhumingTime - 0.1f);
-                OnInitialized?.Invoke();
+                transform.DOScale(currentScale, 0.5f)
+                    .OnComplete(StartMoving);
             }
         }
 
@@ -76,9 +74,9 @@ namespace NecroMotMicon.Script.FightingPlan
                 base.Update();
         }
 
-        protected override float GetRaycastDistance()
+        public override float GetRaycastDistance()
         {
-            return base.GetRaycastDistance() * 1.7f;
+            return base.GetRaycastDistance() * 1f;
         }
 
         public void AddExhumingTime(float time)
@@ -114,10 +112,9 @@ namespace NecroMotMicon.Script.FightingPlan
             }
         }
 
-        public override void EndAttack()
+        protected override float GetLanePosition(FightingLane fightingLane)
         {
-            base.EndAttack();
-            //Die(LastEnemySeen);
+            return fightingLane.AllyPosition.transform.position.y;
         }
 
         public override void ResetSlow()

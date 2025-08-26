@@ -15,5 +15,5 @@ MonoBehaviour:
   badWord: {fileID: 11400000, guid: 78cce139b5a939d4cbe0b95d9d122f2f, type: 2}
   minNumber: 1
   maxNumber: 1
-  delayBetween: 100
-  delayAfter: 200
+  delayBetween: 300
+  delayAfter: 300

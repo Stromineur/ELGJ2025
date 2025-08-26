@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c01c34932b9447b4327c0c9649c30, type: 3}
   m_Name: Goumer_SO
   m_EditorClassIdentifier: 
-  prefab: {fileID: 99244960053477300, guid: 0ac2e8bdbb7f1fa489e9cc639a5b1e54, type: 3}
+  prefab: {fileID: 6546388823641034391, guid: aca7bf84053e93d4280454d0c2eeca62, type: 3}
   speed: 100
   hp: 200
-  damage: 200
+  damage: 25

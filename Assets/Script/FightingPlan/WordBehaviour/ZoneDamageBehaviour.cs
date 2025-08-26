@@ -17,9 +17,9 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
         public override void Trigger()
         {
             List<FightingWord> fightingWords = new List<FightingWord>(fightingWord.FightingLane.FightingWords);
-            if(fightingWord.FightingLane.RightLane is { } rightLane)
+            if(fightingWord.FightingLane.BottomLane is { } rightLane)
                 fightingWords.AddRange(rightLane.FightingWords);
-            if(fightingWord.FightingLane.LeftLane is { } leftLane)
+            if(fightingWord.FightingLane.TopLane is { } leftLane)
                 fightingWords.AddRange(leftLane.FightingWords);
             
             foreach (FightingWord word in fightingWords)

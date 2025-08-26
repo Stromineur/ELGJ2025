@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using LTX.Singletons;
@@ -7,6 +8,8 @@ namespace NecroMotMicon.Script.FightingPlan
 {
     public class LaneManager : MonoSingleton<LaneManager>
     {
+        public event Action OnFreeExhuming;
+        public event Action OnNotFreeExhuming;
         public List<FightingLane> FightingLanes { get; private set; } = new();
         private bool freeExhuming;
     
@@ -34,6 +37,7 @@ namespace NecroMotMicon.Script.FightingPlan
         public void AddFreeExhuming()
         {
             freeExhuming = true;
+            OnFreeExhuming?.Invoke();
         }
 
         public bool TryUseFreeExhuming()
@@ -41,6 +45,7 @@ namespace NecroMotMicon.Script.FightingPlan
             if (freeExhuming)
             {
                 freeExhuming = false;
+                OnNotFreeExhuming?.Invoke();
                 return true;
             }
 

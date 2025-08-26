@@ -14,7 +14,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Feel
         private void Awake()
         {
             _laneDamageBehaviour =  GetComponent<LaneDamageBehaviour>();
-            transform.localScale = new Vector3(transform.localScale.x, _laneDamageBehaviour.Range / _laneDamageBehaviour.FightingWord.transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(_laneDamageBehaviour.Range / _laneDamageBehaviour.FightingWord.transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
 
         private void OnEnable()

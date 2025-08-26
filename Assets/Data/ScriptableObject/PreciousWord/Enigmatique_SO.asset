@@ -18,9 +18,9 @@ MonoBehaviour:
   wordEffect: Change de colonne pour attaquer les mot-vais usages adjacents.
   writingTime: 200
   exhumingTime: 150
-  speed: 100
-  hp: 1000
-  baseDamage: 500
+  speed: 150
+  hp: 200
+  baseDamage: 75
   strongAgainst:
   - {fileID: 11400000, guid: 0441dca58ec13b24fa78f39f33eb79c1, type: 2}
   prefab: {fileID: 5383132351494375681, guid: 2ee41cb31b056e0448e5a2272272bf92, type: 3}

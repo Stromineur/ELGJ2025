@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c01c34932b9447b4327c0c9649c30, type: 3}
   m_Name: Daronne_SO
   m_EditorClassIdentifier: 
-  prefab: {fileID: 99244960053477300, guid: b427502dde337d941a4b2edbfbf4e66a, type: 3}
-  speed: 100
-  hp: 200
+  prefab: {fileID: 4807316438241275257, guid: 793f07deca22e994cb99cc8ee3ad285e, type: 3}
+  speed: 150
+  hp: 150
   damage: 100
