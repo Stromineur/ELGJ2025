@@ -10,6 +10,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
     public class WaveManager : MonoBehaviour
     {
         public event Action<int> OnWaveStarts;
+        public event Action<WaveData> OnWaveEnd;
         public event Action OnWin;
         
         public WaveController CurrentWave => _waveControllers[^1];
@@ -21,11 +22,6 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         private List<WaveController> _waveControllers = new();
 
         public float Timer { get; private set; } = 3f;
-
-        private void Awake()
-        {
-            StartTimer();
-        }
 
         public void StartTimer()
         {
@@ -91,6 +87,8 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         
         public void EndWave()
         {
+            WaveData waveData = waves[_currentWave];
+            OnWaveEnd?.Invoke(waveData);
             StartNextWave();
         }
         

@@ -114,7 +114,7 @@ namespace NecroMotMicon.Script.Words
         {
             if (selectedWord != null)
             {
-                UpdateTotalInk(selectedWord.wordData.writingCost);
+                UpdateTotalInk(selectedWord.wordData.writingCost, false);
                 selectedWord.isWritten = true;
                 selectedWord.writingPriceText.gameObject.SetActive(false);
                 selectedWord.lockImage.SetActive(false);
@@ -123,10 +123,18 @@ namespace NecroMotMicon.Script.Words
         }
 
         //Est trigger lors de l'achat ou du drop d'un mot
-        public void UpdateTotalInk(int inkLoss)
+        public void UpdateTotalInk(int inkVariation, bool isInkGain)
         {
-            totalInk -= inkLoss;
-            inkText.text = totalInk.ToString();
+            if (isInkGain)
+            {
+                totalInk += inkVariation;
+                inkText.text = totalInk.ToString(); 
+            }
+            else if (!isInkGain)
+            {
+                totalInk -= inkVariation;
+                inkText.text = totalInk.ToString(); 
+            }
         }
 
     }

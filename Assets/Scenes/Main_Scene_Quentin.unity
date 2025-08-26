@@ -1447,6 +1447,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1476423536}
     m_Modifications:
+    - target: {fileID: 5413518712427954757, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5705471245883487743, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
       propertyPath: m_Name
       value: Lane_03
@@ -1526,42 +1530,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fightingLanes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 361210097}
+  - {fileID: 507543514}
+  - {fileID: 1145278959}
+  - {fileID: 687819175}
+  - {fileID: 1344363021}
   waves:
-  - {fileID: 11400000, guid: 265f351c4a4529e4084138f8c0149939, type: 2}
-  - {fileID: 11400000, guid: 507f171123d379d4096852f177cf429b, type: 2}
-  - {fileID: 11400000, guid: 3afa83f33a7ae9a47986a7b8898b703a, type: 2}
-  - {fileID: 11400000, guid: 5d6507329d1501041a65170ba0a4cb82, type: 2}
-  - {fileID: 11400000, guid: 7644a568a8bd0104190f0d09e7865244, type: 2}
-  - {fileID: 11400000, guid: 3271cc5670e6c5441ab4ae890876bc9c, type: 2}
-  - {fileID: 11400000, guid: 8d116ff63f0284e429cb7d20dc8eb972, type: 2}
-  - {fileID: 11400000, guid: abd447e64871d3e4faee44aa66826241, type: 2}
-  - {fileID: 11400000, guid: 32c2a6a64789ae249aee58d77a63f15b, type: 2}
-  - {fileID: 11400000, guid: a09f32c917f413a41ad9bc4cd633bf23, type: 2}
-  - {fileID: 11400000, guid: 93671f2e2efd05646a7fbc9bd0a4ec28, type: 2}
-  - {fileID: 11400000, guid: 9dd4a925ea7559c4ab2eceb589e1d7d5, type: 2}
-  - {fileID: 11400000, guid: d61c9bcb3a21b0648918301acaf3983e, type: 2}
-  - {fileID: 11400000, guid: 671572b71e2bf4245aebebec3e100259, type: 2}
-  - {fileID: 11400000, guid: 8b20c37970990e943ae7fe7f04304391, type: 2}
-  - {fileID: 11400000, guid: 096eb0c4e3d39bb478a4c69de0171bd4, type: 2}
-  - {fileID: 11400000, guid: baf659dfe08eab2419234e6777a56e92, type: 2}
-  - {fileID: 11400000, guid: 1ac7181b29a75c0428939befa03f7094, type: 2}
-  - {fileID: 11400000, guid: 0f9e02847b61dab488c49497fa2c421f, type: 2}
-  - {fileID: 11400000, guid: 02bb2056274eaab47895bdfd8b88bbd7, type: 2}
-  - {fileID: 11400000, guid: 6cca3f25a7a50304d963937a532a44bb, type: 2}
-  - {fileID: 11400000, guid: bab06b5c7f531824d8ad999fe55b447b, type: 2}
-  - {fileID: 11400000, guid: 1b856e2dec2db2644be38fa305d52066, type: 2}
-  - {fileID: 11400000, guid: 1b4e0040b9fa54a4cb73b64727c9e040, type: 2}
-  - {fileID: 11400000, guid: 6af2ef7bf3aae984da38f92695d1b43b, type: 2}
-  - {fileID: 11400000, guid: e09dc346241930043aec15f57ad685bc, type: 2}
-  - {fileID: 11400000, guid: f85b5813315f2df49a0875d3c34ad848, type: 2}
-  - {fileID: 11400000, guid: 27aa3ffd3a87c7f418ea05f26737e44b, type: 2}
-  - {fileID: 11400000, guid: e428f71377d3b674ab00adc439a0168f, type: 2}
-  - {fileID: 11400000, guid: cd6708e08346c0f4fab4ef10da0ad104, type: 2}
+  - {fileID: 11400000, guid: c5ed2203cadea474da95ca9fed58aeeb, type: 2}
+  - {fileID: 11400000, guid: d54e96aed88520746bd4d02b49989a81, type: 2}
+  - {fileID: 11400000, guid: e0a30fa4e33e09c488f3d61f3c2a53a2, type: 2}
+  - {fileID: 11400000, guid: 44bc482c1ed143e4b88c05b2cc9b4939, type: 2}
+  - {fileID: 11400000, guid: f15ca21161ecc904281ed1aa4326e99c, type: 2}
+  - {fileID: 11400000, guid: 212ce34fba7673b43b6bf583626c67e1, type: 2}
+  - {fileID: 11400000, guid: 1cdc5c4c812e2034985c15402a591492, type: 2}
+  - {fileID: 11400000, guid: 38483e00679f407439034253ce906f2b, type: 2}
+  - {fileID: 11400000, guid: 899dc1ac030bd8c458c61d3daf256c14, type: 2}
+  - {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
 --- !u!4 &665435369
 Transform:
   m_ObjectHideFlags: 0
@@ -2250,6 +2234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1476423536}
     m_Modifications:
+    - target: {fileID: 5413518712427954757, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5705471245883487743, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
       propertyPath: m_Name
       value: Lane_04
@@ -2808,6 +2796,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1476423536}
     m_Modifications:
+    - target: {fileID: 5413518712427954757, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5705471245883487743, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
       propertyPath: m_Name
       value: Lane_02
@@ -3484,6 +3476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1310525191}
   - component: {fileID: 1310525192}
+  - component: {fileID: 1310525193}
   m_Layer: 0
   m_Name: BookZone
   m_TagString: Untagged
@@ -3521,6 +3514,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 110f14a26b1226e4f9048ec6c90dd79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1310525193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310525190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8343fa8d0f02b4ca18f3a17493fe47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1323380816
@@ -3819,6 +3824,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1476423536}
     m_Modifications:
+    - target: {fileID: 5413518712427954757, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5705471245883487743, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
       propertyPath: m_Name
       value: Lane_01
@@ -3963,6 +3972,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1476423536}
     m_Modifications:
+    - target: {fileID: 5413518712427954757, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5705471245883487743, guid: 258b464aca96c1a40a0811c8ac24ed74, type: 3}
       propertyPath: m_Name
       value: Lane_05

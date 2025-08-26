@@ -12,6 +12,8 @@ namespace NecroMotMicon.Script.FightingPlan
     {
         public event Action OnCanSpawn;
         public event Action OnCantSpawn;
+
+        public event Action<BadWord> InkOnDeath;
         
         public event Action OnSpawnPreciousWord;
         
@@ -95,7 +97,10 @@ namespace NecroMotMicon.Script.FightingPlan
         {
             killed.OnDeath -= OnWordDeath;
             if (killed is BadWord badWord)
+            {
                 RemoveBadWordFromList(badWord);
+                InkOnDeath?.Invoke(badWord);
+            }
             else if(killed is PreciousWord preciousWord)
                 RemovePreciousWordFromList(preciousWord);
         }

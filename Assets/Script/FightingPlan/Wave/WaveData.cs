@@ -11,12 +11,14 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         public float DelayBetweenMultiplier => delayBetweenMultiplier;
         public float DelayAfterMultiplier => delayAfterMultiplier;
         public PatternOrder PatternOrder => patternOrder;
+        public int InkOnEndWave => inkOnEndWave;
 
         [SerializeField, LabelText("Pool de briques")] private PatternData[] wavePatterns = { };
         [SerializeField, LabelText("Nombre de briques")] private int nbPattern;
         [SerializeField, LabelText("Multiplicateur de délai")] private float delayBetweenMultiplier = 1;
         [SerializeField, LabelText("Multiplicateur de répit")] private float delayAfterMultiplier = 1;
         [SerializeField, LabelText("Ordre d'apparition des briques")] private PatternOrder patternOrder;
+        [SerializeField, LabelText("Encre en fin de manche")] private int inkOnEndWave;
     }
 
     public enum PatternOrder

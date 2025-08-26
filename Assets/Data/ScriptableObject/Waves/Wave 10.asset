@@ -24,3 +24,4 @@ MonoBehaviour:
   delayBetweenMultiplier: 0.04
   delayAfterMultiplier: 0.04
   patternOrder: 0
+  inkOnEndWave: 10000

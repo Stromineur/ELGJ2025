@@ -16,3 +16,4 @@ MonoBehaviour:
   speed: 200
   hp: 75
   damage: 75
+  inkOnDeath: 100

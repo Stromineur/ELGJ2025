@@ -56,7 +56,7 @@ namespace NecroMotMicon.Script.Words
 
         private void InkLoss(BookWord bookWord)
         {
-            bookWord._wordManager.UpdateTotalInk(bookWord.wordData.exhumingCost);
+            bookWord._wordManager.UpdateTotalInk(bookWord.wordData.exhumingCost, false);
         }
     }
 }
