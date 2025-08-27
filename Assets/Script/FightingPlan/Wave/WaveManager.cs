@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using DG.Tweening;
 using Sirenix.OdinInspector;
+using Sirenix.Utilities;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -96,5 +97,16 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         {
             OnWin?.Invoke();
         }
+        
+        #if UNITY_EDITOR
+
+        [Button]
+        public void FillLanes()
+        {
+            fightingLanes = FindObjectsByType<FightingLane>(FindObjectsInactive.Exclude, FindObjectsSortMode.InstanceID);
+            Array.Sort(fightingLanes,(a,b) => a.name.CompareTo(b.name));
+        }
+        
+        #endif
     }
 }
