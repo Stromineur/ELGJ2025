@@ -18,6 +18,8 @@ MonoBehaviour:
     de la foudre."
   wordEffect: Foudroie toute sa colonne lorsqu'il rencontre un mot-vais usage.
   writingTime: 300
+  writingCost: 300
+  exhumingCost: 175
   exhumingTime: 250
   speed: 200
   hp: 150

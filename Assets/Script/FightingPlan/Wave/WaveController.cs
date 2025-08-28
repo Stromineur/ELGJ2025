@@ -35,10 +35,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         private void StartNextPattern()
         {
             if (_nbPattern <= 0)
-            {
-                EndWave();
                 return;
-            }
 
             PatternData patternData = _waveData.PatternOrder switch
             {
@@ -78,9 +75,17 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
             StartNextPattern();
         }
 
+        public void FinishPattern(PatternController patternController)
+        {
+            _patternControllers.Remove(patternController);
+            
+            if(_patternControllers.Count <= 0)
+                EndWave();
+        }
+
         private void EndWave()
         {
-            WaveManager.EndWave();
+            WaveManager.TryEndWave();
         }
     }
 }

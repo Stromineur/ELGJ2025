@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan.Wave
@@ -10,6 +11,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         protected WaveController _waveController;
 
         protected int _nbEnemies;
+        protected List<FightingWord> _badWords = new();
 
         public virtual void Init(PatternData patternData, WaveController waveController)
         {
@@ -47,7 +49,31 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
 
         protected virtual FightingWord SpawnEnemy()
         {
-            return _waveController.WaveManager.SpawnEnemy(_patternData.BadWord, transform);
+            FightingWord fightingWord = _waveController.WaveManager.SpawnEnemy(_patternData.BadWord, transform);
+            if (fightingWord == null)
+                return null;
+            
+            _badWords.Add(fightingWord);
+            fightingWord.OnDeath += OnEnemyDeath;
+            fightingWord.OnReachedEndEvent += OnEnemyDeath;
+            return fightingWord;
+        }
+        
+        protected virtual void OnEnemyDeath(FightingWord killed)
+        {
+            killed.OnDeath -= OnEnemyDeath;
+            killed.OnReachedEndEvent -= OnEnemyDeath;
+            _badWords.Remove(killed);
+            
+            if (_nbEnemies <= 0 && _badWords.Count <= 0)
+            {
+                _waveController.FinishPattern(this);
+            }
+        }
+
+        private void OnEnemyDeath(FightingWord killed, FightingWord killer)
+        {
+            OnEnemyDeath(killed);
         }
 
         protected void EndPattern()

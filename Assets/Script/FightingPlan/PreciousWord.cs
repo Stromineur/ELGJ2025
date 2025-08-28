@@ -99,15 +99,13 @@ namespace NecroMotMicon.Script.FightingPlan
 
             float dmg = damage;
 
-            if (LastEnemySeen is BadWord badWord)
+            if (LastEnemySeen is BadWord { IsDead: false } badWord)
             {
                 bool strongAgainstEnemy = _wordData.StrongAgainst.Contains(badWord.BadWordData);
                 if(strongAgainstEnemy)
                     dmg *= 2;
 
                 badWord.Damage(this, dmg);
-                if(strongAgainstEnemy && badWord.Hp <= 0)
-                    LaneManager.Instance.AddFreeExhuming();
                 Damage(LastEnemySeen, badWord.BadWordData.Damage);
             }
         }

@@ -17,6 +17,8 @@ MonoBehaviour:
   wordDescription: "Adjectif. Qui est difficile \xE0 comprendre, \xE0 interpr\xE9ter."
   wordEffect: Change de colonne pour attaquer les mot-vais usages adjacents.
   writingTime: 200
+  writingCost: 300
+  exhumingCost: 125
   exhumingTime: 150
   speed: 150
   hp: 200

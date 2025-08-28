@@ -1,4 +1,5 @@
 using NecroMotMicon.Script.FightingPlan.Wave;
+using Script.Core;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,17 +7,17 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 {
     public class WinPanelDisplay : MonoBehaviour
     {
-        [SerializeField] private WaveManager _waveManager;
         [SerializeField] private GameObject content;
 
         private void OnEnable()
         {
-            _waveManager.OnWin += OnWin;
+            ServiceLocator.Instance.WaveManager.OnWin += OnWin;
         }
 
         private void OnDisable()
         {
-            _waveManager.OnWin -= OnWin;
+            if (ServiceLocator.Instance.WaveManager != null)
+                ServiceLocator.Instance.WaveManager.OnWin -= OnWin;
         }
 
         private void OnWin()

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using NecroMotMicon.Script.FightingPlan.Wave;
 using Script.Core;
 using Sirenix.OdinInspector;
 using TMPro;
@@ -33,6 +34,8 @@ namespace NecroMotMicon.Script.Words
 
         private void Awake()
         {
+            totalInk = GameController.GameMetrics.StartInk;
+            
             wordsList = new List<BookWord>();
             wordsList.Clear();
             for (int i = 0; i < transform.childCount; i++)
@@ -42,6 +45,20 @@ namespace NecroMotMicon.Script.Words
             
             inkText.text = totalInk.ToString();
         }
+
+        private void OnEnable()
+        {
+            ServiceLocator.Instance.WaveManager.OnWaveEnd += InterphaseStarted;
+            ServiceLocator.Instance.WaveManager.OnWaveStarts += InterphaseEnded;
+        }
+
+        private void OnDisable()
+        {
+            ServiceLocator.Instance.WaveManager.OnWaveEnd -= InterphaseStarted;
+            ServiceLocator.Instance.WaveManager.OnWaveStarts -= InterphaseEnded;
+        }
+
+        private void InterphaseStarted(WaveData _) => InterphaseStarted();
 
         [Button(ButtonSizes.Large)]
         public void InterphaseStarted()
@@ -53,6 +70,8 @@ namespace NecroMotMicon.Script.Words
             }
             Debug.Log("InterphaseStarted");
         }
+
+        private void InterphaseEnded(int obj) => InterphaseEnded();
         
         [Button(ButtonSizes.Large)]
         public void InterphaseEnded()

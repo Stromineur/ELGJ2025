@@ -1,4 +1,6 @@
+using System;
 using NecroMotMicon.Script.FightingPlan.Wave;
+using Script.Core;
 using TMPro;
 using UnityEngine;
 
@@ -8,6 +10,12 @@ namespace NecroMotMicon.Script.FightingPlan.UI
     {
         [SerializeField] private TMP_Text timer;
         [SerializeField] private WaveManager waveManager;
+
+        private void Awake()
+        {
+            if (waveManager == null)
+                waveManager = ServiceLocator.Instance.WaveManager;
+        }
 
         private void Update()
         {

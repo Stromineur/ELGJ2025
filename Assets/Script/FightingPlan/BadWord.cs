@@ -1,5 +1,7 @@
 using System;
+using System.Linq;
 using DG.Tweening;
+using NecroMotMicon.Script.Words;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan
@@ -35,6 +37,14 @@ namespace NecroMotMicon.Script.FightingPlan
         public override void ResetSlow()
         {
             _speed = -_badWordData.Speed;
+        }
+
+        public override void Die(FightingWord killer)
+        {
+            base.Die(killer);
+            
+            if(killer.FightingData is WordData wordData && wordData.StrongAgainst.Contains(BadWordData))
+                LaneManager.Instance.AddFreeExhuming();
         }
     }
 }

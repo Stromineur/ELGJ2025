@@ -1,5 +1,6 @@
 using System;
 using Legendhair.Utilities;
+using Script.Core;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan
@@ -15,7 +16,7 @@ namespace NecroMotMicon.Script.FightingPlan
 
         private void Awake()
         {
-            hp = 1000;
+            hp = GameController.GameMetrics.StartBookHp;
             OnDamageTaken?.Invoke(hp);
         }
 
@@ -24,7 +25,7 @@ namespace NecroMotMicon.Script.FightingPlan
             if (LayerMaskUtilities.IsMaskContainedIn(other.gameObject.layer, enemyMask))
             {
                 BadWord badWord = other.gameObject.GetComponent<BadWord>();
-                hp -= badWord.BadWordData.Damage;
+                hp -= badWord.BadWordData.BookDamage;
                 OnDamageTaken?.Invoke(hp);
                 badWord.Die(badWord);
             }

@@ -1,3 +1,4 @@
+using Script.Core;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,12 +11,13 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 
         private void OnEnable()
         {
-            playerArea.OnDamageTaken += OnDamageTaken;
+            ServiceLocator.Instance.PlayerArea.OnDamageTaken += OnDamageTaken;
         }
 
         private void OnDisable()
         {
-            playerArea.OnDamageTaken -= OnDamageTaken;
+            if (ServiceLocator.Instance.PlayerArea != null)
+                ServiceLocator.Instance.PlayerArea.OnDamageTaken -= OnDamageTaken;
         }
 
         private void OnDamageTaken(float f)

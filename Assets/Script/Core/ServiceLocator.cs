@@ -1,4 +1,5 @@
 using LTX.Singletons;
+using NecroMotMicon.Script.FightingPlan;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using NecroMotMicon.Script.Words;
 using UnityEngine;
@@ -27,6 +28,16 @@ namespace Script.Core
             }
         }
         
+        public PlayerArea PlayerArea
+        {
+            get
+            {
+                if (!_playerArea)
+                    _playerArea = FindFirstObjectByType<PlayerArea>();
+                return _playerArea;
+            }
+        }
+        
         /*
         public DragNDropEvents_OLD DragNDropEventsOld
         {
@@ -51,6 +62,7 @@ namespace Script.Core
         
         private WaveManager _waveManager;
         private WordManager _wordManager;
+        private PlayerArea _playerArea;
         //private DragNDropEvents_OLD _dragNDropEventsOld;
         private DragNDropEvents _dragNDropEvents;
     }

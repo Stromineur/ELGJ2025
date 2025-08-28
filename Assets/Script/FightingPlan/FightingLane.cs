@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using NecroMotMicon.Script.Words;
+using Script.Core;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
@@ -95,6 +96,7 @@ namespace NecroMotMicon.Script.FightingPlan
 
         private void OnWordDeath(FightingWord killed, FightingWord _)
         {
+            Debug.Log(killed);
             killed.OnDeath -= OnWordDeath;
             if (killed is BadWord badWord)
             {
@@ -179,13 +181,46 @@ namespace NecroMotMicon.Script.FightingPlan
 
         private void RemovePreciousWordFromList(PreciousWord preciousWord)
         {
-            PreciousWords.Add(preciousWord);
-            FightingWords.Add(preciousWord);
+            PreciousWords.Remove(preciousWord);
+            FightingWords.Remove(preciousWord);
         }
 
         public void UpdateExhumingBar(float currentValue, float maxValue)
         {
             exhumingBar.fillAmount = currentValue / maxValue;
+        }
+
+        public float GetEnemySpawnOdds()
+        {
+            if(BadWords.Count == 0)
+                return 1;
+            if(BadWords.Count >= GameController.GameMetrics.SpawnOdds.Length)
+                return GameController.GameMetrics.SpawnOdds[^1];
+            return GameController.GameMetrics.SpawnOdds[BadWords.Count];
+        }
+
+        public void CleanUpWave()
+        {
+            int nbBadWords = BadWords.Count;
+            for (int i = 0; i < nbBadWords; i++)
+            {
+                BadWord badWord = BadWords[i];
+                if (badWord == null)
+                {
+                    BadWords.RemoveAt(i);
+                    i--;
+                }
+            }
+            int nbPreciousWords = PreciousWords.Count;
+            for (int i = 0; i < nbPreciousWords; i++)
+            {
+                PreciousWord preciousWord = PreciousWords[i];
+                if (preciousWord == null)
+                {
+                    PreciousWords.RemoveAt(i);
+                    i--;
+                }
+            }
         }
     }
 }

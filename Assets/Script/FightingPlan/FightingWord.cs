@@ -21,6 +21,8 @@ namespace NecroMotMicon.Script.FightingPlan
         
         [SerializeField] protected float _speed;
         public float Hp => hp;
+        public IFightingData FightingData => _fightingData;
+        public bool IsDead => _isDead;
         [SerializeField] protected float hp;
         protected bool ShouldMove;
         protected FightingWord LastEnemySeen;
@@ -128,7 +130,7 @@ namespace NecroMotMicon.Script.FightingPlan
             }
         }
         
-        public void Die(FightingWord killer)
+        public virtual void Die(FightingWord killer)
         {
             if(_isDead)
                 return;
@@ -154,7 +156,7 @@ namespace NecroMotMicon.Script.FightingPlan
         {
             OnReachedEndEvent?.Invoke(this);
             
-            Destroy(gameObject);
+            Die(this);
         }
     }
 }

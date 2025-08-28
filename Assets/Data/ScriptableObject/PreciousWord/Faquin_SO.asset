@@ -18,8 +18,8 @@ MonoBehaviour:
   wordEffect: "Inflige des d\xE9g\xE2ts en continu \xE0 tous les ennemis aux alentours
     (AoE ronde portant sur les deux lignes adjacentes)"
   writingTime: 10
-  writingCost: 100
-  exhumingCost: 0
+  writingCost: 300
+  exhumingCost: 150
   exhumingTime: 100
   speed: 200
   hp: 100

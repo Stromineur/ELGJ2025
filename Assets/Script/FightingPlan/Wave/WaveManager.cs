@@ -17,6 +17,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         public WaveController CurrentWave => _waveControllers[^1];
         
         [SerializeField] public FightingLane[] fightingLanes;
+        private List<float> lanesOdd = new();
         [SerializeField] private WaveData[] waves;
         private int _currentWave;
         private int _currentWaveStep;
@@ -37,7 +38,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
             StartNextWave();
         }
         
-        private void StartNextWave()
+        public void StartNextWave()
         {
             if (_currentWave >= waves.Length)
             {
@@ -63,7 +64,29 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
 
         public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent)
         {
-            return fightingLanes[Random.Range(0, 5)].Spawn(badWordData, parent);
+            float overallOdds = 0;
+            lanesOdd.Clear();
+            foreach (FightingLane fightingLane in fightingLanes)
+            {
+                float enemySpawnOdds = fightingLane.GetEnemySpawnOdds();
+                lanesOdd.Add(enemySpawnOdds);
+                overallOdds += enemySpawnOdds;
+            }
+            float rnd = Random.Range(0, overallOdds);
+
+            int laneNumber = 0;
+            for (int i = 0; i < lanesOdd.Count; i++)
+            {
+                float odd = lanesOdd[i];
+                if (rnd <= odd)
+                {
+                    laneNumber = i;
+                    break;
+                }
+                rnd -= odd;
+            }
+
+            return fightingLanes[laneNumber].Spawn(badWordData, parent);
         }
 
         public FightingWord SpawnEnemy(BadWordData badWordData, Transform parent, int fightingLane)
@@ -86,11 +109,25 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
             return fightingLane.Spawn(badWordData, parent, position);
         }
         
+        public void TryEndWave()
+        {
+            Invoke(nameof(EndWave), 0.5f);
+        }
+
         public void EndWave()
         {
+            foreach (FightingLane fightingLane in fightingLanes)
+            {
+                fightingLane.CleanUpWave();
+                if (fightingLane.BadWords.Count >= 1)
+                {
+                    TryEndWave();
+                    return;
+                }
+            }
+            
             WaveData waveData = waves[_currentWave];
             OnWaveEnd?.Invoke(waveData);
-            StartNextWave();
         }
         
         public void EndGame()

@@ -17,6 +17,8 @@ MonoBehaviour:
   wordDescription: "Nom f\xE9minin. Inaction plus ou moins habituelle ou durable."
   wordEffect: "Ralentit un court instant le mot-vais usage touch\xE9."
   writingTime: 10
+  writingCost: 300
+  exhumingCost: 75
   exhumingTime: 100
   speed: 250
   hp: 100

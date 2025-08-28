@@ -20,9 +20,15 @@ namespace Script.Core
         public float ExhumingMultiplier => exhumingMultiplier;
         public float WritingMultiplier => writingMultiplier;
         public float SpeedMultiplier => speedMultiplier;
+        public int StartBookHp => startBookHp;
+        public float[] SpawnOdds => spawnOdds;
+        public int StartInk => startInk;
 
         [SerializeField] private float exhumingMultiplier = 1;
         [SerializeField] private float writingMultiplier = 1;
         [SerializeField] private float speedMultiplier = 1;
+        [SerializeField] private int startBookHp = 10;
+        [SerializeField] private float[] spawnOdds;
+        [SerializeField] private int startInk = 250;
     }
 }
