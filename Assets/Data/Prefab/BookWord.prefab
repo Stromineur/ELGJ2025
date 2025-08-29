@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 60
   m_Sprite: {fileID: 7482667652216324306, guid: 32d5c910cc3835e49be4ee4194bb899d, type: 3}
   m_Color: {r: 0.9622642, g: 0.40396938, b: 0.40396938, a: 1}
   m_FlipX: 0
@@ -162,7 +162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 7482667652216324306, guid: 32d5c910cc3835e49be4ee4194bb899d, type: 3}
   m_Color: {r: 0.9811321, g: 0.66811055, b: 0.32858673, a: 1}
   m_FlipX: 0
@@ -255,7 +255,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 20
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &5655760720316608844
 MonoBehaviour:
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 2252607442418191522}
   - component: {fileID: 4299862192714124856}
   m_Layer: 0
-  m_Name: ExhumingPrice
+  m_Name: ExhumingPriceBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -529,7 +529,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 30
   m_Sprite: {fileID: 7482667652216324306, guid: 32d5c910cc3835e49be4ee4194bb899d, type: 3}
   m_Color: {r: 0.26059094, g: 0.36746922, b: 0.9056604, a: 1}
   m_FlipX: 0
@@ -616,7 +616,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 50
   m_Sprite: {fileID: 7482667652216324306, guid: 32d5c910cc3835e49be4ee4194bb899d, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.8}
   m_FlipX: 0
@@ -709,7 +709,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 70
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &1484112382672180567
 MonoBehaviour:
@@ -886,7 +886,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 40
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &7665439926517395333
 MonoBehaviour:
