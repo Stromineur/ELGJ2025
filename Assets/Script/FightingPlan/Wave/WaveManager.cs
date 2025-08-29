@@ -22,6 +22,8 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         private int _currentWave;
         private int _currentWaveStep;
         private List<WaveController> _waveControllers = new();
+        private WaveData _waveData;
+        public List<BadWordData> nextWaveBadWords = new();
 
         public float Timer { get; private set; } = 3f;
 
@@ -40,9 +42,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         
         public void StartNextWave()
         {
-            
-            
-            WaveData waveData = waves[_currentWave];
+            _waveData = waves[_currentWave];
 
             WaveController waveController = 
                 new GameObject($"WaveController{_currentWave}")
@@ -50,7 +50,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
             waveController.transform.SetParent(transform);
             _waveControllers.Add(waveController);
 
-            waveController.Init(waveData, this);
+            waveController.Init(_waveData, this);
             waveController.StartWave();
 
             _currentWave++;
@@ -128,8 +128,17 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
                 return;
             }
             
+            nextWaveBadWords.Clear();
             WaveData waveData = waves[_currentWave];
-            OnWaveEnd?.Invoke(waveData);
+            foreach (PatternData pattern in waveData.WavePatterns)
+            {
+                if (!nextWaveBadWords.Contains(pattern.BadWord))
+                {
+                    nextWaveBadWords.Add(pattern.BadWord);
+                } 
+            }
+            
+            OnWaveEnd?.Invoke(_waveData);
         }
         
         public void EndGame()
