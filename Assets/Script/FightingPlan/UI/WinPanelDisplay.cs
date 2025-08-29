@@ -1,3 +1,5 @@
+using System;
+using LucidFactory.UI.Panels;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using Script.Core;
 using UnityEngine;
@@ -7,7 +9,13 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 {
     public class WinPanelDisplay : MonoBehaviour
     {
-        [SerializeField] private GameObject content;
+        [SerializeField] private LF_TabManager tabManager;
+
+        private void Awake()
+        {
+            if (tabManager == null)
+                tabManager = GetComponentInParent<LF_TabManager>();
+        }
 
         private void OnEnable()
         {
@@ -22,7 +30,7 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 
         private void OnWin()
         {
-            content.SetActive(true);
+            tabManager.OpenTab(name);
             Time.timeScale = 0;
         }
 

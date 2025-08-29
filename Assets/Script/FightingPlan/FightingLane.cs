@@ -84,9 +84,19 @@ namespace NecroMotMicon.Script.FightingPlan
             }
             word.Init(fightingData, this, exhuming);
             
-            word.OnDeath += OnWordDeath;
+            SubscribeToDeathEvent(word);
             
             return word;
+        }
+
+        private void SubscribeToDeathEvent(FightingWord word)
+        {
+            word.OnDeath += OnWordDeath;
+        }
+
+        private void UnsubscribeToDeathEvent(FightingWord word)
+        {
+            word.OnDeath -= OnWordDeath;
         }
 
         private void OnPreciousWordInitialized()
@@ -97,7 +107,7 @@ namespace NecroMotMicon.Script.FightingPlan
         private void OnWordDeath(FightingWord killed, FightingWord _)
         {
             Debug.Log(killed);
-            killed.OnDeath -= OnWordDeath;
+            UnsubscribeToDeathEvent(killed);
             if (killed is BadWord badWord)
             {
                 RemoveBadWordFromList(badWord);
@@ -151,6 +161,7 @@ namespace NecroMotMicon.Script.FightingPlan
                 AddBadWordToList(badWord);
             else if(word is PreciousWord preciousWord)
                 AddPreciousWordToList(preciousWord);
+            SubscribeToDeathEvent(word);
         }
 
         public void RemoveWordFromLane(FightingWord word)
@@ -159,6 +170,7 @@ namespace NecroMotMicon.Script.FightingPlan
                 RemoveBadWordFromList(badWord);
             else if(word is PreciousWord preciousWord)
                 RemovePreciousWordFromList(preciousWord);
+            UnsubscribeToDeathEvent(word);
         }
 
         private void AddBadWordToList(BadWord badWord)

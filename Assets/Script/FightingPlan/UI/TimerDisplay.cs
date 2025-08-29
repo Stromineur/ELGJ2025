@@ -1,4 +1,5 @@
 using System;
+using LucidFactory.UI.Panels;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using Script.Core;
 using TMPro;
@@ -10,6 +11,7 @@ namespace NecroMotMicon.Script.FightingPlan.UI
     {
         [SerializeField] private TMP_Text timer;
         [SerializeField] private WaveManager waveManager;
+        [SerializeField] private LF_TabManager tabManager;
 
         private void Awake()
         {
@@ -22,7 +24,10 @@ namespace NecroMotMicon.Script.FightingPlan.UI
             timer.text = Mathf.CeilToInt(waveManager.Timer).ToString();
             
             if(waveManager.Timer <= 0)
+            {
+                tabManager.OpenTab("HUD");
                 Destroy(gameObject);
+            }
         }
     }
 }

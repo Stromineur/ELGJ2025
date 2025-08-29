@@ -1,4 +1,5 @@
 using System;
+using LucidFactory.UI.Panels;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using Script.Core;
 using UnityEngine;
@@ -7,10 +8,12 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 {
     public class StartNextWaveButton : MonoBehaviour
     {
-        [SerializeField] private GameObject panel;
+        [SerializeField] private LF_TabManager tabManager;
 
         private void Awake()
         {
+            if (tabManager == null)
+                tabManager = GetComponentInParent<LF_TabManager>();
             DeactivatePanel();
         }
 
@@ -28,7 +31,7 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 
         private void ActivatePanel(WaveData obj)
         {
-            panel.SetActive(true);
+            tabManager.OpenTab(name);
         }
 
         private void DeactivatePanel(int obj)
@@ -38,7 +41,7 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 
         private void DeactivatePanel()
         {
-            panel.SetActive(false);
+            tabManager.OpenTab("HUD");
         }
 
         public void EndInterWave()

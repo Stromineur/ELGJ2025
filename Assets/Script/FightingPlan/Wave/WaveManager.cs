@@ -40,11 +40,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         
         public void StartNextWave()
         {
-            if (_currentWave >= waves.Length)
-            {
-                EndGame();
-                return;
-            }
+            
             
             WaveData waveData = waves[_currentWave];
 
@@ -124,6 +120,12 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
                     TryEndWave();
                     return;
                 }
+            }
+            
+            if (_currentWave >= waves.Length)
+            {
+                EndGame();
+                return;
             }
             
             WaveData waveData = waves[_currentWave];

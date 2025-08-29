@@ -1,3 +1,4 @@
+using LucidFactory.UI.Panels;
 using Script.Core;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,7 +8,13 @@ namespace NecroMotMicon.Script.FightingPlan.UI
     public class LosePanelDisplay : MonoBehaviour
     {
         [SerializeField] private PlayerArea playerArea;
-        [SerializeField] private GameObject content;
+        [SerializeField] private LF_TabManager tabManager;
+
+        private void Awake()
+        {
+            if (tabManager == null)
+                tabManager = GetComponentInParent<LF_TabManager>();
+        }
 
         private void OnEnable()
         {
@@ -25,7 +32,7 @@ namespace NecroMotMicon.Script.FightingPlan.UI
             if (f > 0)
                 return;
             
-            content.SetActive(true);
+            tabManager.OpenTab(name);
             Time.timeScale = 0;
         }
 

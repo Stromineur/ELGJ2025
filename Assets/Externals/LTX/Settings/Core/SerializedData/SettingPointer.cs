@@ -1,0 +1,18 @@
+namespace LTX.Settings
+{
+    [System.Serializable]
+    public struct SettingPointer 
+    {
+        public string internalName;
+        public SettingsHandler handler;
+
+        public ISetting GetSetting() => handler.GetSetting(internalName);
+
+        public SettingPointer(string internalName, SettingsHandler handler)
+        {
+            this.internalName = internalName;
+            this.handler = handler;
+            
+        }
+    }
+}
