@@ -14,7 +14,6 @@ namespace NecroMotMicon.Script.FightingPlan.UI
         {
             if (tabManager == null)
                 tabManager = GetComponentInParent<LF_TabManager>();
-            DeactivatePanel();
         }
 
         private void OnEnable()
