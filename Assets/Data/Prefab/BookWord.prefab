@@ -446,6 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a028b4813855cad40ba8574916be2645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _wordManager: {fileID: 0}
   wordData: {fileID: 0}
   wordText: {fileID: 5655760720316608844}
   lockImage: {fileID: 7540856549184013414}

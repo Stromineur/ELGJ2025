@@ -383,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8029781273123881614}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -430,6 +430,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3736671871858497047}
     m_Modifications:
+    - target: {fileID: 449999705005870996, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: isWritten
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107104997687817538, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: isWritten
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2502879882403431104, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3000896730424962786, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022461113047797713, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3494294955676329153, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265369345309760309, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: isWritten
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265974411208911312, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280507536697346275, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302377230931706096, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: canDrag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4875092301913189739, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -470,14 +510,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5045306351453445535, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748271703852024136, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6108779008999144350, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6259733364442287621, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
       propertyPath: m_Name
       value: WordZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703555170319574857, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920015452689216488, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730232009057930268, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: canDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730232009057930268, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: isWritten
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7764607685334297534, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
       propertyPath: inkText
       value: 
       objectReference: {fileID: 9221890196594353796}
+    - target: {fileID: 8258515522293466687, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: isWritten
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8271010179326355212, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: isWritten
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8271683297841976809, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -680,7 +760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3469008391968726095, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}
       propertyPath: m_Name
-      value: EncreText
+      value: PlayerHP
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -782,7 +862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3469008391968726095, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}
       propertyPath: m_Name
-      value: EncreText (1)
+      value: EncreText
       objectReference: {fileID: 0}
     - target: {fileID: 3573945537712146196, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}
       propertyPath: m_Color.b
@@ -799,6 +879,10 @@ PrefabInstance:
     - target: {fileID: 5369663303251610229, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}
       propertyPath: _playerArea
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900945275024476642, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}
+      propertyPath: m_Name
+      value: EncreBG
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
