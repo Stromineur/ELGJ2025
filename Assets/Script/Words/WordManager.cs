@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using LucidFactory.UI.Panels;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using Script.Core;
 using Sirenix.OdinInspector;
@@ -26,6 +27,8 @@ namespace NecroMotMicon.Script.Words
         public bool isInterphase;
         
         [Header("Object references")]
+        public GameObject preciousWordDescriptionGO;
+        public GameObject badWordDescriptionGO;
         public TextMeshPro inkText;
         public GameObject buyPanel;
         public TextMeshProUGUI buyText;
@@ -64,6 +67,8 @@ namespace NecroMotMicon.Script.Words
         public void InterphaseStarted()
         {
             isInterphase = true;
+            preciousWordDescriptionGO.SetActive(true);
+            badWordDescriptionGO.SetActive(true);
             foreach (BookWord word in wordsList)
             {
                 word.canDrag = false;
@@ -77,6 +82,8 @@ namespace NecroMotMicon.Script.Words
         public void InterphaseEnded()
         {
             isInterphase = false;
+            preciousWordDescriptionGO.SetActive(false);
+            badWordDescriptionGO.SetActive(false);
             Debug.Log("InterphaseEnded");
         }
         

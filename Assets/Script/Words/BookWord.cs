@@ -14,6 +14,7 @@ namespace NecroMotMicon.Script.Words
     
         [Header("Object references")]
         [HideInInspector] public WordManager _wordManager;
+        private DescriptionPanel _descriptionPanel;
         public WordData wordData;
         public TextMeshPro wordText;
         public GameObject lockImage;
@@ -33,6 +34,7 @@ namespace NecroMotMicon.Script.Words
         private void Awake()
         {
             _wordManager = GetComponentInParent<WordManager>();
+            _descriptionPanel = _wordManager.preciousWordDescriptionGO.GetComponent<DescriptionPanel>();
         }
         
         private void Start()
@@ -42,6 +44,16 @@ namespace NecroMotMicon.Script.Words
             exhumingPriceText.text = wordData.exhumingCost.ToString();
             
         }
+        
+        private void OnMouseEnter()
+        {
+            _descriptionPanel.titleText.text = wordData.wordName;
+            _descriptionPanel.descriptionText.text = "Définition : " + wordData.wordDescription;
+            _descriptionPanel.powerText.text = "Effets : " + wordData.wordEffect;
+            _descriptionPanel.exhumCost.text = "Coût d'exhumation : " + wordData.exhumingCost.ToString();
+            _descriptionPanel.writingCost.text = "Coût d'écriture : " + wordData.writingCost.ToString();
+        }
+        
         private void OnMouseDown()
         {
             _wordManager.ClickOnWord(gameObject);
@@ -55,7 +67,6 @@ namespace NecroMotMicon.Script.Words
             {
                 StartDragAndDrop();
             }
-        
         }
 
         private void OnMouseDrag()

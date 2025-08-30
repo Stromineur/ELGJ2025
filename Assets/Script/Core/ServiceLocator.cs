@@ -1,4 +1,5 @@
 using LTX.Singletons;
+using LucidFactory.UI.Panels;
 using NecroMotMicon.Script.FightingPlan;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using NecroMotMicon.Script.Words;
@@ -60,10 +61,21 @@ namespace Script.Core
             }
         }
         
+        public LF_TabManager LF_TabManager
+        {
+            get
+            {
+                if (!_lfTabManager)
+                    _lfTabManager = FindFirstObjectByType<LF_TabManager>();
+                return _lfTabManager;
+            }
+        }
+        
         private WaveManager _waveManager;
         private WordManager _wordManager;
         private PlayerArea _playerArea;
         //private DragNDropEvents_OLD _dragNDropEventsOld;
         private DragNDropEvents _dragNDropEvents;
+        private LF_TabManager _lfTabManager;
     }
 }

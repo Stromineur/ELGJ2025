@@ -393,9 +393,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 46771074967382567, guid: bae47886277800841ae531529cdd325d, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1073649421834385745, guid: bae47886277800841ae531529cdd325d, type: 3}
       propertyPath: isWritten
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180651191165574124, guid: bae47886277800841ae531529cdd325d, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1577692506923713415, guid: bae47886277800841ae531529cdd325d, type: 3}
       propertyPath: isWritten
@@ -434,6 +442,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3063085766696434348, guid: bae47886277800841ae531529cdd325d, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3065332222411165342, guid: bae47886277800841ae531529cdd325d, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
@@ -497,6 +509,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4460150019083340399, guid: bae47886277800841ae531529cdd325d, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5124270117401507725, guid: bae47886277800841ae531529cdd325d, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -525,6 +541,10 @@ PrefabInstance:
       propertyPath: buyPanel
       value: 
       objectReference: {fileID: 733033065}
+    - target: {fileID: 7140892203966291323, guid: bae47886277800841ae531529cdd325d, type: 3}
+      propertyPath: descriptionPanelGO
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7178644499056999129, guid: bae47886277800841ae531529cdd325d, type: 3}
       propertyPath: isWritten
       value: 0
@@ -540,6 +560,10 @@ PrefabInstance:
     - target: {fileID: 8029781273123881614, guid: bae47886277800841ae531529cdd325d, type: 3}
       propertyPath: m_Name
       value: BookZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263936241568565547, guid: bae47886277800841ae531529cdd325d, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8795637561263985097, guid: bae47886277800841ae531529cdd325d, type: 3}
       propertyPath: isWritten
@@ -628,6 +652,36 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 8837703610408012867, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5469190317326357567, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3138480918517804361, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 7718939625714866437, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 7531842888604859224, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 1387477189764034977, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 848811901676512729, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 7759699636464082095, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3116153124991592675, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2929478596054158014, guid: bae47886277800841ae531529cdd325d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 6007992494575616071, guid: bae47886277800841ae531529cdd325d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: bae47886277800841ae531529cdd325d, type: 3}
