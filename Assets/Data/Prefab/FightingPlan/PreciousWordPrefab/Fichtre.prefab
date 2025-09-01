@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 8023591154043647316}
   - component: {fileID: 3451653015596784080}
   - component: {fileID: 5942016609775161718}
+  - component: {fileID: 6845628065437764339}
   m_Layer: 6
   m_Name: Fichtre
   m_TagString: Untagged
@@ -408,6 +409,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 2310359935651471960}
   _image: {fileID: 2186989087294900380}
+--- !u!114 &6845628065437764339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4798966955277918590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1989cf4de6eb67c4abdae71670082cc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverElement: {fileID: 0}
+  droppedElement: {fileID: 0}
+  isOccupied: 0
+  isFightingLane: 0
+  isWord: 1
 --- !u!1 &6988905718130559814
 GameObject:
   m_ObjectHideFlags: 0

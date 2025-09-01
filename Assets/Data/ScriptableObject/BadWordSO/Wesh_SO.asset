@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c01c34932b9447b4327c0c9649c30, type: 3}
   m_Name: Wesh_SO
   m_EditorClassIdentifier: 
+  wordName: Wesh
+  wordDescription: Je suis la description de wesh
   prefab: {fileID: 8904405230976475535, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
   speed: 100
   hp: 100

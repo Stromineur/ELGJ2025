@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c01c34932b9447b4327c0c9649c30, type: 3}
   m_Name: Daronne_SO
   m_EditorClassIdentifier: 
+  wordName: Daronne
+  wordDescription: Je suis la description de daronne
   prefab: {fileID: 4807316438241275257, guid: 793f07deca22e994cb99cc8ee3ad285e, type: 3}
   speed: 150
   hp: 150

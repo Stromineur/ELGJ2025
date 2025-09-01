@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c01c34932b9447b4327c0c9649c30, type: 3}
   m_Name: Chelou_SO
   m_EditorClassIdentifier: 
+  wordName: Chelou
+  wordDescription: Je suis la description de chelou
   prefab: {fileID: 4872577508591888610, guid: d7794b944c6af5941bef5f33cf09f1c4, type: 3}
   speed: 200
   hp: 75

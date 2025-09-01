@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c01c34932b9447b4327c0c9649c30, type: 3}
   m_Name: Goumer_SO
   m_EditorClassIdentifier: 
+  wordName: Goumer
+  wordDescription: Je suis la description de goumer
   prefab: {fileID: 6546388823641034391, guid: aca7bf84053e93d4280454d0c2eeca62, type: 3}
   speed: 100
   hp: 200

@@ -1,3 +1,4 @@
+using System;
 using NecroMotMicon.Script.FightingPlan;
 using Script.Core;
 using Unity.Collections;
@@ -10,18 +11,48 @@ namespace NecroMotMicon.Script.Words
         #region Variables
 
         [SerializeField, ReadOnly] private GameObject hoverElement;
-        [SerializeField, ReadOnly] public GameObject droppedElement;
-        [SerializeField, ReadOnly] public bool isOccupied;
-    
+        [ReadOnly] public GameObject droppedElement;
+        [ReadOnly] public bool isOccupied;
+        
+        [Header("Zone type")]
+        public bool isFightingLane = false;
+        public bool isWord = false;
+        
         private WordManager _wordManager;
-        private FightingLane fightingLane;
+        private FightingLane _fightingLane;
+        private FightingWord _fightingWord;
     
         #endregion
         
         private void Awake()
         {
             _wordManager = ServiceLocator.Instance.WordManager;
-            fightingLane = GetComponent<FightingLane>();
+            if (isFightingLane)
+            {
+                _fightingLane = GetComponent<FightingLane>();
+            }
+        }
+
+        private void OnEnable()
+        {
+            if (isWord)
+            {
+                _fightingWord = GetComponent<FightingWord>();
+                _fightingWord.OnSpawn += SetFightLane;
+            }
+        }
+        
+        private void OnDisable()
+        {
+            if (isWord)
+            {
+                _fightingWord.OnSpawn -= SetFightLane;
+            }
+        }
+
+        private void SetFightLane()
+        {
+            _fightingLane = _fightingWord.FightingLane;
         }
 
         public void OnMouseEnter()
@@ -44,11 +75,11 @@ namespace NecroMotMicon.Script.Words
 
         private void OnDrop()
         {
-            if (hoverElement != null && fightingLane.CanSpawnPrecious)
+            if (hoverElement != null && _fightingLane.CanSpawnPrecious)
             {
                 droppedElement = hoverElement;
                 isOccupied = true;
-                fightingLane.Spawn(droppedElement.GetComponent<BookWord>().wordData, null);
+                _fightingLane.Spawn(droppedElement.GetComponent<BookWord>().wordData, null);
                 hoverElement.GetComponent<BookWord>().OnWordDrop -= OnDrop;
                 InkLoss(hoverElement.GetComponent<BookWord>());
                 hoverElement = null;

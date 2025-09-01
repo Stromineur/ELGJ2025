@@ -626,6 +626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5981493571143762220}
   - component: {fileID: 4432581428614329262}
+  - component: {fileID: 849859381723742634}
   m_Layer: 0
   m_Name: DescriptionPanel
   m_TagString: Untagged
@@ -672,6 +673,20 @@ MonoBehaviour:
   powerText: {fileID: 8551477213032284834}
   exhumCost: {fileID: 4150229437676227297}
   writingCost: {fileID: 6017297833688961237}
+--- !u!114 &849859381723742634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883251576640856200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942b98f53af0473479855bd2936049f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleFactor: 1
+  scaleTime: 0.5
 --- !u!1 &5967984590015278642
 GameObject:
   m_ObjectHideFlags: 0

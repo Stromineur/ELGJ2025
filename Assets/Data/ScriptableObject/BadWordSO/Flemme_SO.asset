@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c01c34932b9447b4327c0c9649c30, type: 3}
   m_Name: Flemme_SO
   m_EditorClassIdentifier: 
+  wordName: Flemme
+  wordDescription: Je suis la description de flemme
   prefab: {fileID: 1026537995537789383, guid: 0f32f2e2570f5554dbb7d04a6aa44fa1, type: 3}
   speed: 50
   hp: 300

@@ -27,8 +27,15 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
 
         public float Timer { get; private set; } = 3f;
 
+        public void Start()
+        {
+            _waveData = waves[_currentWave];
+            UpdateNextWaveData(_waveData);
+        }
+
         public void StartTimer()
         {
+            OnWaveStarts?.Invoke(0);
             DOTween.To(() => Timer, x => Timer = x, 0, Timer)
                 .SetEase(Ease.Linear)
                 .OnComplete(StartGame);
@@ -128,8 +135,15 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
                 return;
             }
             
-            nextWaveBadWords.Clear();
             WaveData waveData = waves[_currentWave];
+            UpdateNextWaveData(waveData);
+            
+            OnWaveEnd?.Invoke(_waveData);
+        }
+
+        public void UpdateNextWaveData(WaveData waveData)
+        {
+            nextWaveBadWords.Clear();
             foreach (PatternData pattern in waveData.WavePatterns)
             {
                 if (!nextWaveBadWords.Contains(pattern.BadWord))
@@ -137,8 +151,6 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
                     nextWaveBadWords.Add(pattern.BadWord);
                 } 
             }
-            
-            OnWaveEnd?.Invoke(_waveData);
         }
         
         public void EndGame()

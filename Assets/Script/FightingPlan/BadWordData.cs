@@ -6,6 +6,8 @@ namespace NecroMotMicon.Script.FightingPlan
     [CreateAssetMenu(fileName = "BadWordData", menuName = "Scriptable Objects/BadWordData")]
     public class BadWordData : ScriptableObject, IFightingData
     {
+        public string WordName => wordName;
+        public string WordDescription => wordDescription;
         public FightingWord Prefab => prefab;
         public float Speed => speed;
         public float Hp => hp;
@@ -13,6 +15,8 @@ namespace NecroMotMicon.Script.FightingPlan
         public float BookDamage => bookDamage;
         public int InkOnDeath => inkOnDeath;
 
+        [SerializeField, LabelText("Nom")] private string wordName;
+        [SerializeField, LabelText("Description")] private string wordDescription;
         [SerializeField] private FightingWord prefab;
         [SerializeField, LabelText("Vitesse")] private float speed;
         [SerializeField, LabelText("PV")] private float hp;

@@ -34,7 +34,7 @@ namespace NecroMotMicon.Script.Words
         private void Awake()
         {
             _wordManager = GetComponentInParent<WordManager>();
-            _descriptionPanel = _wordManager.preciousWordDescriptionGO.GetComponent<DescriptionPanel>();
+            _descriptionPanel = _wordManager.preciousWordDescriptionPanel.GetComponent<DescriptionPanel>();
         }
         
         private void Start()

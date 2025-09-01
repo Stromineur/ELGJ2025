@@ -59,6 +59,11 @@ MonoBehaviour:
   inkText: {fileID: 0}
   buyPanel: {fileID: 0}
   buyText: {fileID: 0}
+  preciousWordDescriptionPanel: {fileID: 0}
+  badWordDescriptionPanel: {fileID: 0}
+  badWordDataContainer: {fileID: 0}
+  defaultBadWordDescription: {fileID: 4442285498688644774, guid: 77fd845324f3f1f4ca06daeb08c6e2ec, type: 3}
+  nextBadWords: []
 --- !u!1001 &588542108791811147
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -173,8 +173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 490, y: 0}
-  m_SizeDelta: {x: 520, y: 170}
+  m_AnchoredPosition: {x: 860, y: -95}
+  m_SizeDelta: {x: 314, y: 103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3421647901835181333
 CanvasRenderer:
@@ -3436,7 +3436,7 @@ GameObject:
   - component: {fileID: 2697538781110283807}
   - component: {fileID: 613377067623844054}
   m_Layer: 5
-  m_Name: BuyText
+  m_Name: BuyButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
