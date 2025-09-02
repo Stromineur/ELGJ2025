@@ -965,9 +965,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4269721581587178703, guid: 610e0180c3146de479202cf3038612d2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.022084415
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269721581587178703, guid: 610e0180c3146de479202cf3038612d2, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.9837872
+      objectReference: {fileID: 0}
     - target: {fileID: 5655745036773142483, guid: 610e0180c3146de479202cf3038612d2, type: 3}
       propertyPath: m_Name
       value: GamePlan
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938104083692237031, guid: 610e0180c3146de479202cf3038612d2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1099,13 +1111,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[0]'
-      value: 
-      objectReference: {fileID: 11400000, guid: d54e96aed88520746bd4d02b49989a81, type: 2}
+      propertyPath: waves.Array.size
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[1]'
+      propertyPath: 'waves.Array.data[4]'
       value: 
-      objectReference: {fileID: 11400000, guid: c5ed2203cadea474da95ca9fed58aeeb, type: 2}
+      objectReference: {fileID: 11400000, guid: 212ce34fba7673b43b6bf583626c67e1, type: 2}
+    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
+      propertyPath: 'waves.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cdc5c4c812e2034985c15402a591492, type: 2}
+    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
+      propertyPath: 'waves.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 38483e00679f407439034253ce906f2b, type: 2}
+    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
+      propertyPath: 'waves.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 899dc1ac030bd8c458c61d3daf256c14, type: 2}
+    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
+      propertyPath: 'waves.Array.data[8]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
     - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
       propertyPath: 'fightingLanes.Array.data[0]'
       value: 
