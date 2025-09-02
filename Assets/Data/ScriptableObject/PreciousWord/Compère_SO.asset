@@ -19,7 +19,7 @@ MonoBehaviour:
   writingTime: 10
   writingCost: 300
   exhumingCost: 75
-  exhumingTime: 100
+  exhumingTime: 300
   speed: 100
   hp: 100
   baseDamage: 75

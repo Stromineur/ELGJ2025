@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31755a3f32be37f47a5f09a7b2e777e2, type: 3}
   m_Name: GameMetrics
   m_EditorClassIdentifier: 
-  exhumingMultiplier: 0.01
+  exhumingMultiplier: 0.02
   writingMultiplier: 0.001
-  speedMultiplier: 0.002
+  speedMultiplier: 0.003
   startBookHp: 10
   spawnOdds:
   - 0.9
@@ -22,4 +22,4 @@ MonoBehaviour:
   - 0.67
   - 0.54
   - 0.4
-  startInk: 250
+  startInk: 275

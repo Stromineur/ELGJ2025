@@ -384,6 +384,14 @@ PrefabInstance:
       propertyPath: waveManager
       value: 
       objectReference: {fileID: 12198334}
+    - target: {fileID: 2724951119345077115, guid: b9aca1e0e51de534abfbe1c4053b49e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546290933183217627, guid: b9aca1e0e51de534abfbe1c4053b49e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5989153017555560673, guid: b9aca1e0e51de534abfbe1c4053b49e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1091,37 +1099,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: waves.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[2]'
+      propertyPath: 'waves.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
+      objectReference: {fileID: 11400000, guid: d54e96aed88520746bd4d02b49989a81, type: 2}
     - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[3]'
+      propertyPath: 'waves.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
-    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[4]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
-    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[5]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
-    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[6]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
-    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[7]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
-    - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
-      propertyPath: 'waves.Array.data[8]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 90799ec643525b94ea42e468fa849992, type: 2}
+      objectReference: {fileID: 11400000, guid: c5ed2203cadea474da95ca9fed58aeeb, type: 2}
     - target: {fileID: 8739104469416993276, guid: 5538823ece1ba0341875447e6f274243, type: 3}
       propertyPath: 'fightingLanes.Array.data[0]'
       value: 

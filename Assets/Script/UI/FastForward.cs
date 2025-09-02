@@ -12,7 +12,7 @@ namespace NecroMotMicon.Script.UI
             if(isFastForward)
                 Time.timeScale = 1;
             else 
-                Time.timeScale = 3;
+                Time.timeScale = 2;
             isFastForward = !isFastForward;
         }
 
