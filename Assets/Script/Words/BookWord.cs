@@ -111,5 +111,13 @@ namespace NecroMotMicon.Script.Words
             wordDraggableObject.SetActive(false);
             isInScene = true;
         }
+
+        public void CancelDragAndDrop()
+        {
+            isDragging = false;
+            wordDraggableObject.SetActive(false);
+            wordDraggableObject.transform.position = transform.position;
+            _wordManager.draggedWord = null;
+        }
     }
 }

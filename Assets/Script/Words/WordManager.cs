@@ -82,6 +82,7 @@ namespace NecroMotMicon.Script.Words
         public void InterphaseStarted()
         {
             isInterphase = true;
+            draggedWord.GetComponent<BookWord>().CancelDragAndDrop();
             WordDescriptionEnable();
             GetNextBadWords();
             foreach (BookWord word in wordsList)
