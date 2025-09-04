@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wavePatterns:
   - {fileID: 11400000, guid: 1414f7ae067e7a24e9014b9002a2ffc0, type: 2}
-  nbPattern: 2
+  nbPattern: 1
   delayBetweenMultiplier: 0.04
   delayAfterMultiplier: 0.04
   patternOrder: 1

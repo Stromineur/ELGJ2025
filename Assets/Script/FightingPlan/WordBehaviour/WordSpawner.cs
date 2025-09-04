@@ -1,4 +1,5 @@
 using System;
+using NecroMotMicon.Script.FightingPlan.Wave;
 using NecroMotMicon.Script.Words;
 using Script.Core;
 using Sirenix.OdinInspector;
@@ -59,10 +60,11 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
             {
                 if (!preciousWord)
                 {
-                    if (spawnPosition == SpawnPosition.Spawn)
-                        ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, lane);
-                    else
+                    FightingWord word = spawnPosition == SpawnPosition.Spawn ? 
+                        ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, lane) :
                         ServiceLocator.Instance.WaveManager.SpawnEnemy(badWordToSpawn, null, lane, spawnPos);
+                    if(word is BadWord badWord)
+                        ServiceLocator.Instance.WaveManager.CurrentWave.AddBadWord(badWord);
                 }
                 else if (fightingWord is PreciousWord)
                 {

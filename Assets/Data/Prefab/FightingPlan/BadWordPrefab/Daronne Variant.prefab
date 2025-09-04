@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectTrigger: {fileID: 0}
   preciousWord: 0
-  badWordToSpawn: {fileID: 11400000, guid: 78deb806d169e444b82e034d6dbaca2a, type: 2}
+  badWordToSpawn: {fileID: 11400000, guid: 0c364cf5b80425b4f8af915dcb2d0d9a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
   spawnPosition: 2
   relativeX: -0.5
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectTrigger: {fileID: 0}
   preciousWord: 0
-  badWordToSpawn: {fileID: 11400000, guid: 78deb806d169e444b82e034d6dbaca2a, type: 2}
+  badWordToSpawn: {fileID: 11400000, guid: 0c364cf5b80425b4f8af915dcb2d0d9a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
   spawnPosition: 2
   relativeX: -1
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectTrigger: {fileID: 0}
   preciousWord: 0
-  badWordToSpawn: {fileID: 11400000, guid: 78deb806d169e444b82e034d6dbaca2a, type: 2}
+  badWordToSpawn: {fileID: 11400000, guid: 0c364cf5b80425b4f8af915dcb2d0d9a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
   spawnPosition: 2
   relativeX: -1.5

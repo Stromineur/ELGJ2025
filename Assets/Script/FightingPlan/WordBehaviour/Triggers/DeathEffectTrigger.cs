@@ -28,12 +28,15 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Triggers
             if(!fightingWord)
                 return;
             
-            fightingWord.OnInitialized -= Trigger;
+            fightingWord.OnDeath -= Trigger;
             isSetup = false;
         }
 
-        private void Trigger(FightingWord arg1, FightingWord arg2)
+        private void Trigger(FightingWord killed, FightingWord killer)
         {
+            if (killed == killer)
+                return;
+            
             Trigger();
         }
     }

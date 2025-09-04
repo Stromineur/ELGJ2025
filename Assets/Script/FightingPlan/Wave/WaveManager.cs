@@ -119,14 +119,9 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
 
         public void EndWave()
         {
-            foreach (FightingLane fightingLane in fightingLanes)
+            if (!CurrentWave.AreAllBadWordsDone())
             {
-                fightingLane.CleanUpWave();
-                if (fightingLane.BadWords.Count >= 1)
-                {
-                    TryEndWave();
-                    return;
-                }
+                return;
             }
             
             if (_currentWave >= waves.Length)

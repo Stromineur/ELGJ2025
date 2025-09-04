@@ -210,29 +210,5 @@ namespace NecroMotMicon.Script.FightingPlan
                 return GameController.GameMetrics.SpawnOdds[^1];
             return GameController.GameMetrics.SpawnOdds[BadWords.Count];
         }
-
-        public void CleanUpWave()
-        {
-            int nbBadWords = BadWords.Count;
-            for (int i = 0; i < nbBadWords; i++)
-            {
-                BadWord badWord = BadWords[i];
-                if (badWord == null)
-                {
-                    BadWords.RemoveAt(i);
-                    i--;
-                }
-            }
-            int nbPreciousWords = PreciousWords.Count;
-            for (int i = 0; i < nbPreciousWords; i++)
-            {
-                PreciousWord preciousWord = PreciousWords[i];
-                if (preciousWord == null)
-                {
-                    PreciousWords.RemoveAt(i);
-                    i--;
-                }
-            }
-        }
     }
 }

@@ -17,6 +17,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
         private List<PatternData> _patternDatas = new();
         private int _nbPattern;
         private List<PatternController> _patternControllers = new();
+        private List<BadWord> _badWords = new();
 
         public void Init(WaveData waveData, WaveManager waveManager)
         {
@@ -70,16 +71,33 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
             return patternController;
         }
 
+        public void AddBadWord(BadWord badWord)
+        {
+            _badWords.Add(badWord);
+            badWord.OnDeath += RemoveBadWord;
+        }
+
+        private void RemoveBadWord(FightingWord killed, FightingWord _)
+        {
+            _badWords.Remove(killed as BadWord);
+            
+            if(AreAllBadWordsDone())
+                TryEndWave();
+        }
+
+        public bool AreAllBadWordsDone()
+        {
+            return _badWords.Count == 0;
+        }
+
         public void EndPattern()
         {
             StartNextPattern();
         }
 
-        public void FinishPattern(PatternController patternController)
+        private void TryEndWave()
         {
-            _patternControllers.Remove(patternController);
-            
-            if(_patternControllers.Count <= 0)
+            if(IsCurrentPatternLastPattern)
                 EndWave();
         }
 

@@ -54,6 +54,7 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
                 return null;
             
             _badWords.Add(fightingWord);
+            _waveController.AddBadWord(fightingWord as BadWord);
             fightingWord.OnDeath += OnEnemyDeath;
             fightingWord.OnReachedEndEvent += OnEnemyDeath;
             return fightingWord;
@@ -64,11 +65,6 @@ namespace NecroMotMicon.Script.FightingPlan.Wave
             killed.OnDeath -= OnEnemyDeath;
             killed.OnReachedEndEvent -= OnEnemyDeath;
             _badWords.Remove(killed);
-            
-            if (_nbEnemies <= 0 && _badWords.Count <= 0)
-            {
-                _waveController.FinishPattern(this);
-            }
         }
 
         private void OnEnemyDeath(FightingWord killed, FightingWord killer)
