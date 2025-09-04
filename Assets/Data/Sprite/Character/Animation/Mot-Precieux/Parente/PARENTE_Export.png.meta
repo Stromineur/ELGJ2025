@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: cb8343130786f3d479392ec84e072455
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6465353161283942949
+    second: PARENTE_Export_0
+  - first:
+      213: 1754154310092576546
+    second: PARENTE_Export_1
+  - first:
+      213: 1034377614055568714
+    second: PARENTE_Export_2
+  - first:
+      213: -1794789919807147004
+    second: PARENTE_Export_3
+  - first:
+      213: 4147117156003171318
+    second: PARENTE_Export_4
+  - first:
+      213: 2041194009684738784
+    second: PARENTE_Export_5
+  - first:
+      213: 9194001571228287259
+    second: PARENTE_Export_6
+  - first:
+      213: -2813339929234528716
+    second: PARENTE_Export_7
+  - first:
+      213: -39301776070110423
+    second: PARENTE_Export_8
+  - first:
+      213: -8790433058108609370
+    second: PARENTE_Export_9
+  - first:
+      213: 3157203482810747180
+    second: PARENTE_Export_10
+  - first:
+      213: 7390737563786484313
+    second: PARENTE_Export_11
+  - first:
+      213: 7308088916681714024
+    second: PARENTE_Export_12
+  - first:
+      213: -4827567880327880547
+    second: PARENTE_Export_13
+  - first:
+      213: 5022303746498208473
+    second: PARENTE_Export_14
+  - first:
+      213: 7656910316540012331
+    second: PARENTE_Export_15
+  - first:
+      213: 1184911774506377427
+    second: PARENTE_Export_16
+  - first:
+      213: -7526638360753216406
+    second: PARENTE_Export_17
+  - first:
+      213: -3000285524074820321
+    second: PARENTE_Export_18
+  - first:
+      213: 8997656036240186374
+    second: PARENTE_Export_19
+  - first:
+      213: -8358008284116679109
+    second: PARENTE_Export_20
+  - first:
+      213: -1945781059545102839
+    second: PARENTE_Export_21
+  - first:
+      213: -2360092187962442352
+    second: PARENTE_Export_22
+  - first:
+      213: 3636341555286100660
+    second: PARENTE_Export_23
+  - first:
+      213: -3858413355360217649
+    second: PARENTE_Export_24
+  - first:
+      213: 6038236036803340429
+    second: PARENTE_Export_25
+  - first:
+      213: -3892599405344641862
+    second: PARENTE_Export_26
+  - first:
+      213: 2174035801036817072
+    second: PARENTE_Export_27
+  - first:
+      213: 378439158083986957
+    second: PARENTE_Export_28
+  - first:
+      213: -6207334342534593213
+    second: PARENTE_Export_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PARENTE_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 510
+        width: 213
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5c8320e837646a0800000000000000
+      internalID: -6465353161283942949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 509
+        width: 242
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227d9461d02085810800000000000000
+      internalID: 1754154310092576546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_2
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 500
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45f569a5f8da5e00800000000000000
+      internalID: 1034377614055568714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_3
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 495
+        width: 215
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404717fb310a717e0800000000000000
+      internalID: -1794789919807147004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_4
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 474
+        width: 154
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb4f7db4158d8930800000000000000
+      internalID: 4147117156003171318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 474
+        width: 111
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e20ae81327c35c10800000000000000
+      internalID: 2041194009684738784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_6
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 475
+        width: 136
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11027597b7a79f70800000000000000
+      internalID: 9194001571228287259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_7
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 552
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436ad857d3205f8d0800000000000000
+      internalID: -2813339929234528716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_8
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 467
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9239c4e2e3f547ff0800000000000000
+      internalID: -39301776070110423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_9
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 475
+        width: 54
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ace59515bb120680800000000000000
+      internalID: -8790433058108609370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_10
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 531
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c298f8c07d3a0db20800000000000000
+      internalID: 3157203482810747180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_11
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 531
+        width: 26
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a11ad08ac219660800000000000000
+      internalID: 7390737563786484313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_12
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 555
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86968c9562c8b6560800000000000000
+      internalID: 7308088916681714024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_13
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 551
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90a8f32798010db0800000000000000
+      internalID: -4827567880327880547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 297
+        width: 227
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2a32ce5aec2b540800000000000000
+      internalID: 5022303746498208473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 297
+        width: 227
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2724666d5fc24a60800000000000000
+      internalID: 7656910316540012331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_16
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 297
+        width: 223
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d061a12bf6a17010800000000000000
+      internalID: 1184911774506377427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_17
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 297
+        width: 246
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64e97ae9420c8790800000000000000
+      internalID: -7526638360753216406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_18
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 297
+        width: 268
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d06c84638dc56d0800000000000000
+      internalID: -3000285524074820321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_19
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 297
+        width: 155
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cde3b4e781edc70800000000000000
+      internalID: 8997656036240186374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 422
+        width: 31
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36047b8fb3620c80800000000000000
+      internalID: -8358008284116679109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_21
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 422
+        width: 189
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906812f7f623ff4e0800000000000000
+      internalID: -1945781059545102839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_22
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 245
+        width: 181
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09df25bc8a44f3fd0800000000000000
+      internalID: -2360092187962442352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_23
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 351
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bac1dcd061e67230800000000000000
+      internalID: 3636341555286100660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_24
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 330
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5912dfe79247ac0800000000000000
+      internalID: -3858413355360217649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1288
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8820abfeaf1cc350800000000000000
+      internalID: 6038236036803340429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_26
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 7
+        width: 183
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc2987f675baf9c0800000000000000
+      internalID: -3892599405344641862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_27
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 2
+        width: 226
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b208c1ea0abb2e10800000000000000
+      internalID: 2174035801036817072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_28
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 156
+        width: 91
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06a1b2c86c704500800000000000000
+      internalID: 378439158083986957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARENTE_Export_29
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 2
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3458427ad4e1bd9a0800000000000000
+      internalID: -6207334342534593213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PARENTE_Export_0: -6465353161283942949
+      PARENTE_Export_1: 1754154310092576546
+      PARENTE_Export_10: 3157203482810747180
+      PARENTE_Export_11: 7390737563786484313
+      PARENTE_Export_12: 7308088916681714024
+      PARENTE_Export_13: -4827567880327880547
+      PARENTE_Export_14: 5022303746498208473
+      PARENTE_Export_15: 7656910316540012331
+      PARENTE_Export_16: 1184911774506377427
+      PARENTE_Export_17: -7526638360753216406
+      PARENTE_Export_18: -3000285524074820321
+      PARENTE_Export_19: 8997656036240186374
+      PARENTE_Export_2: 1034377614055568714
+      PARENTE_Export_20: -8358008284116679109
+      PARENTE_Export_21: -1945781059545102839
+      PARENTE_Export_22: -2360092187962442352
+      PARENTE_Export_23: 3636341555286100660
+      PARENTE_Export_24: -3858413355360217649
+      PARENTE_Export_25: 6038236036803340429
+      PARENTE_Export_26: -3892599405344641862
+      PARENTE_Export_27: 2174035801036817072
+      PARENTE_Export_28: 378439158083986957
+      PARENTE_Export_29: -6207334342534593213
+      PARENTE_Export_3: -1794789919807147004
+      PARENTE_Export_4: 4147117156003171318
+      PARENTE_Export_5: 2041194009684738784
+      PARENTE_Export_6: 9194001571228287259
+      PARENTE_Export_7: -2813339929234528716
+      PARENTE_Export_8: -39301776070110423
+      PARENTE_Export_9: -8790433058108609370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

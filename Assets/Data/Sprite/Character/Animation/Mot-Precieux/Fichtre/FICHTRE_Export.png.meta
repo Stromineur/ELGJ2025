@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 9debcb089ac84e14fbe11c1b3df9d6a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2519751293994635749
+    second: FICHTRE_Export_0
+  - first:
+      213: 8180356303333058730
+    second: FICHTRE_Export_1
+  - first:
+      213: -1605149343946187986
+    second: FICHTRE_Export_2
+  - first:
+      213: -5849058161914804901
+    second: FICHTRE_Export_3
+  - first:
+      213: -4178852349569883526
+    second: FICHTRE_Export_4
+  - first:
+      213: 8844347145953929441
+    second: FICHTRE_Export_5
+  - first:
+      213: 8178725576498830639
+    second: FICHTRE_Export_6
+  - first:
+      213: 7279746721419607340
+    second: FICHTRE_Export_7
+  - first:
+      213: -5082702329740934597
+    second: FICHTRE_Export_8
+  - first:
+      213: 407516768542689008
+    second: FICHTRE_Export_9
+  - first:
+      213: 7707535889670997552
+    second: FICHTRE_Export_10
+  - first:
+      213: -87717011597124105
+    second: FICHTRE_Export_11
+  - first:
+      213: -4407011764915234379
+    second: FICHTRE_Export_12
+  - first:
+      213: 547588800917645409
+    second: FICHTRE_Export_13
+  - first:
+      213: -7652896756214919658
+    second: FICHTRE_Export_14
+  - first:
+      213: -4588879395480782484
+    second: FICHTRE_Export_15
+  - first:
+      213: 6281368102427158424
+    second: FICHTRE_Export_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FICHTRE_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 371
+        width: 233
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e191e0a374f7f220800000000000000
+      internalID: 2519751293994635749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 371
+        width: 268
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa86b4c67b6768170800000000000000
+      internalID: 8180356303333058730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 371
+        width: 208
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bd2a61d2d59b9e0800000000000000
+      internalID: -1605149343946187986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_3
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 371
+        width: 129
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5508746798f3dea0800000000000000
+      internalID: -5849058161914804901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 371
+        width: 124
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72a417bdebb106c0800000000000000
+      internalID: -4178852349569883526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_5
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 371
+        width: 150
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8e2d0bede6dba70800000000000000
+      internalID: 8844347145953929441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_6
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 371
+        width: 107
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d5d9e349ba08170800000000000000
+      internalID: 8178725576498830639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_7
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 371
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2db709c21bd60560800000000000000
+      internalID: 7279746721419607340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_8
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 301
+        width: 284
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32cdb0192d9679b0800000000000000
+      internalID: -5082702329740934597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_9
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 222
+        width: 175
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f68005875ac7a500800000000000000
+      internalID: 407516768542689008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_10
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 450
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360a6d2e0ba6fa60800000000000000
+      internalID: 7707535889670997552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1415
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd9efab7dd58cef0800000000000000
+      internalID: -87717011597124105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_12
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 2
+        width: 255
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9924f262627d2c0800000000000000
+      internalID: -4407011764915234379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_13
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 241
+        width: 110
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168ada9fc1d699700800000000000000
+      internalID: 547588800917645409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_14
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2
+        width: 217
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e021f62f27bc590800000000000000
+      internalID: -7652896756214919658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_15
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 139
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c693243b0860150c0800000000000000
+      internalID: -4588879395480782484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FICHTRE_Export_16
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 2
+        width: 102
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897e3a05207eb2750800000000000000
+      internalID: 6281368102427158424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FICHTRE_Export_0: 2519751293994635749
+      FICHTRE_Export_1: 8180356303333058730
+      FICHTRE_Export_10: 7707535889670997552
+      FICHTRE_Export_11: -87717011597124105
+      FICHTRE_Export_12: -4407011764915234379
+      FICHTRE_Export_13: 547588800917645409
+      FICHTRE_Export_14: -7652896756214919658
+      FICHTRE_Export_15: -4588879395480782484
+      FICHTRE_Export_16: 6281368102427158424
+      FICHTRE_Export_2: -1605149343946187986
+      FICHTRE_Export_3: -5849058161914804901
+      FICHTRE_Export_4: -4178852349569883526
+      FICHTRE_Export_5: 8844347145953929441
+      FICHTRE_Export_6: 8178725576498830639
+      FICHTRE_Export_7: 7279746721419607340
+      FICHTRE_Export_8: -5082702329740934597
+      FICHTRE_Export_9: 407516768542689008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

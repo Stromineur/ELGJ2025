@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: b7bca192b98203541aaca98d1c2e2917
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3392871465832426570
+    second: BOLOSS_Export_0
+  - first:
+      213: 5172751421411847689
+    second: BOLOSS_Export_1
+  - first:
+      213: -4822281875553348178
+    second: BOLOSS_Export_2
+  - first:
+      213: -1488047853533599266
+    second: BOLOSS_Export_3
+  - first:
+      213: 4659877642142872664
+    second: BOLOSS_Export_4
+  - first:
+      213: 8261676017906727872
+    second: BOLOSS_Export_5
+  - first:
+      213: -7332890434428830973
+    second: BOLOSS_Export_6
+  - first:
+      213: -7365184742148470151
+    second: BOLOSS_Export_7
+  - first:
+      213: -2569444734040765146
+    second: BOLOSS_Export_8
+  - first:
+      213: 1516671158429123389
+    second: BOLOSS_Export_9
+  - first:
+      213: 5187565578878665118
+    second: BOLOSS_Export_10
+  - first:
+      213: 1217414628712803323
+    second: BOLOSS_Export_11
+  - first:
+      213: -6155413122521500014
+    second: BOLOSS_Export_12
+  - first:
+      213: 5641390447671265728
+    second: BOLOSS_Export_13
+  - first:
+      213: -2813413872590414712
+    second: BOLOSS_Export_14
+  - first:
+      213: 7929615124792754601
+    second: BOLOSS_Export_15
+  - first:
+      213: -6104426332981563474
+    second: BOLOSS_Export_16
+  - first:
+      213: -5466198852640181876
+    second: BOLOSS_Export_17
+  - first:
+      213: -6107400580062864362
+    second: BOLOSS_Export_18
+  - first:
+      213: -6837754044408419230
+    second: BOLOSS_Export_19
+  - first:
+      213: -529411986956541303
+    second: BOLOSS_Export_20
+  - first:
+      213: 6578352222504329043
+    second: BOLOSS_Export_21
+  - first:
+      213: 1715502172369552526
+    second: BOLOSS_Export_22
+  - first:
+      213: -421953841901348044
+    second: BOLOSS_Export_23
+  - first:
+      213: 5212714526138562954
+    second: BOLOSS_Export_24
+  - first:
+      213: -4114341184849185651
+    second: BOLOSS_Export_25
+  - first:
+      213: -3946908188017005648
+    second: BOLOSS_Export_26
+  - first:
+      213: 6226728777776119912
+    second: BOLOSS_Export_27
+  - first:
+      213: -4847077241878813446
+    second: BOLOSS_Export_28
+  - first:
+      213: 8648985398237325674
+    second: BOLOSS_Export_29
+  - first:
+      213: -8065866746783685375
+    second: BOLOSS_Export_30
+  - first:
+      213: 8756504313224490310
+    second: BOLOSS_Export_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOLOSS_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 798
+        width: 253
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c20893f96e51f20800000000000000
+      internalID: 3392871465832426570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 798
+        width: 306
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e66a8e20e49c740800000000000000
+      internalID: 5172751421411847689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_2
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 794
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea596d80f20d31db0800000000000000
+      internalID: -4822281875553348178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 947
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9e8597c54695be0800000000000000
+      internalID: -1488047853533599266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_4
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 947
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854f5b4c6063ba040800000000000000
+      internalID: 4659877642142872664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_5
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 905
+        width: 106
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbb1b8e09e57a270800000000000000
+      internalID: 8261676017906727872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_6
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 905
+        width: 125
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b720f40075c3a90800000000000000
+      internalID: -7332890434428830973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_7
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 949
+        width: 95
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a0d1bdf7b99c990800000000000000
+      internalID: -7365184742148470151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_8
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 949
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d808db0af775cd0800000000000000
+      internalID: -2569444734040765146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_9
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 875
+        width: 134
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d338f37026c4c0510800000000000000
+      internalID: 1516671158429123389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 928
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e914b1ab86fedf740800000000000000
+      internalID: 5187565578878665118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 762
+        width: 198
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb6ac8972025e010800000000000000
+      internalID: 1217414628712803323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_12
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 757
+        width: 194
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296f35ab064939aa0800000000000000
+      internalID: -6155413122521500014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 490
+        width: 519
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c94ab809be3a4e40800000000000000
+      internalID: 5641390447671265728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_14
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 490
+        width: 366
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c971e2dfeb4f8d0800000000000000
+      internalID: -2813413872590414712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_15
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 490
+        width: 255
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a146de61f6ab0e60800000000000000
+      internalID: 7929615124792754601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_16
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 724
+        width: 227
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafe711c798b84ba0800000000000000
+      internalID: -6104426332981563474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_17
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 721
+        width: 142
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81fbbcca192424b0800000000000000
+      internalID: -5466198852640181876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_18
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 524
+        width: 257
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c9654e7872e3ba0800000000000000
+      internalID: -6107400580062864362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_19
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 524
+        width: 160
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cab81bcea6b11a0800000000000000
+      internalID: -6837754044408419230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_20
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 534
+        width: 150
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9822f915a9627a8f0800000000000000
+      internalID: -529411986956541303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 390
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f95c52e700b4b50800000000000000
+      internalID: 6578352222504329043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_22
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 462
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e848f7bf220bec710800000000000000
+      internalID: 1715502172369552526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_23
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 353
+        width: 194
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bdbd5673be42af0800000000000000
+      internalID: -421953841901348044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_24
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 353
+        width: 204
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89f10e4e38475840800000000000000
+      internalID: 5212714526138562954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 1096
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84fd48bd7ce6e6c0800000000000000
+      internalID: -4114341184849185651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_26
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 225
+        width: 84
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb6a242ae3c939c0800000000000000
+      internalID: -3946908188017005648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_27
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 244
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8604c0035d8c96650800000000000000
+      internalID: 6226728777776119912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_28
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2
+        width: 407
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4eeeeede8bbbcb0800000000000000
+      internalID: -4847077241878813446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_29
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 304
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69e979356e570870800000000000000
+      internalID: 8648985398237325674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_30
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 127
+        width: 132
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105a258bde8401090800000000000000
+      internalID: -8065866746783685375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOLOSS_Export_31
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 2
+        width: 136
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64debe7674a558970800000000000000
+      internalID: 8756504313224490310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BOLOSS_Export_0: 3392871465832426570
+      BOLOSS_Export_1: 5172751421411847689
+      BOLOSS_Export_10: 5187565578878665118
+      BOLOSS_Export_11: 1217414628712803323
+      BOLOSS_Export_12: -6155413122521500014
+      BOLOSS_Export_13: 5641390447671265728
+      BOLOSS_Export_14: -2813413872590414712
+      BOLOSS_Export_15: 7929615124792754601
+      BOLOSS_Export_16: -6104426332981563474
+      BOLOSS_Export_17: -5466198852640181876
+      BOLOSS_Export_18: -6107400580062864362
+      BOLOSS_Export_19: -6837754044408419230
+      BOLOSS_Export_2: -4822281875553348178
+      BOLOSS_Export_20: -529411986956541303
+      BOLOSS_Export_21: 6578352222504329043
+      BOLOSS_Export_22: 1715502172369552526
+      BOLOSS_Export_23: -421953841901348044
+      BOLOSS_Export_24: 5212714526138562954
+      BOLOSS_Export_25: -4114341184849185651
+      BOLOSS_Export_26: -3946908188017005648
+      BOLOSS_Export_27: 6226728777776119912
+      BOLOSS_Export_28: -4847077241878813446
+      BOLOSS_Export_29: 8648985398237325674
+      BOLOSS_Export_3: -1488047853533599266
+      BOLOSS_Export_30: -8065866746783685375
+      BOLOSS_Export_31: 8756504313224490310
+      BOLOSS_Export_4: 4659877642142872664
+      BOLOSS_Export_5: 8261676017906727872
+      BOLOSS_Export_6: -7332890434428830973
+      BOLOSS_Export_7: -7365184742148470151
+      BOLOSS_Export_8: -2569444734040765146
+      BOLOSS_Export_9: 1516671158429123389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

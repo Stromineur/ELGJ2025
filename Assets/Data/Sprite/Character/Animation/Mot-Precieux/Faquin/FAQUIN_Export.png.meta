@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: b461a16132c697a4282dbd87d2624c28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1155479487947249073
+    second: FAQUIN_Export_0
+  - first:
+      213: 8598961813042887782
+    second: FAQUIN_Export_1
+  - first:
+      213: -6048280007988125632
+    second: FAQUIN_Export_2
+  - first:
+      213: -6339964509730436158
+    second: FAQUIN_Export_3
+  - first:
+      213: -1774632085574495306
+    second: FAQUIN_Export_4
+  - first:
+      213: -8000271001728795385
+    second: FAQUIN_Export_5
+  - first:
+      213: 5132961710447894125
+    second: FAQUIN_Export_6
+  - first:
+      213: -812762950486366367
+    second: FAQUIN_Export_7
+  - first:
+      213: 2477563959522458623
+    second: FAQUIN_Export_8
+  - first:
+      213: -8827351116737372744
+    second: FAQUIN_Export_9
+  - first:
+      213: -5785483720346223193
+    second: FAQUIN_Export_10
+  - first:
+      213: -6899471943227827665
+    second: FAQUIN_Export_11
+  - first:
+      213: -8527187612998744503
+    second: FAQUIN_Export_12
+  - first:
+      213: -3181241701620351503
+    second: FAQUIN_Export_13
+  - first:
+      213: 2552074959374579241
+    second: FAQUIN_Export_14
+  - first:
+      213: 2152589438798045233
+    second: FAQUIN_Export_15
+  - first:
+      213: 2987839909217593818
+    second: FAQUIN_Export_16
+  - first:
+      213: 4638252184309839495
+    second: FAQUIN_Export_17
+  - first:
+      213: 4760098022629822818
+    second: FAQUIN_Export_18
+  - first:
+      213: -7374304650114157810
+    second: FAQUIN_Export_19
+  - first:
+      213: -6553461965234669564
+    second: FAQUIN_Export_20
+  - first:
+      213: 148891003680893203
+    second: FAQUIN_Export_21
+  - first:
+      213: -5849602457524684679
+    second: FAQUIN_Export_22
+  - first:
+      213: 7952183737117829393
+    second: FAQUIN_Export_23
+  - first:
+      213: -2734642740792511426
+    second: FAQUIN_Export_24
+  - first:
+      213: 2505650546751566449
+    second: FAQUIN_Export_25
+  - first:
+      213: 6257682768541865779
+    second: FAQUIN_Export_26
+  - first:
+      213: 2152190815231303610
+    second: FAQUIN_Export_27
+  - first:
+      213: -7922067364146674188
+    second: FAQUIN_Export_28
+  - first:
+      213: 1802752526360067516
+    second: FAQUIN_Export_29
+  - first:
+      213: -605423772969173637
+    second: FAQUIN_Export_30
+  - first:
+      213: -4435186222653129437
+    second: FAQUIN_Export_31
+  - first:
+      213: 92997768284814364
+    second: FAQUIN_Export_32
+  - first:
+      213: 7388729967666370719
+    second: FAQUIN_Export_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FAQUIN_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 961
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a67a71789e6ffe0800000000000000
+      internalID: -1155479487947249073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1002
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cf19fa536a55770800000000000000
+      internalID: 8598961813042887782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 960
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04065cdb061301ca0800000000000000
+      internalID: -6048280007988125632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 960
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb0fe47edbe308a0800000000000000
+      internalID: -6339964509730436158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 960
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b35254458d3f57e0800000000000000
+      internalID: -1774632085574495306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 911
+        width: 169
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70db81349e359f090800000000000000
+      internalID: -8000271001728795385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 911
+        width: 112
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9de4ea71fb3740800000000000000
+      internalID: 5132961710447894125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_7
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 879
+        width: 161
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16769a9176c78b4f0800000000000000
+      internalID: -812762950486366367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_8
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 828
+        width: 110
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb75a36b43126220800000000000000
+      internalID: 2477563959522458623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_9
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 909
+        width: 129
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd983bbde2fe7580800000000000000
+      internalID: -8827351116737372744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_10
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 932
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad35fa8535d5bfa0800000000000000
+      internalID: -5785483720346223193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 675
+        width: 124
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a912692d62040a0800000000000000
+      internalID: -6899471943227827665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 675
+        width: 263
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94649128b0859a980800000000000000
+      internalID: -8527187612998744503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_13
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 652
+        width: 212
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd724ef685f9d3d0800000000000000
+      internalID: -3181241701620351503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_14
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 905
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926f0b177aaca6320800000000000000
+      internalID: 2552074959374579241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_15
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 815
+        width: 128
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130a0de80b88fdd10800000000000000
+      internalID: 2152589438798045233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_16
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 642
+        width: 207
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad966a23190f67920800000000000000
+      internalID: 2987839909217593818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 610
+        width: 97
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786b77089c16e5040800000000000000
+      internalID: 4638252184309839495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_18
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 779
+        width: 107
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261d3e67ee34f0240800000000000000
+      internalID: 4760098022629822818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_19
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 677
+        width: 149
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e033f60ddf439a990800000000000000
+      internalID: -7374304650114157810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 386
+        width: 258
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4087729701d6d05a0800000000000000
+      internalID: -6553461965234669564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_21
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 459
+        width: 219
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a6a83497f01200800000000000000
+      internalID: 148891003680893203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_22
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 386
+        width: 180
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9783df1be8902dea0800000000000000
+      internalID: -5849602457524684679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_23
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 596
+        width: 147
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119eb87f9f4db5e60800000000000000
+      internalID: 7952183737117829393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_24
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 625
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34367f7ae89c0ad0800000000000000
+      internalID: -2734642740792511426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_25
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 623
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172f36295ebd5c220800000000000000
+      internalID: 2505650546751566449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_26
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 638
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3375508c251c7d650800000000000000
+      internalID: 6257682768541865779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_27
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 386
+        width: 214
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf58b6c42e1edd10800000000000000
+      internalID: 2152190815231303610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_28
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 386
+        width: 181
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5825984b92f0290800000000000000
+      internalID: -7922067364146674188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_29
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 551
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd31af0fd9a40910800000000000000
+      internalID: 1802752526360067516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 445
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d7891494a1997f0800000000000000
+      internalID: -605423772969173637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_31
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 386
+        width: 169
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dbd0e01ad0372c0800000000000000
+      internalID: -4435186222653129437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_32
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 386
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c358f3af46a4100800000000000000
+      internalID: 92997768284814364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FAQUIN_Export_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1241
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98990822ca0a8660800000000000000
+      internalID: 7388729967666370719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FAQUIN_Export_0: -1155479487947249073
+      FAQUIN_Export_1: 8598961813042887782
+      FAQUIN_Export_10: -5785483720346223193
+      FAQUIN_Export_11: -6899471943227827665
+      FAQUIN_Export_12: -8527187612998744503
+      FAQUIN_Export_13: -3181241701620351503
+      FAQUIN_Export_14: 2552074959374579241
+      FAQUIN_Export_15: 2152589438798045233
+      FAQUIN_Export_16: 2987839909217593818
+      FAQUIN_Export_17: 4638252184309839495
+      FAQUIN_Export_18: 4760098022629822818
+      FAQUIN_Export_19: -7374304650114157810
+      FAQUIN_Export_2: -6048280007988125632
+      FAQUIN_Export_20: -6553461965234669564
+      FAQUIN_Export_21: 148891003680893203
+      FAQUIN_Export_22: -5849602457524684679
+      FAQUIN_Export_23: 7952183737117829393
+      FAQUIN_Export_24: -2734642740792511426
+      FAQUIN_Export_25: 2505650546751566449
+      FAQUIN_Export_26: 6257682768541865779
+      FAQUIN_Export_27: 2152190815231303610
+      FAQUIN_Export_28: -7922067364146674188
+      FAQUIN_Export_29: 1802752526360067516
+      FAQUIN_Export_3: -6339964509730436158
+      FAQUIN_Export_30: -605423772969173637
+      FAQUIN_Export_31: -4435186222653129437
+      FAQUIN_Export_32: 92997768284814364
+      FAQUIN_Export_33: 7388729967666370719
+      FAQUIN_Export_4: -1774632085574495306
+      FAQUIN_Export_5: -8000271001728795385
+      FAQUIN_Export_6: 5132961710447894125
+      FAQUIN_Export_7: -812762950486366367
+      FAQUIN_Export_8: 2477563959522458623
+      FAQUIN_Export_9: -8827351116737372744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

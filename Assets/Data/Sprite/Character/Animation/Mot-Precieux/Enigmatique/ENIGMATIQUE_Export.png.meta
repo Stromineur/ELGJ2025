@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: c42265533e54a5148b08f972467811ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6653326075443478011
+    second: ENIGMATIQUE_Export_0
+  - first:
+      213: -4187764299314209301
+    second: ENIGMATIQUE_Export_1
+  - first:
+      213: -7606256695929221415
+    second: ENIGMATIQUE_Export_2
+  - first:
+      213: -8613120918042341997
+    second: ENIGMATIQUE_Export_3
+  - first:
+      213: 534222004903226152
+    second: ENIGMATIQUE_Export_4
+  - first:
+      213: -4084655764203979311
+    second: ENIGMATIQUE_Export_5
+  - first:
+      213: 8562009837409272654
+    second: ENIGMATIQUE_Export_6
+  - first:
+      213: 5369328346977801443
+    second: ENIGMATIQUE_Export_7
+  - first:
+      213: 7097973950606052805
+    second: ENIGMATIQUE_Export_8
+  - first:
+      213: 8739552409520766211
+    second: ENIGMATIQUE_Export_9
+  - first:
+      213: 5978636357650669635
+    second: ENIGMATIQUE_Export_10
+  - first:
+      213: -8784951788378265724
+    second: ENIGMATIQUE_Export_11
+  - first:
+      213: -2347878777758989901
+    second: ENIGMATIQUE_Export_12
+  - first:
+      213: -4475628102124487579
+    second: ENIGMATIQUE_Export_13
+  - first:
+      213: -5064997044219579246
+    second: ENIGMATIQUE_Export_14
+  - first:
+      213: 2688436834217517792
+    second: ENIGMATIQUE_Export_15
+  - first:
+      213: -622290702617304436
+    second: ENIGMATIQUE_Export_16
+  - first:
+      213: 2027734059417888912
+    second: ENIGMATIQUE_Export_17
+  - first:
+      213: -8736797742888983160
+    second: ENIGMATIQUE_Export_18
+  - first:
+      213: -2084502313464517065
+    second: ENIGMATIQUE_Export_19
+  - first:
+      213: 1502770083868525400
+    second: ENIGMATIQUE_Export_20
+  - first:
+      213: 6981503707824111204
+    second: ENIGMATIQUE_Export_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 696
+        width: 242
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502095a6f23aaa3a0800000000000000
+      internalID: -6653326075443478011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 680
+        width: 207
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed5058be8212e5c0800000000000000
+      internalID: -4187764299314209301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 656
+        width: 186
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dec3b0b5d5217690800000000000000
+      internalID: -7606256695929221415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_3
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 649
+        width: 180
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d8998c82c087880800000000000000
+      internalID: -8613120918042341997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_4
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 629
+        width: 193
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b24714510f96700800000000000000
+      internalID: 534222004903226152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 625
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddbed059336057c0800000000000000
+      internalID: -4084655764203979311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_6
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 625
+        width: 119
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e430e2a659e52d670800000000000000
+      internalID: 8562009837409272654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_7
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 726
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e41c040fafa38a40800000000000000
+      internalID: 5369328346977801443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_8
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 726
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd89de83b1118260800000000000000
+      internalID: 7097973950606052805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_9
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 328
+        width: 303
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30df461cc90294970800000000000000
+      internalID: 8739552409520766211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 430
+        width: 179
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340e003571268f250800000000000000
+      internalID: 5978636357650669635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 430
+        width: 189
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487e7c4a4e4951680800000000000000
+      internalID: -8784951788378265724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_12
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 430
+        width: 209
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b14ff3f0b8aa6fd0800000000000000
+      internalID: -2347878777758989901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 430
+        width: 202
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c3d1a34ff53e1c0800000000000000
+      internalID: -4475628102124487579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_14
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 430
+        width: 222
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29473e6160485b9b0800000000000000
+      internalID: -5064997044219579246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_15
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 430
+        width: 207
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e26c988e0f3f4520800000000000000
+      internalID: 2688436834217517792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_16
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 623
+        width: 215
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82a77b27ed2d57f0800000000000000
+      internalID: -622290702617304436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_17
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 430
+        width: 114
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09860963265f32c10800000000000000
+      internalID: 2027734059417888912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_18
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 430
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885eaac0eb8a0c680800000000000000
+      internalID: -8736797742888983160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_19
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 430
+        width: 100
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea778a03c5213e0800000000000000
+      internalID: -2084502313464517065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1689
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8534114ed69ead410800000000000000
+      internalID: 1502770083868525400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENIGMATIQUE_Export_21
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 2
+        width: 268
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ebde6f1a843e060800000000000000
+      internalID: 6981503707824111204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ENIGMATIQUE_Export_0: -6653326075443478011
+      ENIGMATIQUE_Export_1: -4187764299314209301
+      ENIGMATIQUE_Export_10: 5978636357650669635
+      ENIGMATIQUE_Export_11: -8784951788378265724
+      ENIGMATIQUE_Export_12: -2347878777758989901
+      ENIGMATIQUE_Export_13: -4475628102124487579
+      ENIGMATIQUE_Export_14: -5064997044219579246
+      ENIGMATIQUE_Export_15: 2688436834217517792
+      ENIGMATIQUE_Export_16: -622290702617304436
+      ENIGMATIQUE_Export_17: 2027734059417888912
+      ENIGMATIQUE_Export_18: -8736797742888983160
+      ENIGMATIQUE_Export_19: -2084502313464517065
+      ENIGMATIQUE_Export_2: -7606256695929221415
+      ENIGMATIQUE_Export_20: 1502770083868525400
+      ENIGMATIQUE_Export_21: 6981503707824111204
+      ENIGMATIQUE_Export_3: -8613120918042341997
+      ENIGMATIQUE_Export_4: 534222004903226152
+      ENIGMATIQUE_Export_5: -4084655764203979311
+      ENIGMATIQUE_Export_6: 8562009837409272654
+      ENIGMATIQUE_Export_7: 5369328346977801443
+      ENIGMATIQUE_Export_8: 7097973950606052805
+      ENIGMATIQUE_Export_9: 8739552409520766211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 4b1950f9f666cc64aaf311a73758d0b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6081825483506781037
+    second: DARONNE_Export_0
+  - first:
+      213: 308225994535663855
+    second: DARONNE_Export_1
+  - first:
+      213: 261780007326689281
+    second: DARONNE_Export_2
+  - first:
+      213: -8035353856113855413
+    second: DARONNE_Export_3
+  - first:
+      213: -1195729376154515974
+    second: DARONNE_Export_4
+  - first:
+      213: -8423618946553666610
+    second: DARONNE_Export_5
+  - first:
+      213: -2776443167630403844
+    second: DARONNE_Export_6
+  - first:
+      213: -8276792143140254419
+    second: DARONNE_Export_7
+  - first:
+      213: 1378999099870896996
+    second: DARONNE_Export_8
+  - first:
+      213: -7874893157813335788
+    second: DARONNE_Export_9
+  - first:
+      213: -4214404548133273710
+    second: DARONNE_Export_10
+  - first:
+      213: -4261092020237292407
+    second: DARONNE_Export_11
+  - first:
+      213: -6744115917025619334
+    second: DARONNE_Export_12
+  - first:
+      213: 162654313355670477
+    second: DARONNE_Export_13
+  - first:
+      213: 1110312413835515846
+    second: DARONNE_Export_14
+  - first:
+      213: -4020494339620864355
+    second: DARONNE_Export_15
+  - first:
+      213: -6242917170716461682
+    second: DARONNE_Export_16
+  - first:
+      213: -8747291595627208972
+    second: DARONNE_Export_17
+  - first:
+      213: 5037965937875763732
+    second: DARONNE_Export_18
+  - first:
+      213: -8424787178784756264
+    second: DARONNE_Export_19
+  - first:
+      213: 7446692139647136873
+    second: DARONNE_Export_20
+  - first:
+      213: 7228233262473601068
+    second: DARONNE_Export_21
+  - first:
+      213: 5086862410299259052
+    second: DARONNE_Export_22
+  - first:
+      213: -4557868361572684030
+    second: DARONNE_Export_23
+  - first:
+      213: -3464008784815915943
+    second: DARONNE_Export_24
+  - first:
+      213: 8643615386577809837
+    second: DARONNE_Export_25
+  - first:
+      213: 750108844871602065
+    second: DARONNE_Export_26
+  - first:
+      213: -391990454044055637
+    second: DARONNE_Export_27
+  - first:
+      213: -6724559381675673579
+    second: DARONNE_Export_28
+  - first:
+      213: -701006352701141993
+    second: DARONNE_Export_29
+  - first:
+      213: 7532924603758222097
+    second: DARONNE_Export_30
+  - first:
+      213: 7503370590848378239
+    second: DARONNE_Export_31
+  - first:
+      213: -2330295428228672872
+    second: DARONNE_Export_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DARONNE_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 231
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b075aed0cf66450800000000000000
+      internalID: 6081825483506781037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 752
+        width: 199
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8f6d2b8e9074400800000000000000
+      internalID: 308225994535663855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 753
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108a10a978702a300800000000000000
+      internalID: 261780007326689281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 665
+        width: 229
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44b4c1bd30bc7090800000000000000
+      internalID: -8035353856113855413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_4
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 716
+        width: 228
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af58fc6b77ae76fe0800000000000000
+      internalID: -1195729376154515974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_5
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 716
+        width: 188
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec32b67c23b491b80800000000000000
+      internalID: -8423618946553666610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_6
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 688
+        width: 229
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6545636a71879d0800000000000000
+      internalID: -2776443167630403844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_7
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 719
+        width: 131
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d816ce56de22d80800000000000000
+      internalID: -8276792143140254419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_8
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 719
+        width: 131
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46363650060332310800000000000000
+      internalID: 1378999099870896996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_9
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 512
+        width: 273
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419c16c5562c6b290800000000000000
+      internalID: -7874893157813335788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 512
+        width: 292
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fb9b0746d6385c0800000000000000
+      internalID: -4214404548133273710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_11
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 512
+        width: 231
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c2182426f8dd4c0800000000000000
+      internalID: -4261092020237292407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_12
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 484
+        width: 231
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7251a92e461862a0800000000000000
+      internalID: -6744115917025619334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_13
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 678
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3ffb87c3dd14200800000000000000
+      internalID: 162654313355670477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_14
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 685
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c75f58f14f986f00800000000000000
+      internalID: 1110312413835515846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_15
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 512
+        width: 323
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9efd6913b55438c0800000000000000
+      internalID: -4020494339620864355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_16
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 662
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85324dd8e3bc59a0800000000000000
+      internalID: -6242917170716461682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_17
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 464
+        width: 250
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe51ef83a06b9680800000000000000
+      internalID: -8747291595627208972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_18
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 530
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4124a9504537ae540800000000000000
+      internalID: 5037965937875763732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 453
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dde44482b4251b80800000000000000
+      internalID: -8424787178784756264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 448
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9647c57fb07f75760800000000000000
+      internalID: 7446692139647136873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_21
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 463
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20e66bfad7df4460800000000000000
+      internalID: 7228233262473601068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 433
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8bc2b296a289640800000000000000
+      internalID: 5086862410299259052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_23
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 243
+        width: 273
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fe77fafd23fb0c0800000000000000
+      internalID: -4557868361572684030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 66
+        width: 1398
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cf6320d5e5defc0800000000000000
+      internalID: -3464008784815915943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_25
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 243
+        width: 250
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da13214f56a44f770800000000000000
+      internalID: 8643615386577809837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 116
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f4379250ce86a00800000000000000
+      internalID: 750108844871602065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_27
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 2
+        width: 215
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba72c5742ce5f8af0800000000000000
+      internalID: -391990454044055637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_28
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2
+        width: 288
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5187330eed09da2a0800000000000000
+      internalID: -6724559381675673579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_29
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cc4f1bf668546f0800000000000000
+      internalID: -701006352701141993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_30
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 36
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b1fc614035a8860800000000000000
+      internalID: 7532924603758222097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_31
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 14
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7561ad3cc3512860800000000000000
+      internalID: 7503370590848378239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DARONNE_Export_32
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 48
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89296ba87a029afd0800000000000000
+      internalID: -2330295428228672872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DARONNE_Export_0: 6081825483506781037
+      DARONNE_Export_1: 308225994535663855
+      DARONNE_Export_10: -4214404548133273710
+      DARONNE_Export_11: -4261092020237292407
+      DARONNE_Export_12: -6744115917025619334
+      DARONNE_Export_13: 162654313355670477
+      DARONNE_Export_14: 1110312413835515846
+      DARONNE_Export_15: -4020494339620864355
+      DARONNE_Export_16: -6242917170716461682
+      DARONNE_Export_17: -8747291595627208972
+      DARONNE_Export_18: 5037965937875763732
+      DARONNE_Export_19: -8424787178784756264
+      DARONNE_Export_2: 261780007326689281
+      DARONNE_Export_20: 7446692139647136873
+      DARONNE_Export_21: 7228233262473601068
+      DARONNE_Export_22: 5086862410299259052
+      DARONNE_Export_23: -4557868361572684030
+      DARONNE_Export_24: -3464008784815915943
+      DARONNE_Export_25: 8643615386577809837
+      DARONNE_Export_26: 750108844871602065
+      DARONNE_Export_27: -391990454044055637
+      DARONNE_Export_28: -6724559381675673579
+      DARONNE_Export_29: -701006352701141993
+      DARONNE_Export_3: -8035353856113855413
+      DARONNE_Export_30: 7532924603758222097
+      DARONNE_Export_31: 7503370590848378239
+      DARONNE_Export_32: -2330295428228672872
+      DARONNE_Export_4: -1195729376154515974
+      DARONNE_Export_5: -8423618946553666610
+      DARONNE_Export_6: -2776443167630403844
+      DARONNE_Export_7: -8276792143140254419
+      DARONNE_Export_8: 1378999099870896996
+      DARONNE_Export_9: -7874893157813335788
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

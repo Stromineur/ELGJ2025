@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 6a26d8ebeaf858e48af531df9177e1ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1036372386928008301
+    second: CHELOU_Export_0
+  - first:
+      213: 3201260390345444449
+    second: CHELOU_Export_1
+  - first:
+      213: 4991558212768979037
+    second: CHELOU_Export_2
+  - first:
+      213: 1839095405318437620
+    second: CHELOU_Export_3
+  - first:
+      213: -4835526836675452638
+    second: CHELOU_Export_4
+  - first:
+      213: -9176968421758974922
+    second: CHELOU_Export_5
+  - first:
+      213: 1604759044184966822
+    second: CHELOU_Export_6
+  - first:
+      213: 9193592948872836782
+    second: CHELOU_Export_7
+  - first:
+      213: 7030926982333208700
+    second: CHELOU_Export_8
+  - first:
+      213: 4527543535667683915
+    second: CHELOU_Export_9
+  - first:
+      213: -8357160796392112697
+    second: CHELOU_Export_10
+  - first:
+      213: -5859222368645388370
+    second: CHELOU_Export_11
+  - first:
+      213: 128167118382009526
+    second: CHELOU_Export_12
+  - first:
+      213: -6222787534924626220
+    second: CHELOU_Export_13
+  - first:
+      213: -3990388556794514547
+    second: CHELOU_Export_14
+  - first:
+      213: 3525404225251854491
+    second: CHELOU_Export_15
+  - first:
+      213: 6248790263854868088
+    second: CHELOU_Export_16
+  - first:
+      213: -178728754572303748
+    second: CHELOU_Export_17
+  - first:
+      213: -6299081168222889424
+    second: CHELOU_Export_18
+  - first:
+      213: 6396413281896505836
+    second: CHELOU_Export_19
+  - first:
+      213: -9204021782138042134
+    second: CHELOU_Export_20
+  - first:
+      213: -4966251933319566808
+    second: CHELOU_Export_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHELOU_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 738
+        width: 288
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393e1261ec01e91f0800000000000000
+      internalID: -1036372386928008301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 738
+        width: 277
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c81103d592d6c20800000000000000
+      internalID: 3201260390345444449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 738
+        width: 223
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5857c38fb3954540800000000000000
+      internalID: 4991558212768979037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_3
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 738
+        width: 205
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fafe06f687c58910800000000000000
+      internalID: 1839095405318437620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_4
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 939
+        width: 198
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221671636f1c4ecb0800000000000000
+      internalID: -4835526836675452638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 912
+        width: 121
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634441297dbd4a080800000000000000
+      internalID: -9176968421758974922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 892
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a68dba29df354610800000000000000
+      internalID: 1604759044184966822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_7
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 738
+        width: 94
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6f917c314369f70800000000000000
+      internalID: 9193592948872836782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_8
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 818
+        width: 162
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c781ea7c6ded29160800000000000000
+      internalID: 7030926982333208700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_9
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 863
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42a6949bd015de30800000000000000
+      internalID: 4527543535667683915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_10
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 738
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd3a38a886650c80800000000000000
+      internalID: -8357160796392112697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_11
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 751
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea76ed89c4cdfaea0800000000000000
+      internalID: -5859222368645388370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2
+        width: 1102
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc8b0ba05757c100800000000000000
+      internalID: 128167118382009526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_13
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 681
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6c61ce4b734a9a0800000000000000
+      internalID: -6222787534924626220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_14
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 659
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83ba74efba4f98c0800000000000000
+      internalID: -3990388556794514547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_15
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 620
+        width: 151
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b984cc7e670cce030800000000000000
+      internalID: 3525404225251854491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 401
+        width: 171
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8762df033a928b650800000000000000
+      internalID: 6248790263854868088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_17
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 202
+        width: 182
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72e1980527058df0800000000000000
+      internalID: -178728754572303748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 141
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ad8bc2d0b2598a0800000000000000
+      internalID: -6299081168222889424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_19
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 150
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce128008dff94c850800000000000000
+      internalID: 6396413281896505836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_20
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2
+        width: 184
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae844b244feb44080800000000000000
+      internalID: -9204021782138042134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHELOU_Export_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 88
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ae361dd24541bb0800000000000000
+      internalID: -4966251933319566808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CHELOU_Export_0: -1036372386928008301
+      CHELOU_Export_1: 3201260390345444449
+      CHELOU_Export_10: -8357160796392112697
+      CHELOU_Export_11: -5859222368645388370
+      CHELOU_Export_12: 128167118382009526
+      CHELOU_Export_13: -6222787534924626220
+      CHELOU_Export_14: -3990388556794514547
+      CHELOU_Export_15: 3525404225251854491
+      CHELOU_Export_16: 6248790263854868088
+      CHELOU_Export_17: -178728754572303748
+      CHELOU_Export_18: -6299081168222889424
+      CHELOU_Export_19: 6396413281896505836
+      CHELOU_Export_2: 4991558212768979037
+      CHELOU_Export_20: -9204021782138042134
+      CHELOU_Export_21: -4966251933319566808
+      CHELOU_Export_3: 1839095405318437620
+      CHELOU_Export_4: -4835526836675452638
+      CHELOU_Export_5: -9176968421758974922
+      CHELOU_Export_6: 1604759044184966822
+      CHELOU_Export_7: 9193592948872836782
+      CHELOU_Export_8: 7030926982333208700
+      CHELOU_Export_9: 4527543535667683915
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

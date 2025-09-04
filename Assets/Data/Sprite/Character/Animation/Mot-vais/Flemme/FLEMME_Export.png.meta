@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4de862a29710f1544bfdd895031e6b02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -960749365561752568
+    second: FLEMME_Export_0
+  - first:
+      213: 4054367257094207189
+    second: FLEMME_Export_1
+  - first:
+      213: -7288546161810288996
+    second: FLEMME_Export_2
+  - first:
+      213: -8634830879175605937
+    second: FLEMME_Export_3
+  - first:
+      213: -2289185912418613701
+    second: FLEMME_Export_4
+  - first:
+      213: -8914444132612448652
+    second: FLEMME_Export_5
+  - first:
+      213: 5401472583509168112
+    second: FLEMME_Export_6
+  - first:
+      213: -3665006783012940164
+    second: FLEMME_Export_7
+  - first:
+      213: 8775470010734968530
+    second: FLEMME_Export_8
+  - first:
+      213: -1602240093863242885
+    second: FLEMME_Export_9
+  - first:
+      213: 7972226373002592835
+    second: FLEMME_Export_10
+  - first:
+      213: 4891537829122103133
+    second: FLEMME_Export_11
+  - first:
+      213: -4010578046075886747
+    second: FLEMME_Export_12
+  - first:
+      213: 180536434586034230
+    second: FLEMME_Export_13
+  - first:
+      213: 6159099284334743703
+    second: FLEMME_Export_14
+  - first:
+      213: 7499574207517891530
+    second: FLEMME_Export_15
+  - first:
+      213: 9085685002417345949
+    second: FLEMME_Export_16
+  - first:
+      213: -7676258286971735821
+    second: FLEMME_Export_17
+  - first:
+      213: -3169256555102564891
+    second: FLEMME_Export_18
+  - first:
+      213: 6796669249149508083
+    second: FLEMME_Export_19
+  - first:
+      213: 6902152940035624136
+    second: FLEMME_Export_20
+  - first:
+      213: 5892521831368911511
+    second: FLEMME_Export_21
+  - first:
+      213: -1361558434276932629
+    second: FLEMME_Export_22
+  - first:
+      213: -8425607690464519667
+    second: FLEMME_Export_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FLEMME_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1400
+        width: 298
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8048283da8bbaa2f0800000000000000
+      internalID: -960749365561752568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1400
+        width: 298
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d633141a81044830800000000000000
+      internalID: 4054367257094207189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1405
+        width: 191
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ec248d1e1e9da90800000000000000
+      internalID: -7288546161810288996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1400
+        width: 202
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f410a2f801bea2880800000000000000
+      internalID: -8634830879175605937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_4
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1586
+        width: 98
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36c5719a8d2b30e0800000000000000
+      internalID: -2289185912418613701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_5
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1529
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ed199ca48894480800000000000000
+      internalID: -8914444132612448652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1400
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff431c42b2e5fa40800000000000000
+      internalID: 5401472583509168112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_7
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1411
+        width: 46
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76dd17bfb7432dc0800000000000000
+      internalID: -3665006783012940164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_8
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1457
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de73f6fa7bb8c970800000000000000
+      internalID: 8775470010734968530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_9
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1400
+        width: 229
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b739468af13b3c9e0800000000000000
+      internalID: -1602240093863242885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_10
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1416
+        width: 228
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34202d7c5a903ae60800000000000000
+      internalID: 7972226373002592835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_11
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1403
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5755363dbb32e340800000000000000
+      internalID: 4891537829122103133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_12
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1094
+        width: 336
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563aaab14809758c0800000000000000
+      internalID: -4010578046075886747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_13
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1084
+        width: 247
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63024844ee4618200800000000000000
+      internalID: 180536434586034230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 701
+        width: 1394
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7909223ba24897550800000000000000
+      internalID: 6159099284334743703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_15
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 756
+        width: 320
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb19cdd107d31860800000000000000
+      internalID: 7499574207517891530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_16
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1016
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d951e262f56d61e70800000000000000
+      internalID: 9085685002417345949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_17
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 988
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0b6e032c3787590800000000000000
+      internalID: -7676258286971735821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_18
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 812
+        width: 151
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed880f54f98404d0800000000000000
+      internalID: -3169256555102564891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_19
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 905
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9906bfbae925e50800000000000000
+      internalID: 6796669249149508083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_20
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 756
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cccd30a78f59cf50800000000000000
+      internalID: 6902152940035624136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_21
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 756
+        width: 83
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a6afdb26176c150800000000000000
+      internalID: 5892521831368911511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1394
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be38cff51d5ca1de0800000000000000
+      internalID: -1361558434276932629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLEMME_Export_23
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 2
+        width: 610
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a1011427a321b80800000000000000
+      internalID: -8425607690464519667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FLEMME_Export_0: -960749365561752568
+      FLEMME_Export_1: 4054367257094207189
+      FLEMME_Export_10: 7972226373002592835
+      FLEMME_Export_11: 4891537829122103133
+      FLEMME_Export_12: -4010578046075886747
+      FLEMME_Export_13: 180536434586034230
+      FLEMME_Export_14: 6159099284334743703
+      FLEMME_Export_15: 7499574207517891530
+      FLEMME_Export_16: 9085685002417345949
+      FLEMME_Export_17: -7676258286971735821
+      FLEMME_Export_18: -3169256555102564891
+      FLEMME_Export_19: 6796669249149508083
+      FLEMME_Export_2: -7288546161810288996
+      FLEMME_Export_20: 6902152940035624136
+      FLEMME_Export_21: 5892521831368911511
+      FLEMME_Export_22: -1361558434276932629
+      FLEMME_Export_23: -8425607690464519667
+      FLEMME_Export_3: -8634830879175605937
+      FLEMME_Export_4: -2289185912418613701
+      FLEMME_Export_5: -8914444132612448652
+      FLEMME_Export_6: 5401472583509168112
+      FLEMME_Export_7: -3665006783012940164
+      FLEMME_Export_8: 8775470010734968530
+      FLEMME_Export_9: -1602240093863242885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

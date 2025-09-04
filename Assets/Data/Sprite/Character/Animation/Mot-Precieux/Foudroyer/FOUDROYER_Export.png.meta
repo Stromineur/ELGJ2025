@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: a21982090d6439348b09e9f8dfe46018
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6428471084833041338
+    second: FOUDROYER_Export_0
+  - first:
+      213: -3566034720725949117
+    second: FOUDROYER_Export_1
+  - first:
+      213: 3956771117835560717
+    second: FOUDROYER_Export_2
+  - first:
+      213: -2834817677137197608
+    second: FOUDROYER_Export_3
+  - first:
+      213: -1797287718359241563
+    second: FOUDROYER_Export_4
+  - first:
+      213: -1941387134028747714
+    second: FOUDROYER_Export_5
+  - first:
+      213: 1570039883168157671
+    second: FOUDROYER_Export_6
+  - first:
+      213: -5247716439445453201
+    second: FOUDROYER_Export_7
+  - first:
+      213: -3297837592742029963
+    second: FOUDROYER_Export_8
+  - first:
+      213: -4485930578665390539
+    second: FOUDROYER_Export_9
+  - first:
+      213: 3648071085205588302
+    second: FOUDROYER_Export_10
+  - first:
+      213: 3296248617307315046
+    second: FOUDROYER_Export_11
+  - first:
+      213: -5261086223124405760
+    second: FOUDROYER_Export_12
+  - first:
+      213: 219958391037869715
+    second: FOUDROYER_Export_13
+  - first:
+      213: 4384274248192704592
+    second: FOUDROYER_Export_14
+  - first:
+      213: 5233588483203580033
+    second: FOUDROYER_Export_15
+  - first:
+      213: 1376873766973705208
+    second: FOUDROYER_Export_16
+  - first:
+      213: -2534052883758503949
+    second: FOUDROYER_Export_17
+  - first:
+      213: -2835649943676548402
+    second: FOUDROYER_Export_18
+  - first:
+      213: 8720744676252673649
+    second: FOUDROYER_Export_19
+  - first:
+      213: -6818786234887748493
+    second: FOUDROYER_Export_20
+  - first:
+      213: -7932879580762357857
+    second: FOUDROYER_Export_21
+  - first:
+      213: -3343363486371320024
+    second: FOUDROYER_Export_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FOUDROYER_Export_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 659
+        width: 137
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbe7546464863950800000000000000
+      internalID: 6428471084833041338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 659
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345ab6ea056e28ec0800000000000000
+      internalID: -3566034720725949117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 656
+        width: 180
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d072d182e5649e630800000000000000
+      internalID: 3956771117835560717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 656
+        width: 177
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d54d379754b8a8d0800000000000000
+      internalID: -2834817677137197608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_4
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 627
+        width: 211
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac6604b750ce07e0800000000000000
+      internalID: -1797287718359241563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_5
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 788
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ce3b000bece05e0800000000000000
+      internalID: -1941387134028747714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_6
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 786
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef0f6f84f6e9c510800000000000000
+      internalID: 1570039883168157671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_7
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 589
+        width: 219
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6640e0b3bd5c27b0800000000000000
+      internalID: -5247716439445453201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 357
+        width: 275
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5759ead9e2abb32d0800000000000000
+      internalID: -3297837592742029963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 357
+        width: 270
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e369bf7e5ceb1c0800000000000000
+      internalID: -4485930578665390539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_10
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 653
+        width: 89
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e498d0dd25d80a230800000000000000
+      internalID: 3648071085205588302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_11
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 618
+        width: 209
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b99f537a0aebd20800000000000000
+      internalID: 3296248617307315046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_12
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 357
+        width: 479
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002e7f954fddcf6b0800000000000000
+      internalID: -5261086223124405760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_13
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 618
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ebd23cdf27d0300800000000000000
+      internalID: 219958391037869715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_14
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 620
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0504b69233218dc30800000000000000
+      internalID: 4384274248192704592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_15
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 433
+        width: 223
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180cce92ff071a840800000000000000
+      internalID: 5233588483203580033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_16
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 357
+        width: 242
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb85056563ab1310800000000000000
+      internalID: 1376873766973705208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_17
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 357
+        width: 177
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f72585045c35dcd0800000000000000
+      internalID: -2534052883758503949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_18
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 581
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca8dcf666fb5a8d0800000000000000
+      internalID: -2835649943676548402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_19
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 521
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1766bec141f460970800000000000000
+      internalID: 8720744676252673649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_20
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 430
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374413efb0ece51a0800000000000000
+      internalID: -6818786234887748493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_21
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 357
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fb5be2d00c8e190800000000000000
+      internalID: -7932879580762357857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FOUDROYER_Export_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1743
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f63df7f9cf991d0800000000000000
+      internalID: -3343363486371320024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FOUDROYER_Export_0: 6428471084833041338
+      FOUDROYER_Export_1: -3566034720725949117
+      FOUDROYER_Export_10: 3648071085205588302
+      FOUDROYER_Export_11: 3296248617307315046
+      FOUDROYER_Export_12: -5261086223124405760
+      FOUDROYER_Export_13: 219958391037869715
+      FOUDROYER_Export_14: 4384274248192704592
+      FOUDROYER_Export_15: 5233588483203580033
+      FOUDROYER_Export_16: 1376873766973705208
+      FOUDROYER_Export_17: -2534052883758503949
+      FOUDROYER_Export_18: -2835649943676548402
+      FOUDROYER_Export_19: 8720744676252673649
+      FOUDROYER_Export_2: 3956771117835560717
+      FOUDROYER_Export_20: -6818786234887748493
+      FOUDROYER_Export_21: -7932879580762357857
+      FOUDROYER_Export_22: -3343363486371320024
+      FOUDROYER_Export_3: -2834817677137197608
+      FOUDROYER_Export_4: -1797287718359241563
+      FOUDROYER_Export_5: -1941387134028747714
+      FOUDROYER_Export_6: 1570039883168157671
+      FOUDROYER_Export_7: -5247716439445453201
+      FOUDROYER_Export_8: -3297837592742029963
+      FOUDROYER_Export_9: -4485930578665390539
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
