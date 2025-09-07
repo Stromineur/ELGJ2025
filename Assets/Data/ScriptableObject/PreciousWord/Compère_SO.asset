@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 8552970184542299233, guid: c7464b0bc99137b4398391f8ca2f418b, type: 3}
   wordName: "Comp\xE8re"
-  wordDescription: "Blabla je suis un comp\xE8re"
+  wordDescription: Nom masculin. Ami, camarade, complice d'une supercherie.
   wordEffect: "Fait appara\xEEtre un fichtre sur chaque lignes adjacentes"
   writingTime: 10
   writingCost: 300

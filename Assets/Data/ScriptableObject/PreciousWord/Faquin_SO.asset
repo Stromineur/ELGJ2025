@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 8552970184542299233, guid: c7464b0bc99137b4398391f8ca2f418b, type: 3}
   wordName: Faquin
-  wordDescription: Blabla je suis un faquin
+  wordDescription: Nom masculin. Individu sans valeur, plat et impertinent.
   wordEffect: "Inflige des d\xE9g\xE2ts en continu \xE0 tous les ennemis aux alentours
     (AoE ronde portant sur les deux lignes adjacentes)"
   writingTime: 10

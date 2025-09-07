@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Daronne_SO
   m_EditorClassIdentifier: 
   wordName: Daronne
-  wordDescription: Je suis la description de daronne
+  wordDescription: "Nom f\xE9minin. En argot, une m\xE8re, la m\xE8re de quelqu\u2019un."
   prefab: {fileID: 4807316438241275257, guid: 793f07deca22e994cb99cc8ee3ad285e, type: 3}
   speed: 150
   hp: 150

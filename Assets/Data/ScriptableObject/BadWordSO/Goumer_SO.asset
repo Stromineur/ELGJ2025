@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Goumer_SO
   m_EditorClassIdentifier: 
   wordName: Goumer
-  wordDescription: Je suis la description de goumer
+  wordDescription: "Engager une altercation physique, se battre quelqu\u2019un avec
+    l\u2019id\xE9e de terrasser la personne."
   prefab: {fileID: 6546388823641034391, guid: aca7bf84053e93d4280454d0c2eeca62, type: 3}
   speed: 100
   hp: 200

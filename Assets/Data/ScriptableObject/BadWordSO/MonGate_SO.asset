@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MonGate_SO
   m_EditorClassIdentifier: 
   wordName: Mon gate
-  wordDescription: Je suis la description de mongate
+  wordDescription: "Non masculin. D\xE9signe une personne ch\xE8re, aim\xE9e ou ch\xE9rie."
   prefab: {fileID: 8286944925962760834, guid: 8b5e5b5d60939ec4a9c11ad2ec8ee563, type: 3}
   speed: 150
   hp: 200

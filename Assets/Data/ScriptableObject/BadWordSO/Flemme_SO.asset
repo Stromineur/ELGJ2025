@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Flemme_SO
   m_EditorClassIdentifier: 
   wordName: Flemme
-  wordDescription: Je suis la description de flemme
+  wordDescription: "Nom f\xE9minin. Grande paresse, envie de ne rien faire."
   prefab: {fileID: 1026537995537789383, guid: 0f32f2e2570f5554dbb7d04a6aa44fa1, type: 3}
   speed: 50
   hp: 300

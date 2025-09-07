@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Boloss_SO
   m_EditorClassIdentifier: 
   wordName: Boloss
-  wordDescription: Je suis la description de boloss
+  wordDescription: "Personne na\xEFve ou peu courageuse, au comportement ridicule,
+    voire stupide, bouffon."
   prefab: {fileID: 3044630814906828090, guid: 17a0f5800719de848af929d9e88d64d0, type: 3}
   speed: 100
   hp: 1

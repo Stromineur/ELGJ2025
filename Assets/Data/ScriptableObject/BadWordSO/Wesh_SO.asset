@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Wesh_SO
   m_EditorClassIdentifier: 
   wordName: Wesh
-  wordDescription: Je suis la description de wesh
+  wordDescription: "Interjection. Utilis\xE9 comme une interjection, salutation,
+    questionnement ou agacement."
   prefab: {fileID: 8904405230976475535, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
   speed: 100
   hp: 100
