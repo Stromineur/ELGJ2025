@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_BarreDeVie_Vie_Rouge_0: 191771626274793418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

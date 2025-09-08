@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 2cad1748d35b0a74dbef89a86dce1f9f
+guid: 1825896911cfdd9448aca2511a566959
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6580484748256586744
-    second: UI_Feuille_V2_0
+      213: 2208972383908643216
+    second: Decors_Academie_Sol_0
+  - first:
+      213: 5912456734251735279
+    second: Decors_Academie_Sol_1
+  - first:
+      213: -3681001121584028870
+    second: Decors_Academie_Sol_2
+  - first:
+      213: -2343892591157753699
+    second: Decors_Academie_Sol_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Feuille_V2_0
+      name: Decors_Academie_Sol_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 909
-        height: 363
+        x: 27
+        y: 13
+        width: 1365
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fba5bd7304925b50800000000000000
-      internalID: 6580484748256586744
+      spriteID: 091c585fda8d7ae10800000000000000
+      internalID: 2208972383908643216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decors_Academie_Sol_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 11
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8d0f203144d0250800000000000000
+      internalID: 5912456734251735279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decors_Academie_Sol_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 5
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a336b229bf47aecc0800000000000000
+      internalID: -3681001121584028870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decors_Academie_Sol_3
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 0
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d984f585b12d87fd0800000000000000
+      internalID: -2343892591157753699
       vertices: []
       indices: 
       edges: []
@@ -134,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      UI_Feuille_V2_0: 6580484748256586744
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

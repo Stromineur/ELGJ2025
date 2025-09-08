@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2cad1748d35b0a74dbef89a86dce1f9f
+guid: b7a4f10fd0572c842bcd5231c8bba862
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6580484748256586744
-    second: UI_Feuille_V2_0
+      213: -8136661404792005806
+    second: Decors_Academie_Barriere_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Feuille_V2_0
+      name: Decors_Academie_Barriere_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 909
-        height: 363
+        width: 1595
+        height: 1424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fba5bd7304925b50800000000000000
-      internalID: 6580484748256586744
+      spriteID: 25bddbdef85c41f80800000000000000
+      internalID: -8136661404792005806
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      UI_Feuille_V2_0: 6580484748256586744
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

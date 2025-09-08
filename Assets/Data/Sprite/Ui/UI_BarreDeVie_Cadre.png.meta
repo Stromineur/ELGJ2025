@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_BarreDeVie_Cadre_0: 8303668370051136295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
