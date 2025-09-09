@@ -289,12 +289,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7875646071096943708, guid: 09b7dba264974614b92fecbd2f02fc12, type: 3}
+  m_Sprite: {fileID: -5540860211056032649, guid: 14daf694364c1344f852c983d0427384, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.71, y: 3.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 1
   m_ApplyToSortingLayers: 00000000
-  m_LightCookieSprite: {fileID: 7875646071096943708, guid: 09b7dba264974614b92fecbd2f02fc12, type: 3}
+  m_LightCookieSprite: {fileID: -5540860211056032649, guid: 14daf694364c1344f852c983d0427384, type: 3}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
@@ -882,8 +882,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.004999995, y: 0, z: 0}
-    m_Extent: {x: 1.36, y: 1.525, z: 0}
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 1.355, y: 1.58, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
