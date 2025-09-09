@@ -1,21 +1,33 @@
-using System;
-using Script.Core;
+using NecroMotMicon.Script.Animation.Words;
+using NecroMotMicon.Script.FightingPlan.WordBehaviour.Triggers;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 {
-    [RequireComponent(typeof(LineChanger))]
-    public class ChelouDetection : MonoBehaviour
+    public class ChelouDetection : EffectTrigger
     {
         private BadWord _badWord;
         private LineChanger _lineChanger;
         private int _changeLineRemaining;
+        [SerializeField] private WordEffectAnimationController effectAnimationController;
 
         private void Awake()
         {
             _badWord = GetComponentInParent<BadWord>();
-            _lineChanger = GetComponent<LineChanger>();
+            _lineChanger = GetComponentInChildren<LineChanger>();
             _changeLineRemaining = 1;
+            if(effectAnimationController == null)
+                effectAnimationController = GetComponentInChildren<WordEffectAnimationController>();
+        }
+
+        private void OnEnable()
+        {
+            effectAnimationController.OnEffectTrigger += _lineChanger.ChangeLine;
+        }
+
+        private void OnDisable()
+        {
+            effectAnimationController.OnEffectTrigger -= _lineChanger.ChangeLine;
         }
 
         private void Update()
@@ -23,13 +35,15 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
             if (_changeLineRemaining <= 0)
                 return;
 
-            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(1, 0), _badWord.GetRaycastDistance() * 1.5f, _badWord.EnemyMask);
+            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(1, 0), _badWord.GetRaycastDistance() * 2f, _badWord.EnemyMask);
 
             if (enemy)
             {
-                _lineChanger.ChangeLine();
+                Trigger();
                 _changeLineRemaining--;
             }
         }
+
+        protected override void Setup() { }
     }
 }

@@ -1,17 +1,18 @@
+using System;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Triggers
 {
     public abstract class EffectTrigger : MonoBehaviour
     {
+        public event Action OnTriggerEffect;
+        
         protected FightingWord fightingWord;
-        protected WordBehaviour wordBehaviour;
         protected bool isSetup;
 
-        public void Setup(FightingWord fightingWord, WordBehaviour wordBehaviour)
+        public void Setup(FightingWord fightingWord)
         {
             this.fightingWord = fightingWord;
-            this.wordBehaviour = wordBehaviour;
             
             Setup();
         }
@@ -20,7 +21,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Triggers
 
         protected void Trigger()
         {
-            wordBehaviour.Trigger();
+            OnTriggerEffect?.Invoke();
         }
     }
 }

@@ -191,10 +191,11 @@ GameObject:
   - component: {fileID: 8816600529873821224}
   - component: {fileID: 4323415318996459555}
   - component: {fileID: 3308362767797974755}
-  - component: {fileID: 8023591154043647316}
   - component: {fileID: 3451653015596784080}
   - component: {fileID: 5942016609775161718}
   - component: {fileID: 6845628065437764339}
+  - component: {fileID: 4545205257901820874}
+  - component: {fileID: 7643614079705578596}
   m_Layer: 6
   m_Name: Fichtre
   m_TagString: Untagged
@@ -306,8 +307,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b12adf61567be049a882b5c2487a84d, type: 2}
-  - {fileID: 2100000, guid: 4d4ce0754fad417478b5cf5e8c1a5f42, type: 2}
+  - {fileID: 2100000, guid: 771d91e75af4af940813915a06580496, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -341,8 +341,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 6772665f6cc23e140a451b3d21ad96fd, type: 2}
-  initialSkinName: 
+  skeletonDataAsset: {fileID: 11400000, guid: e611c42da6f99234086b734d80b71c23, type: 2}
+  initialSkinName: FICHTRE
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
   initialFlipY: 0
@@ -369,24 +369,9 @@ MonoBehaviour:
   physicsMovementRelativeTo: {fileID: 0}
   updateTiming: 1
   unscaledTime: 0
-  _animationName: FICHTRE_Marche
+  _animationName: Zombie_FICHTRE_Marche
   loop: 1
-  timeScale: 0.5
---- !u!114 &8023591154043647316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4798966955277918590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d59016e477138e34da2f21806f6f6c4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentAnimation: 
-  Idle: {fileID: 11400000, guid: dcc9cc57c3516bb4d972bf2069f511a5, type: 2}
-  Attack: {fileID: 11400000, guid: 1b1b4ba37753be94bb4363a33c33f5d3, type: 2}
+  timeScale: 1
 --- !u!33 &3451653015596784080
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -426,6 +411,38 @@ MonoBehaviour:
   isOccupied: 0
   isFightingLane: 0
   isWord: 1
+--- !u!114 &4545205257901820874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4798966955277918590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3725374b05c0a674ab744180c0bac1d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonAnimation: {fileID: 3308362767797974755}
+  currentAnimation: 
+  Idle: {fileID: 11400000, guid: dcc9cc57c3516bb4d972bf2069f511a5, type: 2}
+  Attack: {fileID: 11400000, guid: 1b1b4ba37753be94bb4363a33c33f5d3, type: 2}
+--- !u!114 &7643614079705578596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4798966955277918590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cde184b9dcda847b9d6d1ab50ff6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectTrigger: {fileID: 0}
+  _controller: {fileID: 4545205257901820874}
+  effect: {fileID: 0}
+  triggerName: 
 --- !u!1 &6988905718130559814
 GameObject:
   m_ObjectHideFlags: 0

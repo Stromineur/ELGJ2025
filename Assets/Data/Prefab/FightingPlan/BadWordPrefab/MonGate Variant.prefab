@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6988805322360363237}
   - component: {fileID: 3190671431993093721}
-  - component: {fileID: 4273967844092438947}
   m_Layer: 7
   m_Name: Spawn1 (1)
   m_TagString: Untagged
@@ -45,7 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef2e82790c24475469226a03b29ff46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 5576376778120497276}
+  effectAnimationController: {fileID: 8876144251613161602}
   preciousWord: 0
   badWordToSpawn: {fileID: 11400000, guid: 0c364cf5b80425b4f8af915dcb2d0d9a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
@@ -55,19 +55,6 @@ MonoBehaviour:
   odds: 100
   delay: 0
   shouldDestroy: 0
---- !u!114 &4273967844092438947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7686165224668036933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f65014307b5afd44cb728e748b87a947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pourcentThreshold: 50
 --- !u!1 &9183271447013847364
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,7 +65,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5865017104663227301}
   - component: {fileID: 8560727153683473713}
-  - component: {fileID: 2488209523685209366}
   m_Layer: 7
   m_Name: Spawn1
   m_TagString: Untagged
@@ -113,7 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef2e82790c24475469226a03b29ff46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 5576376778120497276}
+  effectAnimationController: {fileID: 8876144251613161602}
   preciousWord: 0
   badWordToSpawn: {fileID: 11400000, guid: 0c364cf5b80425b4f8af915dcb2d0d9a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
@@ -123,19 +110,6 @@ MonoBehaviour:
   odds: 100
   delay: 0
   shouldDestroy: 0
---- !u!114 &2488209523685209366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183271447013847364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f65014307b5afd44cb728e748b87a947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pourcentThreshold: 50
 --- !u!1001 &618094723257062157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144,6 +118,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6948971986838377281, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -184,6 +162,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2694981972360899762, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3557802573646537082, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 12.04
@@ -204,6 +186,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: triggerName
+      value: Invoc
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: effectTrigger
+      value: 
+      objectReference: {fileID: 5576376778120497276}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: _animationName
+      value: MonGATE_Marche
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: initialSkinName
+      value: MON_GATE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 40e5d9f8fc4e10c469e47b7205d80dd8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -213,10 +215,42 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6988805322360363237}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4645182809573943804, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5576376778120497276}
   m_SourcePrefab: {fileID: 100100000, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
 --- !u!4 &3224759048850123587 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
   m_PrefabInstance: {fileID: 618094723257062157}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5252579007624395505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4645182809573943804, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+  m_PrefabInstance: {fileID: 618094723257062157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5576376778120497276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252579007624395505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65014307b5afd44cb728e748b87a947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pourcentThreshold: 50
+--- !u!114 &8876144251613161602 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+  m_PrefabInstance: {fileID: 618094723257062157}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252579007624395505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cde184b9dcda847b9d6d1ab50ff6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

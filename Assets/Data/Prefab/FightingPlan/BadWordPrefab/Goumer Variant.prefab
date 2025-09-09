@@ -99,7 +99,6 @@ GameObject:
   - component: {fileID: 9059392289703058116}
   - component: {fileID: 4400034873189700347}
   - component: {fileID: 1816983177560701582}
-  - component: {fileID: 3107242791017829719}
   m_Layer: 6
   m_Name: LaneDamage
   m_TagString: Untagged
@@ -135,9 +134,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d10f76e1e1ba94d9a6b798809e47c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 4888425699148977557}
+  effectAnimationController: {fileID: 5978022013381203095}
   _range: 3.5
-  _damage: 50
+  _damage: 15
 --- !u!114 &4400034873189700347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,19 +174,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3107242791017829719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3498662833582584211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb24eaba040f44e40a5db5218a5f6ba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tic: 2
 --- !u!1001 &2399218562340073240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -195,6 +182,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6948971986838377281, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6948971986838377281, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 737b2f4c856a7c84a91fe6f8c20920a1, type: 2}
     - target: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -235,6 +230,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2694981972360899762, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3557802573646537082, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 12.63
@@ -251,16 +250,68 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -9113929209212425695, guid: 2f18210e007f9e34a8b18e6fb34786ff, type: 3}
+    - target: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: triggerName
+      value: Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: effectTrigger
+      value: 
+      objectReference: {fileID: 4888425699148977557}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: _animationName
+      value: GOUMER_Marche
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: initialSkinName
+      value: GOUMER
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 0f8ead4087e1dda45aa8b09df6f3e1fa, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6701511038842685907}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4645182809573943804, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4888425699148977557}
   m_SourcePrefab: {fileID: 100100000, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
 --- !u!4 &367307486958081878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
   m_PrefabInstance: {fileID: 2399218562340073240}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5978022013381203095 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+  m_PrefabInstance: {fileID: 2399218562340073240}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7006683706772047588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cde184b9dcda847b9d6d1ab50ff6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7006683706772047588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4645182809573943804, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+  m_PrefabInstance: {fileID: 2399218562340073240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4888425699148977557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7006683706772047588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb24eaba040f44e40a5db5218a5f6ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tic: 3

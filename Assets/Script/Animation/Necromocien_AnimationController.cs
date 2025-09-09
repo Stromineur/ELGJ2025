@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using LTX.ChanneledProperties;
 using LTX.ChanneledProperties.Priorities;
 using NecroMotMicon.Script.FightingPlan;
 using Sirenix.OdinInspector;
@@ -8,7 +6,7 @@ using Spine;
 using Spine.Unity;
 using UnityEngine;
 
-namespace Legendhair.Player.Animation
+namespace NecroMotMicon.Script.Animation
 {
     public class Necromocien_AnimationController : MonoBehaviour
     {

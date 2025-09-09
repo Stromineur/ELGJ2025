@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 328297675597073341}
   - component: {fileID: 3286108180008661471}
-  - component: {fileID: 6652957792992621769}
   m_Layer: 7
   m_Name: SpawnBot
   m_TagString: Untagged
@@ -45,7 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef2e82790c24475469226a03b29ff46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 3437236639881985105}
+  effectAnimationController: {fileID: 4017912801321809901}
   preciousWord: 1
   badWordToSpawn: {fileID: 11400000, guid: 78deb806d169e444b82e034d6dbaca2a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
@@ -55,18 +55,6 @@ MonoBehaviour:
   odds: 100
   delay: 0
   shouldDestroy: 0
---- !u!114 &6652957792992621769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 326199133938049949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d8175f7509b524199fb5f789f0997f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6436580244564403363
 GameObject:
   m_ObjectHideFlags: 0
@@ -77,7 +65,6 @@ GameObject:
   m_Component:
   - component: {fileID: 323500317760484740}
   - component: {fileID: 8636609843161083712}
-  - component: {fileID: 3007396756989973019}
   m_Layer: 7
   m_Name: SpawnTop
   m_TagString: Untagged
@@ -112,7 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef2e82790c24475469226a03b29ff46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 3437236639881985105}
+  effectAnimationController: {fileID: 4017912801321809901}
   preciousWord: 1
   badWordToSpawn: {fileID: 11400000, guid: 78deb806d169e444b82e034d6dbaca2a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
@@ -122,18 +110,6 @@ MonoBehaviour:
   odds: 100
   delay: 0
   shouldDestroy: 0
---- !u!114 &3007396756989973019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6436580244564403363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d8175f7509b524199fb5f789f0997f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6760444986774358921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -182,14 +158,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: _animationName
+      value: Zombie_COMPERE_Marche3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: initialSkinName
+      value: COMPERE
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 93a8a4c7b2b60714db54e086f0173743, type: 2}
     - target: {fileID: 3451653015596784080, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d188e29ad4e49243bdb90c6f378582a, type: 2}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
@@ -246,6 +238,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Compere Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 11400000, guid: dbe18a2470c0bbc44a0ffcb56b6bb77b, type: 2}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: triggerName
+      value: Invoc
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: effectTrigger
+      value: 
+      objectReference: {fileID: 3437236639881985105}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -255,8 +259,39 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       insertIndex: -1
       addedObject: {fileID: 328297675597073341}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3437236639881985105}
   m_SourcePrefab: {fileID: 100100000, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+--- !u!1 &2254253789327141623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 6760444986774358921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3437236639881985105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2254253789327141623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d8175f7509b524199fb5f789f0997f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4017912801321809901 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 6760444986774358921}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2254253789327141623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cde184b9dcda847b9d6d1ab50ff6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5788881349280510523 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}

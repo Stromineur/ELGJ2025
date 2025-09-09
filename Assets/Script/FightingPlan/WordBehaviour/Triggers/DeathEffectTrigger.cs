@@ -19,7 +19,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Triggers
             if(!fightingWord)
                 return;
             
-            fightingWord.OnDeath += Trigger;
+            fightingWord.OnPreDeath += Trigger;
             isSetup = true;
         }
 
@@ -28,7 +28,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Triggers
             if(!fightingWord)
                 return;
             
-            fightingWord.OnDeath -= Trigger;
+            fightingWord.OnPreDeath -= Trigger;
             isSetup = false;
         }
 

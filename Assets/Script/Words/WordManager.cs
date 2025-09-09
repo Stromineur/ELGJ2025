@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using LucidFactory.UI.Panels;
+using NecroMotMicon.Script.Animation;
 using NecroMotMicon.Script.FightingPlan;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using Script.Core;

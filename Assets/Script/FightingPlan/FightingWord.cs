@@ -9,6 +9,7 @@ namespace NecroMotMicon.Script.FightingPlan
     {
         // 1er FightingWord est l'objet sur lequel est le script, le "tué", 2ème Fighting word est le tueur
         public event Action<FightingWord, FightingWord> OnDeath;
+        public event Action OnPreDeath;
         public event Action OnSpawn;
         public abstract event Action OnInitialized;
         public event Action<float, FightingWord> OnHit;
@@ -128,6 +129,11 @@ namespace NecroMotMicon.Script.FightingPlan
                     .Append(transform.DOScale(localScale * 0.6f, 0.15f))
                     .Append(transform.DOScale(localScale, 0.15f));
             }
+        }
+
+        protected void InvokePreDeath()
+        {
+            OnPreDeath?.Invoke();
         }
         
         public virtual void Die(FightingWord killer)

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordName: Daronne
   wordDescription: "Nom f\xE9minin. En argot, une m\xE8re, la m\xE8re de quelqu\u2019un."
-  prefab: {fileID: 4807316438241275257, guid: 793f07deca22e994cb99cc8ee3ad285e, type: 3}
+  prefab: {fileID: 1415257225792127885, guid: 793f07deca22e994cb99cc8ee3ad285e, type: 3}
   speed: 150
   hp: 150
   damage: 100

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8237657546329652360}
   - component: {fileID: 7013648052232199415}
-  - component: {fileID: 4509831280578574273}
   m_Layer: 7
   m_Name: Tic
   m_TagString: Untagged
@@ -45,7 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef2e82790c24475469226a03b29ff46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 1125578470491545446}
+  effectAnimationController: {fileID: 1081394322740704864}
   preciousWord: 1
   badWordToSpawn: {fileID: 11400000, guid: 78deb806d169e444b82e034d6dbaca2a, type: 2}
   preciousWordToSpawn: {fileID: 11400000, guid: 5d580edc5f81a744ba51b3160d644f7f, type: 2}
@@ -55,19 +55,6 @@ MonoBehaviour:
   odds: 100
   delay: 0
   shouldDestroy: 0
---- !u!114 &4509831280578574273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209462960483050121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb24eaba040f44e40a5db5218a5f6ba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tic: 2
 --- !u!1001 &7283007698542725636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,12 +105,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: _animationName
-      value: PARENTE_Marche
+      value: Zombie_PARENTE_Marche
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: initialSkinName
+      value: PARENTE
       objectReference: {fileID: 0}
     - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: skeletonDataAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 5e0727064d39c3245b7c844e79b32d24, type: 2}
+      objectReference: {fileID: 11400000, guid: d3581a0d343a8864eb6d9a5164418651, type: 2}
     - target: {fileID: 3451653015596784080, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -135,7 +126,7 @@ PrefabInstance:
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4d4ce0754fad417478b5cf5e8c1a5f42, type: 2}
+      objectReference: {fileID: 2100000, guid: dc90c06d340236e4d8c2f945f226d7a8, type: 2}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
@@ -192,14 +183,58 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parente Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 11400000, guid: af46e19b36c30464f9ec776f8b81bf4e, type: 2}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: triggerName
+      value: Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: effectTrigger
+      value: 
+      objectReference: {fileID: 1125578470491545446}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8237657546329652360}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1125578470491545446}
   m_SourcePrefab: {fileID: 100100000, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+--- !u!114 &1081394322740704864 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 7283007698542725636}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2849419495313681274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cde184b9dcda847b9d6d1ab50ff6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2849419495313681274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 7283007698542725636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125578470491545446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2849419495313681274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb24eaba040f44e40a5db5218a5f6ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tic: 2
 --- !u!4 &7536106457132774326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}

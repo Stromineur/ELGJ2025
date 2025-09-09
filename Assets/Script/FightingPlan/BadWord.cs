@@ -38,7 +38,7 @@ namespace NecroMotMicon.Script.FightingPlan
         {
             _speed = -_badWordData.Speed;
         }
-
+        
         public override void Die(FightingWord killer)
         {
             base.Die(killer);

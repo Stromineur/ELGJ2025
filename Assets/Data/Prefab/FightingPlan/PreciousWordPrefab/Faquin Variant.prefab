@@ -97,7 +97,6 @@ GameObject:
   m_Component:
   - component: {fileID: 64202849070125373}
   - component: {fileID: 9107431415165672692}
-  - component: {fileID: 5560780468809253310}
   - component: {fileID: 1959084946230519695}
   - component: {fileID: 1384939248474176128}
   m_Layer: 6
@@ -145,19 +144,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5560780468809253310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8963789307094246052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb24eaba040f44e40a5db5218a5f6ba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tic: 1.5
 --- !u!114 &1959084946230519695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c7c194531939544b6a98e75e216a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 5560780468809253310}
+  effectTrigger: {fileID: 5931417204309213425}
+  effectAnimationController: {fileID: 5809618500886152342}
   _range: 3.5
   _damage: 50
 --- !u!114 &1384939248474176128
@@ -235,14 +222,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: _animationName
+      value: Zombie_FAQUIN_Marche
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: initialSkinName
+      value: FAQUIN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: fc982066bb049284a8b300f7a99e9a44, type: 2}
     - target: {fileID: 3451653015596784080, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a12d128033567cf43a284996068318cc, type: 2}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
@@ -299,16 +302,72 @@ PrefabInstance:
       propertyPath: m_Name
       value: Faquin Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: effectTrigger
+      value: 
+      objectReference: {fileID: 5931417204309213425}
+    m_RemovedComponents:
+    - {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       insertIndex: -1
       addedObject: {fileID: 64202849070125373}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5931417204309213425}
+    - targetCorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5809618500886152342}
   m_SourcePrefab: {fileID: 100100000, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+--- !u!1 &401077315030822343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 5118818939724139705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5931417204309213425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401077315030822343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb24eaba040f44e40a5db5218a5f6ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tic: 1.5
+--- !u!114 &5809618500886152342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401077315030822343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76277fa6584dc4a48b79e036c75cdfd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectTrigger: {fileID: 5931417204309213425}
+  _controller: {fileID: 8654338132465239923}
+  effect: {fileID: 0}
+  triggerName: 
 --- !u!4 &5372339961958937867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
   m_PrefabInstance: {fileID: 5118818939724139705}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8654338132465239923 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4545205257901820874, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 5118818939724139705}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401077315030822343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3725374b05c0a674ab744180c0bac1d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,12 +1,18 @@
+using System;
+using NecroMotMicon.Script.Animation.Words;
+using NecroMotMicon.Script.FightingPlan.WordBehaviour.Triggers;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 {
-    [RequireComponent(typeof(LineChanger))]
-    public class EnigmatiqueDetection : MonoBehaviour
+    public class EnigmatiqueDetection : EffectTrigger
     {
+        public FightingLane MoveToLane { get; private set; }
+
+        [SerializeField] private WordEffectAnimationController effectAnimationController;
+        
         private PreciousWord _preciousWord;
-        private LineChanger _lineChanger;
+        [SerializeField] private LineChanger _lineChanger;
         private float _timeBeforeNextChangeLine;
         
         private float _distance;
@@ -15,8 +21,21 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
         private void Awake()
         {
             _preciousWord = GetComponentInParent<PreciousWord>();
-            _lineChanger = GetComponent<LineChanger>();
+            if(_lineChanger == null)
+                _lineChanger = GetComponentInChildren<LineChanger>();
+            if(effectAnimationController == null)
+                effectAnimationController = GetComponentInChildren<WordEffectAnimationController>();
             _timeBeforeNextChangeLine = 0;
+        }
+
+        private void OnEnable()
+        {
+            effectAnimationController.OnEffectTrigger += ChangeLine;
+        }
+
+        private void OnDisable()
+        {
+            effectAnimationController.OnEffectTrigger -= ChangeLine;
         }
 
         private void Update()
@@ -31,7 +50,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
             }
 
             _closestEnemy = Mathf.Infinity;
-            FightingLane moveToLane = null;
+            MoveToLane = null;
             
             foreach (BadWord badWord in _preciousWord.FightingLane.BadWords)
             {
@@ -49,7 +68,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
                     if (!IsEnemyCloser(badWord)) 
                         continue;
                     
-                    moveToLane = previousLane;
+                    MoveToLane = previousLane;
                     _closestEnemy = _distance;
                 }
             }
@@ -62,16 +81,21 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
                     if (!IsEnemyCloser(badWord)) 
                         continue;
                     
-                    moveToLane = nextLane;
+                    MoveToLane = nextLane;
                     _closestEnemy = _distance;
                 }
             }
 
-            if (moveToLane)
+            if (MoveToLane)
             {
-                _lineChanger.ChangeLine(moveToLane);
+                Trigger();
                 _timeBeforeNextChangeLine = 1f;
             }
+        }
+
+        public void ChangeLine()
+        {
+            _lineChanger.ChangeLine(MoveToLane);
         }
 
         private bool IsEnemyCloser(BadWord badWord)
@@ -86,5 +110,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
             }
             return false;
         }
+
+        protected override void Setup() { }
     }
 }

@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using LTX.ChanneledProperties;
 using LTX.ChanneledProperties.Priorities;
 using NecroMotMicon.Script.FightingPlan;
 using Sirenix.OdinInspector;
@@ -8,17 +6,17 @@ using Spine;
 using Spine.Unity;
 using UnityEngine;
 
-namespace Legendhair.Player.Animation
+namespace NecroMotMicon.Script.Animation
 {
     public class Zombie_AnimationController : MonoBehaviour
     {
         private SkeletonAnimation _skeletonAnimation;
 
-        private Priority<ZombieAnimationParameters> currentAnimationState;
+        private Priority<WordAnimationParameters> currentAnimationState;
         [SerializeField, ReadOnly] private string currentAnimation; // juste pour les logs
         
-        [SerializeField] private ZombieAnimationParameters Idle;
-        [SerializeField] private ZombieAnimationParameters Attack;
+        [SerializeField] private WordAnimationParameters Idle;
+        [SerializeField] private WordAnimationParameters Attack;
         
         private PreciousWord preciousWord;
         private string _wordName;
@@ -31,16 +29,16 @@ namespace Legendhair.Player.Animation
             if (!_skeletonAnimation) 
                 return;
             
-            currentAnimationState = new Priority<ZombieAnimationParameters>(Idle);
+            currentAnimationState = new Priority<WordAnimationParameters>(Idle);
             currentAnimationState.AddOnValueChangeCallback(OnCurrentAnimationChanged);
         }
 
         private void Start()
         {
-            _wordName = preciousWord.WordData.name.Split('_', StringSplitOptions.None)[0].ToUpper();
+            _wordName = preciousWord.WordData.name.Split("Zombie_", StringSplitOptions.None)[0].ToUpper();
         }
 
-        private void OnCurrentAnimationChanged(ZombieAnimationParameters parameters)
+        private void OnCurrentAnimationChanged(WordAnimationParameters parameters)
         {
             _skeletonAnimation.AnimationState.SetAnimation(0, _wordName + parameters.AssetName, parameters.Loop);
             _skeletonAnimation.timeScale = parameters.TimeScale;
@@ -97,12 +95,12 @@ namespace Legendhair.Player.Animation
             StartAnimation(Attack);
         }
 
-        private void StartAnimation(ZombieAnimationParameters parameters)
+        private void StartAnimation(WordAnimationParameters parameters)
         {
             currentAnimationState.AddPriority(this, parameters.Priority, parameters);
         }
 
-        private void StopAnimation(ZombieAnimationParameters parameters)
+        private void StopAnimation(WordAnimationParameters parameters)
         {
             currentAnimationState.RemovePriority(this);
         }

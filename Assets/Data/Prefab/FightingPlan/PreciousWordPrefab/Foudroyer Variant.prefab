@@ -97,7 +97,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2279711855953854765}
   - component: {fileID: 979441860853851420}
-  - component: {fileID: 4882986520073605779}
   - component: {fileID: 8796763513116105335}
   - component: {fileID: 275851188570504079}
   m_Layer: 6
@@ -135,21 +134,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d10f76e1e1ba94d9a6b798809e47c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 4751941698875062007}
+  effectAnimationController: {fileID: 6325934722363922531}
   _range: 100
   _damage: 250
---- !u!114 &4882986520073605779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450742694322470924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d8175f7509b524199fb5f789f0997f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8796763513116105335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,12 +224,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: _animationName
-      value: FOUDROYER_Marche
+      value: Zombie_FOUDROYER_Marche
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: initialSkinName
+      value: FOUDROYER
       objectReference: {fileID: 0}
     - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: skeletonDataAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 233a9776167582e44af98a0de089da7e, type: 2}
+      objectReference: {fileID: 11400000, guid: 06b224ec18e303846987048575cec130, type: 2}
     - target: {fileID: 3451653015596784080, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -253,7 +245,7 @@ PrefabInstance:
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4d4ce0754fad417478b5cf5e8c1a5f42, type: 2}
+      objectReference: {fileID: 2100000, guid: 2cd16e5668f5fa643bfd5d0325b02a1e, type: 2}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
@@ -310,16 +302,59 @@ PrefabInstance:
       propertyPath: m_Name
       value: Foudroyer Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 11400000, guid: dbe18a2470c0bbc44a0ffcb56b6bb77b, type: 2}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: triggerName
+      value: Foudre
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: effectTrigger
+      value: 
+      objectReference: {fileID: 4751941698875062007}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2279711855953854765}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4751941698875062007}
   m_SourcePrefab: {fileID: 100100000, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
 --- !u!4 &3485362319196151221 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
   m_PrefabInstance: {fileID: 4456785304649065479}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6325934722363922531 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7643614079705578596, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 4456785304649065479}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169598883266053497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cde184b9dcda847b9d6d1ab50ff6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &9169598883266053497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 4456785304649065479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4751941698875062007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169598883266053497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d8175f7509b524199fb5f789f0997f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

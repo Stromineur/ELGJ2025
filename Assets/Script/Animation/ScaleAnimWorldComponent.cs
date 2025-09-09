@@ -1,8 +1,8 @@
-using UnityEngine;
 using DG.Tweening;
 using Sirenix.OdinInspector;
+using UnityEngine;
 
-namespace NecroMotMicon
+namespace NecroMotMicon.Script.Animation
 {
     public class ScaleAnimWorldComponent : MonoBehaviour
     {

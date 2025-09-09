@@ -1,11 +1,8 @@
-using LTX.ChanneledProperties;
 using LTX.ChanneledProperties.Priorities;
-using Spine;
 using Spine.Unity;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Legendhair.Player.Animation
+namespace NecroMotMicon.Script.Animation
 {
     [CreateAssetMenu(menuName = "ScriptableObjects/PlayerAnimationParameters", fileName = nameof(PlayerAnimationParameters))]
     public class PlayerAnimationParameters : ScriptableObject

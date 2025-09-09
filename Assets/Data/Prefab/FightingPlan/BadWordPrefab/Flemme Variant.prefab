@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7034068775694147002}
   - component: {fileID: 875574328722230209}
-  - component: {fileID: 1458338893763073807}
   m_Layer: 7
   m_Name: Fury
   m_TagString: Untagged
@@ -45,21 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6050c37709dcc643917a1347fc1456c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectTrigger: {fileID: 0}
+  effectTrigger: {fileID: 3561653106712604381}
+  effectAnimationController: {fileID: 437337847142542279}
   newSpeed: -250
---- !u!114 &1458338893763073807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9070164418878709516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f65014307b5afd44cb728e748b87a947, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pourcentThreshold: 50
 --- !u!1001 &8479209095809929288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68,6 +55,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6948971986838377281, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6948971986838377281, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7dd4089e2361a4e42a951894e5811c1f, type: 2}
+    - target: {fileID: 2616945948305361273, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: Attack
+      value: 
+      objectReference: {fileID: 11400000, guid: 31d573af0007f2045bdaa5c4a7368926, type: 2}
     - target: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -108,6 +107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2694981972360899762, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3557802573646537082, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 13.28
@@ -132,14 +135,105 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: _controller
+      value: 
+      objectReference: {fileID: 7153087172376114808}
+    - target: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: triggerName
+      value: Rage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: effectTrigger
+      value: 
+      objectReference: {fileID: 3561653106712604381}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: _animationName
+      value: FLEMME_Marche_Neutre
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: initialSkinName
+      value: FLEMME
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f5cd6a863467ecb48a15984875463f61, type: 2}
+    m_RemovedComponents:
+    - {fileID: 2616945948305361273, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7034068775694147002}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4645182809573943804, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      insertIndex: 8
+      addedObject: {fileID: 7153087172376114808}
+    - targetCorrespondingSourceObject: {fileID: 4645182809573943804, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3561653106712604381}
   m_SourcePrefab: {fileID: 100100000, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+--- !u!114 &437337847142542279 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8339980187097693071, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+  m_PrefabInstance: {fileID: 8479209095809929288}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3880751132416735668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cde184b9dcda847b9d6d1ab50ff6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &894568858073849078 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+  m_PrefabInstance: {fileID: 8479209095809929288}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3880751132416735668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3880751132416735668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4645182809573943804, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+  m_PrefabInstance: {fileID: 8479209095809929288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7153087172376114808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3880751132416735668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3cdad31db46384393709bd914f6adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonAnimation: {fileID: 894568858073849078}
+  currentAnimation: 
+  Idle: {fileID: 11400000, guid: 83362ea2cc32f51469074f464703ef58, type: 2}
+  Attack: {fileID: 11400000, guid: 31d573af0007f2045bdaa5c4a7368926, type: 2}
+  NeutralIdle: {fileID: 11400000, guid: 83362ea2cc32f51469074f464703ef58, type: 2}
+  NeutralAttack: {fileID: 11400000, guid: 31d573af0007f2045bdaa5c4a7368926, type: 2}
+  RageIdle: {fileID: 11400000, guid: 7aa6756eff8fdf24dbdd43c1ac405d6b, type: 2}
+  RageAttack: {fileID: 11400000, guid: 7fa7608a651712b4099f956c5990b41d, type: 2}
+--- !u!114 &3561653106712604381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3880751132416735668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65014307b5afd44cb728e748b87a947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pourcentThreshold: 50
 --- !u!4 &5908580993525409798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
