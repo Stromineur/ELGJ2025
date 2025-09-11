@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Special
   m_EditorClassIdentifier: 
   _assetName: _Special
-  _priority: 100
+  _priority: 300
   _loop: 0
   _timeScale: 1
   _unscaledTime: 0

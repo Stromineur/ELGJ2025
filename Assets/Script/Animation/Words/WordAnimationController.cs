@@ -84,7 +84,7 @@ namespace NecroMotMicon.Script.Animation.Words
             if (currentAnimationState == null || currentAnimationState.Value.Loop || !trackentry.IsComplete)
                 return;
 
-            currentAnimationState.RemovePriority(this);
+            currentAnimationState.RemovePriority(currentAnimationState.Value);
 
             if (trackentry.Animation.Name == (_wordName + Attack.AssetName))
             {
@@ -99,7 +99,17 @@ namespace NecroMotMicon.Script.Animation.Words
 
         internal void StartAnimation(WordAnimationParameters parameters)
         {
-            currentAnimationState.AddPriority(this, parameters.Priority, parameters);
+            currentAnimationState.AddPriority(parameters, parameters.Priority, parameters);
+        }
+
+        internal void Clear()
+        {
+            currentAnimationState.Clear();
+        }
+
+        internal void StopAttackAnimation()
+        {
+            StopAnimation(Attack);
         }
 
         internal void StopAnimation(WordAnimationParameters parameters)

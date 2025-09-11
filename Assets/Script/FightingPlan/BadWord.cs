@@ -29,6 +29,11 @@ namespace NecroMotMicon.Script.FightingPlan
             OnInitialized?.Invoke();
         }
 
+        protected override float GetSpeed()
+        {
+            return base.GetSpeed() * FightingLane.LaneSpeed.Value;
+        }
+
         protected override float GetLanePosition(FightingLane fightingLane)
         {
             return fightingLane.EnemyPosition.transform.position.y;

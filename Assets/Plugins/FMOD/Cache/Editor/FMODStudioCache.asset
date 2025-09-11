@@ -1,0 +1,522 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9040124608911640948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Invocation
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Invocation
+  Guid:
+    Data1: 779131031
+    Data2: 1231603601
+    Data3: -340235367
+    Data4: -2079870597
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8831731775757689499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mus_Start
+  m_EditorClassIdentifier: 
+  Path: event:/Mus_Start
+  Guid:
+    Data1: -280413971
+    Data2: 1257050210
+    Data3: -1195479160
+    Data4: -288788236
+  Banks:
+  - {fileID: 7704774022378316217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 288695
+--- !u!114 &-7990741091032516926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsVais/MotsVais_Attaque
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsVais/MotsVais_Attaque
+  Guid:
+    Data1: 165343566
+    Data2: 1118975069
+    Data3: 1175154572
+    Data4: -393176164
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6967400681440833878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Achat
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Achat
+  Guid:
+    Data1: -1735349634
+    Data2: 1202223994
+    Data3: 216647305
+    Data4: 1972189506
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6063885388691250690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Phase_Achat_Start
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Phase_Achat_Start
+  Guid:
+    Data1: 1876816678
+    Data2: 1266048235
+    Data3: -124395880
+    Data4: 1839333757
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
+--- !u!114 &-5589801778340975610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Faquin_AOE
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Faquin_AOE
+  Guid:
+    Data1: 1379884823
+    Data2: 1324642289
+    Data3: -723378543
+    Data4: 1545771622
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 58071
+--- !u!114 &-4215815794869656077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Compere_Spawn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Compere_Spawn
+  Guid:
+    Data1: -1175996227
+    Data2: 1307418887
+    Data3: 576369821
+    Data4: 1695642124
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3777388682109089737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Foudroyer_Aoe
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Foudroyer_Aoe
+  Guid:
+    Data1: 136111319
+    Data2: 1293784137
+    Data3: -1666367347
+    Data4: -1472067756
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3481821223329406103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Sound/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638931829640000000
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3337095310651628924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsVais_Goumer_Aoe
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsVais_Goumer_Aoe
+  Guid:
+    Data1: -61402692
+    Data2: 1083285230
+    Data3: 699658132
+    Data4: 2000742429
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1999261665489315542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Sound/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638931829640000000
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1205057464187272574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Attaque
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Attaque
+  Guid:
+    Data1: 2141898603
+    Data2: 1144439346
+    Data3: -1576965698
+    Data4: 957954941
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-953427366837321834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Sound/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638931829640000000
+  FileSizes:
+  - Name: 
+    Value: 1598
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -953427366837321834}
+  - {fileID: -1999261665489315542}
+  - {fileID: 7704774022378316217}
+  - {fileID: -3481821223329406103}
+  EditorEvents:
+  - {fileID: -8831731775757689499}
+  - {fileID: -5589801778340975610}
+  - {fileID: -6063885388691250690}
+  - {fileID: 974854277404434113}
+  - {fileID: -7990741091032516926}
+  - {fileID: 3440248475920643922}
+  - {fileID: -1205057464187272574}
+  - {fileID: -6967400681440833878}
+  - {fileID: -9040124608911640948}
+  - {fileID: 1533944408367825071}
+  - {fileID: 7631590825236257157}
+  - {fileID: -3337095310651628924}
+  - {fileID: -4215815794869656077}
+  - {fileID: -3777388682109089737}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -1999261665489315542}
+  StringsBanks:
+  - {fileID: -953427366837321834}
+  cacheVersion: 131849
+  cacheTime: 638931829640000000
+  SerializableEventsDict:
+  - key: event:/Mus_Start
+    index: 0
+  - key: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Faquin_AOE
+    index: 1
+  - key: event:/UI/UI_Phase_Achat_Start
+    index: 2
+  - key: event:/SFX/MOTS (X2)/MotsVais_Daronne_Spawn
+    index: 3
+  - key: event:/SFX/MOTS (X2)/MotsVais/MotsVais_Attaque
+    index: 4
+  - key: event:/UI/UI_Phase_Attaque_Start
+    index: 5
+  - key: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Attaque
+    index: 6
+  - key: event:/UI/UI_Achat
+    index: 7
+  - key: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Invocation
+    index: 8
+  - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Enigmatique_Move
+    index: 9
+  - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Parente_Spawn
+    index: 10
+  - key: event:/SFX/MOTS (X2)/MotsVais_Goumer_Aoe
+    index: 11
+  - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Compere_Spawn
+    index: 12
+  - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Foudroyer_Aoe
+    index: 13
+--- !u!114 &974854277404434113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsVais_Daronne_Spawn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsVais_Daronne_Spawn
+  Guid:
+    Data1: -397130701
+    Data2: 1321676938
+    Data3: 1752356781
+    Data4: -672029331
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1533944408367825071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Enigmatique_Move
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Enigmatique_Move
+  Guid:
+    Data1: 136244654
+    Data2: 1141872406
+    Data3: 1110614705
+    Data4: -1117086613
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3440248475920643922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Phase_Attaque_Start
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Phase_Attaque_Start
+  Guid:
+    Data1: -912401066
+    Data2: 1265150632
+    Data3: -1587854172
+    Data4: 682827135
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7631590825236257157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Parente_Spawn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Parente_Spawn
+  Guid:
+    Data1: 1348270258
+    Data2: 1197955712
+    Data3: 408112811
+    Data4: -1090160231
+  Banks:
+  - {fileID: -3481821223329406103}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7704774022378316217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MUSIC.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Sound/Desktop/MUSIC.bank
+  Name: MUSIC
+  StudioPath: bank:/MUSIC
+  lastModified: 638931829640000000
+  FileSizes: []
+  Exists: 1

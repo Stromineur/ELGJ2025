@@ -1,3 +1,4 @@
+using LTX.ChanneledProperties.Priorities;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
@@ -5,10 +6,8 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
     public class OisiveteSlow : WordBehaviour
     {
         [SerializeField] private float slowMultiplier = 0.5f;
-        [SerializeField] private float slowDuration = 5f;
         
         private PreciousWord _preciousWord;
-        private BadWord _badWord;
 
         private void Awake()
         {
@@ -27,27 +26,24 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 
         private void OnEnable()
         {
-            _preciousWord.OnHit += StartSlow;
+            _preciousWord.OnInitialized += StartSlow;
+            _preciousWord.OnDeath += StopSlow;
         }
 
         private void OnDisable()
         {
-            _preciousWord.OnHit -= StartSlow;
+            _preciousWord.OnInitialized -= StartSlow;
+            _preciousWord.OnDeath -= StopSlow;
         }
 
-        private void StartSlow(float f, FightingWord badWord)
+        private void StartSlow()
         {
-            _badWord = badWord as BadWord;
-            badWord.Slow(slowMultiplier);
-            Invoke(nameof(StopSlow), slowDuration);
+            _preciousWord.FightingLane.LaneSpeed.AddPriority(this, PriorityTags.Default, slowMultiplier);
         }
 
-        private void StopSlow()
+        private void StopSlow(FightingWord arg1, FightingWord arg2)
         {
-            if(_badWord)
-                _badWord.ResetSlow();
-            
-            Destroy(gameObject);
+            _preciousWord.FightingLane.LaneSpeed.RemovePriority(this);
         }
     }
 }

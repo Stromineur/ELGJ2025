@@ -84,7 +84,12 @@ namespace NecroMotMicon.Script.FightingPlan
 
         private void Move()
         {
-            transform.position = new Vector2(transform.position.x + Speed * Time.deltaTime * GameController.GameMetrics.SpeedMultiplier, transform.position.y);
+            transform.position = new Vector2(transform.position.x + GetSpeed(), transform.position.y);
+        }
+
+        protected virtual float GetSpeed()
+        {
+            return Speed * Time.deltaTime * GameController.GameMetrics.SpeedMultiplier;
         }
 
         private bool IsEnemyHere(out RaycastHit2D enemy)

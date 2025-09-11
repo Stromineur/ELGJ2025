@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectTrigger: {fileID: 0}
-  slowMultiplier: 0.1
-  slowDuration: 5
+  effectAnimationController: {fileID: 0}
+  slowMultiplier: 0.5
 --- !u!1001 &1846688807244135308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -113,12 +113,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 501240030d65697418cfe73cbf25fcd5, type: 2}
+      objectReference: {fileID: 2100000, guid: b072915865a83c14fb17cf9dcc610056, type: 2}
     - target: {fileID: 4323415318996459555, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 

@@ -40,6 +40,7 @@ namespace NecroMotMicon.Script.Animation.Words
 
         protected override void InternalPlayAnimation()
         {
+            _controller.Clear();
             _controller.StartAnimation(effect);
         }
 

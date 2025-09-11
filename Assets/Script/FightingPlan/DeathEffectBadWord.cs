@@ -1,6 +1,6 @@
 namespace NecroMotMicon.Script.FightingPlan
 {
-    public class Daronne : BadWord
+    public class DeathEffectBadWord : BadWord
     {
         private FightingWord killer;
         

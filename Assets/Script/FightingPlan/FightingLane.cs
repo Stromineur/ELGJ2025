@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using LTX.ChanneledProperties.Priorities;
 using NecroMotMicon.Script.Words;
 using Script.Core;
 using Sirenix.OdinInspector;
@@ -35,6 +36,7 @@ namespace NecroMotMicon.Script.FightingPlan
         public List<FightingWord> FightingWords { get; private set; } = new();
         public List<BadWord> BadWords { get; private set; } = new();
         public List<PreciousWord> PreciousWords { get; private set; } = new();
+        public Priority<float> LaneSpeed { get; private set; }
 
         private PreciousWord lastPreciousWord;
         private bool _canSpawnPrecious;
@@ -45,6 +47,7 @@ namespace NecroMotMicon.Script.FightingPlan
             _canSpawnPrecious = true;
             _canSpawnBad = true;
             OnCanSpawn?.Invoke();
+            LaneSpeed = new Priority<float>(1);
         }
 
         ///fonction à appeler au moment du drag and drop (faire passer word data dans fightingData et null dans parent
@@ -106,7 +109,6 @@ namespace NecroMotMicon.Script.FightingPlan
 
         private void OnWordDeath(FightingWord killed, FightingWord _)
         {
-            Debug.Log(killed);
             UnsubscribeToDeathEvent(killed);
             if (killed is BadWord badWord)
             {
