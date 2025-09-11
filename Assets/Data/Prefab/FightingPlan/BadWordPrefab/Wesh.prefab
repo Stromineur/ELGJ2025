@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 2694981972360899762}
   - component: {fileID: 8339980187097693071}
   - component: {fileID: 2616945948305361273}
+  - component: {fileID: 5427168127670994152}
   m_Layer: 7
   m_Name: Wesh
   m_TagString: Untagged
@@ -357,7 +358,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &8774725235382242494
 MonoBehaviour:
@@ -442,6 +443,19 @@ MonoBehaviour:
   currentAnimation: 
   Idle: {fileID: 11400000, guid: dcc9cc57c3516bb4d972bf2069f511a5, type: 2}
   Attack: {fileID: 11400000, guid: 1b1b4ba37753be94bb4363a33c33f5d3, type: 2}
+--- !u!114 &5427168127670994152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645182809573943804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b335bfd84a289a846b3255afab1f8794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkValueMesh: {fileID: 2173996929777643389, guid: 920081c72bd55c14ab27fdc40c9d9ab3, type: 3}
 --- !u!1 &7372435452543214937
 GameObject:
   m_ObjectHideFlags: 0

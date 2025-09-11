@@ -8,6 +8,7 @@ using NecroMotMicon.Script.FightingPlan;
 using NecroMotMicon.Script.FightingPlan.Wave;
 using Script.Core;
 using Sirenix.OdinInspector;
+using Spine.Unity;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -225,7 +226,12 @@ namespace NecroMotMicon.Script.Words
             foreach (BadWordData badWordData in nextBadWords)
             {
                 defaultBadWordDescription.GetComponent<BadWordDescription>().badWordData = badWordData;
-                defaultBadWordDescription.GetComponent<SpriteRenderer>().sprite = badWordData.Prefab.GetComponent<SpriteRenderer>().sprite;
+                SkeletonAnimation skeletonAnimation = defaultBadWordDescription.GetComponent<SkeletonAnimation>();
+                SkeletonAnimation badWordAnimationData = badWordData.Prefab.GetComponent<SkeletonAnimation>();
+                skeletonAnimation.skeletonDataAsset = badWordAnimationData.skeletonDataAsset;
+                skeletonAnimation.initialSkinName = badWordAnimationData.initialSkinName;
+                skeletonAnimation.AnimationName = badWordAnimationData.AnimationName;
+                skeletonAnimation.Initialize(true);
                 Instantiate(defaultBadWordDescription, badWordDataContainer.transform.position, Quaternion.identity, badWordDataContainer.transform);
             }
         }

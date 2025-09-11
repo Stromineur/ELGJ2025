@@ -35,7 +35,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
             if (_changeLineRemaining <= 0)
                 return;
 
-            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(1, 0), _badWord.GetRaycastDistance() * 2f, _badWord.EnemyMask);
+            RaycastHit2D enemy = Physics2D.Raycast(transform.position, new Vector2(1, 0), _badWord.GetRaycastDistance() * 3f, _badWord.EnemyMask);
 
             if (enemy)
             {

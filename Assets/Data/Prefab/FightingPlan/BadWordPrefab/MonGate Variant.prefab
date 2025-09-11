@@ -120,8 +120,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6948971986838377281, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6948971986838377281, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 43ec6800ca546804baeeac50dd3506cb, type: 2}
     - target: {fileID: 2617520078806579278, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -196,7 +200,7 @@ PrefabInstance:
       objectReference: {fileID: 5576376778120497276}
     - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: _animationName
-      value: MonGATE_Marche
+      value: MONGATE_Marche
       objectReference: {fileID: 0}
     - target: {fileID: 8774725235382242494, guid: 60e3378e9af0fdf4ea907af11c488c96, type: 3}
       propertyPath: initialSkinName

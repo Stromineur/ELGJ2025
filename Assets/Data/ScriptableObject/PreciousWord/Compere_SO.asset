@@ -15,7 +15,7 @@ MonoBehaviour:
   wordPrefab: {fileID: 8552970184542299233, guid: c7464b0bc99137b4398391f8ca2f418b, type: 3}
   wordName: "Comp\xE8re"
   wordDescription: Nom masculin. Ami, camarade, complice d'une supercherie.
-  wordEffect: "Fait appara\xEEtre un fichtre sur chaque lignes adjacentes"
+  wordEffect: "A l'apparition, fait appara\xEEtre un fichtre sur chaque lignes adjacentes"
   writingTime: 10
   writingCost: 300
   exhumingCost: 75

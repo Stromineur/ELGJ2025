@@ -160,7 +160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: _animationName
-      value: Zombie_COMPERE_Marche3
+      value: Zombie_COMPERE_Marche
       objectReference: {fileID: 0}
     - target: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       propertyPath: initialSkinName

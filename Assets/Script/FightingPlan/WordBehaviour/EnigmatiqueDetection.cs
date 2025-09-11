@@ -89,7 +89,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
             if (MoveToLane)
             {
                 Trigger();
-                _timeBeforeNextChangeLine = 1f;
+                _timeBeforeNextChangeLine = 2f;
             }
         }
 
