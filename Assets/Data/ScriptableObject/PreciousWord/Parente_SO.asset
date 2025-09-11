@@ -16,7 +16,7 @@ MonoBehaviour:
   wordName: Parente
   wordDescription: "Nom f\xE9minin. Toute personne \xE0 qui l\u2019on est li\xE9
     par le sang, par la naissance ; membre d\u2019une m\xEAme famille."
-  wordEffect: Lorsqu'elle meurt, invoque un "Fichtre".
+  wordEffect: "Toutes les 2s, fait appara\xEEtre un fichtre sur sa ligne."
   writingTime: 10
   writingCost: 300
   exhumingCost: 100

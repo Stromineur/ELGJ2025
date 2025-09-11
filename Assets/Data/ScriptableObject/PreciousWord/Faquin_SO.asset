@@ -15,8 +15,7 @@ MonoBehaviour:
   wordPrefab: {fileID: 8552970184542299233, guid: c7464b0bc99137b4398391f8ca2f418b, type: 3}
   wordName: Faquin
   wordDescription: Nom masculin. Individu sans valeur, plat et impertinent.
-  wordEffect: "Inflige des d\xE9g\xE2ts en continu \xE0 tous les ennemis aux alentours
-    (AoE ronde portant sur les deux lignes adjacentes)"
+  wordEffect: "Inflige des d\xE9g\xE2ts en continu \xE0 tous les ennemis aux alentours."
   writingTime: 10
   writingCost: 300
   exhumingCost: 150

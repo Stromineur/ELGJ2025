@@ -15,7 +15,8 @@ MonoBehaviour:
   wordPrefab: {fileID: 8552970184542299233, guid: c7464b0bc99137b4398391f8ca2f418b, type: 3}
   wordName: "\xC9nigmatique"
   wordDescription: "Adjectif. Qui est difficile \xE0 comprendre, \xE0 interpr\xE9ter."
-  wordEffect: Change de colonne pour attaquer les mot-vais usages adjacents.
+  wordEffect: "S'il d\xE9tecte un ennemi d'une ligne adjacente plus avanc\xE9, se
+    d\xE9place sur cette ligne pour attaquer l'ennemi en question."
   writingTime: 200
   writingCost: 300
   exhumingCost: 125
