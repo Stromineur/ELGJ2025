@@ -1,0 +1,11 @@
+VFX_POISON.png
+size:1951,1042
+filter:Linear,Linear
+Crane1
+bounds:1045,31,103,110
+rotate:90
+Groupe 2
+bounds:2,2,1038,1041
+rotate:90
+Groupe 3
+bounds:1045,136,904,904

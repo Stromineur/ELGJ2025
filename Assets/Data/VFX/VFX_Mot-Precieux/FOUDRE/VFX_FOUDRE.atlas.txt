@@ -1,0 +1,11 @@
+VFX_FOUDRE.png
+size:2430,1924
+filter:Linear,Linear
+Foudre1
+bounds:2,1395,2392,527
+Foudre2
+bounds:2,434,2426,430
+Foudre3
+bounds:2,866,2392,527
+Foudre4
+bounds:2,2,2426,430
