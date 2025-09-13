@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5b8b3c6d5219dd04e812bb0995ad4486
+guid: d8e95964e85330046b14cdaf9f4d187d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3514622647023228265
-    second: UI_Feuille_Ennemis_0
+      213: -410420412868539211
+    second: VFX_Main_D_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Feuille_Ennemis_0
+      name: VFX_Main_D_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1063
-        height: 1270
+        width: 432
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79a23a4e25d893fc0800000000000000
-      internalID: -3514622647023228265
+      spriteID: 5bcc66a1fc4ed4af0800000000000000
+      internalID: -410420412868539211
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      UI_Feuille_Ennemis_0: -3514622647023228265
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

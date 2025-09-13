@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: bb636367afb00e14893a63afebdb0cb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1587937049482699162
+    second: VFX_SORTIE_TERRE_0
+  - first:
+      213: -2646157850741522382
+    second: VFX_SORTIE_TERRE_1
+  - first:
+      213: -5901326326773106812
+    second: VFX_SORTIE_TERRE_2
+  - first:
+      213: -3679714324702790624
+    second: VFX_SORTIE_TERRE_3
+  - first:
+      213: 4248305957972424445
+    second: VFX_SORTIE_TERRE_4
+  - first:
+      213: 598092162528344819
+    second: VFX_SORTIE_TERRE_5
+  - first:
+      213: 3592711706186527853
+    second: VFX_SORTIE_TERRE_6
+  - first:
+      213: 6300854773698787979
+    second: VFX_SORTIE_TERRE_7
+  - first:
+      213: -6780883946500432265
+    second: VFX_SORTIE_TERRE_8
+  - first:
+      213: 308280252951388219
+    second: VFX_SORTIE_TERRE_9
+  - first:
+      213: -2364021288598910681
+    second: VFX_SORTIE_TERRE_10
+  - first:
+      213: 7830428362054249482
+    second: VFX_SORTIE_TERRE_11
+  - first:
+      213: 5325568716553333372
+    second: VFX_SORTIE_TERRE_12
+  - first:
+      213: 4563058906998296577
+    second: VFX_SORTIE_TERRE_13
+  - first:
+      213: 8672608506641387053
+    second: VFX_SORTIE_TERRE_14
+  - first:
+      213: -5375746392294463379
+    second: VFX_SORTIE_TERRE_15
+  - first:
+      213: -8909932908462997378
+    second: VFX_SORTIE_TERRE_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ed6efaaa386f9e0800000000000000
+      internalID: -1587937049482699162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 38
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230c0f66475f64bd0800000000000000
+      internalID: -2646157850741522382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 38
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487370de8f64a1ea0800000000000000
+      internalID: -5901326326773106812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c7c2151570fecc0800000000000000
+      internalID: -3679714324702790624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 56
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df63f12a2c305fa30800000000000000
+      internalID: 4248305957972424445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 56
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa727a27a9dc4800800000000000000
+      internalID: 598092162528344819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64b2a30340ebd130800000000000000
+      internalID: 3592711706186527853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8af3a78802217750800000000000000
+      internalID: 6300854773698787979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e51b13af575e1a0800000000000000
+      internalID: -6780883946500432265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 29
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b306f68b14b374400800000000000000
+      internalID: 308280252951388219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 29
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729c993c92f413fd0800000000000000
+      internalID: -2364021288598910681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 29
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c236f9b154bac60800000000000000
+      internalID: 7830428362054249482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 28
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a2819188838e940800000000000000
+      internalID: 5325568716553333372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100d0d856ed335f30800000000000000
+      internalID: 4563058906998296577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e0462cc7b4b5870800000000000000
+      internalID: 8672608506641387053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6863bc53238565b0800000000000000
+      internalID: -5375746392294463379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_SORTIE_TERRE_16
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7000820a3f895480800000000000000
+      internalID: -8909932908462997378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX_SORTIE_TERRE_0: -1587937049482699162
+      VFX_SORTIE_TERRE_1: -2646157850741522382
+      VFX_SORTIE_TERRE_10: -2364021288598910681
+      VFX_SORTIE_TERRE_11: 7830428362054249482
+      VFX_SORTIE_TERRE_12: 5325568716553333372
+      VFX_SORTIE_TERRE_13: 4563058906998296577
+      VFX_SORTIE_TERRE_14: 8672608506641387053
+      VFX_SORTIE_TERRE_15: -5375746392294463379
+      VFX_SORTIE_TERRE_16: -8909932908462997378
+      VFX_SORTIE_TERRE_2: -5901326326773106812
+      VFX_SORTIE_TERRE_3: -3679714324702790624
+      VFX_SORTIE_TERRE_4: 4248305957972424445
+      VFX_SORTIE_TERRE_5: 598092162528344819
+      VFX_SORTIE_TERRE_6: 3592711706186527853
+      VFX_SORTIE_TERRE_7: 6300854773698787979
+      VFX_SORTIE_TERRE_8: -6780883946500432265
+      VFX_SORTIE_TERRE_9: 308280252951388219
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
