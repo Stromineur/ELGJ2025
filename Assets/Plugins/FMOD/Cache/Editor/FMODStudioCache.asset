@@ -70,7 +70,7 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/AMB.bank
   Name: AMB
   StudioPath: bank:/AMB
-  lastModified: 638931874370000000
+  lastModified: 638934680625604468
   FileSizes: []
   Exists: 1
 --- !u!114 &-7990741091032516926
@@ -304,7 +304,7 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638931876011890000
+  lastModified: 638934680626050774
   FileSizes: []
   Exists: 1
 --- !u!114 &-3337095310651628924
@@ -427,7 +427,7 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638931876006450000
+  lastModified: 638934680625908515
   FileSizes: []
   Exists: 1
 --- !u!114 &-1205057464187272574
@@ -472,7 +472,7 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638931876007020000
+  lastModified: 638934680625908515
   FileSizes:
   - Name: 
     Value: 2264
@@ -527,7 +527,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -953427366837321834}
   cacheVersion: 131849
-  cacheTime: 638931876031280000
+  cacheTime: 638934680626050774
   SerializableEventsDict:
   - key: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Faquin_AOE
     index: 0
@@ -835,7 +835,7 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/MUSIC.bank
   Name: MUSIC
   StudioPath: bank:/MUSIC
-  lastModified: 638931876031280000
+  lastModified: 638934680625898481
   FileSizes: []
   Exists: 1
 --- !u!114 &7890290678467769075
