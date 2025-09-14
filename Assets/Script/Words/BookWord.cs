@@ -1,4 +1,5 @@
 using System;
+using NecroMotMicon.Script.Animation;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
@@ -15,6 +16,7 @@ namespace NecroMotMicon.Script.Words
         [Header("Object references")]
         [HideInInspector] public WordManager _wordManager;
         private DescriptionPanel _descriptionPanel;
+        private ScaleAnimWorldComponent _scaleAnimWorldComponent;
         public WordData wordData;
         public TextMeshPro wordText;
         public GameObject lockImage;
@@ -35,6 +37,7 @@ namespace NecroMotMicon.Script.Words
         {
             _wordManager = GetComponentInParent<WordManager>();
             _descriptionPanel = _wordManager.preciousWordDescriptionPanel.GetComponent<DescriptionPanel>();
+            _scaleAnimWorldComponent = GetComponent<ScaleAnimWorldComponent>();
         }
         
         private void Start()
@@ -52,8 +55,14 @@ namespace NecroMotMicon.Script.Words
             _descriptionPanel.powerText.text = "Effets : " + wordData.wordEffect;
             _descriptionPanel.exhumCost.text = "Coût d'exhumation : " + wordData.exhumingCost.ToString();
             _descriptionPanel.writingCost.text = "Coût d'écriture : " + wordData.writingCost.ToString();
+            _scaleAnimWorldComponent.ScaleUp();
         }
-        
+
+        private void OnMouseExit()
+        {
+            _scaleAnimWorldComponent.ResetScale();
+        }
+
         private void OnMouseDown()
         {
             _wordManager.ClickOnWord(gameObject);

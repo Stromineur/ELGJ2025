@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -8,7 +9,17 @@ namespace NecroMotMicon.Script.Animation
     {
         [SerializeField] private float scaleFactor = 1f;
         [SerializeField] private float scaleTime = 1f;
-        
+
+        private Vector3 initialScale;
+        private Vector3 targetScale;
+        private Tween pulseTween;
+        private bool canScale = true;
+
+        private void Awake()
+        {
+            initialScale = transform.localScale;
+        }
+
         [Button(ButtonSizes.Large)]
         public void ScaleDownThenDisable()
         {
@@ -19,8 +30,40 @@ namespace NecroMotMicon.Script.Animation
         public void EnableThanScaleUp()
         {
             gameObject.SetActive(true);
-            transform.DOScale(scaleFactor, scaleTime).SetEase(Ease.OutBack);
+            targetScale = transform.localScale * scaleFactor;
+            transform.DOScale(targetScale, scaleTime).SetEase(Ease.OutBack);
+        }
+
+        [Button(ButtonSizes.Large)]
+        public void ScaleUp()
+        {
+            targetScale = transform.localScale * scaleFactor;
+            transform.DOScale(targetScale, scaleTime).SetEase(Ease.OutBack);
         }
         
+        [Button(ButtonSizes.Large)]
+        public void PulseScale()
+        {
+            if (canScale)
+            {
+                canScale = false;
+                targetScale = transform.localScale * scaleFactor;
+                pulseTween = transform.DOScale(targetScale, scaleTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
+            }
+        }
+
+        [Button(ButtonSizes.Large)]
+        public void StopPulseScale()
+        {
+            pulseTween.Kill();
+            ResetScale();
+            canScale = true;
+        }
+
+        [Button(ButtonSizes.Large)]
+        public void ResetScale()
+        {
+            transform.DOScale(initialScale, scaleTime).SetEase(Ease.OutBack);
+        }
     }
 }

@@ -1057,6 +1057,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WordZone
       objectReference: {fileID: 0}
+    - target: {fileID: 6398199651657812311, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: inkText
+      value: 
+      objectReference: {fileID: 9221890196594353796}
+    - target: {fileID: 6398199651657812311, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
+      propertyPath: inkDropletGameObject
+      value: 
+      objectReference: {fileID: 3097473273857927213}
     - target: {fileID: 6703555170319574857, guid: 378c8cb72e0abe7418f87ed93b8f6975, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1330,6 +1338,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}
+--- !u!1 &3097473273857927213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1032777079208853404, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}
+  m_PrefabInstance: {fileID: 2641720447279421361}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4739354458404989756 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7308452712228420749, guid: b7b7ef8a20a2d7a4291045d8d50167f3, type: 3}

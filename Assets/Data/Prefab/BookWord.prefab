@@ -362,6 +362,8 @@ GameObject:
   - component: {fileID: 1799730583379578555}
   - component: {fileID: 2542481327217370573}
   - component: {fileID: 3719963009696459963}
+  - component: {fileID: 5674821899397670280}
+  - component: {fileID: 6945381800307573226}
   m_Layer: 0
   m_Name: BookWord
   m_TagString: Untagged
@@ -454,6 +456,65 @@ MonoBehaviour:
   exhumingPriceText: {fileID: 7665439926517395333}
   isWritten: 0
   canDrag: 0
+--- !u!114 &5674821899397670280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415314072183136638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942b98f53af0473479855bd2936049f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleFactor: 1.1
+  scaleTime: 0.5
+--- !u!114 &6945381800307573226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415314072183136638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d8a2c85844f9c47aafef6dd303fade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedObject: {fileID: 7540856549184013414}
+  lockObject: {fileID: 1691662063135102337}
+  lockBackground: {fileID: 1974461760167960040}
+  shakeDuration: 2
+  shakeStrengh: 20
+  shakeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  backGroundShakeColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+  effectColor: {r: 1, g: 0.495283, b: 0.495283, a: 1}
+  effectDuration: 0.1
+  flashNumber: 2
 --- !u!1 &4361194590005801767
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +766,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 45
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+  m_Color: {r: 0.234, g: 0.234, b: 0.234, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
