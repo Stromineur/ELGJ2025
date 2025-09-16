@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 09d754ca76460304fbf70e3d84611d6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5065332432465187167
+    second: GOUMER_Export_2_0
+  - first:
+      213: 2419648333485672004
+    second: GOUMER_Export_2_1
+  - first:
+      213: 1408098514435420689
+    second: GOUMER_Export_2_2
+  - first:
+      213: 2417592546300090240
+    second: GOUMER_Export_2_3
+  - first:
+      213: 3293014478321651940
+    second: GOUMER_Export_2_4
+  - first:
+      213: 5577519531680720116
+    second: GOUMER_Export_2_5
+  - first:
+      213: -1245765252967566256
+    second: GOUMER_Export_2_6
+  - first:
+      213: 8194949237078232372
+    second: GOUMER_Export_2_7
+  - first:
+      213: -5329638585686947631
+    second: GOUMER_Export_2_8
+  - first:
+      213: 5324790833564165341
+    second: GOUMER_Export_2_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GOUMER_Export_2_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1140
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aea5ad6df254b9b0800000000000000
+      internalID: -5065332432465187167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 58
+        width: 584
+        height: 1193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44687c6e651549120800000000000000
+      internalID: 2419648333485672004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1140
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112bda173229a8310800000000000000
+      internalID: 1408098514435420689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_3
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 58
+        width: 584
+        height: 1193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08759d5ac930d8120800000000000000
+      internalID: 2417592546300090240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1080
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0949c883323bd20800000000000000
+      internalID: 3293014478321651940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1067
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4e1ad8674576d40800000000000000
+      internalID: 5577519531680720116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_6
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1080
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054f75f4a1726bee0800000000000000
+      internalID: -1245765252967566256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1067
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d086499ee4ab170800000000000000
+      internalID: 8194949237078232372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d80ae6a1f15906b0800000000000000
+      internalID: -5329638585686947631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOUMER_Export_2_9
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd429d91d0575e940800000000000000
+      internalID: 5324790833564165341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GOUMER_Export_2_0: -5065332432465187167
+      GOUMER_Export_2_1: 2419648333485672004
+      GOUMER_Export_2_2: 1408098514435420689
+      GOUMER_Export_2_3: 2417592546300090240
+      GOUMER_Export_2_4: 3293014478321651940
+      GOUMER_Export_2_5: 5577519531680720116
+      GOUMER_Export_2_6: -1245765252967566256
+      GOUMER_Export_2_7: 8194949237078232372
+      GOUMER_Export_2_8: -5329638585686947631
+      GOUMER_Export_2_9: 5324790833564165341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

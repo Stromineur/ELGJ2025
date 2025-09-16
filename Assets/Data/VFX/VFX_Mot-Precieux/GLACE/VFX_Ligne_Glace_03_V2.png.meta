@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VFX_Ligne_Glace_03_V2_0: -2042712037040866821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
