@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Titre_NecroMotMicon_0: -3574913478781154648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

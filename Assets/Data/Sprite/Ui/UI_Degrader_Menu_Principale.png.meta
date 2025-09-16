@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_Degrader_Menu_Principale_0: 6580813547195921116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

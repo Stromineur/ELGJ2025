@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_Ornement_Defaite_0: 1363598602134336342
+      UI_Ornement_Defaite_1: 9141773944571699467
+      UI_Ornement_Defaite_10: -5946439457270312482
+      UI_Ornement_Defaite_11: 8478737940486552482
+      UI_Ornement_Defaite_12: -3758428846034382197
+      UI_Ornement_Defaite_13: 4792303060734661441
+      UI_Ornement_Defaite_14: 6221988917516513044
+      UI_Ornement_Defaite_15: 5752005767548940865
+      UI_Ornement_Defaite_16: 7818988557409230484
+      UI_Ornement_Defaite_2: 1261165485600651210
+      UI_Ornement_Defaite_3: 8598740612136831714
+      UI_Ornement_Defaite_4: -1743303285311136527
+      UI_Ornement_Defaite_5: -3323152789827212059
+      UI_Ornement_Defaite_6: -1306178121671619085
+      UI_Ornement_Defaite_7: -4201334061966258381
+      UI_Ornement_Defaite_8: 5751660151709014523
+      UI_Ornement_Defaite_9: 7963118026311491308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

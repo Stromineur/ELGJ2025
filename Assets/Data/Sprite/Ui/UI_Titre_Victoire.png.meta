@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_Titre_Victoire_0: 4522465905688646900
+      UI_Titre_Victoire_1: 846098150224291031
+      UI_Titre_Victoire_2: 5759573301545995722
+      UI_Titre_Victoire_3: -4443073442214332897
+      UI_Titre_Victoire_4: 9049090032702799972
+      UI_Titre_Victoire_5: -4823000519829619282
+      UI_Titre_Victoire_6: -7834787382362614218
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
