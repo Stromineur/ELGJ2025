@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_Ornement_Bouton_Victoire_0: 1516452827256041846
+      UI_Ornement_Bouton_Victoire_1: -1430395774384078378
+      UI_Ornement_Bouton_Victoire_2: -3069180295740244901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

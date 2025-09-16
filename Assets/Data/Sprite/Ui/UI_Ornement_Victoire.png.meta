@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_Ornement_Victoire_0: 6805842707318766869
+      UI_Ornement_Victoire_1: 8160357152889060284
+      UI_Ornement_Victoire_2: -2489192729016365633
+      UI_Ornement_Victoire_3: 1374032912346018546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
