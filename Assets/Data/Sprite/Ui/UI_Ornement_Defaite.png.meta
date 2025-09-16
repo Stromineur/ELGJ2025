@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 170189ef4b475da45801cb10819a7837
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1363598602134336342
+    second: UI_Ornement_Defaite_0
+  - first:
+      213: 9141773944571699467
+    second: UI_Ornement_Defaite_1
+  - first:
+      213: 1261165485600651210
+    second: UI_Ornement_Defaite_2
+  - first:
+      213: 8598740612136831714
+    second: UI_Ornement_Defaite_3
+  - first:
+      213: -1743303285311136527
+    second: UI_Ornement_Defaite_4
+  - first:
+      213: -3323152789827212059
+    second: UI_Ornement_Defaite_5
+  - first:
+      213: -1306178121671619085
+    second: UI_Ornement_Defaite_6
+  - first:
+      213: -4201334061966258381
+    second: UI_Ornement_Defaite_7
+  - first:
+      213: 5751660151709014523
+    second: UI_Ornement_Defaite_8
+  - first:
+      213: 7963118026311491308
+    second: UI_Ornement_Defaite_9
+  - first:
+      213: -5946439457270312482
+    second: UI_Ornement_Defaite_10
+  - first:
+      213: 8478737940486552482
+    second: UI_Ornement_Defaite_11
+  - first:
+      213: -3758428846034382197
+    second: UI_Ornement_Defaite_12
+  - first:
+      213: 4792303060734661441
+    second: UI_Ornement_Defaite_13
+  - first:
+      213: 6221988917516513044
+    second: UI_Ornement_Defaite_14
+  - first:
+      213: 5752005767548940865
+    second: UI_Ornement_Defaite_15
+  - first:
+      213: 7818988557409230484
+    second: UI_Ornement_Defaite_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1288
+        width: 1056
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653bf6834b97ce210800000000000000
+      internalID: 1363598602134336342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_1
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1881
+        width: 325
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b012e17a7fa1ede70800000000000000
+      internalID: 9141773944571699467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_2
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 1756
+        width: 289
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7b534c35f808110800000000000000
+      internalID: 1261165485600651210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_3
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 1836
+        width: 433
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea0426570dd45770800000000000000
+      internalID: 8598740612136831714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_4
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1228
+        width: 263
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc124ff5ea8ec7e0800000000000000
+      internalID: -1743303285311136527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_5
+      rect:
+        serializedVersion: 2
+        x: 3614
+        y: 1503
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec200cf42ac1e1d0800000000000000
+      internalID: -3323152789827212059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_6
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 1475
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd40643be58fdde0800000000000000
+      internalID: -1306178121671619085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 987
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f80c52eecd1b5c0800000000000000
+      internalID: -4201334061966258381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_8
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 1125
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf992633f6002df40800000000000000
+      internalID: 5751660151709014523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 904
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee5ece87ada28e60800000000000000
+      internalID: 7963118026311491308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_10
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 816
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed15907b1d00a7da0800000000000000
+      internalID: -5946439457270312482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 544
+        width: 283
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abf35e0c378aa570800000000000000
+      internalID: 8478737940486552482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_12
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 562
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b821a86a0e067dbc0800000000000000
+      internalID: -3758428846034382197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_13
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 0
+        width: 876
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1435b173e3ea18240800000000000000
+      internalID: 4792303060734661441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 526
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f2df874f1f85650800000000000000
+      internalID: 6221988917516513044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_15
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 81
+        width: 216
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142b0c825ca33df40800000000000000
+      internalID: 5752005767548940865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Ornement_Defaite_16
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 285
+        width: 447
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e983b8aa0a28c60800000000000000
+      internalID: 7818988557409230484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
