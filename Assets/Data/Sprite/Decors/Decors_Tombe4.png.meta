@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Decors_Tombe4_0: -2483905625576782202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
