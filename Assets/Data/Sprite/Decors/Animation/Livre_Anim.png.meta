@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: de4b71747fb63104dbaee1a8e90bf43c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -62817822598495369
+    second: Livre_Anim_0
+  - first:
+      213: 7672516082869552008
+    second: Livre_Anim_1
+  - first:
+      213: 403705749516138677
+    second: Livre_Anim_2
+  - first:
+      213: -3099103318305079196
+    second: Livre_Anim_3
+  - first:
+      213: 7496207351398156325
+    second: Livre_Anim_4
+  - first:
+      213: -5731209528856878155
+    second: Livre_Anim_5
+  - first:
+      213: 7195532549568930062
+    second: Livre_Anim_6
+  - first:
+      213: -8099069878381307026
+    second: Livre_Anim_7
+  - first:
+      213: -6092180524801527818
+    second: Livre_Anim_8
+  - first:
+      213: 837433691185144882
+    second: Livre_Anim_9
+  - first:
+      213: -3639419976720993339
+    second: Livre_Anim_10
+  - first:
+      213: 4499050695148680206
+    second: Livre_Anim_11
+  - first:
+      213: -7117770181817322451
+    second: Livre_Anim_12
+  - first:
+      213: 938481822170758921
+    second: Livre_Anim_13
+  - first:
+      213: 5470226877641676832
+    second: Livre_Anim_14
+  - first:
+      213: -6179574027132452948
+    second: Livre_Anim_15
+  - first:
+      213: -5375378192042113800
+    second: Livre_Anim_16
+  - first:
+      213: -6102702165294888426
+    second: Livre_Anim_17
+  - first:
+      213: -260722714957003221
+    second: Livre_Anim_18
+  - first:
+      213: -736814656646778896
+    second: Livre_Anim_19
+  - first:
+      213: 5463343615415478200
+    second: Livre_Anim_20
+  - first:
+      213: 4223248119015713291
+    second: Livre_Anim_21
+  - first:
+      213: 6213578382236544662
+    second: Livre_Anim_22
+  - first:
+      213: -3616045814655844419
+    second: Livre_Anim_23
+  - first:
+      213: 2679073722316002394
+    second: Livre_Anim_24
+  - first:
+      213: 3891962529238165001
+    second: Livre_Anim_25
+  - first:
+      213: -1082458729684855472
+    second: Livre_Anim_26
+  - first:
+      213: 8074729202724245881
+    second: Livre_Anim_27
+  - first:
+      213: 124081630678918166
+    second: Livre_Anim_28
+  - first:
+      213: 1166896716499029568
+    second: Livre_Anim_29
+  - first:
+      213: 4800416414266381637
+    second: Livre_Anim_30
+  - first:
+      213: -856770081458454117
+    second: Livre_Anim_31
+  - first:
+      213: 1067619116933053894
+    second: Livre_Anim_32
+  - first:
+      213: -4752887083994337436
+    second: Livre_Anim_33
+  - first:
+      213: 6682512540858709901
+    second: Livre_Anim_34
+  - first:
+      213: -3956142804987861749
+    second: Livre_Anim_35
+  - first:
+      213: -6215890355808445930
+    second: Livre_Anim_36
+  - first:
+      213: 7585680176856133504
+    second: Livre_Anim_37
+  - first:
+      213: -3598494948174203997
+    second: Livre_Anim_38
+  - first:
+      213: -5800455772088921307
+    second: Livre_Anim_39
+  - first:
+      213: -396671361257353492
+    second: Livre_Anim_40
+  - first:
+      213: -4544801304712443200
+    second: Livre_Anim_41
+  - first:
+      213: 2681371328888327893
+    second: Livre_Anim_42
+  - first:
+      213: -6060238127105663901
+    second: Livre_Anim_43
+  - first:
+      213: 3368422571653535033
+    second: Livre_Anim_44
+  - first:
+      213: -3470757726457409713
+    second: Livre_Anim_45
+  - first:
+      213: 6093600881849690532
+    second: Livre_Anim_46
+  - first:
+      213: -2393293992700827709
+    second: Livre_Anim_47
+  - first:
+      213: -42760705644779658
+    second: Livre_Anim_48
+  - first:
+      213: -7963632034228999743
+    second: Livre_Anim_49
+  - first:
+      213: -4514970268650661259
+    second: Livre_Anim_50
+  - first:
+      213: 1427683215293847968
+    second: Livre_Anim_51
+  - first:
+      213: 1633959184216849285
+    second: Livre_Anim_52
+  - first:
+      213: -7815945193496817975
+    second: Livre_Anim_53
+  - first:
+      213: 8776336752871531610
+    second: Livre_Anim_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Livre_Anim_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 491
+        width: 394
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773047ee583d02ff0800000000000000
+      internalID: -62817822598495369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 500
+        width: 371
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88349e40ab04a7a60800000000000000
+      internalID: 7672516082869552008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_2
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 668
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b831b18d304a9500800000000000000
+      internalID: 403705749516138677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 538
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4600136a3f5cdf4d0800000000000000
+      internalID: -3099103318305079196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 651
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52842c69ed0e70860800000000000000
+      internalID: 7496207351398156325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_5
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 651
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3e62b7c47a670b0800000000000000
+      internalID: -5731209528856878155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_6
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 651
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0121d2fabaabd360800000000000000
+      internalID: 7195532549568930062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_7
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 651
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b14083bd25a9f80800000000000000
+      internalID: -8099069878381307026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_8
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 408
+        width: 169
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffe6a7271a347ba0800000000000000
+      internalID: -6092180524801527818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 521
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234e80651892f9b00800000000000000
+      internalID: 837433691185144882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 391
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3b51b40de2e7dc0800000000000000
+      internalID: -3639419976720993339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_11
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 521
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04bfce25c6df6e30800000000000000
+      internalID: 4499050695148680206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_12
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 391
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2439ef2bb9983d90800000000000000
+      internalID: -7117770181817322451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 521
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f36a6be38260d00800000000000000
+      internalID: 938481822170758921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_14
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 391
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02850aadc562aeb40800000000000000
+      internalID: 5470226877641676832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_15
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 521
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf3a81c92ebd3aa0800000000000000
+      internalID: -6179574027132452948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_16
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 391
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4c2f9a302d665b0800000000000000
+      internalID: -5375378192042113800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_17
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 521
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a4793d6b8de4ba0800000000000000
+      internalID: -6102702165294888426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_18
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 391
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26cc16721ab16cf0800000000000000
+      internalID: -260722714957003221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_19
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 521
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff644d39fe46c5f0800000000000000
+      internalID: -736814656646778896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_20
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 391
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7ecba7212b1db40800000000000000
+      internalID: 5463343615415478200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_21
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 470
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aa44cd9cdfb9a30800000000000000
+      internalID: 4223248119015713291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 264
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e61412e901b3650800000000000000
+      internalID: 6213578382236544662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2
+        width: 266
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf76ed7d7931ddc0800000000000000
+      internalID: -3616045814655844419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_24
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2
+        width: 83
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a549ab92b5bfd2520800000000000000
+      internalID: 2679073722316002394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_25
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 278
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9062f52cc47030630800000000000000
+      internalID: 3891962529238165001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_26
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 278
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0551d1d35855af0f0800000000000000
+      internalID: -1082458729684855472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_27
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 261
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9711ad99d633f0070800000000000000
+      internalID: 8074729202724245881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_28
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 261
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614a4cfe593d8b100800000000000000
+      internalID: 124081630678918166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_29
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 261
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e8e749166a13010800000000000000
+      internalID: 1166896716499029568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_30
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 261
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5455d4a8b418e9240800000000000000
+      internalID: 4800416414266381637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_31
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 261
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b918c7876242c14f0800000000000000
+      internalID: -856770081458454117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_32
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 261
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdf53c2ee1f0de00800000000000000
+      internalID: 1067619116933053894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_33
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 228
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fa9f4016a5a0eb0800000000000000
+      internalID: -4752887083994337436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_34
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 245
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87f9fc10cd0dbc50800000000000000
+      internalID: 6682512540858709901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_35
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 240
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b052bf35415f819c0800000000000000
+      internalID: -3956142804987861749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_36
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 233
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ad24397a8bcb9a0800000000000000
+      internalID: -6215890355808445930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_37
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 131
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f6b312eefb54960800000000000000
+      internalID: 7585680176856133504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_38
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 131
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3f90809e39f0ec0800000000000000
+      internalID: -3598494948174203997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_39
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 131
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52396491534a08fa0800000000000000
+      internalID: -5800455772088921307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_40
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 131
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee4fa3af7dbe7af0800000000000000
+      internalID: -396671361257353492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_41
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 131
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca02e1fa4f9de0c0800000000000000
+      internalID: -4544801304712443200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_42
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 131
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de4e416405263520800000000000000
+      internalID: 2681371328888327893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_43
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 8
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c969b2885b5eba0800000000000000
+      internalID: -6060238127105663901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_44
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 41
+        width: 94
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93511d47b7a0fbe20800000000000000
+      internalID: 3368422571653535033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_45
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 9
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f40159c3465dfc0800000000000000
+      internalID: -3470757726457409713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_46
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a968ad77b1d09450800000000000000
+      internalID: 6093600881849690532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_47
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7adf93bcf49ced0800000000000000
+      internalID: -2393293992700827709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_48
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677a2b16d55186ff0800000000000000
+      internalID: -42760705644779658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_49
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9ebd5abde7b7190800000000000000
+      internalID: -7963632034228999743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_50
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a90a5467a9751c0800000000000000
+      internalID: -4514970268650661259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_51
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a99063f15620d310800000000000000
+      internalID: 1427683215293847968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_52
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 5
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b7bb0983dfca610800000000000000
+      internalID: 1633959184216849285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_53
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce43b5d14f288390800000000000000
+      internalID: -7815945193496817975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livre_Anim_54
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 4
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54ec1817cfcbc970800000000000000
+      internalID: 8776336752871531610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Livre_Anim_0: -62817822598495369
+      Livre_Anim_1: 7672516082869552008
+      Livre_Anim_10: -3639419976720993339
+      Livre_Anim_11: 4499050695148680206
+      Livre_Anim_12: -7117770181817322451
+      Livre_Anim_13: 938481822170758921
+      Livre_Anim_14: 5470226877641676832
+      Livre_Anim_15: -6179574027132452948
+      Livre_Anim_16: -5375378192042113800
+      Livre_Anim_17: -6102702165294888426
+      Livre_Anim_18: -260722714957003221
+      Livre_Anim_19: -736814656646778896
+      Livre_Anim_2: 403705749516138677
+      Livre_Anim_20: 5463343615415478200
+      Livre_Anim_21: 4223248119015713291
+      Livre_Anim_22: 6213578382236544662
+      Livre_Anim_23: -3616045814655844419
+      Livre_Anim_24: 2679073722316002394
+      Livre_Anim_25: 3891962529238165001
+      Livre_Anim_26: -1082458729684855472
+      Livre_Anim_27: 8074729202724245881
+      Livre_Anim_28: 124081630678918166
+      Livre_Anim_29: 1166896716499029568
+      Livre_Anim_3: -3099103318305079196
+      Livre_Anim_30: 4800416414266381637
+      Livre_Anim_31: -856770081458454117
+      Livre_Anim_32: 1067619116933053894
+      Livre_Anim_33: -4752887083994337436
+      Livre_Anim_34: 6682512540858709901
+      Livre_Anim_35: -3956142804987861749
+      Livre_Anim_36: -6215890355808445930
+      Livre_Anim_37: 7585680176856133504
+      Livre_Anim_38: -3598494948174203997
+      Livre_Anim_39: -5800455772088921307
+      Livre_Anim_4: 7496207351398156325
+      Livre_Anim_40: -396671361257353492
+      Livre_Anim_41: -4544801304712443200
+      Livre_Anim_42: 2681371328888327893
+      Livre_Anim_43: -6060238127105663901
+      Livre_Anim_44: 3368422571653535033
+      Livre_Anim_45: -3470757726457409713
+      Livre_Anim_46: 6093600881849690532
+      Livre_Anim_47: -2393293992700827709
+      Livre_Anim_48: -42760705644779658
+      Livre_Anim_49: -7963632034228999743
+      Livre_Anim_5: -5731209528856878155
+      Livre_Anim_50: -4514970268650661259
+      Livre_Anim_51: 1427683215293847968
+      Livre_Anim_52: 1633959184216849285
+      Livre_Anim_53: -7815945193496817975
+      Livre_Anim_54: 8776336752871531610
+      Livre_Anim_6: 7195532549568930062
+      Livre_Anim_7: -8099069878381307026
+      Livre_Anim_8: -6092180524801527818
+      Livre_Anim_9: 837433691185144882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
