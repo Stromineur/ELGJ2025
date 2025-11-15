@@ -10,34 +10,48 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 {
     public class PlayerHpDisplay : MonoBehaviour
     {
-        [SerializeField] private List<GameObject> scaledGO;
+        [Header("Gameobjects")]
+        // Hp changes
         [SerializeField] private GameObject hpGo;
+        private TMP_Text hpText;
+        private Vector3 hpInitialScale;
+        private Tween hpPulseTween;
+        
+        // Book changes
         [SerializeField] private GameObject bookGO;
+        private Vector3 bookInitialScale;
+        private Color initialBookColor; 
+        private Tween bookPulseTween;
+        private Tween bookColorTween;
+        
+        // Heart icon changes
         [SerializeField] private GameObject heartGO;
+        private Vector3 heartInitialScale;
+        private Tween heartTween;
+        
+        [Header("Parameters")]
         [SerializeField] private float scaleFactor = 1f;
         [SerializeField] private float scaleTime = 1f;
         [SerializeField] private int loopNumber = 1;
         [SerializeField] private DamageNumber hpLossValue;
 
-        private TMP_Text hpText;
+        
         private PlayerArea _playerArea;
-        private Vector3 initialScale;
-        private Vector3 targetScale;
-        private Color initialBookColor;
-        private Tween hpPulseTween;
-        private Tween bookPulseTween;
-        private Tween bookColorTween;
-        private Tween heartTween;
         private bool canScale = true;
         private bool isInitEnded  = false;
-
+        
+        
         private void Awake()
         {
-            if (transform.localScale == Vector3.zero) initialScale = new Vector3(1, 1, 1); else initialScale = transform.localScale;
+            // Set les valeurs de bases
+            hpInitialScale = hpGo.transform.localScale;
+            bookInitialScale = bookGO.transform.localScale;
+            heartInitialScale = heartGO.transform.localScale;
             initialBookColor = bookGO.GetComponent<SpriteRenderer>().color;
+            
             hpText = hpGo.GetComponent<TMP_Text>();
             _playerArea = ServiceLocator.Instance.PlayerArea;
-            UpdateHpDisplay(_playerArea.Hp);
+            hpText.text = _playerArea.Hp.ToString();
         }
 
         private void OnEnable()
@@ -53,14 +67,8 @@ namespace NecroMotMicon.Script.FightingPlan.UI
         private void UpdateHpDisplay(float obj)
         {
             hpText.text = obj.ToString();
-            
             PulseScale();
         }
-        
-        // Ajouter un fonction feedback pour la prise de dégâts
-        // 1. Scale yoyo bouquin + texte
-        // 2. Cligotement en rouge nécromomancien + bouquin + texte
-        // 3. Animation de dodo sur le nécromomancien sur la prise de dégâts ?
         
         [Button(ButtonSizes.Large)]
         public void PulseScale()
@@ -68,10 +76,9 @@ namespace NecroMotMicon.Script.FightingPlan.UI
             if (canScale && isInitEnded)
             {
                 canScale = false;
-                targetScale = initialScale * scaleFactor;
-                hpPulseTween = hpGo.transform.DOScale(targetScale, scaleTime).SetEase(Ease.InOutSine).SetLoops(loopNumber, LoopType.Yoyo).OnComplete(() => StopPulseScale());
-                bookPulseTween = bookGO.transform.DOScale(targetScale, scaleTime).SetEase(Ease.InOutSine).SetLoops(loopNumber, LoopType.Yoyo).OnComplete(() => StopPulseScale());
-                heartTween = heartGO.transform.DOScale(targetScale, scaleTime).SetEase(Ease.InOutSine).SetLoops(loopNumber, LoopType.Yoyo).OnComplete(() => StopPulseScale());
+                hpPulseTween = hpGo.transform.DOScale(hpInitialScale * scaleFactor, scaleTime).SetEase(Ease.InOutSine).SetLoops(loopNumber, LoopType.Yoyo).OnComplete(() => StopTweens());
+                bookPulseTween = bookGO.transform.DOScale(bookInitialScale * scaleFactor, scaleTime).SetEase(Ease.InOutSine).SetLoops(loopNumber, LoopType.Yoyo);
+                heartTween = heartGO.transform.DOScale(heartInitialScale * scaleFactor, scaleTime).SetEase(Ease.InOutSine).SetLoops(loopNumber, LoopType.Yoyo);
                 bookColorTween = bookGO.GetComponent<SpriteRenderer>().DOColor(Color.red, scaleTime).SetEase(Ease.InOutSine).SetLoops(loopNumber, LoopType.Yoyo);
                 hpLossValue.Spawn(transform.position, -1);
             }
@@ -80,7 +87,7 @@ namespace NecroMotMicon.Script.FightingPlan.UI
         }
 
         [Button(ButtonSizes.Large)]
-        public void StopPulseScale()
+        public void StopTweens()
         {
             hpPulseTween.Kill();
             bookPulseTween.Kill();
@@ -93,9 +100,9 @@ namespace NecroMotMicon.Script.FightingPlan.UI
         [Button(ButtonSizes.Large)]
         public void ResetScaleEndColor()
         {
-            hpGo.transform.DOScale(initialScale, scaleTime).SetEase(Ease.OutBack);
-            bookGO.transform.DOScale(initialScale, scaleTime).SetEase(Ease.OutBack);
-            heartGO.transform.DOScale(initialScale, scaleTime).SetEase(Ease.OutBack);
+            hpGo.transform.DOScale(hpInitialScale, scaleTime).SetEase(Ease.OutBack);
+            bookGO.transform.DOScale(bookInitialScale, scaleTime).SetEase(Ease.OutBack);
+            heartGO.transform.DOScale(heartInitialScale, scaleTime).SetEase(Ease.OutBack);
             bookGO.GetComponent<SpriteRenderer>().color = initialBookColor;
         }
         
