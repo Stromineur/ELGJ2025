@@ -1385,6 +1385,7 @@ GameObject:
   - component: {fileID: 1476050236477972374}
   - component: {fileID: 7140686792208513557}
   - component: {fileID: 4505792592930600980}
+  - component: {fileID: 1646921183739084082}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -1519,6 +1520,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1646921183739084082}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4505792592930600980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,6 +1547,37 @@ MonoBehaviour:
   m_EffectColor: {r: 0.254717, g: 0.06516569, b: 0, a: 0.5}
   m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
+--- !u!114 &1646921183739084082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3871555520911919719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1655352315
+      Data2: 1274749933
+      Data3: 29202842
+      Data4: 623434382
+    Path: event:/MUS/Game_Start
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &4067366268325857504
 GameObject:
   m_ObjectHideFlags: 0
