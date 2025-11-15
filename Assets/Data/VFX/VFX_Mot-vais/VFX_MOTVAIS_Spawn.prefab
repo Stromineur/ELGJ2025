@@ -14722,8 +14722,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -206881827
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
@@ -14775,9 +14775,9 @@ MonoBehaviour:
     useMainCamera: 1
     cameras: []
     delay: 0
-    duration: 0.5
+    duration: 0.3
     shakeSpace: 0
-    shakeStrength: {x: 0, y: 0.2, z: 0}
+    shakeStrength: {x: 0, y: 0.1, z: 0}
     shakeCurve:
       serializedVersion: 2
       m_Curve:

@@ -6,15 +6,12 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Feel
     [RequireComponent(typeof(LaneDamageBehaviour))]
     public class LaneDamageFeelController : MonoBehaviour
     {
-        private static readonly int Play = Animator.StringToHash("PlayFeel");
         private LaneDamageBehaviour _laneDamageBehaviour;
-        [SerializeField] private SpriteRenderer _spriteRenderer;
-        [SerializeField] private Animator _animator;
+        [SerializeField] private ParticleSystem particleSystem;
 
         private void Awake()
         {
             _laneDamageBehaviour =  GetComponent<LaneDamageBehaviour>();
-            transform.localScale = new Vector3(_laneDamageBehaviour.Range / _laneDamageBehaviour.FightingWord.transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
 
         private void OnEnable()
@@ -29,7 +26,8 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour.Feel
 
         private void PlayFeel()
         {
-            _animator.SetTrigger(Play);
+            if(!particleSystem.isPlaying)
+                particleSystem.Play();
         }
     }
 }

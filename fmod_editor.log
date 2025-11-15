@@ -9,7 +9,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 0
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001BF1D2F54B8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001F2E7F80618 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,8 +18,583 @@
 [LOG] Manager::init                            : done.
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4470112
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 9760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF201A27E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Phase_Attaque_Horloge_4', format=5, channels=2, frequency=48000, lengthbytes=24832, lengthpcm=116408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.590335.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4470112
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 9760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF201A27E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Phase_Attaque_Horloge_6', format=5, channels=2, frequency=48000, lengthbytes=23904, lengthpcm=116408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.449036.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4470112
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 9760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF201A27E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Phase_Attaque_Horloge_8', format=5, channels=2, frequency=48000, lengthbytes=24832, lengthpcm=116408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.590349.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4470112
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 9760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF201A27E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Phase_Attaque_Horloge_1', format=5, channels=2, frequency=48000, lengthbytes=26240, lengthpcm=132000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.463923.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4470112
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 9760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF201A27E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Phase_Attaque_Horloge_3', format=5, channels=2, frequency=48000, lengthbytes=24704, lengthpcm=115944, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.560387.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_13', format=5, channels=2, frequency=48000, lengthbytes=18848, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_9', format=5, channels=2, frequency=48000, lengthbytes=18208, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Tombe_3', format=5, channels=2, frequency=48000, lengthbytes=36544, lengthpcm=120000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.418571.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_2', format=5, channels=2, frequency=48000, lengthbytes=17984, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_12', format=5, channels=2, frequency=48000, lengthbytes=18560, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Spell_2', format=5, channels=2, frequency=48000, lengthbytes=30848, lengthpcm=120000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_11', format=5, channels=2, frequency=48000, lengthbytes=16480, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_1', format=5, channels=2, frequency=48000, lengthbytes=18368, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_14', format=5, channels=2, frequency=48000, lengthbytes=21792, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_3', format=5, channels=2, frequency=48000, lengthbytes=15040, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Spell_1', format=5, channels=2, frequency=48000, lengthbytes=31104, lengthpcm=120000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Spell_3', format=5, channels=2, frequency=48000, lengthbytes=31712, lengthpcm=120000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_8', format=5, channels=2, frequency=48000, lengthbytes=16992, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Tombe_2', format=5, channels=2, frequency=48000, lengthbytes=36896, lengthpcm=120000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.419211.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_4', format=5, channels=2, frequency=48000, lengthbytes=15872, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Tombe_1', format=5, channels=2, frequency=48000, lengthbytes=36896, lengthpcm=120000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.415143.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_7', format=5, channels=2, frequency=48000, lengthbytes=21824, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_5', format=5, channels=2, frequency=48000, lengthbytes=18336, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966055.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001F1782DF1F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Invocation_Mot_6', format=5, channels=2, frequency=48000, lengthbytes=19008, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.645328.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF2983C2C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Attaque_Punch_2', format=5, channels=2, frequency=48000, lengthbytes=9600, lengthpcm=45302, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.555917.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF2983C2C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Attaque_Punch_1', format=5, channels=2, frequency=48000, lengthbytes=8992, lengthpcm=43912, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.578761.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF2983C2C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Attaque_Punch_3', format=5, channels=2, frequency=48000, lengthbytes=10272, lengthpcm=44348, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.673155.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF2983C2C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Attaque_VO_2', format=5, channels=2, frequency=48000, lengthbytes=4288, lengthpcm=36000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.447039.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF2983C2C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Attaque_VO_3', format=5, channels=2, frequency=48000, lengthbytes=5760, lengthpcm=30000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.424121.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF2983C2C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Attaque_VO_1', format=5, channels=2, frequency=48000, lengthbytes=4480, lengthpcm=30000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.310440.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2027392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 41760
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000371983F308
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEC8F3D500
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEC8F3D4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEC8F3D5E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEC8F3D6A0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EF2983C2C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MotsMalins_Attaque_Punch_4', format=5, channels=2, frequency=48000, lengthbytes=10144, lengthpcm=57000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.542296.
+[LOG] SoundI::release                          :  (000001F17B8883F8)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Spell_1 (000001EF208BF618)
+[LOG] SoundI::release                          :  (000001F17B884E58)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Spell_2 (000001EF208BD818)
+[LOG] SoundI::release                          :  (000001F17B887FD8)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Spell_3 (000001EF208BF918)
+[LOG] SoundI::release                          :  (000001F17B886C98)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Tombe_1 (000001F2B7214708)
+[LOG] SoundI::release                          :  (000001F17B886038)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Tombe_2 (000001F2B7217888)
+[LOG] SoundI::release                          :  (000001F17B887D18)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Tombe_3 (000001EF208BC918)
+[LOG] SoundI::release                          :  (000001F17B888298)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_1 (000001EF208BAF98)
+[LOG] SoundI::release                          :  (000001F17B887A58)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_11 (000001EF208BAE18)
+[LOG] SoundI::release                          :  (000001F17B884CF8)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_12 (000001EF208BCA98)
+[LOG] SoundI::release                          :  (000001F17B885ED8)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_13 (000001EF208BCF18)
+[LOG] SoundI::release                          :  (000001F17B887E78)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_14 (000001EF208BF798)
+[LOG] SoundI::release                          :  (000001F17B886198)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_2 (000001EF208BB298)
+[LOG] SoundI::release                          :  (000001F17B886878)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_3 (000001EF208BF318)
+[LOG] SoundI::release                          :  (000001F17B885C18)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_4 (000001F2B7215D88)
+[LOG] SoundI::release                          :  (000001F17B888C38)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_5 (000001F2B7216C88)
+[LOG] SoundI::release                          :  (000001F2B6FE2918)
+[LOG] SoundI::release                          :     Phase_Attaque_Horloge_1 (000001F2B7218308)
+[LOG] SoundI::release                          :  (000001F2B6FE2FF8)
+[LOG] SoundI::release                          :     Phase_Attaque_Horloge_3 (000001F2B7218488)
+[LOG] SoundI::release                          :  (000001F17B4A0418)
+[LOG] SoundI::release                          :     Phase_Attaque_Horloge_4 (000001F2B7217B88)
+[LOG] SoundI::release                          :  (000001F17B4A0578)
+[LOG] SoundI::release                          :     Phase_Attaque_Horloge_6 (000001F2B7213E08)
+[LOG] SoundI::release                          :  (000001F2B6FE2E98)
+[LOG] SoundI::release                          :     Phase_Attaque_Horloge_8 (000001F2B7218008)
+[LOG] SoundI::release                          :  (000001F17B884B98)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_6 (000001F2B7214D08)
+[LOG] SoundI::release                          :  (000001F17B888978)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_7 (000001F2B7216688)
+[LOG] SoundI::release                          :  (000001F17B8869D8)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_8 (000001EF208BFA98)
+[LOG] SoundI::release                          :  (000001F17B888818)
+[LOG] SoundI::release                          :     MotsMalins_Invocation_Mot_9 (000001EF208BBA18)
+[LOG] SoundI::release                          :  (000001F2B7177E68)
+[LOG] SoundI::release                          :     MotsMalins_Attaque_Punch_1 (000001F2B7215608)
+[LOG] SoundI::release                          :  (000001F2B7178128)
+[LOG] SoundI::release                          :     MotsMalins_Attaque_Punch_2 (000001F2B7215488)
+[LOG] SoundI::release                          :  (000001F2B7177D08)
+[LOG] SoundI::release                          :     MotsMalins_Attaque_Punch_3 (000001F2B7216808)
+[LOG] SoundI::release                          :  (000001F2B7178548)
+[LOG] SoundI::release                          :     MotsMalins_Attaque_Punch_4 (000001F2B7214E88)
+[LOG] SoundI::release                          :  (000001F2B71783E8)
+[LOG] SoundI::release                          :     MotsMalins_Attaque_VO_1 (000001F2B7217588)
+[LOG] SoundI::release                          :  (000001F2B7177FC8)
+[LOG] SoundI::release                          :     MotsMalins_Attaque_VO_2 (000001F2B7216E08)
+[LOG] SoundI::release                          :  (000001F2B7178288)
+[LOG] SoundI::release                          :     MotsMalins_Attaque_VO_3 (000001F2B7215788)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::closeInternal                   : Closed.
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
