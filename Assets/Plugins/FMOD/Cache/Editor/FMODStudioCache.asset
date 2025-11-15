@@ -27,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-8831731775757689499
+--- !u!114 &-8394661668250879172
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,24 +36,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Mus_Start
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AMB.bank
   m_EditorClassIdentifier: 
-  Path: event:/Mus_Start
-  Guid:
-    Data1: -280413971
-    Data2: 1257050210
-    Data3: -1195479160
-    Data4: -288788236
-  Banks:
-  - {fileID: 7704774022378316217}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 288695
+  Path: Assets/Data/Sound/Desktop/AMB.bank
+  Name: AMB
+  StudioPath: bank:/AMB
+  lastModified: 638988026257551705
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-7990741091032516926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +72,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7540745017318494852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Param_Speed
+  m_EditorClassIdentifier: 
+  Name: Param_Speed
+  StudioPath: parameter:/Param_Speed
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 1212828251
+    data2: 2440423256
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6967400681440833878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +177,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 58071
+--- !u!114 &-4521558047881688026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS/Mus_Stop
+  m_EditorClassIdentifier: 
+  Path: event:/MUS/Mus_Stop
+  Guid:
+    Data1: 1016476303
+    Data2: 1250341381
+    Data3: 38462643
+    Data4: 732344376
+  Banks:
+  - {fileID: 7704774022378316217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4215815794869656077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,6 +258,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3486413882315321952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VOL_SFX
+  m_EditorClassIdentifier: 
+  Name: VOL_SFX
+  StudioPath: parameter:/VOL_SFX
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2062263606
+    data2: 2515618705
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3481821223329406103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +297,7 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638931999550326831
+  lastModified: 638988026258009034
   FileSizes: []
   Exists: 1
 --- !u!114 &-3337095310651628924
@@ -261,6 +327,56 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2540503753568201424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VOL_AMB
+  m_EditorClassIdentifier: 
+  Name: VOL_AMB
+  StudioPath: parameter:/VOL_AMB
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2489219681
+    data2: 4161663945
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2277743724314886770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mus_Start/GAME_MENU
+  m_EditorClassIdentifier: 
+  Name: GAME_MENU
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2386512517
+    data2: 2492118238
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - Game
+  Exists: 1
 --- !u!114 &-1999261665489315542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,8 +392,32 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638931999550170178
+  lastModified: 638988026257856592
   FileSizes: []
+  Exists: 1
+--- !u!114 &-1388595332974332839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VOL_MUS
+  m_EditorClassIdentifier: 
+  Name: VOL_MUS
+  StudioPath: parameter:/VOL_MUS
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3760381095
+    data2: 3517203996
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &-1205057464187272574
 MonoBehaviour:
@@ -321,10 +461,10 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638931999550180113
+  lastModified: 638988026257868740
   FileSizes:
   - Name: 
-    Value: 1598
+    Value: 2264
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -343,8 +483,8 @@ MonoBehaviour:
   - {fileID: -1999261665489315542}
   - {fileID: 7704774022378316217}
   - {fileID: -3481821223329406103}
+  - {fileID: -8394661668250879172}
   EditorEvents:
-  - {fileID: -8831731775757689499}
   - {fileID: -5589801778340975610}
   - {fileID: -6063885388691250690}
   - {fileID: 974854277404434113}
@@ -358,42 +498,116 @@ MonoBehaviour:
   - {fileID: -3337095310651628924}
   - {fileID: -4215815794869656077}
   - {fileID: -3777388682109089737}
-  EditorParameters: []
+  - {fileID: 5859864553908908584}
+  - {fileID: -4521558047881688026}
+  - {fileID: 160648219324414458}
+  - {fileID: 5463715877106794163}
+  - {fileID: 5143821954652761042}
+  EditorParameters:
+  - {fileID: -2540503753568201424}
+  - {fileID: 5353477342120730621}
+  - {fileID: -3486413882315321952}
+  - {fileID: -1388595332974332839}
+  - {fileID: -7540745017318494852}
+  - {fileID: 8237336945053686779}
+  - {fileID: 4690010793069781437}
   MasterBanks:
   - {fileID: -1999261665489315542}
   StringsBanks:
   - {fileID: -953427366837321834}
   cacheVersion: 131849
-  cacheTime: 638931999550326831
+  cacheTime: 638988026258009034
   SerializableEventsDict:
-  - key: event:/Mus_Start
-    index: 0
   - key: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Faquin_AOE
-    index: 1
+    index: 0
   - key: event:/UI/UI_Phase_Achat_Start
-    index: 2
+    index: 1
   - key: event:/SFX/MOTS (X2)/MotsVais_Daronne_Spawn
-    index: 3
+    index: 2
   - key: event:/SFX/MOTS (X2)/MotsVais/MotsVais_Attaque
-    index: 4
+    index: 3
   - key: event:/UI/UI_Phase_Attaque_Start
-    index: 5
+    index: 4
   - key: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Attaque
-    index: 6
+    index: 5
   - key: event:/UI/UI_Achat
-    index: 7
+    index: 6
   - key: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Invocation
-    index: 8
+    index: 7
   - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Enigmatique_Move
-    index: 9
+    index: 8
   - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Parente_Spawn
-    index: 10
+    index: 9
   - key: event:/SFX/MOTS (X2)/MotsVais_Goumer_Aoe
-    index: 11
+    index: 10
   - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Compere_Spawn
-    index: 12
+    index: 11
   - key: event:/SFX/MOTS (X2)/MotsMalins/Specifics/MotsMalins_Foudroyer_Aoe
+    index: 12
+  - key: event:/AMB/Amb_Start
     index: 13
+  - key: event:/MUS/Mus_Stop
+    index: 14
+  - key: event:/MUS/Game_Over
+    index: 15
+  - key: event:/MUS/Mus_Start
+    index: 16
+  - key: event:/MUS/Game_Start
+    index: 17
+--- !u!114 &101598098724944846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game_Start/GAME_MENU
+  m_EditorClassIdentifier: 
+  Name: GAME_MENU
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2386512517
+    data2: 2492118238
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - Game
+  Exists: 1
+--- !u!114 &160648219324414458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS/Game_Over
+  m_EditorClassIdentifier: 
+  Path: event:/MUS/Game_Over
+  Guid:
+    Data1: -977599765
+    Data2: 1210340076
+    Data3: -563028317
+    Data4: -1445108447
+  Banks:
+  - {fileID: 7704774022378316217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5435101516582056639}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &974854277404434113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,6 +681,7 @@ MonoBehaviour:
     Data3: -1587854172
     Data4: 682827135
   Banks:
+  - {fileID: 7704774022378316217}
   - {fileID: -3481821223329406103}
   IsStream: 0
   Is3D: 0
@@ -475,6 +690,165 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4690010793069781437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VOL_UI
+  m_EditorClassIdentifier: 
+  Name: VOL_UI
+  StudioPath: parameter:/VOL_UI
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2265831102
+    data2: 1042568881
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5143821954652761042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS/Game_Start
+  m_EditorClassIdentifier: 
+  Path: event:/MUS/Game_Start
+  Guid:
+    Data1: 1655352315
+    Data2: 1274749933
+    Data3: 29202842
+    Data4: 623434382
+  Banks:
+  - {fileID: 7704774022378316217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 101598098724944846}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5353477342120730621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GAME_MENU
+  m_EditorClassIdentifier: 
+  Name: GAME_MENU
+  StudioPath: parameter:/GAME_MENU
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2386512517
+    data2: 2492118238
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - Game
+  Exists: 1
+--- !u!114 &5435101516582056639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game_Over/GAME_MENU
+  m_EditorClassIdentifier: 
+  Name: GAME_MENU
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2386512517
+    data2: 2492118238
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - Game
+  Exists: 1
+--- !u!114 &5463715877106794163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS/Mus_Start
+  m_EditorClassIdentifier: 
+  Path: event:/MUS/Mus_Start
+  Guid:
+    Data1: -280413971
+    Data2: 1257050210
+    Data3: -1195479160
+    Data4: -288788236
+  Banks:
+  - {fileID: 7704774022378316217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2277743724314886770}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 306086
+--- !u!114 &5859864553908908584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Amb_Start
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Amb_Start
+  Guid:
+    Data1: 573572488
+    Data2: 1174926308
+    Data3: 1594555524
+    Data4: -1651720734
+  Banks:
+  - {fileID: -8394661668250879172}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41865
 --- !u!114 &7631590825236257157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,6 +891,30 @@ MonoBehaviour:
   Path: Assets/Data/Sound/Desktop/MUSIC.bank
   Name: MUSIC
   StudioPath: bank:/MUSIC
-  lastModified: 638931999550139498
+  lastModified: 638988026257843207
   FileSizes: []
+  Exists: 1
+--- !u!114 &8237336945053686779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VOL_MASTER
+  m_EditorClassIdentifier: 
+  Name: VOL_MASTER
+  StudioPath: parameter:/VOL_MASTER
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3039384344
+    data2: 2615579693
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1

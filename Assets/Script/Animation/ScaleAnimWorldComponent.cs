@@ -30,14 +30,14 @@ namespace NecroMotMicon.Script.Animation
         public void EnableThanScaleUp()
         {
             gameObject.SetActive(true);
-            targetScale = transform.localScale * scaleFactor;
+            targetScale = initialScale * scaleFactor;
             transform.DOScale(targetScale, scaleTime).SetEase(Ease.OutBack);
         }
 
         [Button(ButtonSizes.Large)]
         public void ScaleUp()
         {
-            targetScale = transform.localScale * scaleFactor;
+            targetScale = initialScale * scaleFactor;
             transform.DOScale(targetScale, scaleTime).SetEase(Ease.OutBack);
         }
         
@@ -47,7 +47,7 @@ namespace NecroMotMicon.Script.Animation
             if (canScale)
             {
                 canScale = false;
-                targetScale = transform.localScale * scaleFactor;
+                targetScale = initialScale * scaleFactor;
                 pulseTween = transform.DOScale(targetScale, scaleTime).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
             }
         }
