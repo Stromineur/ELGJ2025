@@ -47,6 +47,7 @@ MonoBehaviour:
   effectTrigger: {fileID: 0}
   effectAnimationController: {fileID: 0}
   slowMultiplier: 0.5
+  oisiveteAnimationController: {fileID: 4883049620752487685}
 --- !u!1001 &1846688807244135308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -175,16 +176,56 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Oisivet\xE9 Variant"
       objectReference: {fileID: 0}
+    - target: {fileID: 9009465116091646084, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7963561443459458928}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4883049620752487685}
   m_SourcePrefab: {fileID: 100100000, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
 --- !u!4 &1452148786435965502 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 974976608248936882, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
   m_PrefabInstance: {fileID: 1846688807244135308}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3767661066599796079 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3308362767797974755, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 1846688807244135308}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6573455188413405938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6573455188413405938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4798966955277918590, guid: 4d58e030a9d512d478f301bbd15c8969, type: 3}
+  m_PrefabInstance: {fileID: 1846688807244135308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4883049620752487685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6573455188413405938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc156216bbfd8834d8bcb483795fc014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonAnimation: {fileID: 3767661066599796079}
+  currentAnimation: 
+  Idle: {fileID: 11400000, guid: dcc9cc57c3516bb4d972bf2069f511a5, type: 2}
+  Attack: {fileID: 11400000, guid: 1b1b4ba37753be94bb4363a33c33f5d3, type: 2}
+  Slow: {fileID: 11400000, guid: dbe18a2470c0bbc44a0ffcb56b6bb77b, type: 2}

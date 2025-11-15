@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using DG.Tweening;
 using LTX.ChanneledProperties.Priorities;
 using NecroMotMicon.Script.Words;
 using Script.Core;
@@ -32,6 +33,8 @@ namespace NecroMotMicon.Script.FightingPlan
         [SerializeField] private FightingLane topLane;
         [SerializeField] private FightingLane bottomLane;
         [SerializeField] private Image exhumingBar;
+        [SerializeField] private SpriteRenderer laneSprite;
+        [SerializeField] private SpriteRenderer frozenLaneSprite;
         
         public List<FightingWord> FightingWords { get; private set; } = new();
         public List<BadWord> BadWords { get; private set; } = new();
@@ -48,6 +51,7 @@ namespace NecroMotMicon.Script.FightingPlan
             _canSpawnBad = true;
             OnCanSpawn?.Invoke();
             LaneSpeed = new Priority<float>(1);
+            LaneSpeed.AddOnValueChangeCallback(OnLaneSpeedChanged, true);
         }
 
         ///fonction à appeler au moment du drag and drop (faire passer word data dans fightingData et null dans parent
@@ -211,6 +215,16 @@ namespace NecroMotMicon.Script.FightingPlan
             if(BadWords.Count >= GameController.GameMetrics.SpawnOdds.Length)
                 return GameController.GameMetrics.SpawnOdds[^1];
             return GameController.GameMetrics.SpawnOdds[BadWords.Count];
+        }
+
+        public void OnLaneSpeedChanged(float f)
+        {
+            if(DOTween.IsTweening(this))
+                DOTween.Kill(this);
+            
+            bool slow = f < 1;
+            DOTween.ToAlpha(() => laneSprite.color, x => laneSprite.color = x, slow ? 0 : 1, 0.8f).SetTarget(this);
+            DOTween.ToAlpha(() => frozenLaneSprite.color, x => frozenLaneSprite.color = x, slow ? 1 : 0, 0.8f).SetTarget(this);
         }
     }
 }

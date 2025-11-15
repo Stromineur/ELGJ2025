@@ -1,4 +1,5 @@
 using LTX.ChanneledProperties.Priorities;
+using NecroMotMicon.Script.Animation.Words.Precious;
 using UnityEngine;
 
 namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
@@ -6,6 +7,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
     public class OisiveteSlow : WordBehaviour
     {
         [SerializeField] private float slowMultiplier = 0.5f;
+        [SerializeField] private OisiveteAnimationController oisiveteAnimationController;
         
         private PreciousWord _preciousWord;
 
@@ -38,6 +40,7 @@ namespace NecroMotMicon.Script.FightingPlan.WordBehaviour
 
         private void StartSlow()
         {
+            oisiveteAnimationController.PlaySlowAnimation();
             _preciousWord.FightingLane.LaneSpeed.AddPriority(this, PriorityTags.Default, slowMultiplier);
         }
 
