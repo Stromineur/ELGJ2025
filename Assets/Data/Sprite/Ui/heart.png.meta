@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: e4d4b174068d9f740a0a02ccb2d47ad6
+guid: 0dd5dbd2717a4a042ae5a08d1884c65a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1516452827256041846
-    second: UI_Ornement_Bouton_Victoire_0
-  - first:
-      213: -1430395774384078378
-    second: UI_Ornement_Bouton_Victoire_1
-  - first:
-      213: -3069180295740244901
-    second: UI_Ornement_Bouton_Victoire_2
+      213: -205270267638800340
+    second: heart_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,35 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Ornement_Bouton_Victoire_0
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 806
-        width: 28
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 671bb37dfc58b0510800000000000000
-      internalID: 1516452827256041846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Ornement_Bouton_Victoire_1
+      name: heart_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 685
-        width: 80
-        height: 119
+        y: 20
+        width: 512
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d10e9b2f96362ce0800000000000000
-      internalID: -1430395774384078378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Ornement_Bouton_Victoire_2
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 17
-        width: 248
-        height: 762
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5c36c048c41865d0800000000000000
-      internalID: -3069180295740244901
+      spriteID: c20a07677cbb62df0800000000000000
+      internalID: -205270267638800340
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Ornement_Bouton_Victoire_0: 1516452827256041846
-      UI_Ornement_Bouton_Victoire_1: -1430395774384078378
-      UI_Ornement_Bouton_Victoire_2: -3069180295740244901
+      heart_0: -205270267638800340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
