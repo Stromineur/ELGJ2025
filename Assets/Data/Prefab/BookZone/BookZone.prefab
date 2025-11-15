@@ -60,8 +60,8 @@ Transform:
   m_GameObject: {fileID: 4002647373890024823}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.32, y: -4.38, z: 0}
-  m_LocalScale: {x: 0.22, y: 0.22, z: 0.22}
+  m_LocalPosition: {x: -7.46, y: -4.4, z: 0}
+  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3736671871858497047}
@@ -469,7 +469,7 @@ Transform:
   m_GameObject: {fileID: 6219022093093131829}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.38, y: -2.41, z: 0}
+  m_LocalPosition: {x: -4.645, y: -2.41, z: 0}
   m_LocalScale: {x: 0.47, y: 0.47, z: 0.47}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1350,6 +1350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3736671871858497047}
     m_Modifications:
+    - target: {fileID: 4037129729219210831, guid: 506c250cd196ef848bd2f1b858b0ac9c, type: 3}
+      propertyPath: bookGO
+      value: 
+      objectReference: {fileID: 4289411232165191610}
     - target: {fileID: 4802597018275018869, guid: 506c250cd196ef848bd2f1b858b0ac9c, type: 3}
       propertyPath: m_Name
       value: PlayerHP
@@ -1416,11 +1420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6212058954802930603, guid: 506c250cd196ef848bd2f1b858b0ac9c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -4.36
+      value: -4.69
       objectReference: {fileID: 0}
     - target: {fileID: 6212058954802930603, guid: 506c250cd196ef848bd2f1b858b0ac9c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.03
+      value: -4.163
       objectReference: {fileID: 0}
     - target: {fileID: 6212058954802930603, guid: 506c250cd196ef848bd2f1b858b0ac9c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

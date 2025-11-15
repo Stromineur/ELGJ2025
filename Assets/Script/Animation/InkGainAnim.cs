@@ -50,18 +50,6 @@ namespace NecroMotMicon
             initialScale = rectTransform.localScale;
             baseFontSize = inkText.fontSize;
         }
-
-        /*
-        private void UpdateText(int newValue)
-        {
-            if (CountingCoroutine != null)
-            {
-                StopCoroutine(CountingCoroutine);
-            }
-
-            CountingCoroutine = StartCoroutine(CountText(newValue));
-        }
-        */
         
         private void UpdateText(int newValue)
         {
