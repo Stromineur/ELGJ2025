@@ -17,7 +17,14 @@ namespace NecroMotMicon.Script.Animation
 
         private void Awake()
         {
-            initialScale = transform.localScale;
+            if (transform.localScale == Vector3.zero)
+            {
+                initialScale = new  Vector3(1, 1, 1);
+            }
+            else
+            {
+                initialScale = transform.localScale;
+            }
         }
 
         [Button(ButtonSizes.Large)]
