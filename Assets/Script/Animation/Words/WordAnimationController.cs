@@ -25,6 +25,11 @@ namespace NecroMotMicon.Script.Animation.Words
             skeletonAnimation = GetComponentInChildren<SkeletonAnimation>();
             word = GetComponent<FightingWord>();
 
+            Init();
+        }
+
+        public void Init()
+        {
             if (!skeletonAnimation) 
                 return;
             
@@ -95,6 +100,11 @@ namespace NecroMotMicon.Script.Animation.Words
         private void OnAttack()
         {
             StartAnimation(Attack);
+        }
+
+        public void OnIdle()
+        {
+            StartAnimation(Idle);
         }
 
         internal void StartAnimation(WordAnimationParameters parameters)

@@ -10,6 +10,7 @@ namespace NecroMotMicon.Script.FightingPlan.Feedback
     public class ThunderFXController : MonoBehaviour
     {
         [SerializeField] private EffectAnimationController effectAnimationController;
+        [SerializeField] private PreciousWordAnimationController animationController;
         [SerializeField] private EffectTrigger effectTrigger;
         [SerializeField] private ParticleSystem particleSystemPrefab;
         [SerializeField] private ParticleSystem pSystem;
@@ -25,6 +26,7 @@ namespace NecroMotMicon.Script.FightingPlan.Feedback
         {
             effectAnimationController.OnEffectTrigger -= PlayThunderAnimation;
             effectTrigger.OnTriggerEffect -= PlayFX;
+            skeletonAnimation.AnimationState.Complete -= ProcessAnimationEnd;
         }
 
         private void PlayFX()
@@ -41,6 +43,7 @@ namespace NecroMotMicon.Script.FightingPlan.Feedback
 
         private void ProcessAnimationEnd(TrackEntry trackEntry)
         {
+            skeletonAnimation.AnimationState.Complete -= ProcessAnimationEnd;
             skeletonAnimation.gameObject.SetActive(false);
             pSystem.Stop();
         }
