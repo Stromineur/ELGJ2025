@@ -1,3 +1,4 @@
+using Script.Core;
 using TMPro;
 using UnityEngine;
 
@@ -6,12 +7,12 @@ namespace NecroMotMicon.Script.FightingPlan.UI
     public class PlayerHpDisplay : MonoBehaviour
     {
         private TMP_Text hpText;
-        public PlayerArea _playerArea;
+        private PlayerArea _playerArea;
 
         private void Awake()
         {
             hpText = GetComponent<TMP_Text>();
-            
+            _playerArea = ServiceLocator.Instance.PlayerArea;
             UpdateHpDisplay(_playerArea.Hp);
         }
 
@@ -29,5 +30,8 @@ namespace NecroMotMicon.Script.FightingPlan.UI
         {
             hpText.text = obj.ToString();
         }
+        
+        // Ajouter un fonction feedback pour la prise de dégâts
+        
     }
 }

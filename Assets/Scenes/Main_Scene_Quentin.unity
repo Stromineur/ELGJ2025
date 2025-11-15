@@ -1217,6 +1217,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2261559265984425052, guid: 610e0180c3146de479202cf3038612d2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2483905625576782202, guid: e5c46d4721c308348acd4d64c231be24, type: 3}
+    - target: {fileID: 2445354940281601838, guid: 610e0180c3146de479202cf3038612d2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5784553914957411196, guid: 19178a2fca789cd4f9a6b40e78885e2c, type: 3}
+    - target: {fileID: 2895964213572798148, guid: 610e0180c3146de479202cf3038612d2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6853638505305227338, guid: 55c20eba9ce57b648afde5bc22158111, type: 3}
+    - target: {fileID: 4078480079808984333, guid: 610e0180c3146de479202cf3038612d2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4856497020610885228, guid: a54242210e6da8d4d82f17941979ec0d, type: 3}
     - target: {fileID: 5655745036773142483, guid: 610e0180c3146de479202cf3038612d2, type: 3}
       propertyPath: m_Name
       value: GamePlan
