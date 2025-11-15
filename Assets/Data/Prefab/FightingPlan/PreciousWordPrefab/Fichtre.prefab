@@ -272,6 +272,7 @@ GameObject:
   - component: {fileID: 6845628065437764339}
   - component: {fileID: 4545205257901820874}
   - component: {fileID: 7643614079705578596}
+  - component: {fileID: 2459629689594021961}
   m_Layer: 6
   m_Name: Fichtre
   m_TagString: Untagged
@@ -520,6 +521,32 @@ MonoBehaviour:
   _controller: {fileID: 4545205257901820874}
   effect: {fileID: 0}
   triggerName: 
+--- !u!114 &2459629689594021961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4798966955277918590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c937b944044c70459cc4ede39e25ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackEvent:
+    Guid:
+      Data1: 2141898603
+      Data2: 1144439346
+      Data3: -1576965698
+      Data4: 957954941
+    Path: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Attaque
+  SpawnEvent:
+    Guid:
+      Data1: 779131031
+      Data2: 1231603601
+      Data3: -340235367
+      Data4: -2079870597
+    Path: event:/SFX/MOTS (X2)/MotsMalins/MotsMalins_Invocation
 --- !u!1 &6988905718130559814
 GameObject:
   m_ObjectHideFlags: 0

@@ -45,6 +45,7 @@ namespace NecroMotMicon.Script.Words
         private List<GameObject> displayedBadWords;
         
         private WaveManager _waveManager;
+        private InkGainAnim _inkGainAnim;
     
         #endregion
 
@@ -52,6 +53,7 @@ namespace NecroMotMicon.Script.Words
         {
             totalInk = GameController.GameMetrics.StartInk;
             _waveManager = ServiceLocator.Instance.WaveManager;
+            _inkGainAnim = gameObject.GetComponent<InkGainAnim>();
             
             wordsList = new List<BookWord>();
             wordsList.Clear();
@@ -169,7 +171,7 @@ namespace NecroMotMicon.Script.Words
                 UpdateTotalInk(selectedWord.wordData.writingCost, false);
                 selectedWord.isWritten = true;
                 selectedWord.writingPriceText.gameObject.SetActive(false);
-                selectedWord.lockImage.SetActive(false);
+                selectedWord.GetComponent<VariousWordAnim>().Unlock();
                 Debug.Log(selectedWord.wordData.wordName + " unlocked !");
             }
         }
@@ -179,6 +181,21 @@ namespace NecroMotMicon.Script.Words
         // Est trigger lors de l'achat ou du drop d'un mot
         public void UpdateTotalInk(int inkVariation, bool isInkGain)
         {
+            int actualInk = totalInk;
+            
+            if (isInkGain)
+            {
+                totalInk += inkVariation;
+                _inkGainAnim.Value = totalInk;
+                //_inkGainAnim.InkUpdate(actualInk, totalInk);
+            }
+            else if (!isInkGain)
+            {
+                totalInk -= inkVariation;
+                _inkGainAnim.Value = totalInk;
+                //_inkGainAnim.InkUpdate(actualInk, totalInk);
+            }
+            /*
             if (isInkGain)
             {
                 totalInk += inkVariation;
@@ -189,6 +206,7 @@ namespace NecroMotMicon.Script.Words
                 totalInk -= inkVariation;
                 inkText.text = totalInk.ToString(); 
             }
+            */
         }
         
         #region DescriptionPanels
