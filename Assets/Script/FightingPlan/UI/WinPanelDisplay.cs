@@ -9,7 +9,7 @@ namespace NecroMotMicon.Script.FightingPlan.UI
 {
     public class WinPanelDisplay : MonoBehaviour
     {
-        [SerializeField] private LF_TabManager tabManager;
+        private LF_TabManager tabManager;
 
         private void Awake()
         {
@@ -38,6 +38,11 @@ namespace NecroMotMicon.Script.FightingPlan.UI
         {
             Time.timeScale = 1;
             SceneManager.LoadScene("Main_Scene");
+        }
+        
+        public void Quit()
+        {
+            Application.Quit();
         }
     }
 }
